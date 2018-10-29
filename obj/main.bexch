@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\default.gpr
+20181029094040
+[BOUND OBJECT FILES]
+C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\obj\
+-LC:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

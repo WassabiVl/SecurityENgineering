@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\calculator_updated.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\animal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\box_measurement.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\default.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
