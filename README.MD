@@ -1,0 +1,1 @@
+https://rosettacode.org/wiki/Playing_cards/Ada
