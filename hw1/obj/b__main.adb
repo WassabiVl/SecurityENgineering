@@ -186,9 +186,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\obj\main.o
-   --   -LC:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\obj\
-   --   -LC:\Users\al-atrash\Desktop\adejoh_118018_al_atrash_118011 (1)\obj\
+   --   C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\obj\main.o
+   --   -LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\obj\
+   --   -LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\obj\
    --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\src\animal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\src\box_measurement.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\src\animal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 12" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw1\problem_set_1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\src\card.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\hw2\src\card.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
