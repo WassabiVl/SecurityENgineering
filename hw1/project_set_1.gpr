@@ -2,7 +2,7 @@ project project_set_1 is
 
    for Source_Dirs use ("src/**");
    for Object_Dir use "obj";
-   for Main use ("main.adb");
+   for Main use ("animal.adb", "box_measurment.adb", "calculator.adb","calculator_updated.adb");
    package IDE is
       for VCS_Kind use "git";
    end IDE;

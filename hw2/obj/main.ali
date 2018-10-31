@@ -1,0 +1,45 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		fe70dbad NE OO SU
+
+D main.adb		20181031131034 fe70dbad main%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 main.adb
+1U11*Main 1b11 19l5 19t9
+2E9 Pips 3e48 6r13
+2n18 Two{2E9}
+2n23 Three{2E9}
+2n30 Four{2E9}
+2n36 Five{2E9}
+2n42 Six{2E9}
+2n47 Seven{2E9}
+3n7 Eight{2E9}
+3n14 Nine{2E9}
+3n20 Ten{2E9}
+3n25 Jack{2E9}
+3n31 Queen{2E9}
+3n38 King{2E9}
+3n44 Ace{2E9}
+4E9 Suits 4e51 7r14
+4n19 Diamonds{4E9}
+4n29 Spades{4E9}
+4n37 Hearts{4E9}
+4n45 Clubs{4E9}
+5R9 Card 8e17
+6e7 Pip{2E9}
+7e7 Suit{4E9}
+9I9 Index<short_short_integer> 10r26 13r19
+10I12 Deck_Index{9I9} 11r33 11r48
+11A9 Deck_Reference(10I12)<9I9> 14r22
+12R9 Deck 15e14
+13i7 Next_Card{9I9}
+14a7 Deck_Offsets{11A9}
+

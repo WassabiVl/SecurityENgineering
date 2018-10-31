@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__animal.o
+[PROJECT FILES]
+C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr
+20181031130452
+[BOUND OBJECT FILES]
+C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\obj\animal.o
+[GENERATED SOURCE FILES]
+b__animal.ads
+b__animal.adb
+b__animal.ali
+[RESULTING OPTIONS]
+-LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\obj\
+-LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
