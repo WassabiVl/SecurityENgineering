@@ -1,90 +1,153 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
+    <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\Playing_Cards.adb</vfs_file>
+    <file_marker column=" 20" line=" 24" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\playing_cards.ads</vfs_file>
+    <file_marker column=" 39" line=" 22" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\Playing_Cards.adb</vfs_file>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker column=" 7" line=" 22" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 30" line=" 3" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
+    <file_marker column=" 11" line=" 22" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 98" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 11" line=" 22" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker column=" 15" line=" 19" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 15" line=" 19" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 98" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 11" line=" 22" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 14" line=" 4" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 10" line=" 26" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
+    <file_marker current="true" column=" 11" line=" 22" >
+      <vfs_project>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\Playing_Cards.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\playing_cards.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 10" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\Playing_Cards.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 2" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 98">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 98">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 4">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 10">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 2">
+      <vfs_project >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file >C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
