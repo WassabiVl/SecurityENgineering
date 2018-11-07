@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
@@ -90,11 +89,27 @@
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 25" line=" 6" >
+    <file_marker column=" 39" line=" 6" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 25" line=" 4" >
+    <file_marker column=" 25" line=" 4" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 4" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 6" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
     </file_marker>

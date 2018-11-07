@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\main.adb</vfs_file>
@@ -9,7 +10,7 @@
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\hello.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 17" line=" 7" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\animal.adb</vfs_file>
     </file_marker>
@@ -21,21 +22,9 @@
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\calculator.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\calculator_updated.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\hello.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\main.adb</vfs_file>
-    </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\animal.adb</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw1\src\box_measurement.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
