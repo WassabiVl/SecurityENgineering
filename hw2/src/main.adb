@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 WITH Ada.Text_IO;
 WITH Ada.Numerics.Discrete_Random;
 use Ada.Text_IO, Ada.Numerics;
@@ -23,4 +24,16 @@ begin
       New_Line;
           end loop;
    null;
+=======
+with Ada.Numerics.Discrete_Random, Playing_Cards;
+with Ada.Text_IO;
+procedure Main is
+   type the_deck is new Deck;
+begin
+   the_deck := New_Deck;
+   the_deck := Shuffle(the_deck);
+   put(Deal(the_deck));
+>>>>>>> 778ec986f1fff4fc30e02146c65c42ccb215ccc0
 end Main;
+
+
