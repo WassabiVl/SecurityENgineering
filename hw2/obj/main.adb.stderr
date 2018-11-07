@@ -1,0 +1,2 @@
+main.adb:22:11: invalid prefix in selected component "Discrete_Random"
+main.adb:22:26: prefixed call is only allowed for objects of a tagged type

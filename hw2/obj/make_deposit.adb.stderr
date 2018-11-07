@@ -1,0 +1,2 @@
+make_deposit.adb:26:18: expected type "Account_Type" defined at bank_accounts.ads:8
+make_deposit.adb:26:18: found type of Account declared at line 5
