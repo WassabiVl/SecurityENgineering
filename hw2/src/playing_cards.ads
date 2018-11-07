@@ -3,8 +3,9 @@ package Playing_Cards is
    pragma Elaborate_Body(Playing_Cards);
  
    type Card is private;
-   procedure Print(The_Card : Card);
    type Deck is private;
+
+   procedure Print(The_Card : Card);
    procedure Print(the_Deck : Deck);
    procedure Deal(From : in out Deck; The_Card : out Card);
    procedure Shuffle(The_Deck : in out Deck);

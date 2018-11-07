@@ -41,11 +41,12 @@ package body Playing_Cards is
       use Pip_Io;
       package Suit_Io is new Ada.Text_Io.Enumeration_Io(Suits);
       use Suit_Io;
-   begin
-      Put(Item => The_Card.Pip, Width => 1);
-      Ada.Text_Io.Put(" of ");
-      Put(Item => The_Card.Suit, Width => 1);
-      Ada.Text_Io.New_Line;
+   begin 
+      
+         Put(Item => The_Card.Pip, Width => 1);
+         Ada.Text_Io.Put(" of ");
+         Put(Item => The_Card.Suit, Width => 1);
+         Ada.Text_Io.New_Line;
    end Print;
  
    -----------

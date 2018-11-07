@@ -2,8 +2,9 @@
 b__main.o
 [PROJECT FILES]
 C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr
-20181031105056
+20181107204938
 [BOUND OBJECT FILES]
+C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\playing_cards.o
 C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
@@ -12,8 +13,8 @@ b__main.ali
 [RESULTING OPTIONS]
 -LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\
 -LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\
--LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-LC:/gnatpro/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
 -static
 -static-libgcc
-C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+C:/gnatpro/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
 -Wl,--stack=0x2000000
