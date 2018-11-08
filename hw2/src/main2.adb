@@ -67,6 +67,8 @@ procedure main2 is
    Amount: Cents_Type;
    Src_Acc : Natural;
    Dest_Acc : Natural;
+   Selected_option: Integer;
+   Balance : Cents_Type;
   
 begin
    From.Number := 100;
@@ -77,22 +79,60 @@ begin
    Put("Type your account number: ");
    Get(Src_Acc);
    if Src_Acc = From.Number then
-      Put("please provide destination account: ");
-      Get(Dest_Acc);
-      if Dest_Acc = To.Number then
-         Put("please enter the amount to transfer: ");
-         Get(Amount);
-         if Amount > From.Balance then
-            Put("Insufficient funds. Transaction terminated");
+      Put("Please Choose a transaction type: ");
+       New_Line;
+      put("1: Get Balance" );
+       New_Line;
+      put("2: Deposit" );
+       New_Line;
+      put ("3: Withdraw");
+       New_Line;
+      put ("4: transfer money");
+       New_Line;
+      get(Selected_Option);
+      
+      case Selected_option is
+         when 1 =>
+            Balance := Get_Balance(From);
+            Put("Your balance is: ");
             New_Line;
-         else
-            Transfer(From, To, Amount);
-         end if;
-      else
-         Put("incorrect destination account");
-      end if;
+            Put(Balance);
+         when 2 =>
+            Put("please provide amount to deposit: ");
+            Get(Amount);
+            Deposit(From, Amount);
+         when 3 =>
+            Put("please provide amount to withdraw: ");
+            Get(Amount);
+            Withdraw(From, Amount);
+         when 4 =>
+            Put("please provide destination account: ");
+            Get(Dest_Acc);
+       
+            if Dest_Acc = To.Number then
+               Put("please enter the amount to transfer: ");
+               Get(Amount);
+               if Amount > From.Balance then
+                  Put("Insufficient funds. Transaction terminated");
+                  New_Line;
+               else
+                  Transfer(From, To, Amount);
+               end if;
+            else
+               Put("incorrect destination account");
+               New_Line;
+               main2;
+            end if;
+         when others =>
+            put("Option Selected is not an option");
+            New_Line;
+            main2;
+      end case;
    else
       Put("please enter correct account number");
+      New_Line;
+      main2;
+         
    end if;
    New_Line;
    Put("From Balance: ");
