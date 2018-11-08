@@ -1,125 +1,26 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker column=" 6" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\main.adb</vfs_file>
+  <Project>
+    <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_file>
+    <file_marker column=" 26" line=" 62" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\mini_project_1.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\Weekday.adb</vfs_file>
+    <file_marker column=" 34" line=" 28" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\mini_project_1.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 39" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\Day_Of_Proc.adb</vfs_file>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main2.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 38" line=" 20" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\Test_Func.adb</vfs_file>
+    <file_marker column=" 44" line=" 4" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\mini_project_1.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\Test_Func.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 9" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\study\src\Test_Func.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\GNAT\2018\bin\src\calculator_updated.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 16" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\bank_accounts.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 10" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\bank_accounts.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 45" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 45" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 29" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\bank_accounts.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 31" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\bank_accounts.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 75" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 68" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 69" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 8" line=" 78" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 79" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 41" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\bank_accounts.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 86" >
-      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 39" line=" 6" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 4" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 4" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 4" line=" 6" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\main.adb</vfs_file>
+    <file_marker current="true" column=" 14" line=" 64" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\problem_set_2.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\src\mini_project_1.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -1,67 +1,9 @@
 with Ada.Text_IO, Ada.Integer_Text_IO, Bank_Accounts;
 use Ada.Text_IO, Ada.Integer_Text_IO, Bank_Accounts;
---with mini_project_1;
 
 
 
 procedure main2 is
---     Account : Account_Type;
---     Acc_Num : Natural;
---     Balance : Cents_Type;
----------------------
---Test Get_Balance----
---  begin
---     Put("Please enter your account number: ");
---     Get(Acc_Num);
---     if Acc_Num = Account.Number then
---        Balance := Get_Balance(Account);
---        Put("Your balance is: ");
---        New_Line;
---        Put(Balance);
---     else
---        Put("please enter a valid account number");
---     end if;
-   
-   ---------------------
-   ----Test Deposit-----
---     Account : Account_Type;
---     Acc_Num : Natural;
---     Amount : Cents_Type;
---  begin
---     Put("Type your account number: ");
---     Get(Acc_Num);
---     if Acc_Num = Account.Number then
---        Put("please provide amount to deposit: ");
---        Get(Amount);
---        Deposit(Account, Amount);
---     else
---        Put("please provide valid account number");
---        New_Line;
---     end if;
---     Put("Your Balance is: ");
---     Put(Account.Balance);
-
-   -------------------------
-   ------Test Withdraw------
---     Account : Account_Type;
---     Acc_Num : Natural;
---     Amount : Cents_Type;
---  begin
---     Put("Type your account number: ");
---     Get(Acc_Num);
---     if Acc_Num = Account.Number then
---        Put("please provide amount to withdraw: ");
---        Get(Amount);
---        Withdraw(Account, Amount);
---     else
---        Put("please provide valid account number");
---        New_Line;
---     end if;
---     Put("Your Balance is: ");
---     Put(Account.Balance); 
-   
-   --------------------------
-   ----Test Transfer---------
    
    From : Account_Type;
    To : Account_Type;
