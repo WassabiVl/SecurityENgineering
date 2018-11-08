@@ -22,6 +22,7 @@ package body ada_main is
    E099 : Short_Integer; pragma Import (Ada, E099, "system__file_io_E");
    E102 : Short_Integer; pragma Import (Ada, E102, "system__finalization_root_E");
    E100 : Short_Integer; pragma Import (Ada, E100, "ada__finalization_E");
+   E127 : Short_Integer; pragma Import (Ada, E127, "system__assertions_E");
    E061 : Short_Integer; pragma Import (Ada, E061, "system__object_reader_E");
    E041 : Short_Integer; pragma Import (Ada, E041, "system__dwarf_lines_E");
    E017 : Short_Integer; pragma Import (Ada, E017, "system__secondary_stack_E");
@@ -163,6 +164,8 @@ package body ada_main is
       E102 := E102 + 1;
       Ada.Finalization'Elab_Spec;
       E100 := E100 + 1;
+      System.Assertions'Elab_Spec;
+      E127 := E127 + 1;
       System.Object_Reader'Elab_Spec;
       System.Dwarf_Lines'Elab_Spec;
       System.File_Io'Elab_Body;

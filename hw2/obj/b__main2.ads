@@ -35,7 +35,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#96495280#;
+   u00001 : constant Version_32 := 16#2776e98b#;
    pragma Export (C, u00001, "main2B");
    u00002 : constant Version_32 := 16#b6df930e#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -283,12 +283,16 @@ package ada_main is
    pragma Export (C, u00123, "system__val_intS");
    u00124 : constant Version_32 := 16#58e1834d#;
    pragma Export (C, u00124, "bank_accountsB");
-   u00125 : constant Version_32 := 16#a23a43b3#;
+   u00125 : constant Version_32 := 16#1305f8b8#;
    pragma Export (C, u00125, "bank_accountsS");
-   u00126 : constant Version_32 := 16#ee101ba4#;
-   pragma Export (C, u00126, "system__memoryB");
-   u00127 : constant Version_32 := 16#74d8f60c#;
-   pragma Export (C, u00127, "system__memoryS");
+   u00126 : constant Version_32 := 16#52f1910f#;
+   pragma Export (C, u00126, "system__assertionsB");
+   u00127 : constant Version_32 := 16#e028bcac#;
+   pragma Export (C, u00127, "system__assertionsS");
+   u00128 : constant Version_32 := 16#ee101ba4#;
+   pragma Export (C, u00128, "system__memoryB");
+   u00129 : constant Version_32 := 16#74d8f60c#;
+   pragma Export (C, u00129, "system__memoryS");
    --  BEGIN ELABORATION ORDER
    --  ada%s
    --  ada.characters%s
@@ -381,6 +385,8 @@ package ada_main is
    --  system.finalization_root%b
    --  ada.finalization%s
    --  system.win32%s
+   --  system.assertions%s
+   --  system.assertions%b
    --  system.exception_traces%s
    --  system.exception_traces%b
    --  system.memory%s

@@ -11,7 +11,7 @@ RV NO_RECURSION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main2%b		main2.adb		96495280 NE OO SU IL
+U main2%b		main2.adb		2776e98b NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -26,7 +26,7 @@ D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
 D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
-D bank_accounts.ads	20181107204938 6c1c3fc3 bank_accounts%s
+D bank_accounts.ads	20181108120120 dd2384c8 bank_accounts%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
 D main2.adb		20181108112936 34731133 main2%b
@@ -57,23 +57,23 @@ X 8 a-tiinio.ads
 . 114s16[3|18]
 66U14*Put 13|99s13[3|18] 140s4[3|18] 144s4[3|18]
 X 10 bank_accounts.ads
-4K9*Bank_Accounts 29e18 13|1w40 2r39
-6I12*Cents_Type{integer} 13|67r12 71r14
-8R9*Account_Type 11e15 13|65r11 66r9
-9i7*Number{natural} 13|74m9 76m7 81r22 112r30
-10i7*Balance{6I12} 13|75m9 77m7 115r33 140r13 144r11
-13V13*Get_Balance{6I12} 13|96s24
-16U14*Deposit 13|103s13
-20U14*Withdraw 13|107s13
-24U14*Transfer 13|119s19
+4K9*Bank_Accounts 33e18 13|1w40 2r39
+7I12*Cents_Type{integer} 13|67r12 71r14
+9R9*Account_Type 12e15 13|65r11 66r9
+10i7*Number{natural} 13|74m9 76m7 81r22 112r30
+11i7*Balance{7I12} 13|75m9 77m7 115r33 140r13 144r11
+14V13*Get_Balance{7I12} 13|96s24
+17U14*Deposit 13|103s13
+22U14*Withdraw 13|107s13
+28U14*Transfer 13|119s19
 X 13 main2.adb
 6U11*main2 6b11 124s16 129s13 134s7 145l5 145t10
-65r4 From{10|8R9} 74m4 75m4 81r17 96r36 103m21 103r21 107m22 107r22 115r28
+65r4 From{10|9R9} 74m4 75m4 81r17 96r36 103m21 103r21 107m22 107r22 115r28
 . 119m28 119r28 140r8
-66r4 To{10|8R9} 76m4 77m4 112r27 119m34 119r34 144r8
-67i4 Amount{10|6I12} 102m17 103r27 106m17 107r28 114m20 115r19 119r38
+66r4 To{10|9R9} 76m4 77m4 112r27 119m34 119r34 144r8
+67i4 Amount{10|7I12} 102m17 103r27 106m17 107r28 114m20 115r19 119r38
 68i4 Src_Acc{natural} 80m8 81r7
 69i4 Dest_Acc{natural} 110m17 112r16
 70i4 Selected_option{integer} 92m11 94r12
-71i4 Balance{10|6I12} 96m13 99r17
+71i4 Balance{10|7I12} 96m13 99r17
 

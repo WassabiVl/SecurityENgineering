@@ -12,8 +12,11 @@ package body Bank_Accounts is
    end Get_Balance;
 
    procedure Deposit(Account: in out Account_Type;
-                     Amount : Cents_Type) is
+                     Amount : Cents_Type)
+
+   is
       Balance : Cents_Type := Account.Balance;
+
    begin
       if Amount > 10000 then
          put("You are commitng a crime");
