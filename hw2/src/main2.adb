@@ -1,5 +1,6 @@
 with Ada.Text_IO, Ada.Integer_Text_IO, Bank_Accounts;
 use Ada.Text_IO, Ada.Integer_Text_IO, Bank_Accounts;
+with mini_project_1;
 
 
 

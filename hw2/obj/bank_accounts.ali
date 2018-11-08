@@ -17,7 +17,7 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 W bank_accounts%s	bank_accounts.adb	bank_accounts.ali
 W system.assertions%s	s-assert.adb		s-assert.ali
 
-U bank_accounts%s	bank_accounts.ads	1305f8b8 EE NE OO PK
+U bank_accounts%s	bank_accounts.ads	2cc2280e EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -31,7 +31,7 @@ D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
 D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
-D bank_accounts.ads	20181108120120 dd2384c8 bank_accounts%s
+D bank_accounts.ads	20181108182418 e2e4547e bank_accounts%s
 D bank_accounts.adb	20181108115738 96c7ff3d bank_accounts%b
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
@@ -57,26 +57,26 @@ X 7 a-textio.ads
 166U14*New_Line 11|36s10 50s10
 242U14*Put 11|22s10 24s10 35s10 38s10 49s10 52s10
 X 10 bank_accounts.ads
-4K9*Bank_Accounts 33l5 33e18 11|3w6 3r25 5b14 59l5 59t18
+4K9*Bank_Accounts 35l5 35e18 11|3w6 3r25 5b14 59l5 59t18
 7I12*Cents_Type{integer} 11r17 14r57 18r31 23r32 30r32 11|7r56 8r17 15r31
 . 18r17 31r32 32r17 46r33
 9R9*Account_Type 12e15 14r36 17r38 22r40 28r37 29r35 11|7r35 14r38 30r40
 . 44r38 45r35
 10i7*Number{natural}
-11i7*Balance{7I12} 25r19 11|10r26 18r39 26m18 32r39 40m18 48r24 54m15 54r31
-. 55m13 55r27
+11i7*Balance{7I12} 24r59 25r19 31r54 32r16 11|10r26 18r39 26m18 32r39 40m18
+. 48r24 54m15 54r31 55m13 55r27
 14V13*Get_Balance{7I12} 14>26 11|7b13 12l8 12t19
 14r26 Account{9R9} 11|7b25 10r18
 17U14*Deposit 17=22 18>22 11|14b14 28l8 28t15
 17r22 Account{9R9} 11|14b22 18r31 26m10
 18i22 Amount{7I12} 19r18 19r33 11|15b22 21r10 23r13 26r39
 22U14*Withdraw 22=23 23>23 11|30b14 42l8 42t16
-22r23 Account{9R9} 25r11 11|30b23 32r31 40m10
+22r23 Account{9R9} 24r51 25r11 11|30b23 32r31 40m10
 23i23 Amount{7I12} 24r18 24r32 11|31b23 34r10 37r13 40r39
 28U14*Transfer 28=23 29=23 30>23 11|44b14 57l8 57t16
-28r23 From{9R9} 11|44b24 48r19 54m10 54r26
+28r23 From{9R9} 31r49 32r11 11|44b24 48r19 54m10 54r26
 29r23 To{9R9} 11|45b23 55m10 55r24
-30i23 Amount{7I12} 11|46b24 48r10 51r13 54r41 55r37
+30i23 Amount{7I12} 31r16 31r30 11|46b24 48r10 51r13 54r41 55r37
 X 11 bank_accounts.adb
 8i7 Balance{10|7I12} 10m7 11r14
 18i7 Balance{10|7I12} 26r29

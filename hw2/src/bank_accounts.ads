@@ -29,7 +29,7 @@ package Bank_Accounts is
                       To : in out Account_Type;
                       Amount : Cents_Type)
    with PRE => Amount >0 and Amount < 10000 and From.Balance>0,
-   POST=> From.Balance>0;;
+   POST=> From.Balance>0;
    --Transfers Amount from Account From to Account To.
 
 end Bank_Accounts;
