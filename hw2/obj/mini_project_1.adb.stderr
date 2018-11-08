@@ -1,0 +1,2 @@
+mini_project_1.adb:66:45: exponent must be of type Natural, found type universal real
+mini_project_1.adb:73:48: exponent must be of type Natural, found type universal real

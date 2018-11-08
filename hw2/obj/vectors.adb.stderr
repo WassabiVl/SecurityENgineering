@@ -1,0 +1,2 @@
+vectors.adb:17:38: array type required in indexed component
+vectors.adb:17:46: array type required in indexed component

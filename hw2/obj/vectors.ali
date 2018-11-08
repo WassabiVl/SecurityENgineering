@@ -1,0 +1,26 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vectors%s		vectors.ads		a7035c9b EE OO PK
+
+D vectors.ads		20181107211600 a7035c9b vectors%s
+X 1 vectors.ads
+3K9*Vectors 42l5 42e12
+4R9*Vector 8e15 16r32 16r48
+5f7*X{float}
+6f7*Y{float}
+7f7*Z{float}
+16V13*Scalar_Prod{float} 16>26 16>40
+16r26 Left{4R9}
+16r40 Right{4R9}
+

@@ -1,5 +1,5 @@
-pragma Ada_95;
 pragma Warnings (Off);
+pragma Ada_95;
 pragma Source_File_Name (ada_main, Spec_File_Name => "b__main2.ads");
 pragma Source_File_Name (ada_main, Body_File_Name => "b__main2.adb");
 pragma Suppress (Overflow_Check);
@@ -7,28 +7,31 @@ with Ada.Exceptions;
 
 package body ada_main is
 
-   E104 : Short_Integer; pragma Import (Ada, E104, "system__os_lib_E");
+   E072 : Short_Integer; pragma Import (Ada, E072, "system__os_lib_E");
    E013 : Short_Integer; pragma Import (Ada, E013, "system__soft_links_E");
-   E023 : Short_Integer; pragma Import (Ada, E023, "system__exception_table_E");
-   E089 : Short_Integer; pragma Import (Ada, E089, "ada__io_exceptions_E");
-   E046 : Short_Integer; pragma Import (Ada, E046, "ada__strings_E");
-   E048 : Short_Integer; pragma Import (Ada, E048, "ada__strings__maps_E");
-   E052 : Short_Integer; pragma Import (Ada, E052, "ada__strings__maps__constants_E");
-   E091 : Short_Integer; pragma Import (Ada, E091, "ada__tags_E");
-   E088 : Short_Integer; pragma Import (Ada, E088, "ada__streams_E");
-   E063 : Short_Integer; pragma Import (Ada, E063, "interfaces__c_E");
-   E025 : Short_Integer; pragma Import (Ada, E025, "system__exceptions_E");
-   E107 : Short_Integer; pragma Import (Ada, E107, "system__file_control_block_E");
-   E099 : Short_Integer; pragma Import (Ada, E099, "system__file_io_E");
-   E102 : Short_Integer; pragma Import (Ada, E102, "system__finalization_root_E");
-   E100 : Short_Integer; pragma Import (Ada, E100, "ada__finalization_E");
-   E127 : Short_Integer; pragma Import (Ada, E127, "system__assertions_E");
-   E061 : Short_Integer; pragma Import (Ada, E061, "system__object_reader_E");
-   E041 : Short_Integer; pragma Import (Ada, E041, "system__dwarf_lines_E");
-   E017 : Short_Integer; pragma Import (Ada, E017, "system__secondary_stack_E");
-   E036 : Short_Integer; pragma Import (Ada, E036, "system__traceback__symbolic_E");
-   E086 : Short_Integer; pragma Import (Ada, E086, "ada__text_io_E");
-   E125 : Short_Integer; pragma Import (Ada, E125, "bank_accounts_E");
+   E025 : Short_Integer; pragma Import (Ada, E025, "system__exception_table_E");
+   E068 : Short_Integer; pragma Import (Ada, E068, "ada__io_exceptions_E");
+   E052 : Short_Integer; pragma Import (Ada, E052, "ada__strings_E");
+   E040 : Short_Integer; pragma Import (Ada, E040, "ada__containers_E");
+   E027 : Short_Integer; pragma Import (Ada, E027, "system__exceptions_E");
+   E078 : Short_Integer; pragma Import (Ada, E078, "interfaces__c_E");
+   E054 : Short_Integer; pragma Import (Ada, E054, "ada__strings__maps_E");
+   E058 : Short_Integer; pragma Import (Ada, E058, "ada__strings__maps__constants_E");
+   E021 : Short_Integer; pragma Import (Ada, E021, "system__soft_links__initialize_E");
+   E080 : Short_Integer; pragma Import (Ada, E080, "system__object_reader_E");
+   E047 : Short_Integer; pragma Import (Ada, E047, "system__dwarf_lines_E");
+   E039 : Short_Integer; pragma Import (Ada, E039, "system__traceback__symbolic_E");
+   E103 : Short_Integer; pragma Import (Ada, E103, "ada__tags_E");
+   E101 : Short_Integer; pragma Import (Ada, E101, "ada__streams_E");
+   E115 : Short_Integer; pragma Import (Ada, E115, "system__file_control_block_E");
+   E114 : Short_Integer; pragma Import (Ada, E114, "system__finalization_root_E");
+   E112 : Short_Integer; pragma Import (Ada, E112, "ada__finalization_E");
+   E111 : Short_Integer; pragma Import (Ada, E111, "system__file_io_E");
+   E099 : Short_Integer; pragma Import (Ada, E099, "ada__text_io_E");
+   E137 : Short_Integer; pragma Import (Ada, E137, "system__assertions_E");
+   E135 : Short_Integer; pragma Import (Ada, E135, "bank_accounts_E");
+
+   Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
    Local_Priority_Specific_Dispatching : constant String := "";
    Local_Interrupt_States : constant String := "";
@@ -37,7 +40,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E086 := E086 - 1;
+      E099 := E099 - 1;
       declare
          procedure F1;
          pragma Import (Ada, F1, "ada__text_io__finalize_spec");
@@ -48,7 +51,7 @@ package body ada_main is
          procedure F2;
          pragma Import (Ada, F2, "system__file_io__finalize_body");
       begin
-         E099 := E099 - 1;
+         E111 := E111 - 1;
          F2;
       end;
       declare
@@ -106,6 +109,8 @@ package body ada_main is
       pragma Import (C, Detect_Blocking, "__gl_detect_blocking");
       Default_Stack_Size : Integer;
       pragma Import (C, Default_Stack_Size, "__gl_default_stack_size");
+      Default_Secondary_Stack_Size : System.Parameters.Size_Type;
+      pragma Import (C, Default_Secondary_Stack_Size, "__gnat_default_ss_size");
       Leap_Seconds_Support : Integer;
       pragma Import (C, Leap_Seconds_Support, "__gl_leap_seconds_support");
       Bind_Env_Addr : System.Address;
@@ -116,6 +121,11 @@ package body ada_main is
 
       Finalize_Library_Objects : No_Param_Proc;
       pragma Import (C, Finalize_Library_Objects, "__gnat_finalize_library_objects");
+      Binder_Sec_Stacks_Count : Natural;
+      pragma Import (Ada, Binder_Sec_Stacks_Count, "__gnat_binder_ss_count");
+      Default_Sized_SS_Pool : System.Address;
+      pragma Import (Ada, Default_Sized_SS_Pool, "__gnat_default_ss_pool");
+
    begin
       if Is_Elaborated then
          return;
@@ -138,56 +148,62 @@ package body ada_main is
       Default_Stack_Size := -1;
       Leap_Seconds_Support := 0;
 
+      ada_main'Elab_Body;
+      Default_Secondary_Stack_Size := System.Parameters.Runtime_Default_Sec_Stack_Size;
+      Binder_Sec_Stacks_Count := 1;
+      Default_Sized_SS_Pool := Sec_Default_Sized_Stacks'Address;
+
       Runtime_Initialize (1);
 
       Finalize_Library_Objects := finalize_library'access;
 
       System.Soft_Links'Elab_Spec;
       System.Exception_Table'Elab_Body;
-      E023 := E023 + 1;
+      E025 := E025 + 1;
       Ada.Io_Exceptions'Elab_Spec;
-      E089 := E089 + 1;
+      E068 := E068 + 1;
       Ada.Strings'Elab_Spec;
-      E046 := E046 + 1;
+      E052 := E052 + 1;
+      Ada.Containers'Elab_Spec;
+      E040 := E040 + 1;
+      System.Exceptions'Elab_Spec;
+      E027 := E027 + 1;
+      Interfaces.C'Elab_Spec;
+      System.Os_Lib'Elab_Body;
+      E072 := E072 + 1;
       Ada.Strings.Maps'Elab_Spec;
       Ada.Strings.Maps.Constants'Elab_Spec;
-      E052 := E052 + 1;
-      Ada.Tags'Elab_Spec;
-      Ada.Streams'Elab_Spec;
-      E088 := E088 + 1;
-      Interfaces.C'Elab_Spec;
-      System.Exceptions'Elab_Spec;
-      E025 := E025 + 1;
-      System.File_Control_Block'Elab_Spec;
-      E107 := E107 + 1;
-      System.Finalization_Root'Elab_Spec;
-      E102 := E102 + 1;
-      Ada.Finalization'Elab_Spec;
-      E100 := E100 + 1;
-      System.Assertions'Elab_Spec;
-      E127 := E127 + 1;
+      E058 := E058 + 1;
+      System.Soft_Links.Initialize'Elab_Body;
+      E021 := E021 + 1;
+      E013 := E013 + 1;
       System.Object_Reader'Elab_Spec;
       System.Dwarf_Lines'Elab_Spec;
-      System.File_Io'Elab_Body;
-      E099 := E099 + 1;
-      E063 := E063 + 1;
-      Ada.Tags'Elab_Body;
-      E091 := E091 + 1;
-      E048 := E048 + 1;
-      System.Soft_Links'Elab_Body;
-      E013 := E013 + 1;
-      System.Os_Lib'Elab_Body;
-      E104 := E104 + 1;
-      System.Secondary_Stack'Elab_Body;
-      E017 := E017 + 1;
-      E041 := E041 + 1;
-      E061 := E061 + 1;
+      E047 := E047 + 1;
+      E078 := E078 + 1;
+      E054 := E054 + 1;
       System.Traceback.Symbolic'Elab_Body;
-      E036 := E036 + 1;
+      E039 := E039 + 1;
+      E080 := E080 + 1;
+      Ada.Tags'Elab_Spec;
+      Ada.Tags'Elab_Body;
+      E103 := E103 + 1;
+      Ada.Streams'Elab_Spec;
+      E101 := E101 + 1;
+      System.File_Control_Block'Elab_Spec;
+      E115 := E115 + 1;
+      System.Finalization_Root'Elab_Spec;
+      E114 := E114 + 1;
+      Ada.Finalization'Elab_Spec;
+      E112 := E112 + 1;
+      System.File_Io'Elab_Body;
+      E111 := E111 + 1;
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
-      E086 := E086 + 1;
-      E125 := E125 + 1;
+      E099 := E099 + 1;
+      System.Assertions'Elab_Spec;
+      E137 := E137 + 1;
+      E135 := E135 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -223,11 +239,11 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\bank_accounts.o
-   --   C:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\main2.o
-   --   -LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\
-   --   -LC:\Users\wassabi.vl\Desktop\Uni\security eng\SecurityENgineering\hw2\obj\
-   --   -LC:/gnatpro/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\obj\bank_accounts.o
+   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\obj\main2.o
+   --   -LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\obj\
+   --   -LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw2\obj\
+   --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat
    --   -Wl,--stack=0x2000000

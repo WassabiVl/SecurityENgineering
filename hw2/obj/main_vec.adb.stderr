@@ -1,0 +1,14 @@
+main_vec.adb:8:20: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:8:20: found type universal real
+main_vec.adb:8:24: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:8:24: found type universal real
+main_vec.adb:8:29: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:8:29: found type universal real
+main_vec.adb:9:20: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:9:20: found type universal real
+main_vec.adb:9:24: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:9:24: found type universal real
+main_vec.adb:9:29: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:9:29: found type universal real
+main_vec.adb:12:20: expected type "Vector" defined at vectors.ads:4
+main_vec.adb:12:20: found type "Vec" defined at line 5

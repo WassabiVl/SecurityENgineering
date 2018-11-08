@@ -1,0 +1,55 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main_vec%b		main_vec.adb		6926fad2 OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W vectors%s		vectors.adb		vectors.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-flteio.ads		20180524051736 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051736 56fbda09 ada.text_io.float_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main_vec.adb		20181107203332 a7b252b3 main_vec%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D vectors.ads		20181107202154 a7035c9b vectors%s
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 1r34 2r5 2r33 5r25
+X 2 a-flteio.ads
+20K13*Float_Text_IO[6|46] 9|1w10 2r9
+X 5 a-textio.ads
+49K13*Text_IO 471e16 9|1w38 2r37 5r29
+242U14*Put 9|10s9
+X 6 a-tiflio.ads
+68U14*Put 9|11s4[2|20]
+X 9 main_vec.adb
+4U11*main_vec 4b11 12l5 12t13
+5K12 T_IO=5:29 10r4
+7r4 Vec_1{15|4R9} 11r20
+8r4 Vec_2{15|4R9} 11r27
+X 15 vectors.ads
+3K9*Vectors 9|1w25 2r24 15|42e12
+4R9*Vector 9|7r12 8r12 15|8e15
+16V13*Scalar_Prod{float} 9|11s8
+
