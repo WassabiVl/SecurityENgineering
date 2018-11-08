@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		c1952ea2 NE OO SU
+U main%b		main.adb		6ab09330 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.discrete_random%s
@@ -29,8 +29,8 @@ D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D main.adb		20181107215900 e88f890a main%b
-D playing_cards.ads	20181107215926 60920f93 playing_cards%s
+D main.adb		20181108103432 fdcaa7b9 main%b
+D playing_cards.ads	20181108103636 def29cb2 playing_cards%s
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-exctab.ads		20160516092930 54135002 system.exception_table%s
@@ -53,20 +53,17 @@ X 5 a-nudira.ads
 X 9 a-textio.ads
 49K13*Text_IO 471e16 13|1w10 4r9
 X 13 main.adb
-5U11*Main 5b11 15l5 15t9
-6r4 the_deck{14|6R9} 9m4 10m38 10r38 12m34 12r34
-7r4 card{14|5R9} 12m55 13r39
-11i8 I{integer}
+5U11*Main 5b11 12l5 12t9
+6r4 the_deck{14|7R9} 9m4 10m38 10r38 11m46 11r46
+7r4 card{14|6R9} 11m67
 X 14 playing_cards.ads
-1K9*Playing_Cards 13|2w6 6r15 7r11 9r16 10r4 12r7 13r7 14|30e18
-5R9*Card 13|7r25 14|21e14
-6R9*Deck 13|6r29 14|28e14
-8U14*Print 13|13s21
-8r20 The_Card{5R9} 13|13r27
-10U14*Deal 13|12s21
-10r19 From{6R9} 13|12r26
-10r39 The_Card{5R9} 13|12r43
+2K9*Playing_Cards 13|2w6 6r15 7r11 9r16 10r4 11r7 14|30e18
+6R9*Card 13|7r25 14|21e14
+7R9*Deck 13|6r29 14|28e14
+10U14*Deal_Three_Cards 13|11s21
+10r31 From{7R9} 13|11r38
+10r51 The_Card{6R9} 13|11r55
 11U14*Shuffle 13|10s18
-11r22 The_Deck{6R9} 13|10r26
-12V13*New_Deck{6R9} 13|9s30
+11r22 The_Deck{7R9} 13|10r26
+12V13*New_Deck{7R9} 13|9s30
 

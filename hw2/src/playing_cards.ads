@@ -1,3 +1,4 @@
+-- https://rosettacode.org/wiki/Playing_cards/Ada
 package Playing_Cards is
 
    pragma Elaborate_Body(Playing_Cards);
@@ -6,8 +7,7 @@ package Playing_Cards is
    type Deck is private;
 
    procedure Print(The_Card : Card);
-   procedure Print(the_Deck : Deck);
-   procedure Deal(From : in out Deck; The_Card : out Card);
+   procedure Deal_Three_Cards(From : in out Deck; The_Card : out Card);
    procedure Shuffle(The_Deck : in out Deck);
    function New_Deck return Deck;
    Deck_Empty : exception;

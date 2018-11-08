@@ -6,20 +6,23 @@ package body Playing_Cards is
    Base_Deck : Internal_Deck;
    Base_Index : Index;
    ----------
-   -- Deal --
+   -- Deal_Three_cards/ deal three cards to the player/user --
    ----------
  
-   procedure Deal (From : in out Deck; The_Card : out Card) is
+   procedure Deal_Three_Cards (From : in out Deck; The_Card : out Card) is
    begin
+      for I in 1..3 loop
       if From.Next_Card not in Deck_Index then
          raise Deck_Empty;
       end if;
       The_Card := Base_Deck(From.Deck_Offsets(From.Next_Card));
-      From.Next_Card := From.Next_Card + 1;
-   end Deal;
+         From.Next_Card := From.Next_Card + 1;
+         Print(The_Card => The_Card);
+      end loop;
+   end Deal_Three_Cards;
  
    --------------
-   -- New_Deck --
+   -- New_Deck/ Create a new playing deck of cards to use --
    --------------
  
    function New_Deck return Deck is
@@ -33,7 +36,7 @@ package body Playing_Cards is
    end New_Deck;
  
    -----------
-   -- Print --
+   -- Print / display the playing cards --
    -----------
  
    procedure Print(The_Card : Card) is
@@ -49,19 +52,8 @@ package body Playing_Cards is
          Ada.Text_Io.New_Line;
    end Print;
  
-   -----------
-   -- Print --
-   -----------
- 
-   procedure Print(The_Deck : Deck) is
-   begin
-      for I in The_Deck.Next_Card..Deck_Index'Last loop
-         Print(Base_Deck(The_Deck.Deck_Offsets(I)));
-      end loop;
-   end Print;
- 
    -------------
-   -- Shuffle --
+   -- Shuffle the deck using Discrete_Random --
    -------------
  
    procedure Shuffle (The_Deck : in out Deck) is

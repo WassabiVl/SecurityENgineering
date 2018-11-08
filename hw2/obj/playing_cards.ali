@@ -16,7 +16,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U playing_cards%b	playing_cards.adb	660cf8f1 OO PK
+U playing_cards%b	playing_cards.adb	2456d33e OO PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
@@ -31,7 +31,7 @@ W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
 Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
 W system.val_enum%s	s-valenu.adb		s-valenu.ali
 
-U playing_cards%s	playing_cards.ads	60920f93 EB EE OO PK
+U playing_cards%s	playing_cards.ads	def29cb2 EB EE OO PK
 W ada.tags%s		a-tags.adb		a-tags.ali
 W system%s		system.ads		system.ali
 W system.exception_table%s  s-exctab.adb	s-exctab.ali
@@ -52,8 +52,8 @@ D a-tienio.adb		20160516092930 c9e6b5af ada.text_io.enumeration_io%b
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D playing_cards.ads	20181107215926 60920f93 playing_cards%s
-D playing_cards.adb	20181107215900 4f165f59 playing_cards%b
+D playing_cards.ads	20181108103636 def29cb2 playing_cards%s
+D playing_cards.adb	20181108103634 b32ce7b7 playing_cards%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-exctab.ads		20160516092930 54135002 system.exception_table%s
@@ -75,45 +75,43 @@ D s-valenu.ads		20160516092930 bb1a4295 system.val_enum%s
 D s-valuns.ads		20160516092932 10a8ed3b system.val_uns%s
 D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 17|1r6 2r6 40r29 42r30 47r10 49r10 79r38
+16K9*Ada 19e8 17|1r6 2r6 43r29 45r30 50r10 52r10 71r38
 X 4 a-numeri.ads
-16K13*Numerics 32e17 17|1r10 79r42
+16K13*Numerics 32e17 17|1r10 71r42
 X 5 a-nudira.ads
-44k22*Discrete_Random 75e33 17|1w19 79r51
-50R9 Generator<25|63R9> 17|81r20[79]
-52V13 Random{16|22I9} 17|84s27[79]
-55U14 Reset<25|100p14> 17|83s13[79]
+44k22*Discrete_Random 75e33 17|1w19 71r51
+50R9 Generator<25|63R9> 17|73r20[71]
+52V13 Random{16|22I9} 17|76s27[71]
+55U14 Reset<25|100p14> 17|75s13[71]
 X 6 a-nudira.adb
-53V16 Random[25|83]{16|22I9} 26|392b13[17|79]
+53V16 Random[25|83]{16|22I9} 26|392b13[17|71]
 X 9 a-textio.ads
-49K13*Text_IO 471e16 17|2w10 40r33 42r34 47r14 49r14
+49K13*Text_IO 471e16 17|2w10 43r33 45r34 50r14 52r14
 73I12*Field{integer}
-166U14*New_Line 17|49s22
-242U14*Put 17|47s22
+166U14*New_Line 17|52s22
+242U14*Put 17|50s22
 X 11 a-tienio.ads
-26k21*Enumeration_IO 55e31 17|40r41 42r42
-40U14 Put 17|46s10[40] 48s10[42]
-41e7 Item{16|15E9} 17|46r14[40] 48r14[42]
-42i7 Width{9|73I12} 17|46r36[40] 48r37[42]
+26k21*Enumeration_IO 55e31 17|43r41 45r42
+40U14 Put 17|49s10[43] 51s10[45]
+41e7 Item{16|15E9} 17|49r14[43] 51r14[45]
+42i7 Width{9|73I12} 17|49r36[43] 51r37[45]
 X 14 interfac.ads
 74M9*Unsigned_32
 77M9*Unsigned_64
 X 16 playing_cards.ads
-1K9*Playing_Cards 3r26 15E9 30l5 30e18 17|4b14 101l5 101t18
-5R9*Card 8r31 10r54 18c9 21e14 17|5r47 12r55 39r31
-6R9*Deck 9r31 10r33 11r40 12r29 25c9 28e14 17|12r34 25r29 26r14 56r31 67r41
-8U14*Print 8>20 17|39b14 50l8 50t13 59s10
-8r20 The_Card{5R9} 17|39b20 46r22 48r22
-9U14*Print 9>20 17|56b14 61l8 61t13
-9r20 the_Deck{6R9} 17|56b20 58r16 59r26
-10U14*Deal 10=19 10<39 17|12b14 19l8 19t12
-10r19 From{6R9} 17|12b20 14r10 17r29 17r47 18m7 18r25
-10r39 The_Card{5R9} 17|12b40 17m7
-11U14*Shuffle 11=22 17|67b14 89l8 89t15
-11r22 The_Deck{6R9} 17|67b23 85m18 85r18 85m44 85r44 88m7
-12V13*New_Deck{6R9} 17|25b13 33l8 33t16
-13X4*Deck_Empty 17|15r16
-15E9 Pips 16e48 19r13 17|40r56 94r18
+2K9*Playing_Cards 4r26 15E9 30l5 30e18 17|4b14 93l5 93t18
+6R9*Card 9r31 10r66 18c9 21e14 17|5r47 12r67 42r31
+7R9*Deck 10r45 11r40 12r29 25c9 28e14 17|12r46 28r29 29r14 59r41
+9U14*Print 9>20 17|20s10 42b14 53l8 53t13
+9r20 The_Card{6R9} 17|20r16 42b20 49r22 51r22
+10U14*Deal_Three_Cards 10=31 10<51 17|12b14 22l8 22t24
+10r31 From{7R9} 17|12b32 15r10 18r29 18r47 19m10 19r28
+10r51 The_Card{6R9} 17|12b52 18m7 20r28
+11U14*Shuffle 11=22 17|59b14 81l8 81t15
+11r22 The_Deck{7R9} 17|59b23 77m18 77r18 77m44 77r44 80m7
+12V13*New_Deck{7R9} 17|28b13 36l8 36t16
+13X4*Deck_Empty 17|16r16
+15E9 Pips 16e48 19r13 17|43r56 86r18
 15n18 Two{15E9}
 15n23 Three{15E9}
 15n30 Four{15E9}
@@ -127,39 +125,39 @@ X 16 playing_cards.ads
 16n31 Queen{15E9}
 16n38 King{15E9}
 16n44 Ace{15E9}
-17E9 Suits 17e51 20r14 17|42r57 93r16
+17E9 Suits 17e51 20r14 17|45r57 85r16
 17n19 Diamonds{17E9}
 17n29 Spades{17E9}
 17n37 Hearts{17E9}
 17n45 Clubs{17E9}
-19e7*Pip{15E9} 17|46r31
-20e7*Suit{17E9} 17|48r31
+19e7*Pip{15E9} 17|49r31
+20e7*Suit{17E9} 17|51r31
 22I9 Index<short_short_integer> 23r26 26r19 17|7r17
-23I12 Deck_Index{22I9} 24r33 24r48 17|5r32 14r32 58r36 68r43 69r17 74r20
-. 76r16 76r34 76r50 78r42 78r62
+23I12 Deck_Index{22I9} 24r33 24r48 17|5r32 15r32 60r43 61r17 66r20 68r16
+. 68r34 68r50 70r42 70r62
 24A9 Deck_Reference(23I12)<22I9> 27r22
-26i7*Next_Card{22I9} 17|14r15 17r52 18m12 18r30 31m12 58r25 88m16
-27a7*Deck_Offsets{24A9} 17|17r34 29m15 59r35 85m27 85m53
+26i7*Next_Card{22I9} 17|15r15 18r52 19m15 19r33 34m12 80m16
+27a7*Deck_Offsets{24A9} 17|18r34 32m15 77m27 77m53
 X 17 playing_cards.adb
-5A9 Internal_Deck(16|5R9)<16|22I9> 6r16
-6a4 Base_Deck{5A9} 17r19 28r16 59r16 95m10
-7i4 Base_Index{16|22I9} 92m4 95r20 96m10 96r24
-26r7 Temp{16|6R9} 29m10 31m7 32r14
-28i11 I<short_short_integer> 29r28 29r34
-40K15 Pip_Io[11|26] 41r11
-42K15 Suit_Io[11|26] 43r11
-58i11 I<short_short_integer> 59r48
-68U17 Swap 68b17 68=22 68=28 73l11 73t15 85s13
-68i22 Left{16|23I12} 69r31 71m10
-68i28 Right{16|23I12} 71r18 72m10
-69i10 Temp{16|23I12} 72r19
-74i7 Swap_Index{16|23I12} 84m13 85r66
-76i11 I<short_short_integer> 78r59 85r40
-78I21 Remaining_Indices{16|23I12} 79r67
-79K21 Rand_Card[5|44] 80r17
-81r13 Seed{5|50R9[79]} 83r19 84r34
-93e8 Suit{16|17E9} 95r41
-94e11 Pip{16|15E9} 95r36
+5A9 Internal_Deck(16|6R9)<16|22I9> 6r16
+6a4 Base_Deck{5A9} 18r19 31r16 87m10
+7i4 Base_Index{16|22I9} 84m4 87r20 88m10 88r24
+14i11 I{integer}
+29r7 Temp{16|7R9} 32m10 34m7 35r14
+31i11 I<short_short_integer> 32r28 32r34
+43K15 Pip_Io[11|26] 44r11
+45K15 Suit_Io[11|26] 46r11
+60U17 Swap 60b17 60=22 60=28 65l11 65t15 77s13
+60i22 Left{16|23I12} 61r31 63m10
+60i28 Right{16|23I12} 63r18 64m10
+61i10 Temp{16|23I12} 64r19
+66i7 Swap_Index{16|23I12} 76m13 77r66
+68i11 I<short_short_integer> 70r59 77r40
+70I21 Remaining_Indices{16|23I12} 71r67
+71K21 Rand_Card[5|44] 72r17
+73r13 Seed{5|50R9[71]} 75r19 76r34
+85e8 Suit{16|17E9} 87r41
+86e11 Pip{16|15E9} 87r36
 X 25 s-rannum.ads
 75V13*Random{14|74M9} 26|221i21
 76V13*Random{14|77M9} 26|221i21

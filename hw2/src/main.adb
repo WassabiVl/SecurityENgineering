@@ -8,10 +8,7 @@ procedure Main is
 begin
    the_deck := Playing_Cards.New_Deck;
    Playing_Cards.Shuffle(The_Deck => the_deck);
-   for I in 1..3 loop
-      Playing_Cards.Deal(From => the_deck,The_Card => card);
-      Playing_Cards.Print(The_Card => card);
-      end loop;
+      Playing_Cards.Deal_Three_Cards(From => the_deck,The_Card => card);
 end Main;
 
 
