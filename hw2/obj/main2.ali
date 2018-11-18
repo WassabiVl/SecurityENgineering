@@ -1,8 +1,13 @@
-V "GNAT Lib v2016"
+V "GNAT Lib v2018"
 M P W=b
 A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
 A -mtune=generic
-A -march=pentium4
+A -march=x86-64
 P ZX
 
 RN
@@ -11,73 +16,69 @@ RV NO_RECURSION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main2%b		main2.adb		b1fe4135 NE OO SU IL
+U main2%b		main2.adb		a8c17fb3 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W bank_accounts%s	bank_accounts.adb	bank_accounts.ali
-W mini_project_1%s	mini_project_1.adb	mini_project_1.ali
 
-D ada.ads		20160516092928 3ffc8e18 ada%s
-D a-except.ads		20160516092928 291912d5 ada.exceptions%s
-D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
-D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
-D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
-D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
-D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
-D bank_accounts.ads	20181108182418 e2e4547e bank_accounts%s
-D interfac.ads		20160516092928 5ab55268 interfaces%s
-D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D main2.adb		20181108221710 2f03eb87 main2%b
-D mini_project_1.ads	20181108181436 b23f82bc mini_project_1%s
-D system.ads		20160516092930 2da59038 system%s
-D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
-D s-exctab.ads		20160516092930 54135002 system.exception_table%s
-D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
-D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
-D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
-D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
-D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
-D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
-D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
-D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D bank_accounts.ads	20181111155214 e2e4547e bank_accounts%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main2.adb		20181111155214 34731133 main2%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 13|1r6 1r19 2r5 2r18
+16K9*Ada 20e8 13|1r6 1r19 2r5 2r18
 X 3 a-inteio.ads
 18K13*Integer_Text_IO[8|46] 13|1w23 2r22
 X 7 a-textio.ads
 49K13*Text_IO 471e16 13|1w10 2r9
-166U14*New_Line 13|84s8 86s8 88s8 90s8 92s8 99s13 118s19 124s16 129s13 134s7
-. 138s4 140s4 142s4 144s4
-242U14*Put 13|80s4 83s7 85s7 87s7 89s7 91s7 98s13 102s13 106s13 110s13 114s16
-. 117s19 123s16 128s13 133s7 139s4 143s4
+166U14*New_Line 13|26s8 28s8 30s8 32s8 34s8 41s13 60s19 66s16 71s13 76s7
+. 80s4 82s4 84s4 86s4
+242U14*Put 13|22s4 25s7 27s7 29s7 31s7 33s7 40s13 44s13 48s13 52s13 56s16
+. 59s19 65s16 70s13 75s7 81s4 85s4
 X 8 a-tiinio.ads
-56U14*Get 13|81s4[3|18] 93s7[3|18] 103s13[3|18] 107s13[3|18] 111s13[3|18]
-. 115s16[3|18]
-66U14*Put 13|100s13[3|18] 141s4[3|18] 145s4[3|18]
+56U14*Get 13|23s4[3|18] 35s7[3|18] 45s13[3|18] 49s13[3|18] 53s13[3|18] 57s16[3|18]
+66U14*Put 13|42s13[3|18] 83s4[3|18] 87s4[3|18]
 X 10 bank_accounts.ads
 4K9*Bank_Accounts 35e18 13|1w40 2r39
-7I12*Cents_Type{integer} 13|68r12 72r14
-9R9*Account_Type 12e15 13|66r11 67r9
-10i7*Number{natural} 13|75m9 77m7 82r22 113r30
-11i7*Balance{7I12} 13|76m9 78m7 116r33 141r13 145r11
-14V13*Get_Balance{7I12} 13|97s24
-17U14*Deposit 13|104s13
-22U14*Withdraw 13|108s13
-28U14*Transfer 13|120s19
+7I12*Cents_Type{integer} 13|10r12 14r14
+9R9*Account_Type 12e15 13|8r11 9r9
+10i7*Number{natural} 13|17m9 19m7 24r22 55r30
+11i7*Balance{7I12} 13|18m9 20m7 58r33 83r13 87r11
+14V13*Get_Balance{7I12} 13|39s24
+17U14*Deposit 13|46s13
+22U14*Withdraw 13|50s13
+28U14*Transfer 13|62s19
 X 13 main2.adb
-7U11*main2 7b11 125s16 130s13 135s7 146l5 146t10
-66r4 From{10|9R9} 75m4 76m4 82r17 97r36 104m21 104r21 108m22 108r22 116r28
-. 120m28 120r28 141r8
-67r4 To{10|9R9} 77m4 78m4 113r27 120m34 120r34 145r8
-68i4 Amount{10|7I12} 103m17 104r27 107m17 108r28 115m20 116r19 120r38
-69i4 Src_Acc{natural} 81m8 82r7
-70i4 Dest_Acc{natural} 111m17 113r16
-71i4 Selected_option{integer} 93m11 95r12
-72i4 Balance{10|7I12} 97m13 100r17
-X 14 mini_project_1.ads
-1K9*mini_project_1 13|3w6 14|30e19
+6U11*main2 6b11 67s16 72s13 77s7 88l5 88t10
+8r4 From{10|9R9} 17m4 18m4 24r17 39r36 46m21 46r21 50m22 50r22 58r28 62m28
+. 62r28 83r8
+9r4 To{10|9R9} 19m4 20m4 55r27 62m34 62r34 87r8
+10i4 Amount{10|7I12} 45m17 46r27 49m17 50r28 57m20 58r19 62r38
+11i4 Src_Acc{natural} 23m8 24r7
+12i4 Dest_Acc{natural} 53m17 55r16
+13i4 Selected_option{integer} 35m11 37r12
+14i4 Balance{10|7I12} 39m13 42r17
 

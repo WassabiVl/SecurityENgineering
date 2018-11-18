@@ -1,0 +1,63 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U test_script_scanner_dfa%b  test_script_scanner_dfa.adb  49da98a8 OO PK IL
+W test_script_scanner_dfa%s  test_script_scanner_dfa.adb  test_script_scanner_dfa.ali
+
+U test_script_scanner_dfa%s  test_script_scanner_dfa.ads  926c4ed6 OO PK IL
+
+D system.ads		20180524051738 32a08138 system%s
+D test_script_scanner_dfa.ads  20181111155702 926c4ed6 test_script_scanner_dfa%s
+D test_script_scanner_dfa.adb  20181111155700 49da98a8 test_script_scanner_dfa%b
+X 2 test_script_scanner_dfa.ads
+1K9*test_script_scanner_dfa 28l5 28e28 3|2w6 2r35 3b14 44l5 44t28
+2b1*aflex_debug{boolean}
+3i1*yytext_ptr{integer} 3|11r10 38m5
+8i1*YY_READ_BUF_SIZE{integer} 9r35
+9i1*YY_BUF_SIZE{integer} 11r53
+10A6*unbounded_character_array(character)<integer> 11r24
+11A9*ch_buf_type{10A6}<integer> 12r13
+12a1*yy_ch_buf{11A9} 3|12r13 13r25 39r21 40m5
+13i1*yy_cp{integer} 3|30r12 39r31 40r15 41r19
+13i8*yy_bp{integer} 3|30r20 38r19
+16e1*yy_hold_char{character} 3|39m5
+17i1*yy_c_buf_p{integer} 3|41m5
+19V10*YYText{string} 3|4b10 25t4
+20V10*YYLength{integer} 3|28b10 31l5 31t13
+21U11*YY_DO_BEFORE_ACTION 3|36b11 42l5 42t24
+23b1*yy_init{boolean}
+24i1*yy_start{integer}
+25I9*yy_state_type{integer} 26r27
+26i1*yy_last_accepting_state{25I9}
+27i1*yy_last_accepting_cpos{integer}
+X 3 test_script_scanner_dfa.adb
+5i5 i{integer} 11m5 12r23 13r35 14m9 14r14
+6i5 str_loc{integer} 13r12 15m5 15r16 19r9 22r24
+7a5 buffer{string} 13m5 22r14
+8a5 EMPTY_STRING{string} 20r16
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS test_script_scanner_dfa__yytext 0
+GG EK_GLOBALS test_script_scanner_dfa__yytext local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf proper_output 0 refined_proof_in 0 refined_input 2 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_dfa__yylength 0
+GG EK_GLOBALS test_script_scanner_dfa__yylength local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp proper_output 0 refined_proof_in 0 refined_input 2 test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_dfa__yy_do_before_action 0
+GG EK_GLOBALS test_script_scanner_dfa__yy_do_before_action local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 6 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p proper_output 4 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_proof_in 0 refined_input 6 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_output 4 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 6 test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_dfa 0
+GG EK_GLOBALS test_script_scanner_dfa local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 3 test_script_scanner_dfa__aflex_debug test_script_scanner_dfa__yy_init test_script_scanner_dfa__yy_start calls_proof 0 calls 0 calls_conditional 0 local_var 11 test_script_scanner_dfa__aflex_debug test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_cp test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p test_script_scanner_dfa__yy_init test_script_scanner_dfa__yy_start test_script_scanner_dfa__yy_last_accepting_state test_script_scanner_dfa__yy_last_accepting_cpos FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

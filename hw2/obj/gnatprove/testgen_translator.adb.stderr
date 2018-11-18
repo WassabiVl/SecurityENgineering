@@ -1,0 +1,3 @@
+testgen_translator.adb:31:12: warning: function "&" is not referenced
+testgen_translator.adb:70:05: warning: constant "Max_Path_Length" is not referenced
+testgen_translator.adb:409:07: warning: variable "J" is not referenced

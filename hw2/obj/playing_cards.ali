@@ -1,8 +1,13 @@
-V "GNAT Lib v2016"
+V "GNAT Lib v2018"
 A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
 A -mtune=generic
-A -march=pentium4
-P SS ZX
+A -march=x86-64
+P ZX
 
 RN
 RV NO_ENUMERATION_MAPS
@@ -16,66 +21,66 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U playing_cards%b	playing_cards.adb	2456d33e OO PK
+U playing_cards%b	playing_cards.adb	f2557e16 OO PK
 W ada%s			ada.ads			ada.ali
-W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.discrete_random%s
-W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
-W ada.text_io.enumeration_io%s
-W interfaces%s		interfac.ads		interfac.ali
-Z system%s		system.ads		system.ali
-W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z ada.text_io.enumeration_io%s
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
 Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
-W system.val_enum%s	s-valenu.adb		s-valenu.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
 
 U playing_cards%s	playing_cards.ads	def29cb2 EB EE OO PK
-W ada.tags%s		a-tags.adb		a-tags.ali
-W system%s		system.ads		system.ali
-W system.exception_table%s  s-exctab.adb	s-exctab.ali
-W system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20160516092928 3ffc8e18 ada%s
-D a-except.ads		20160516092928 291912d5 ada.exceptions%s
-D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
-D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
-D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
-D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
-D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
-D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
-D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
-D a-tienau.ads		20160516092928 6a9c157b ada.text_io.enumeration_aux%s
-D a-tienio.ads		20160516092928 fc618ae6 ada.text_io.enumeration_io%s
-D a-tienio.adb		20160516092930 c9e6b5af ada.text_io.enumeration_io%b
-D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
-D interfac.ads		20160516092928 5ab55268 interfaces%s
-D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D playing_cards.ads	20181108103636 def29cb2 playing_cards%s
-D playing_cards.adb	20181108103634 b32ce7b7 playing_cards%b
-D system.ads		20160516092930 2da59038 system%s
-D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
-D s-exctab.ads		20160516092930 54135002 system.exception_table%s
-D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
-D s-imenne.ads		20160516092928 614c06c0 system.img_enum_new%s
-D s-imguns.ads		20160516092928 9ff43cf7 system.img_uns%s
-D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
-D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
-D s-rannum.adb		20160516092932 20ba1217 system.random_numbers%b
-D s-ransee.ads		20160516092932 01a57b33 system.random_seed%s
-D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
-D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
-D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
-D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
-D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
-D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
-D s-valenu.ads		20160516092930 bb1a4295 system.val_enum%s
-D s-valuns.ads		20160516092932 10a8ed3b system.val_uns%s
-D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051736 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051736 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tienau.ads		20180524051736 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20180524051736 fc618ae6 ada.text_io.enumeration_io%s
+D a-tienio.adb		20180524051736 c9e6b5af ada.text_io.enumeration_io%b
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D playing_cards.ads	20181111155214 def29cb2 playing_cards%s
+D playing_cards.adb	20181118163950 d55f0c11 playing_cards%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imenne.ads		20180524051736 614c06c0 system.img_enum_new%s
+D s-imguns.ads		20180524051736 9ff43cf7 system.img_uns%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180524051738 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180524051738 01a57b33 system.random_seed%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-valenu.ads		20180524051738 bb1a4295 system.val_enum%s
+D s-valuns.ads		20180524051738 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 17|1r6 2r6 43r29 45r30 50r10 52r10 71r38
+16K9*Ada 20e8 17|1r6 2r6 43r29 45r30 50r10 52r10 71r38
 X 4 a-numeri.ads
 16K13*Numerics 32e17 17|1r10 71r42
 X 5 a-nudira.ads
@@ -133,7 +138,7 @@ X 16 playing_cards.ads
 19e7*Pip{15E9} 17|49r31
 20e7*Suit{17E9} 17|51r31
 22I9 Index<short_short_integer> 23r26 26r19 17|7r17
-23I12 Deck_Index{22I9} 24r33 24r48 17|5r32 15r32 60r43 61r17 66r20 68r16
+23I12 Deck_Index{22I9} 24r33 24r48 17|5r32 15r32 60r43 61r26 66r20 68r16
 . 68r34 68r50 70r42 70r62
 24A9 Deck_Reference(23I12)<22I9> 27r22
 26i7*Next_Card{22I9} 17|15r15 18r52 19m15 19r33 34m12 80m16
@@ -148,7 +153,7 @@ X 17 playing_cards.adb
 43K15 Pip_Io[11|26] 44r11
 45K15 Suit_Io[11|26] 46r11
 60U17 Swap 60b17 60=22 60=28 65l11 65t15 77s13
-60i22 Left{16|23I12} 61r31 63m10
+60i22 Left{16|23I12} 61r40 63m10
 60i28 Right{16|23I12} 63r18 64m10
 61i10 Temp{16|23I12} 64r19
 66i7 Swap_Index{16|23I12} 76m13 77r66

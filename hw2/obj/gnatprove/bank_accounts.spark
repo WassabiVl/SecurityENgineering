@@ -1,0 +1,61 @@
+{
+  "spark": [
+    {
+      "name": "Bank_Accounts.Get_Balance",
+      "sloc": [
+        {
+          "file": "bank_accounts.ads",
+          "line": 14
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Bank_Accounts.Deposit",
+      "sloc": [
+        {
+          "file": "bank_accounts.ads",
+          "line": 17
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Bank_Accounts.Withdraw",
+      "sloc": [
+        {
+          "file": "bank_accounts.ads",
+          "line": 22
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Bank_Accounts.Transfer",
+      "sloc": [
+        {
+          "file": "bank_accounts.ads",
+          "line": 28
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 3.75115009956062E-03,
+    "globals (basic)": 3.06620616465807E-02,
+    "globals/properties (advanced)": 4.82706427574158E-02,
+    "flow analysis": 2.87723989458755E-04,
+    "codepeer results": 8.86100042407634E-06,
+    "init_why_sections": 1.12105498556048E-03,
+    "translation of standard": 1.32852448150516E-02,
+    "translation of compilation unit": 1.03170618414879E-01,
+    "proof": 5.12999986312934E-06
+  }
+}

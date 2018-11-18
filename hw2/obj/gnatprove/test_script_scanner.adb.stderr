@@ -1,0 +1,7 @@
+test_script_scanner.adb:30:01: warning: constant "YY_END_TOK" is not referenced
+test_script_scanner.adb:407:11: warning: procedure "ECHO" is not referenced
+test_script_scanner.adb:432:11: warning: procedure "yyless" is not referenced
+test_script_scanner.adb:451:05: warning: "yy_bp" is not modified, could be declared constant
+test_script_scanner.adb:476:11: warning: procedure "yyrestart" is not referenced
+test_script_scanner.adb:875:30: warning: "others" choice is redundant
+test_script_scanner.adb:875:30: warning: previous choices cover all values

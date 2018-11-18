@@ -1,0 +1,719 @@
+\input texinfo  @c -*-texinfo-*-
+@c $Id: tg.texi,v 1.3 1996/05/08 16:01:55 spiegel Exp $
+@c %**start of header
+@setfilename tg.info
+@settitle tg Test Driver Generator
+@setchapternewpage odd
+@iftex
+@afourpaper
+@end iftex
+@c %**end of header
+
+@titlepage
+@title tg
+@subtitle A Simple Test Driver Generator for Modula-2 programs
+@subtitle (Version 3.1)
+@tex
+@author Andr\'e Spiegel, Ralf Rei{\ss}ing 
+@author University of Stuttgart, Germany
+@end tex
+@page
+@end titlepage
+
+@node Top, Introduction, A Complete Example, (dir)
+
+@ifinfo
+@code{tg} stands for @dfn{test driver generator}.  @code{tg} helps you
+to test software components, by generating programs that automatically
+perform such tests.
+
+This document applies to @code{tg} version 3.0, the first public release.
+@end ifinfo
+
+@menu
+* Introduction::                The process of software testing 
+                                  and @code{tg}'s place in it.
+* Test Scripts::                The format of @code{tg}'s input files.
+* The tg Command::              How to invoke @code{tg} to translate
+                                  a script into a driver.
+* Drivers::                     What the generated programs look like.
+* A Complete Example::          A script for a simple example test.
+@end menu
+
+@node    Introduction, Test Scripts, Top, Top
+@chapter Introduction
+@cindex test driver
+A @dfn{test driver} is a program which tests a piece of software.
+
+@cindex test case
+If you want to test something, for example an Modula-2 module, you normally
+need to design a huge number of separate, elementary tests, which must
+be performed one after the other.  Each elementary test typically
+consists of a procedure call to some routine of the module, passing
+certain input data to it, plus a subsequent analysis of the results of
+that call.  We call such an elementary test a @dfn{test case}.
+
+It follows that, normally, test drivers are very simple but large
+programs.  Mostly, they consist of endless repetitions of a single
+common pattern: that of a test case.  Thus, it would be nice to have a
+tool that generates such driver programs automatically.
+
+@cindex test script
+@code{tg} does just that.  You feed it with a description of a test,
+given in some special, convenient format in which you only need to
+specify the essentials of each test case.  @code{tg} takes this
+description -- we call it the @dfn{test script} -- and translates it
+into the source code of a corresponding test driver, which you can then
+compile, link, and execute.
+
+@cindex Native language of tg
+@cindex Programming language of tg
+@cindex Modula-2
+@code{tg}'s native language is Modula-2, but you might also use it to
+test software written in other programming languages.  (This would
+require `interfacing' that software to Modula-2, since the test driver is
+always a Modula-2 program.)  @code{tg} itself is written in Ada.
+
+@menu
+* A Small Example::             An example of a test case, given both as
+                                  Modula-2 code and in @code{tg} notation.
+* Testing Terminology::         Important words needed to understand 
+                                  the rest of this manual. 
+@end menu
+
+@node    A Small Example, Testing Terminology, Introduction, Introduction
+@section A Small Example
+Suppose you want to test a Modula-2 function which counts the number of
+@samp{&} characters within a given string.
+
+@example
+PROCEDURE CountAmpersand (Str: ARRAY OF CHAR): CARDINAL;
+@end example
+
+One of your test cases might be to call it with parameter
+``abc&&&abc'' and verify that the result is three.  
+The code for this could look like the following: 
+
+@example
+@group
+WriteString("Testing three ampersands in the middle... ");
+WriteLn;
+Count := CountAmpersand("abc&&&abc");
+IF (Count = 3) THEN
+  WriteString("pass."); WriteLn;
+ELSE
+  WriteString("fail."); WriteLn;
+END;
+@end group
+@end example
+
+That is a lot of code for a single test case.  In @code{tg} notation, to
+specify this test case, you would just write:
+
+@example
+@group
+***** Testing three ampersands in the middle...
+test Count := CountAmpersand("abc&&&abc");
+pass Count = 3
+@end group
+@end example
+
+The @code{tg} command translates this into code similar to that shown
+above and puts it into a complete driver program.
+
+@node  Testing Terminology,  , A Small Example, Introduction
+@section Testing Terminology
+
+@cindex test
+@cindex test case
+@cindex test script
+@cindex test item
+As it was explained above, @code{tg} views a @dfn{test} as a sequence of
+@dfn{test cases}.  The test is described, or specified, in a @dfn{test
+script file}.  You write this script in a special macro-type language
+which is described in the main part of this manual.  The piece of
+software which you test is called the @dfn{test item}.  It may be a
+single procedure, or a module, or a complete software system.
+
+@cindex perform a test
+@cindex perform a test case
+@cindex execute a test driver
+@cindex execute a test case
+We say that a test is @dfn{performed} by @dfn{executing} the test driver
+program.  Likewise, the individual test cases are @dfn{performed} when
+the code into which their description was translated is @dfn{executed}.
+
+@cindex test call
+The crucial point of a test case is a procedure call to the test item.
+We call this the @dfn{test call}.  The driver might do some preparatory
+work @emph{before} the test call, and @emph{after} the call has
+returned, the driver analyzes its results.
+
+@cindex results
+@cindex test results
+That means, there are three types of results: the result of the test
+call, of the test case, and of the complete test as a whole.
+
+@itemize @bullet
+@cindex result of a test call
+@item
+The result of the @emph{test call} is what it returns to the test
+driver.  This can be the return value of a function, or the values of any
+@code{VAR} parameters.  But it also includes everything that can be
+determined as an effect of the test call, like the state of a global
+flag, or output data written to some file, etc.
+
+@item
+@cindex result of a test case
+@cindex pass (result of a test case)
+@cindex fail (result of a test case)
+The driver determines the result of the @emph{test case} by comparing
+the result of the test call to the expected result.  If they are equal,
+the test item is said to have @dfn{passed} the test case, otherwise it
+@dfn{failed} it.  We also say the result of the test case is either
+@dfn{pass} or @dfn{fail}.
+
+@cindex result of a test
+@item
+Finally, there is a @dfn{total test result} which is defined as
+@dfn{pass} if the test item passed all the test cases, and @dfn{fail} if
+it didn't.  
+
+@end itemize
+
+@node Test Scripts, The tg Command, Introduction, Top
+@chapter Test Scripts
+@cindex test script
+The term @dfn{test script} is commonly used for a document that
+describes how to perform a test of something.  In the context of
+@code{tg} the word has a more specific meaning: it means a complete,
+machine-processable description of a test driver program which performs
+the test.  In such a script only the essentials of the driver have to be
+specified.  The @code{tg} command is nothing but a compiler for test
+scripts; it translates them into correct Modula-2 source code.
+
+Writing test scripts instead of coding the driver by hand not only saves
+a lot of work (the generated program is typically ten times larger than
+the script), but also helps to construct tests in a uniform,
+standardized way.
+
+@cindex global section (test script)
+@cindex test case section (test script)
+There are two main sections in a test script: the @dfn{global section}
+and the @dfn{test case section}.  As you can tell from the words,
+parameters for the whole test driver are set in the global section,
+while the individual test cases form the test case section.
+
+@menu
+* Test Script Basics::          The basic concepts.
+* The Global Section::          Common definitions for the whole driver.
+* The Test Case Section::       Specification of the individual test cases.
+@end menu
+
+@node Test Script Basics, The Global Section, Test Scripts, Test Scripts
+@section Test Script Basics
+Test Scripts should have filenames ending with @file{.ts}.
+
+@cindex keywords
+@cindex format of test scripts
+A test script mainly contains chunks of Modula-2 code, marked by
+keywords which tell @code{tg} at where it should insert that code into
+the driver.  The basic idea of the format is to have the keywords begin
+in column 1, followed by the corresponding chunk of code, which can
+stretch over an arbitrary number of lines, all but the first of which
+must be indented.  The first line which begins with a non-blank
+character marks the end of the chunk.  (Empty lines, or lines containing
+only whitespace, do not end a chunk.)  Example:
+
+@example
+@group
+prepare Result := 0;
+        Done   := False;
+
+        IF NOT Initialized THEN
+          Initialize;
+        END;
+test ...
+@end group
+@end example
+
+The chunk of code which should become the `prepare part' of a test case
+begins with @samp{Result :=...} and ends with @samp{END;} in the sixth
+line, after this follows the next section, the `test part'.  (More on
+the meaning of these `parts' later.)
+
+@cindex case-sensitivity
+@cindex comments in test scripts
+@code{tg} is not case-sensitive.  You
+may write the @code{tg} keywords in upper, lower, or mixed case, just as
+your taste and coding conventions suggest.  Comments take the usual Modula-2
+form (@code{(* ... *)}), but may not be nested.  
+Note that comments which apply to the
+@emph{script} should begin in column 1, otherwise @code{tg} might consider
+them part of a code chunk and copy them into the driver program
+(which could be confusing if someone ever examines the driver code).
+
+
+@node The Global Section, The Test Case Section, Test Script Basics, Test Scripts
+@section The Global Section
+@cindex global section
+The possible subparts of the global section are @code{fail_handling},
+@code{context}, and @code{define}.  They are explained subsequently, in
+that order. (Note that also in the script file the order of these parts
+may not be different.  This might change in future versions of
+@code{tg}.)  Apart from the @code{context} subpart, all of these are
+optional.
+
+Remember also that all the keywords which start a subpart must begin in
+column 1.
+
+@itemize @bullet
+
+@findex fail_handling
+@item
+@code{fail_handling} ( @code{stop} | @code{continue} ) 
+
+Specify what the driver should do if a test case fails.  The alternatives
+are to stop execution after the first failing test case, or to continue
+execution regardless of the test case results.  Default is
+@code{continue}.
+
+@findex context
+@cindex context clause
+@item 
+@code{context} @var{clauses}
+
+@var{clauses} is an arbitrary number of @code{IMPORT}-clauses which will be
+used as context clauses for the driver.  @var{clauses} may span several
+lines.  If it does, all but the first line must be indented. Type definitions
+and definitions of constants should be put here, too. Also procedures needed 
+for your test cases can be defined here.
+
+@example
+context IMPORT AModule;
+        TYPE   AType = ...;
+        CONST  AConstant = ...;
+        PROCEDURE ResultIsCorrect (R: ResultType): BOOLEAN;
+        BEGIN
+          ...
+        END ResultIsCorrect;
+@end example
+
+@findex define (global)
+@cindex global declarations
+@cindex declarations (global)
+@cindex declarative part (global)
+@item
+@code{define} @var{lines}
+
+Subpart for global variable definitions.  @var{lines} will be placed
+into the declarative part of the generated driver.  You will typically
+define objects and procedures here which are needed by the test cases.
+Each of the test cases can also have its own @code{define} part for
+variables needed only by that individual test case.  Example:
+
+@example
+@group
+define ExitStatus: INTEGER;  (* used by all the test cases *)
+@end group
+@end example
+
+@end itemize
+
+@node The Test Case Section,  , The Global Section, Test Scripts
+@section The Test Case Section
+@cindex test case section
+The test case section of the script begins after the last part of
+the global section.  It may contain an arbitrary number of @dfn{test
+case descriptions} and @dfn{code parts}.
+
+@menu
+* Test Case Descriptions::      
+* Code Parts::                  
+@end menu
+
+
+@node Test Case Descriptions, Code Parts, The Test Case Section, The Test Case Section
+@subsection Test Case Descriptions
+
+@cindex test case description
+A test case description represents a single test case.  A @code{tg} test
+case is characterized as follows:
+
+@enumerate a
+@item
+@cindex define part (test case)
+It forms a Modula-2 procedure of its own, thus it is possible to declare any
+local variables needed for that particular test case.  You
+can do this in the @dfn{define part} (which resembles the define part of
+the global section).
+
+@item
+@cindex prepare part
+Before the actual test call, you might want to make some preparations.
+You can specify a @dfn{prepare part}, which is a chunk of code that the
+driver executes before the test call.
+
+@item
+@cindex test part
+@cindex test call
+The actual @dfn{test part} consists (typically) of a single Modula-2
+statement, typically a procedure call to the software item under test.
+Hence, another word for the test part is @dfn{test call}.
+
+@item
+@cindex result part
+After the test call has been executed, the driver checks whether it
+produced the expected result. The result is the value of an arbitrary
+predicate.  You may specify any boolean Modula-2 expression which the driver
+checks after the test call.  It may be a simple check for the value of a
+variable, or a call to a complex function of type @code{BOOLEAN}.
+
+@item
+@cindex test case result
+@cindex output format
+@cindex result of a test case
+The driver reports the result of the test case (pass/fail) to the
+standard output stream.  You may specify the verboseness of that report.
+It is, for example, possible to suppress the report of passing test
+cases completely, while getting a full description of what happened in
+the event of a failing test case.  You set the verboseness through
+command line options at translation time (@pxref{The tg Command}).
+
+@item
+@cindex cleanup part
+Finally, you might have to clean up things.  You might, for example,
+want to delete any files created during the test, etc.  You can do this
+in the optional @dfn{cleanup part} of each test case.
+@end enumerate
+
+@cindex syntax (of a test case description)
+The pattern explained above is precisely reflected in the format of test
+case descriptions.  It looks like this:
+
+@findex define (test case)
+@findex prepare
+@findex test
+@findex cleanup
+@example
+@group
+*****    @var{test-case-title}
+define   @var{definitions}
+prepare  @var{preparations}
+test     @var{test-statement}
+pass     @var{predicate} 
+cleanup  @var{cleanup-code}
+@end group
+@end example
+
+The meaning of the subparts @code{define}, @code{prepare}, and
+@code{cleanup} is clear from what has been said so far.  All of them are
+optional.  The title line, the @code{test} part and the
+@code{pass}-clauses, which are mandatory for every test case, are
+explained below.
+
+For complete example test cases, @xref{A Complete Example}.
+
+@menu
+* Test Case Titles::            
+* The Test Call::               
+* Pass Clauses::                
+@end menu
+
+@node Test Case Titles, The Test Call, Test Case Descriptions, Test Case Descriptions
+@subsubsection Test Case Titles
+@cindex title (of a test case)
+@cindex test case title
+@findex *****
+The start of a test case description is marked by the ``keyword''
+@code{*****}, which also serves as an optical marker in the script file.
+The rest of the line is the test case title.  It should explain briefly
+what is tested in that test case, allowing to decide quickly where the
+error lies, should this test case fail.  Example:
+
+@example
+***** PROCEDURE ListLength: List of length zero
+@end example
+
+@node The Test Call, Pass Clauses, Test Case Titles, Test Case Descriptions
+@subsubsection The Test Call
+@cindex test call
+@cindex test part
+@code{tg} allows an arbitrary chunk of Modula-2 code in the @code{test} part.
+But in general it should only contain a single statement, because this
+makes it much easier to find out what happened during the test.
+
+The results of the test call should be stored in variables local to that
+test case, such that they can later be checked in the @code{pass}-clause(s).
+
+Example:
+
+@example
+test  Result := TestItem(Some_Parameter);
+@end example
+
+@node Pass Clauses,  , The Test Call, Test Case Descriptions
+@subsubsection Pass Clauses
+@cindex pass clause
+@findex pass
+There may be an arbitrary number of pass clauses after the test part.
+The result of the test case is ``pass'' if @emph{all} of these clauses are
+met.  A pass-clause has the following form:
+
+@example
+pass  @var{predicate}
+@end example
+
+@cindex predicate (in a pass clause)
+@var{predicate} must be a Modula-2 expression yielding a boolean value.  It
+may span several lines (continuation lines indented, as always), and
+@code{tg} uses it as the condition of an @code{IF} statement.  
+
+A pass clause is said to be met if the predicate yields @code{TRUE}.
+
+Examples:
+
+@example
+@group
+pass NumberOfElements = 5
+pass Status = True
+     AND IsEmpty(List)
+@end group
+@end example
+
+@node Code Parts,  , Test Case Descriptions, The Test Case Section
+@subsection Code Parts
+@cindex code part
+@findex code
+You may insert code parts between the test cases to do additional work.
+For example, you might want to initialize a module before doing the
+actual testing.  The syntax is fairly simple:
+
+@example
+code @var{lines}
+@end example
+
+Example:
+
+@example
+@group
+code Init;
+     WriteString("Module initialized."); WriteLn;
+     WriteString("Now starting with the test cases."); WriteLn;
+@end group
+@end example
+
+@node The tg Command, Drivers, Test Scripts, Top
+@chapter The tg Command
+@cindex tg (command line syntax)
+@cindex syntax (of the tg command line)
+The syntax for the @code{tg} command is
+
+@example
+tg [options] script_file [driver_file]
+@end example
+
+In its simplest form, @code{tg} only takes one argument, the name of the
+script file.  It reads and translates this script, writing the output
+to a file with the same name, but the suffix of the script (@file{.ts})
+changed to @file{.mod}.  Example:
+
+@example
+tg demo.ts
+@end example
+
+yields @file{demo.mod}.
+
+You may provide an explicit output file name as the last argument:
+
+@example
+tg demo.ts driver.mod
+@end example
+
+The options set the verboseness of the driver output.
+
+@table @code 
+@item -p @var{setting}
+Determines how the driver reports @emph{passing} test cases.
+@* @var{setting} may be one of
+
+@table @code
+@item off
+No output.
+@item numbers
+Only test case numbers, followed by the string ``pass.''.  @* This is the
+default.
+@item titles
+Numbers and titles, followed by ``...pass.'' on the next line.
+@item full
+Numbers and titles, ``...pass.'' on the next line, @* and a short
+explanation on the line below that.
+@end table
+
+@item -f @var{setting}
+Same as @code{-p}, but for @emph{failing} test cases.  @* Default is
+@code{full}.
+@end table
+
+Examples:
+
+@example
+tg -p full -f full demo.ts
+
+tg -p off demo.ts
+@end example
+
+@node Drivers, Structure, The tg Command, Top
+@chapter Drivers
+The output of @code{tg} is the Modula-2 source code of a single main program,
+the test driver.  You compile it, link it to the test item, and
+execute the resulting program in order to perform the test.
+
+You can have a look at the source code of the driver if you wish, to see
+how @code{tg} assembled your various code pieces, but there is no need
+for you to deal with this source code by any means.  It is not intended
+to be human-readable.  If you need to change something, you should
+modify the test script from which @code{tg} generated the driver.
+
+There are, however, a few internal functions and workings, of which you
+might want to make use in your test scripts.  These are described below.
+
+@menu
+* Structure::              The overall structure of test drivers.
+* Status Information::     Letting your code find out how a test went.
+* A Complete Example::     What the code for a test case really looks like.
+@end menu
+
+@node Structure, Status Information, Drivers, Drivers
+@section Structure
+A test driver generated by @code{tg} has the following structure:
+
+@example
+@group
+  (* header comment *)
+
+  MODULE <name_of_script> is
+
+  (* code from the context clause here *)
+
+  (* global define part here *)
+
+  (* test cases and code parts as procedures *)
+
+  BEGIN
+    (* calls to test cases and code sections *)
+  END <name_of_script>.
+@end group
+@end example
+
+@node Status Information, A Complete Example, Structure, Drivers
+@section Status Information
+The test driver module contains two predefined global variables:
+
+
+@itemize
+@item
+@code{Fail_Result: BOOLEAN}
+
+is TRUE if at least one of the previous test cases failed, else FALSE
+
+@item
+@code{Test_Case_Passed: BOOLEAN}
+
+is TRUE if the last test case was passed, else FALSE. You may want to take different actions in the cleaup part of a test case dependent on its result.
+@end itemize
+
+@node A Complete Example, Top, Status Information, Top
+@chapter A Complete Example
+We want to test a single Modula-2 function @code{Subject}, contained in the
+module @code{UnderTest}.
+
+@example
+@group
+DEFINITION MODULE UnderTest;
+
+  PROCEDURE Subject (X : in CARDINAL): CARDINAL;
+
+END UnderTest;
+@end group
+@end example
+
+@code{Subject} is required to return 1 if @code{X} is a multiple of 2, 
+else @code{X} itself.
+
+
+The following script describes an appropriate test:
+
+@example
+(* FILE: example.ts
+  ...
+*)
+context IMPORT Under_Test; 
+
+***** X = 1
+define Result : CARDINAL;
+test   Result := Subject(1);
+pass   Result = 1
+
+***** X = 2
+define Result: CARDINAL;
+test   Result := Subject(2);
+pass   Result = 1
+
+***** X = 3
+define Result: CARDINAL;
+test   Result := Subject(3);
+pass   Result = 3
+
+***** X = 16
+define Result: CARDINAL;
+test   Result := Subject(16);
+pass   Result = 1
+
+***** X = MAX(CARDINAL)
+define Result: CARDINAL;
+test   Result := Subject(MAX(CARDINAL));
+pass   Result = 1
+@end example
+
+You can translate @code{example.ts} by issuing the command
+
+@example
+tg example.ts
+@end example
+
+This produces @code{example.mod}, the source code of the driver.  You
+have to compile it and link it with module @code{UnderTest}.
+Executing the resulting program then produces the following output
+
+@example
+@group
+(1) pass.
+(2) pass.
+(3) pass.
+(4) pass.
+(5) pass.
+
+Total test result: pass.
+@end group
+@end example
+
+Now suppose that in test case (3), @code{Subject} returned 1 instead of 3.
+Then the output would be
+
+@example
+@group
+(1) pass.
+(2) pass.
+(3) X = 3
+     ...FAIL.
+        (predicate is FALSE)
+(4) pass.
+(5) pass.
+
+Total test result: FAIL.
+@end group
+@end example
+
+@contents
+@bye

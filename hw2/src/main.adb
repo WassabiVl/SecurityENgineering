@@ -1,7 +1,4 @@
-WITH Ada.Text_IO;
 with Playing_Cards;
-WITH Ada.Numerics.Discrete_Random;
-use Ada.Text_IO, Ada.Numerics;
 procedure Main is
    the_deck : Playing_Cards.Deck;
    card : Playing_Cards.Card;

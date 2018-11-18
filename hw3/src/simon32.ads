@@ -6,6 +6,10 @@ package Simon32 is
    type Words is array ( Integer range <>) of Word ; 
    type Block_32 is new Bytes (0..3) ; 
    type Block_64 is new Bytes (0..7) ;
+   type n is new Integer;
+   type m is new Integer;
+   type z is array (Integer range <>) of Integer;
+   type TJ is array (Integer range <>, Integer range <>) of Integer;
 
    Cipher_Not_Initialized_Exception : exception;
 

@@ -1,0 +1,161 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnatc
+P GP FX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U test_script_scanner_io%b  test_script_scanner_io.adb  4e96bf33 OO PK IL
+
+U test_script_scanner_io%s  test_script_scanner_io.ads  2866145a OO PK IL
+W test_script_scanner_dfa%s  test_script_scanner_dfa.adb  test_script_scanner_dfa.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_script_scanner_dfa.ads  20181111155702 926c4ed6 test_script_scanner_dfa%s
+D test_script_scanner_io.ads  20181111155700 9bb89214 test_script_scanner_io%s
+D test_script_scanner_io.adb  20181111155702 d52e2d27 test_script_scanner_io%b
+D text_io.ads		20180524051736 21b2c898 text_io%s
+X 4 a-textio.ads
+52P9*File_Type 13|5r19 6r20
+53n23*In_File{53E9} 14|248r27
+53n32*Out_File{53E9} 14|254r34
+86U14*Create 14|254s9
+92U14*Open 14|248s5
+98U14*Close 14|261s14 268s14
+107V13*Is_Open{boolean} 14|12s9 232s9 260s8 267s8
+168U14*Skip_Line 14|16s14
+169U14*Skip_Line 14|36s14
+171V13*End_Of_Line{boolean} 14|14s14
+172V13*End_Of_Line{boolean} 14|34s14
+205U14*Get 14|24s12
+206U14*Get 14|44s12
+207U14*Put 14|233s15
+208U14*Put 14|235s15
+297X4*End_Error 14|56r14
+X 12 test_script_scanner_dfa.ads
+1K9*test_script_scanner_dfa 28e28 13|1w6 1r35
+3i1*yytext_ptr{integer} 14|70r25 82r36 128m5 172m5 191m5 200r27 210m9 215r23
+8i1*YY_READ_BUF_SIZE{integer} 14|98r24 99r24
+9i1*YY_BUF_SIZE{integer} 14|96r20 145r13 156r19
+10A6*unbounded_character_array(character)<integer> 13|22r29 14|6r29
+12a1*yy_ch_buf{11A9} 14|85m9 85r28 103m15 103r15 103r41 118m5 119m5 140m5
+. 151m13 151r32 163r37 164m5 168m5 173r21 174m5 187m5 189r10 204m9 206m9
+. 207m9 211r25 223r10 225r21
+13i8*yy_bp{integer} 14|180m18 180r18
+16e1*yy_hold_char{character} 14|140r29 173m5 187r25 211m9 225m5
+17i1*yy_c_buf_p{integer} 14|75r10 82r23 139r18 175m5 185r24 189r20 191r19
+. 192m5 192r19 200m13 209m9 210r23 211r35 215m9 223r20 224m5 224r19 225r31
+23b1*yy_init{boolean} 14|247m5
+X 13 test_script_scanner_io.ads
+4K9*test_script_scanner_io 35l5 35e27 14|2b14 273l5 273t27
+5p1*user_input_file{4|52P9} 14|12r17 14r26 16r24 24r16 248m10 248r10 260r16
+. 261m20 261r20
+6p1*user_output_file{4|52P9} 14|232r17 233r19 254m16 254r16 267r16 268m20
+. 268r20
+7X1*NULL_IN_INPUT 14|76r15
+8X1*AFLEX_INTERNAL_ERROR
+9X1*UNEXPECTED_LAST_MATCH 14|218r15
+10X1*PUSHBACK_OVERFLOW 14|159r15
+11X1*AFLEX_SCANNER_JAMMED
+12E6*eob_action_type 14e47 23r36 14|68r36 72r15
+12n27*EOB_ACT_RESTART_SCAN{12E6} 14|114r16 214r14
+13n27*EOB_ACT_END_OF_FILE{12E6} 14|107r20 198r14
+14n27*EOB_ACT_LAST_MATCH{12E6} 14|109r20 217r14
+15e1*YY_END_OF_BUFFER_CHAR{character} 14|118r30 119r34 189r34 206r34 207r38
+16i1*yy_n_chars{integer} 14|75r23 94m5 103m58 105r10 117m5 117r19 118r15
+. 119r15 144r23 156m5 205m9 206r19 207r19
+19b1*yy_eof_has_been_seen{boolean} 14|58m5 90r10 112m5 208m9
+22U11*YY_INPUT 22<20 22<56 22>77 14|6b11 59l5 59t13 103s5
+22a20 buf{12|10A6} 14|6b20 9r22 15m14 25m12 35m14 45m12
+22i56 result{integer} 14|6b56 54m5 56m27
+22i77 max_size{integer} 14|6b77 13r20 33r20
+23V10*yy_get_next_buffer{12E6} 14|68b10 131l5 131t23 194s10
+24U11*yyunput 24>20 24=35 14|133b11 176l5 176t12 180s6
+24e20 c{character} 14|133b20 168r29
+24i35 yy_bp{integer} 14|133b35 155m5 155r14 163r22 172r19
+25U11*unput 25>17 14|178b11 181l5 181t10
+25e17 c{character} 14|178b17 180r15
+26V10*input{character} 14|183b10 213s18 228l5 228t10
+27U11*output 27>18 14|230b11 237l5 237t11
+27e18 c{character} 14|230b18 233r37 235r19
+28V10*yywrap{boolean} 14|199s14 240b10 243l5 243t11
+29U11*Open_Input 29>22 14|245b11 249l5 249t15
+29a22 fname{string} 14|245b22 248r36
+30U11*Close_Input 14|258b11 263l5 263t16
+31U11*Create_Output 31>25 14|251b11 256l5 256t18
+31a25 fname{string} 14|251b25 253r9 254r44
+32U11*Close_Output 14|265b11 270l5 270t17
+X 14 test_script_scanner_io.adb
+7e5 c{character} 24m33 25r24 44m16 45r24
+8i5 i{integer} 13r15 30m10 30r15 33r15 50m10 50r15 54r15 56r37
+9i5 loc{integer} 15r18 25r16 29m10 29r17 35r18 45r16 49m10 49r17
+69i5 dest{integer} 85r19 86m5 86r13
+70i5 source{integer} 85r38 87m5 87r15
+71i5 number_to_move{integer} 82m5 84r17 96r34 103r25 106r10 117r32
+72e5 ret_val{13|12E6} 107m9 109m9 114m5 130r12
+73i5 num_to_read{integer} 96m5 98r10 99m9 103r70
+84i9 i{integer}
+134i5 number_to_move{integer} 144m5 146r15
+135i5 dest{integer} 145m5 149m9 149r17 151r23 154r30 155r22
+136i5 source{integer} 146m5 148r13 150m9 150r19 151r42 154r37 155r29
+137i5 tmp_yy_cp{integer} 139m5 140r15 142r10 154m5 154r18 158r10 163r10 163r47
+. 164r15 167m5 167r18 168r15 173r31 174r15 175r19
+184e5 c{character} 223m5 227r12
+185i5 yy_cp{integer} 187r15
+X 15 text_io.ads
+24K9*Text_IO=24:29 13|2w6 2r19 14|233r7 235r7 261r6 268r6
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS test_script_scanner_io__yy_input 0
+GG EK_GLOBALS test_script_scanner_io__yy_input local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 test_script_scanner_io__user_input_file test_script_scanner_io__yy_eof_has_been_seen proper_output 1 test_script_scanner_io__yy_eof_has_been_seen refined_proof_in 0 refined_input 2 test_script_scanner_io__user_input_file test_script_scanner_io__yy_eof_has_been_seen refined_output 1 test_script_scanner_io__yy_eof_has_been_seen calls_proof 0 calls 0 calls_conditional 7 ada__text_io__is_open ada__text_io__skip_line ada__text_io__skip_line__2 ada__text_io__end_of_line ada__text_io__end_of_line__2 ada__text_io__get ada__text_io__get__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 test_script_scanner_io__user_input_file test_script_scanner_io__yy_eof_has_been_seen LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__yy_get_next_buffer 0
+GG EK_GLOBALS test_script_scanner_io__yy_get_next_buffer local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 6 test_script_scanner_io__user_input_file test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_c_buf_p proper_output 4 test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf refined_proof_in 0 refined_input 6 test_script_scanner_io__user_input_file test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_c_buf_p refined_output 4 test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf calls_proof 0 calls 0 calls_conditional 7 ada__text_io__is_open ada__text_io__skip_line ada__text_io__skip_line__2 ada__text_io__end_of_line ada__text_io__end_of_line__2 ada__text_io__get ada__text_io__get__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 5 test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_c_buf_p LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__yyunput 0
+GG EK_GLOBALS test_script_scanner_io__yyunput local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 5 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p proper_output 5 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_proof_in 0 refined_input 5 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_output 5 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 5 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__unput 0
+GG EK_GLOBALS test_script_scanner_io__unput local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 6 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p proper_output 6 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_proof_in 0 refined_input 6 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_output 6 test_script_scanner_io__yy_n_chars test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_bp test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 test_script_scanner_dfa__yy_bp LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__input 0
+GG EK_GLOBALS test_script_scanner_io__input local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 7 test_script_scanner_io__user_input_file test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p proper_output 6 test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_proof_in 0 refined_input 7 test_script_scanner_io__user_input_file test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p refined_output 6 test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p calls_proof 0 calls 0 calls_conditional 7 ada__text_io__is_open ada__text_io__skip_line ada__text_io__skip_line__2 ada__text_io__end_of_line ada__text_io__end_of_line__2 ada__text_io__get ada__text_io__get__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 6 test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen test_script_scanner_dfa__yytext_ptr test_script_scanner_dfa__yy_ch_buf test_script_scanner_dfa__yy_hold_char test_script_scanner_dfa__yy_c_buf_p LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__output 0
+GG EK_GLOBALS test_script_scanner_io__output local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 test_script_scanner_io__user_output_file proper_output 0 refined_proof_in 0 refined_input 1 test_script_scanner_io__user_output_file refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__is_open ada__text_io__put ada__text_io__put__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 test_script_scanner_io__user_output_file LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__yywrap 0
+GG EK_GLOBALS test_script_scanner_io__yywrap local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__open_input 0
+GG EK_GLOBALS test_script_scanner_io__open_input local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 test_script_scanner_io__user_input_file test_script_scanner_dfa__yy_init proper_output 2 test_script_scanner_io__user_input_file test_script_scanner_dfa__yy_init refined_proof_in 0 refined_input 2 test_script_scanner_io__user_input_file test_script_scanner_dfa__yy_init refined_output 2 test_script_scanner_io__user_input_file test_script_scanner_dfa__yy_init calls_proof 0 calls 0 calls_conditional 1 ada__text_io__open local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 test_script_scanner_io__user_input_file test_script_scanner_dfa__yy_init LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__close_input 0
+GG EK_GLOBALS test_script_scanner_io__close_input local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 test_script_scanner_io__user_input_file proper_output 1 test_script_scanner_io__user_input_file refined_proof_in 0 refined_input 1 test_script_scanner_io__user_input_file refined_output 1 test_script_scanner_io__user_input_file calls_proof 0 calls 0 calls_conditional 2 ada__text_io__close ada__text_io__is_open local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 test_script_scanner_io__user_input_file LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__create_output 0
+GG EK_GLOBALS test_script_scanner_io__create_output local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 test_script_scanner_io__user_output_file proper_output 1 test_script_scanner_io__user_output_file refined_proof_in 0 refined_input 1 test_script_scanner_io__user_output_file refined_output 1 test_script_scanner_io__user_output_file calls_proof 0 calls 0 calls_conditional 1 ada__text_io__create local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 test_script_scanner_io__user_output_file LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io__close_output 0
+GG EK_GLOBALS test_script_scanner_io__close_output local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 test_script_scanner_io__user_output_file proper_output 1 test_script_scanner_io__user_output_file refined_proof_in 0 refined_input 1 test_script_scanner_io__user_output_file refined_output 1 test_script_scanner_io__user_output_file calls_proof 0 calls 0 calls_conditional 2 ada__text_io__close ada__text_io__is_open local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 test_script_scanner_io__user_output_file LOCKS 0
+GG EK_DIRECT_CALLS test_script_scanner_io 0
+GG EK_GLOBALS test_script_scanner_io local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 2 test_script_scanner_io__user_input_file test_script_scanner_io__user_output_file calls_proof 0 calls 0 calls_conditional 0 local_var 4 test_script_scanner_io__user_input_file test_script_scanner_io__user_output_file test_script_scanner_io__yy_n_chars test_script_scanner_io__yy_eof_has_been_seen FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

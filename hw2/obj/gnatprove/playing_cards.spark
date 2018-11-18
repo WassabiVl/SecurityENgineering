@@ -1,0 +1,81 @@
+{
+  "spark": [
+    {
+      "name": "Playing_Cards.Card",
+      "sloc": [
+        {
+          "file": "playing_cards.ads",
+          "line": 6
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Playing_Cards.Deck",
+      "sloc": [
+        {
+          "file": "playing_cards.ads",
+          "line": 7
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Playing_Cards.Print",
+      "sloc": [
+        {
+          "file": "playing_cards.ads",
+          "line": 9
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Playing_Cards.Deal_Three_Cards",
+      "sloc": [
+        {
+          "file": "playing_cards.ads",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Playing_Cards.Shuffle",
+      "sloc": [
+        {
+          "file": "playing_cards.ads",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Playing_Cards.New_Deck",
+      "sloc": [
+        {
+          "file": "playing_cards.ads",
+          "line": 12
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 4.81531210243702E-03,
+    "globals (basic)": 3.23697589337826E-02,
+    "globals/properties (advanced)": 5.72712570428848E-02,
+    "flow analysis": 6.44000014290214E-04,
+    "codepeer results": 8.39400036056759E-06,
+    "init_why_sections": 1.20406097266823E-03,
+    "translation of standard": 1.32274208590388E-02,
+    "translation of compilation unit": 1.13627575337887E-01,
+    "proof": 5.12999986312934E-06
+  }
+}

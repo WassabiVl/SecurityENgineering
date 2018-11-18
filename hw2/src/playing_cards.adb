@@ -58,7 +58,7 @@ package body Playing_Cards is
  
    procedure Shuffle (The_Deck : in out Deck) is
       procedure Swap(Left, Right : in out Deck_Index) is
-         Temp : Deck_Index := Left;
+         Temp : constant Deck_Index := Left;
       begin
          Left := Right;
          Right := Temp;

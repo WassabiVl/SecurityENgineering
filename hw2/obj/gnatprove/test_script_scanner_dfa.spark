@@ -1,0 +1,51 @@
+{
+  "spark": [
+    {
+      "name": "test_script_scanner_dfa.YYText",
+      "sloc": [
+        {
+          "file": "test_script_scanner_dfa.ads",
+          "line": 19
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "test_script_scanner_dfa.YYLength",
+      "sloc": [
+        {
+          "file": "test_script_scanner_dfa.ads",
+          "line": 20
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "test_script_scanner_dfa.YY_DO_BEFORE_ACTION",
+      "sloc": [
+        {
+          "file": "test_script_scanner_dfa.ads",
+          "line": 21
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 6.22083025518805E-04,
+    "globals (basic)": 4.90111007820815E-04,
+    "globals/properties (advanced)": 2.27661803364754E-03,
+    "flow analysis": 2.10780999623239E-04,
+    "codepeer results": 2.75130005320534E-05,
+    "init_why_sections": 1.09260901808739E-03,
+    "translation of standard": 1.13327261060476E-02,
+    "translation of compilation unit": 5.70180406793952E-03,
+    "proof": 5.12999986312934E-06
+  }
+}

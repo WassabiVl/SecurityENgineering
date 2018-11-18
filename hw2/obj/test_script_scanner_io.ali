@@ -1,0 +1,152 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U test_script_scanner_io%b  test_script_scanner_io.adb  4e96bf33 NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z interfaces%s		interfac.ads		interfac.ali
+
+U test_script_scanner_io%s  test_script_scanner_io.ads  2866145a EE OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W test_script_scanner_dfa%s  test_script_scanner_dfa.adb  test_script_scanner_dfa.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_script_scanner_dfa.ads  20181111155702 926c4ed6 test_script_scanner_dfa%s
+D test_script_scanner_io.ads  20181111155700 9bb89214 test_script_scanner_io%s
+D test_script_scanner_io.adb  20181111155702 d52e2d27 test_script_scanner_io%b
+D text_io.ads		20180524051736 21b2c898 text_io%s
+X 6 a-textio.ads
+52P9*File_Type 24|5r19 6r20
+53n23*In_File{53E9} 25|248r27
+53n32*Out_File{53E9} 25|254r34
+86U14*Create 25|254s9
+92U14*Open 25|248s5
+98U14*Close 25|261s14 268s14
+107V13*Is_Open{boolean} 25|12s9 232s9 260s8 267s8
+168U14*Skip_Line 25|16s14
+169U14*Skip_Line 25|36s14
+171V13*End_Of_Line{boolean} 25|14s14
+172V13*End_Of_Line{boolean} 25|34s14
+205U14*Get 25|24s12
+206U14*Get 25|44s12
+207U14*Put 25|233s15
+208U14*Put 25|235s15
+297X4*End_Error 25|56r14
+X 23 test_script_scanner_dfa.ads
+1K9*test_script_scanner_dfa 28e28 24|1w6 1r35
+3i1*yytext_ptr{integer} 25|70r25 82r36 128m5 172m5 191m5 200r27 210m9 215r23
+8i1*YY_READ_BUF_SIZE{integer} 25|98r24 99r24
+9i1*YY_BUF_SIZE{integer} 25|96r20 145r13 156r19
+10A6*unbounded_character_array(character)<integer> 24|22r29 25|6r29
+12a1*yy_ch_buf{11A9} 25|85m9 85r28 103m15 103r15 103r41 118m5 119m5 140m5
+. 151m13 151r32 163r37 164m5 168m5 173r21 174m5 187m5 189r10 204m9 206m9
+. 207m9 211r25 223r10 225r21
+13i8*yy_bp{integer} 25|180m18 180r18
+16e1*yy_hold_char{character} 25|140r29 173m5 187r25 211m9 225m5
+17i1*yy_c_buf_p{integer} 25|75r10 82r23 139r18 175m5 185r24 189r20 191r19
+. 192m5 192r19 200m13 209m9 210r23 211r35 215m9 223r20 224m5 224r19 225r31
+23b1*yy_init{boolean} 25|247m5
+X 24 test_script_scanner_io.ads
+4K9*test_script_scanner_io 35l5 35e27 25|2b14 273l5 273t27
+5p1*user_input_file{6|52P9} 25|12r17 14r26 16r24 24r16 248m10 248r10 260r16
+. 261m20 261r20
+6p1*user_output_file{6|52P9} 25|232r17 233r19 254m16 254r16 267r16 268m20
+. 268r20
+7X1*NULL_IN_INPUT 25|76r15
+8X1*AFLEX_INTERNAL_ERROR
+9X1*UNEXPECTED_LAST_MATCH 25|218r15
+10X1*PUSHBACK_OVERFLOW 25|159r15
+11X1*AFLEX_SCANNER_JAMMED
+12E6*eob_action_type 14e47 23r36 25|68r36 72r15
+12n27*EOB_ACT_RESTART_SCAN{12E6} 25|114r16 214r14
+13n27*EOB_ACT_END_OF_FILE{12E6} 25|107r20 198r14
+14n27*EOB_ACT_LAST_MATCH{12E6} 25|109r20 217r14
+15e1*YY_END_OF_BUFFER_CHAR{character} 25|118r30 119r34 189r34 206r34 207r38
+16i1*yy_n_chars{integer} 25|75r23 94m5 103m58 105r10 117m5 117r19 118r15
+. 119r15 144r23 156m5 205m9 206r19 207r19
+19b1*yy_eof_has_been_seen{boolean} 25|58m5 90r10 112m5 208m9
+22U11*YY_INPUT 22<20 22<56 22>77 25|6b11 59l5 59t13 103s5
+22a20 buf{23|10A6} 25|6b20 9r22 15m14 25m12 35m14 45m12
+22i56 result{integer} 25|6b56 54m5 56m27
+22i77 max_size{integer} 25|6b77 13r20 33r20
+23V10*yy_get_next_buffer{12E6} 25|68b10 131l5 131t23 194s10
+24U11*yyunput 24>20 24=35 25|133b11 176l5 176t12 180s6
+24e20 c{character} 25|133b20 168r29
+24i35 yy_bp{integer} 25|133b35 155m5 155r14 163r22 172r19
+25U11*unput 25>17 25|178b11 181l5 181t10
+25e17 c{character} 25|178b17 180r15
+26V10*input{character} 25|183b10 213s18 228l5 228t10
+27U11*output 27>18 25|230b11 237l5 237t11
+27e18 c{character} 25|230b18 233r37 235r19
+28V10*yywrap{boolean} 25|199s14 240b10 243l5 243t11
+29U11*Open_Input 29>22 25|245b11 249l5 249t15
+29a22 fname{string} 25|245b22 248r36
+30U11*Close_Input 25|258b11 263l5 263t16
+31U11*Create_Output 31>25 25|251b11 256l5 256t18
+31a25 fname{string} 25|251b25 253r9 254r44
+32U11*Close_Output 25|265b11 270l5 270t17
+X 25 test_script_scanner_io.adb
+7e5 c{character} 24m33 25r24 44m16 45r24
+8i5 i{integer} 13r15 30m10 30r15 33r15 50m10 50r15 54r15 56r37
+9i5 loc{integer} 15r18 25r16 29m10 29r17 35r18 45r16 49m10 49r17
+69i5 dest{integer} 85r19 86m5 86r13
+70i5 source{integer} 85r38 87m5 87r15
+71i5 number_to_move{integer} 82m5 84r17 96r34 103r25 106r10 117r32
+72e5 ret_val{24|12E6} 107m9 109m9 114m5 130r12
+73i5 num_to_read{integer} 96m5 98r10 99m9 103r70
+84i9 i{integer}
+134i5 number_to_move{integer} 144m5 146r15
+135i5 dest{integer} 145m5 149m9 149r17 151r23 154r30 155r22
+136i5 source{integer} 146m5 148r13 150m9 150r19 151r42 154r37 155r29
+137i5 tmp_yy_cp{integer} 139m5 140r15 142r10 154m5 154r18 158r10 163r10 163r47
+. 164r15 167m5 167r18 168r15 173r31 174r15 175r19
+184e5 c{character} 223m5 227r12
+185i5 yy_cp{integer} 187r15
+X 26 text_io.ads
+24K9*Text_IO=24:29 24|2w6 2r19 25|233r7 235r7 261r6 268r6
+

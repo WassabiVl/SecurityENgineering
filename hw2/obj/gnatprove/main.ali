@@ -1,0 +1,40 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U main%b		main.adb		89157d4a OO SU
+W playing_cards%s	playing_cards.adb	playing_cards.ali
+Z system%s		system.ads		system.ali
+
+D main.adb		20181118164054 57e7e1f8 main%b
+D playing_cards.ads	20181111155214 def29cb2 playing_cards%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 main.adb
+2U11*Main 2b11 9l5 9t9
+3r4 the_deck{2|7R9} 6m4 7m38 7r38 8m43 8r43
+4r4 card{2|6R9} 8m64
+X 2 playing_cards.ads
+2K9*Playing_Cards 1|1w6 3r15 4r11 6r16 7r4 8r4 2|30e18
+6R9*Card 1|4r25 2|21e14
+7R9*Deck 1|3r29 2|28e14
+10U14*Deal_Three_Cards 1|8s18
+11U14*Shuffle 1|7s18
+12V13*New_Deck{7R9} 1|6s30
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS main 0
+GG EK_GLOBALS main local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 playing_cards__deal_three_cards playing_cards__shuffle playing_cards__new_deck local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

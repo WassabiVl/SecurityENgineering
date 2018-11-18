@@ -1,0 +1,368 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U testgen_translator%b	testgen_translator.adb	9a983066 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W test_script_parser%s	test_script_parser.adb	test_script_parser.ali
+W test_script_scanner%s	test_script_scanner.adb	test_script_scanner.ali
+
+U testgen_translator%s	testgen_translator.ads	144aa067 OO PK
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-charac.ads		20180524051736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051736 66457d31 ada.characters.latin_1%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-string.ads		20180524051736 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051736 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051738 8098c91f ada.strings.unbounded%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D lists.ads		20181111155700 4e37866a lists%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_script_parser.ads  20181118162502 771db60c test_script_parser%s
+D test_script_scanner.ads  20181118163146 3ccb4fdc test_script_scanner%s
+D testgen_translator.ads  20181111155700 35f868ff testgen_translator%s
+D testgen_translator.adb  20181111155700 1a7852a8 testgen_translator%b
+D text_io.ads		20180524051736 21b2c898 text_io%s
+X 1 ada.ads
+16K9*Ada 20e8 27|21r6 21r35 22r6 22r31 23r6 29r23
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 27|22w10 22r35
+66U14*Put 27|160s11[5|18] 176s47[5|18] 183s48[5|18] 190s49[5|18] 215s47[5|18]
+. 222s48[5|18] 229s48[5|18] 636s32[5|18] 651s46[5|18]
+X 8 a-string.ads
+16K13*Strings 35e16 27|23r10 29r27
+X 10 a-strunb.ads
+76K21*Unbounded 491e26 27|23w18 29r35
+79R9*Unbounded_String<4|43R9> 474e14 27|31r32 38r32 148r36 149r33 244r20
+. 246r20 259r48 370r55
+82r4*Null_Unbounded_String{79R9} 27|249r21
+94V13*To_Unbounded_String{79R9} 27|151s19
+100V13*To_String{string} 27|34s17 40s24 122s23 151s52 256s18 343s16 385s31
+119V14*"&"{79R9} 27|252s26
+123V14*"&"{79R9} 27|254s43
+X 11 a-textio.ads
+49K13*Text_IO 471e16 27|21w10 21r39
+52P9*File_Type 26|33r50 34r50 35r50 27|53r50 54r50 55r50
+104V13*Name{string} 27|457s39 458s39
+113U14*Set_Input 27|674s5 700s5
+114U14*Set_Output 27|673s5 699s5
+117V13*Standard_Input{52P9} 27|700s16
+118V13*Standard_Output{52P9} 27|699s17
+165U14*New_Line 27|631s11
+166U14*New_Line 27|322s7 454s7 456s7 459s7 460s7 463s7 469s7 497s7 524s7
+. 534s7 536s7 553s7 557s9 581s7 591s7 634s8
+208U14*Put 27|110s9 121s35 130s9
+242U14*Put 27|157s11 158s11 159s11 161s11 176s24 177s12 183s25 190s26 194s11
+. 215s24 216s12 222s25 229s25 233s11 636s8 651s23
+259U14*Put_Line 27|624s11 627s11 707s7 712s7
+263U14*Put_Line 27|45s6 46s6 47s6 49s6 50s6 112s7 122s9 179s12 184s13 191s14
+. 196s11 218s12 223s13 230s13 235s11 452s7 453s7 455s7 457s7 458s7 461s7
+. 462s7 470s7 472s10 474s7 475s7 476s7 477s7 478s7 479s7 480s7 481s7 482s7
+. 484s9 485s9 486s9 487s9 488s9 489s9 490s9 492s9 494s7 495s7 498s7 499s7
+. 500s7 501s7 502s7 503s7 504s7 505s7 506s7 507s7 508s7 509s7 510s7 511s7
+. 512s7 513s7 514s7 515s7 516s7 517s7 518s7 519s7 520s7 521s7 522s7 523s7
+. 525s7 535s7 582s7 637s8 652s11
+292X4*Status_Error 27|703r22
+293X4*Mode_Error 27|703r37
+295X4*Use_Error 27|703r10
+X 15 lists.ads
+49P16*LIST
+X 24 test_script_parser.ads
+38K9*Test_Script_Parser 129e23 27|25w6 25r31
+42X3*Parse_Error 27|706r25
+44K11*Exception_Lists[15|20] 27|86r36 87r36 88r46 91r11 241r34 243r11 279r11
+. 327r30 329r23 330r23 406r42 407r24 586r11 588r16
+47K11*Code_Lists[15|20] 27|115r41 116r11 313r40 371r51 372r11 406r11 409r14
+. 529r11 587r16 617r11
+52n26*Stop{52E8} 27|201r39 293r71 306r40 606r71
+52n32*Continue{52E8} 27|483r40
+54R8*General_Part_Type 60e39 27|72r24
+55e31*Fail_Handling{52E8} 27|201r23
+56e31*Error_Handling{52E8} 27|293r54 306r23 483r23 606r54
+57p31*Context{15|49P16[47]} 27|533r34
+58p31*Exceptions{15|49P16[44]} 27|284r36 285r41 352r51 597r36 601r41
+59p31*Define_Part{15|49P16[47]} 27|554r36 556r36
+66r30*Path{63R11} 27|343r40 344r48 346r40 347r41 415r44 417r37 422r45 424r56
+. 430r46 432r38
+67p30*Predicate{15|49P16[47]} 27|420r38 422r64
+70K11*Pass_Clause_Lists[15|20] 27|327r11 328r23 406r23 408r14
+73R8*Test_Case_Type 81e36 27|165r49 207r40 326r42 369r48 405r44 618r19
+74i28*Number{natural} 27|622r21 623r21 625r48
+75r28*Title{10|79R9} 27|184r48 191r49 223r48 230r48 637r36 652r46
+76p28*Define_Part{15|49P16[47]} 27|639r34 642r35
+77p28*Prepare_Part{15|49P16[47]} 27|655r34 656r31
+78p28*Test_Part{15|49P16[47]} 27|334r31
+79p28*Pass_Part{15|49P16[70]} 27|340r42 414r36
+80p28*Cleanup_Part{15|49P16[47]} 27|662r34 663r31
+84U13*Get_General_Part 27|531s7
+101U13*Get_Code_Part 27|590s7
+113U13*Get_Test_Case 27|621s8
+49P16*LIST 27|86r52[24|44] 87r52[24|44] 88r62[24|44] 93r16[24|44] 115r52[24|47]
+. 241r50[24|44] 313r51[24|47] 329r39[24|44] 371r62[24|47] 407r40[24|44] 409r25[24|47]
+. 587r27[24|47]
+50P16*LISTITER<15|49P16[44]> 27|92r16[24|44] 117r14[24|47] 245r16[24|44]
+. 280r11[24|44] 328r41[24|70] 330r39[24|44] 373r11[24|47] 408r32[24|70] 588r32[24|44]
+106U13*Attach 27|99s11[24|44] 347s11[24|44] 415s7[24|44] 430s9[24|44]
+206V12*Create{15|49P16[44]} 27|95s17[24|44] 341s18[24|44] 412s25[24|44]
+291U13*Destroy 27|445s7[24|44]
+333V12*FirstValue{10|79R9} 27|378s32[24|47] 380s32[24|47]
+348U13*Forward 27|101s9[24|44] 123s9[24|47] 253s9[24|44] 295s11[24|44] 349s9[24|70]
+. 358s9[24|44] 383s10[24|47] 386s13[24|47] 428s9[24|70] 608s11[24|44]
+379V12*IsEmpty{boolean} 27|284s14[24|44] 420s16[24|47] 554s14[24|47] 597s14[24|44]
+. 639s15[24|47] 655s15[24|47] 662s15[24|47]
+391V12*IsInList{boolean} 27|98s16[24|44]
+418V12*Length{integer} 27|376s12[24|47]
+442V12*MakeListIter{15|50P16[44]} 27|96s12[24|44] 119s12[24|47] 248s12[24|44]
+. 285s14[24|44] 340s18[24|70] 353s12[24|44] 382s15[24|47] 414s12[24|70] 601s14[24|44]
+461V12*More{boolean} 27|97s13[24|44] 120s13[24|47] 251s23[24|44] 254s12[24|44]
+. 286s15[24|44] 342s13[24|70] 354s13[24|44] 429s23[24|70] 602s15[24|44]
+548V12*CellValue{10|79R9} 27|98s41[24|44] 99s27[24|44] 122s34[24|47] 252s28[24|44]
+. 287s24[24|44] 343s27[24|70] 344s35[24|70] 346s27[24|70] 347s28[24|70] 355s33[24|44]
+. 357s23[24|44] 385s42[24|47] 415s31[24|70] 417s24[24|70] 420s25[24|70] 422s32[24|70]
+. 422s51[24|70] 424s43[24|70] 430s33[24|70] 432s25[24|70] 603s24[24|44]
+X 25 test_script_scanner.ads
+30K9*Test_Script_Scanner 54e24 27|24w6 620r23 678r5 682r12 683r14 685r14
+. 688r14 690r14 708r48 713r48
+34n49*Key_Code{32E8} 27|688r34
+36n18*Key_Begin_Test_Case{32E8} 27|685r34
+44n18*End_Of_Input{32E8} 27|683r34
+44n32*Error{32E8} 27|690r34
+46U13*Next_Token 27|678s25
+48V12*Current_Token{32E8} 27|682s32
+50V12*Current_Line{positive} 27|620s43 708s68 713s68
+X 26 testgen_translator.ads
+25K9*Testgen_Translator 64l5 64e23 27|27b14 718l5 718t23
+27X3*File_Error 27|704r13
+27X15*Syntax_Error 27|691r17 693r17 706r10 709r13
+27X29*Semantic_Error 27|711r10
+29E8*Output_Mode 29e62 37r42 38r42 27|57r42 58r42
+29n24*Off{29E8} 27|173r14 212r14
+29n29*Numbers{29E8} 27|175r14 214r14
+29n38*Locations{29E8} 27|175r24 178r40 214r24 217r40
+29n49*Titles{29E8} 27|180r14 181r38 182r38 188r38 189r38 219r14 220r38 221r38
+. 227r38 228r38 649r30 650r29
+29n57*Full{29E8} 27|181r46 182r46 187r14 188r46 189r46 220r46 221r46 226r14
+. 227r46 228r46 649r38 650r37
+31U13*Put_Descriptions_Of_Output_Modes 27|43b13 51l7 51t39
+33U13*Translate 33>24 34>24 35>24 36>24 37>24 38>24 39>24 40>24 27|53b13
+. 715l7 715t16
+33p24 Input_File{11|52P9} 27|53b24 458r45 674r17
+34p24 Output_File{11|52P9} 27|54b24 457r45 673r17
+35p24 Error_Stream{11|52P9} 27|55b24 624r21 627r21 631r21 707r17 712r17
+36a24 Unit_Name{string} 27|56b24 525r26 535r32
+37e24 Fail_Output{29E8} 27|57b24 172r12 178r26 182r23 189r23 221r23 228r23
+. 650r14
+38e24 Pass_Output{29E8} 27|58b24 181r23 188r23 211r12 217r26 220r23 227r23
+. 649r15
+39a24 Script_Name{string} 27|59b24 158r15 474r44
+40b24 Long_Trailer{boolean} 27|60b24 471r10
+58a5*Magic_String_1{string} 27|452r16
+60a5*Magic_String_2{string} 27|453r16
+X 27 testgen_translator.adb
+29K11 ASU=29:35 31r28 34r13 38r28 40r20 122r19 148r32 149r29 151r15 151r48
+. 244r16 246r16 249r17 256r14 259r44 343r12 370r51 385r27
+31V12 "&"{string} 35l7 35t10
+31V13 "&"{string}
+31r17 Left{10|79R9} 34r28
+32a17 Right{string} 34r36
+37V12 "&"{string} 41l7 41t10 184s28 191s29 223s28 230s28 265s29 267s50 344s33
+. 346s25 355s31 356s57 378s30 380s30 393s37 398s39 417s22 424s41 432s23 637s24
+. 652s26
+37V13 "&"{string}
+37a17 Left{string} 40r13
+38r17 Right{10|79R9} 40r35
+65i5 Indent{natural} 109r21 121r23 129r21 266m7 266r17 275m7 275r17 283m7
+. 283r17 309m7 309r17 317m7 317r17 319m7 319r17 333m7 333r17 336m7 336r17
+. 338m7 338r17 364m7 364r17 381m10 381r20 388m10 388r20 391m7 391r17 395m7
+. 395r17 397m7 397r17 400m7 400r17 413m7 413r17 419m9 419r19 427m9 427r19
+. 436m7 436r17 440m7 440r17 443m7 443r17 464m7 532m7 537m7 594m7 594r17 598m9
+. 598r19 600m9 600r19 612m7 612r17 641m11 641r21 643m11 643r21 647m8 647r18
+. 666m8 666r18
+67i5 Line_Number{natural} 160r15 620m8
+69i5 Indent_Step{natural} 266r26 275r26 283r26 309r26 317r26 319r26 333r26
+. 336r26 338r26 364r26 391r26 395r26 397r26 400r26 413r26 419r28 427r28 436r26
+. 440r26 443r26 537r17 594r26 598r28 600r28 612r26 641r30 643r30 647r27 666r27
+70i5 Max_Path_Length{positive}
+72r5 General_Part{24|54R8} 201r10 284r23 285r28 293r41 306r10 352r38 483r10
+. 531m25 531r25 533r21 554r23 556r23 597r23 601r28 606r41
+74i5 Test_Case_Number{positive} 176r52 183r53 190r54 215r52 222r53 229r53
+. 291r59 305r37 623r31 629r38 636r37 651r51 687m11 687r31
+85V14 Purged_Exception_List{15|49P16[24|44]} 104l9 104t30 352s15
+86p17 Complete_List{15|49P16[24|44]} 96r26
+87p17 Subtract_List{15|49P16[24|44]} 98r26
+92p7 I{15|50P16[24|44]} 96m7 97r19 98r52 99r38 101m18 101r18
+93p7 Result{15|49P16[24|44]} 95m7 99m19 99r19 103r14
+107U15 Put_Indented 113l9 113t21 170s7 171s7 186s11 197s11 198s11 202s9 210s7
+. 225s11 236s11 237s11 265s7 267s7 270s9 273s9 282s7 298s7 299s7 300s7 301s7
+. 302s7 307s9 316s7 321s7 332s7 335s7 337s7 344s11 345s11 355s9 356s9 361s7
+. 362s7 365s7 378s10 380s10 385s13 390s7 396s7 401s7 411s7 416s7 431s9 435s7
+. 441s7 446s7 538s7 539s7 540s7 541s7 542s7 543s7 544s7 545s7 546s7 547s7
+. 548s7 549s7 550s7 551s7 552s7 555s9 559s7 560s7 561s7 562s7 563s7 564s7
+. 565s7 566s7 567s7 568s7 569s7 570s7 571s7 572s7 573s7 574s7 575s7 576s7
+. 577s7 578s7 579s7 580s7 592s7 593s7 599s9 613s7 640s11 646s8 667s8
+107a29 Line{string} 112r17
+109i11 I{integer}
+115U15 Put_Indented 125l9 125t21 318s7 334s7 533s7 556s9 595s7 642s11
+115p29 Code_List{15|49P16[24|47]} 119r26
+117p7 I{15|50P16[24|47]} 119m7 120r19 122r45 123m18 123r18
+121i13 J{integer}
+127U15 Put_Indent 132l9 132t19 176s12 183s13 190s14 193s11 215s12 222s13
+. 229s13 232s11 635s8 651s11
+129i11 I{integer}
+134V14 Quoted{string} 141s20 144s20 146l9 146t15 151s40
+134a22 Data{string} 137r11 139r14 139r20 141r28 141r34 141r52 143r18 143r24
+. 144r28 144r34 144r52
+148V14 Quoted{10|79R9} 152l9 152t15 184s30 191s31 223s30 230s30 652s28
+148r22 Data{10|79R9} 151r63
+154U15 Put_Location 163l9 163t21 178s12 195s11 217s12 234s11
+154b28 Condition{boolean} 156r11
+165U15 Put_Fail 204l9 204t17 398s7 437s7
+165r25 Test_Case{24|73R8} 184r38 191r39
+166a25 Comment_Expression{string} 199r38
+207U15 Put_Pass 239l9 239t17 393s7 424s11
+207r25 Test_Case{24|73R8} 223r38 230r38
+208a25 Comment{string} 237r52
+241V14 Path_Names{string} 257l9 257t19 439s17
+241p26 Names{15|49P16[24|44]} 248r26
+245p7 I{15|50P16[24|44]} 248m7 251r29 252r39 253m18 253r18 254r18
+246r7 Choice{10|79R9} 249m7 252m9 252r19 254m26 254r36 256r29
+259U15 Put_Handler 276l9 276t20 287s11 603s11
+259r28 Name{10|79R9} 265r31 267r52
+260a28 Text_Before{string} 267r38
+261a28 Text_After{string} 268r38
+262b28 Abort_Program{boolean} 272r10
+263b28 Set_Error{boolean} 269r10
+278U15 Put_General_Handlers 310l9 310t29 320s7 444s7
+278a37 Part_Name{string} 289r49 304r21
+280p7 I{15|50P16[24|44]} 285m9 286r21 287r35 295m20 295r20
+313U15 Put_Part 323l9 323t17 656s11 663s11
+313p25 Lines{15|49P16[24|47]} 318r21
+314a25 Part_Name{string} 316r36 320r29 321r35
+326U15 Put_Test_Part 366l9 366t22 659s8
+326r30 Test_Case{24|73R8} 334r21 340r32
+328p7 I{15|50P16[24|70]} 340m7 342r19 343r37 344r45 346r37 347r38 349m18
+. 349r18
+329p7 Handled{15|49P16[24|44]} 341m7 347m19 347r19 352r63
+329p16 Rest{15|49P16[24|44]} 352m7 353r26
+330p7 J{15|50P16[24|44]} 353m7 354r19 355r43 357r33 358m18 358r18
+369U15 Put_Predicate_Check 402l9 402t28 421s11
+369r36 Test_Case{24|73R8} 393r17 398r17
+370r36 Path{10|79R9} 393r39 398r41
+371p36 Predicate{15|49P16[24|47]} 376r20 378r44 380r44 382r29
+373p7 I{15|50P16[24|47]} 382m10 383m19 383r19 385r53 386m22 386r22
+374i7 L{natural} 376m7 377r10 384r24
+384i14 J{integer}
+405U15 Put_Result_Part 447l9 447t24 660s8
+405r32 Test_Case{24|73R8} 414r26 421r32 424r21 437r17
+407p7 Expected_Paths{15|49P16[24|44]} 412m7 415m15 415r15 430m17 430r17 439r29
+. 445m16 445r16
+408p7 I{15|50P16[24|70]} 414m7 415r41 417r34 420r35 422r42 422r61 424r53
+. 428m18 428r18 429r29 430r43 432r35
+409p7 J{15|49P16[24|47]}
+450U15 Put_Header 465l9 465t19 676s5
+467U15 Put_Trailer 526l9 526t20 697s5
+528U15 Translate_General_Part 583l9 583t31 679s5
+585U15 Translate_Code 614l9 614t23 689s11
+587p7 Code{15|49P16[24|47]} 590m22 590r22 595r21
+588p7 I{15|50P16[24|44]} 601m9 602r21 603r34 608m20 608r20
+616U15 Translate_Test_Case 668l9 668t28 686s11
+618r7 Test_Case{24|73R8} 621m23 621r23 622r11 623r11 625r38 637r26 639r24
+. 642r25 652r36 655r24 656r21 659r23 660r25 662r24 663r21
+X 28 text_io.ads
+24K9*Text_IO=24:29 26|23w6 33r42 34r42 35r42 27|53r42 54r42 55r42
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS testgen_translator__put_descriptions_of_output_modes 0
+GG EK_GLOBALS testgen_translator__put_descriptions_of_output_modes local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 ada__text_io__put_line__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__purged_exception_list 0
+GG EK_GLOBALS testgen_translator__translate__purged_exception_list local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 7 test_script_parser__exception_lists__attach__3 test_script_parser__exception_lists__create test_script_parser__exception_lists__forward test_script_parser__exception_lists__isinlist test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_indented 0
+GG EK_GLOBALS testgen_translator__translate__put_indented local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 testgen_translator__translate__indent proper_output 0 refined_proof_in 0 refined_input 1 testgen_translator__translate__indent refined_output 0 calls_proof 0 calls 0 calls_conditional 2 ada__text_io__put__2 ada__text_io__put_line__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_indented__2 0
+GG EK_GLOBALS testgen_translator__translate__put_indented__2 local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 testgen_translator__translate__indent proper_output 0 refined_proof_in 0 refined_input 1 testgen_translator__translate__indent refined_output 0 calls_proof 0 calls 0 calls_conditional 7 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string test_script_parser__code_lists__forward test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_indent 0
+GG EK_GLOBALS testgen_translator__translate__put_indent local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 testgen_translator__translate__indent proper_output 0 refined_proof_in 0 refined_input 1 testgen_translator__translate__indent refined_output 0 calls_proof 0 calls 0 calls_conditional 1 ada__text_io__put__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__quoted 0
+GG EK_GLOBALS testgen_translator__translate__quoted local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__quoted__2 0
+GG EK_GLOBALS testgen_translator__translate__quoted__2 local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_location 0
+GG EK_GLOBALS testgen_translator__translate__put_location local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 testgen_translator__translate__line_number testgen_translator__translate__script_name proper_output 0 refined_proof_in 0 refined_input 2 testgen_translator__translate__line_number testgen_translator__translate__script_name refined_output 0 calls_proof 0 calls 0 calls_conditional 2 ada__text_io__put__4 ada__integer_text_io__put__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 testgen_translator__translate__line_number testgen_translator__translate__script_name LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_fail 0
+GG EK_GLOBALS testgen_translator__translate__put_fail local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 7 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name proper_output 0 refined_proof_in 0 refined_input 7 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name refined_output 0 calls_proof 0 calls 0 calls_conditional 6 ada__text_io__put__2 ada__text_io__put__4 ada__text_io__put_line__2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string ada__integer_text_io__put__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 4 testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_pass 0
+GG EK_GLOBALS testgen_translator__translate__put_pass local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 6 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name proper_output 0 refined_proof_in 0 refined_input 6 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name refined_output 0 calls_proof 0 calls 0 calls_conditional 6 ada__text_io__put__2 ada__text_io__put__4 ada__text_io__put_line__2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string ada__integer_text_io__put__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 3 testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__path_names 0
+GG EK_GLOBALS testgen_translator__translate__path_names local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 7 ada__strings__unbounded__to_string ada__strings__unbounded__Oconcat ada__strings__unbounded__Oconcat__2 test_script_parser__exception_lists__forward test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_handler 0
+GG EK_GLOBALS testgen_translator__translate__put_handler local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 testgen_translator__translate__indent proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 1 testgen_translator__translate__indent refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_general_handlers 0
+GG EK_GLOBALS testgen_translator__translate__put_general_handlers local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__test_case_number proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__test_case_number refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 8 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string test_script_parser__exception_lists__forward test_script_parser__exception_lists__isempty test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__test_case_number LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_part 0
+GG EK_GLOBALS testgen_translator__translate__put_part local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__test_case_number proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__test_case_number refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 13 ada__text_io__new_line__2 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string test_script_parser__exception_lists__forward test_script_parser__exception_lists__isempty test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue test_script_parser__code_lists__forward test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_test_part 0
+GG EK_GLOBALS testgen_translator__translate__put_test_part local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 testgen_translator__translate__indent testgen_translator__translate__general_part proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 2 testgen_translator__translate__indent testgen_translator__translate__general_part refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 18 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string test_script_parser__exception_lists__attach__3 test_script_parser__exception_lists__create test_script_parser__exception_lists__forward test_script_parser__exception_lists__isinlist test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue test_script_parser__code_lists__forward test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue test_script_parser__pass_clause_lists__forward test_script_parser__pass_clause_lists__makelistiter test_script_parser__pass_clause_lists__more test_script_parser__pass_clause_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 testgen_translator__translate__indent testgen_translator__translate__general_part LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_predicate_check 0
+GG EK_GLOBALS testgen_translator__translate__put_predicate_check local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 7 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 7 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 11 ada__text_io__put__2 ada__text_io__put__4 ada__text_io__put_line__2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string ada__integer_text_io__put__2 test_script_parser__code_lists__firstvalue test_script_parser__code_lists__forward test_script_parser__code_lists__length test_script_parser__code_lists__makelistiter test_script_parser__code_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_result_part 0
+GG EK_GLOBALS testgen_translator__translate__put_result_part local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 7 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 7 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 26 ada__text_io__put__2 ada__text_io__put__4 ada__text_io__put_line__2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string ada__strings__unbounded__Oconcat ada__strings__unbounded__Oconcat__2 ada__integer_text_io__put__2 test_script_parser__exception_lists__attach__3 test_script_parser__exception_lists__create test_script_parser__exception_lists__destroy test_script_parser__exception_lists__forward test_script_parser__exception_lists__isempty test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue test_script_parser__code_lists__firstvalue test_script_parser__code_lists__forward test_script_parser__code_lists__isempty test_script_parser__code_lists__length test_script_parser__code_lists__makelistiter test_script_parser__code_lists__cellvalue test_script_parser__pass_clause_lists__forward test_script_parser__pass_clause_lists__makelistiter test_script_parser__pass_clause_lists__more test_script_parser__pass_clause_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 testgen_translator__translate__indent LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_header 0
+GG EK_GLOBALS testgen_translator__translate__put_header local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 5 testgen_translator__translate__indent testgen_translator__translate__input_file testgen_translator__translate__output_file testgen_translator__magic_string_1 testgen_translator__magic_string_2 proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 5 testgen_translator__translate__indent testgen_translator__translate__input_file testgen_translator__translate__output_file testgen_translator__magic_string_1 testgen_translator__magic_string_2 refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 3 ada__text_io__name ada__text_io__new_line__2 ada__text_io__put_line__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 5 testgen_translator__translate__indent testgen_translator__translate__input_file testgen_translator__translate__output_file testgen_translator__magic_string_1 testgen_translator__magic_string_2 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__put_trailer 0
+GG EK_GLOBALS testgen_translator__translate__put_trailer local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 4 testgen_translator__translate__general_part testgen_translator__translate__unit_name testgen_translator__translate__script_name testgen_translator__translate__long_trailer proper_output 0 refined_proof_in 0 refined_input 4 testgen_translator__translate__general_part testgen_translator__translate__unit_name testgen_translator__translate__script_name testgen_translator__translate__long_trailer refined_output 0 calls_proof 0 calls 0 calls_conditional 2 ada__text_io__new_line__2 ada__text_io__put_line__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 4 testgen_translator__translate__general_part testgen_translator__translate__unit_name testgen_translator__translate__script_name testgen_translator__translate__long_trailer LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__translate_general_part 0
+GG EK_GLOBALS testgen_translator__translate__translate_general_part local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__unit_name proper_output 2 testgen_translator__translate__indent testgen_translator__translate__general_part refined_proof_in 0 refined_input 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__unit_name refined_output 2 testgen_translator__translate__indent testgen_translator__translate__general_part calls_proof 0 calls 0 calls_conditional 10 ada__text_io__new_line__2 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string test_script_parser__get_general_part test_script_parser__code_lists__forward test_script_parser__code_lists__isempty test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 3 testgen_translator__translate__indent testgen_translator__translate__general_part testgen_translator__translate__unit_name LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__translate_code 0
+GG EK_GLOBALS testgen_translator__translate__translate_code local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 testgen_translator__translate__indent testgen_translator__translate__general_part proper_output 1 testgen_translator__translate__indent refined_proof_in 0 refined_input 2 testgen_translator__translate__indent testgen_translator__translate__general_part refined_output 1 testgen_translator__translate__indent calls_proof 0 calls 0 calls_conditional 14 ada__text_io__new_line__2 ada__text_io__put__2 ada__text_io__put_line__2 ada__strings__unbounded__to_string test_script_parser__get_code_part test_script_parser__exception_lists__forward test_script_parser__exception_lists__isempty test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue test_script_parser__code_lists__forward test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 testgen_translator__translate__indent testgen_translator__translate__general_part LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate__translate_test_case 0
+GG EK_GLOBALS testgen_translator__translate__translate_test_case local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 8 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__error_stream testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name proper_output 2 testgen_translator__translate__indent testgen_translator__translate__line_number refined_proof_in 0 refined_input 8 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__general_part testgen_translator__translate__test_case_number testgen_translator__translate__error_stream testgen_translator__translate__fail_output testgen_translator__translate__pass_output testgen_translator__translate__script_name refined_output 2 testgen_translator__translate__indent testgen_translator__translate__line_number calls_proof 0 calls 0 calls_conditional 33 ada__text_io__new_line ada__text_io__new_line__2 ada__text_io__put__2 ada__text_io__put__4 ada__text_io__put_line ada__text_io__put_line__2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string ada__strings__unbounded__Oconcat ada__strings__unbounded__Oconcat__2 test_script_scanner__current_line test_script_parser__get_test_case ada__integer_text_io__put__2 test_script_parser__exception_lists__attach__3 test_script_parser__exception_lists__create test_script_parser__exception_lists__destroy test_script_parser__exception_lists__forward test_script_parser__exception_lists__isempty test_script_parser__exception_lists__isinlist test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue test_script_parser__code_lists__firstvalue test_script_parser__code_lists__forward test_script_parser__code_lists__isempty test_script_parser__code_lists__length test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue test_script_parser__pass_clause_lists__forward test_script_parser__pass_clause_lists__makelistiter test_script_parser__pass_clause_lists__more test_script_parser__pass_clause_lists__cellvalue local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 6 testgen_translator__translate__indent testgen_translator__translate__line_number testgen_translator__translate__test_case_number testgen_translator__translate__error_stream testgen_translator__translate__fail_output testgen_translator__translate__pass_output LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__translate 0
+GG EK_GLOBALS testgen_translator__translate local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 testgen_translator__magic_string_1 testgen_translator__magic_string_2 proper_output 0 refined_proof_in 0 refined_input 2 testgen_translator__magic_string_1 testgen_translator__magic_string_2 refined_output 0 calls_proof 0 calls 0 calls_conditional 42 ada__text_io__name ada__text_io__set_input ada__text_io__set_output ada__text_io__standard_input ada__text_io__standard_output ada__text_io__new_line ada__text_io__new_line__2 ada__text_io__put__2 ada__text_io__put__4 ada__text_io__put_line ada__text_io__put_line__2 ada__strings__unbounded__to_unbounded_string ada__strings__unbounded__to_string ada__strings__unbounded__Oconcat ada__strings__unbounded__Oconcat__2 test_script_scanner__next_token test_script_scanner__current_token test_script_scanner__current_line test_script_parser__get_general_part test_script_parser__get_code_part test_script_parser__get_test_case ada__integer_text_io__put__2 test_script_parser__exception_lists__attach__3 test_script_parser__exception_lists__create test_script_parser__exception_lists__destroy test_script_parser__exception_lists__forward test_script_parser__exception_lists__isempty test_script_parser__exception_lists__isinlist test_script_parser__exception_lists__makelistiter test_script_parser__exception_lists__more test_script_parser__exception_lists__cellvalue test_script_parser__code_lists__firstvalue test_script_parser__code_lists__forward test_script_parser__code_lists__isempty test_script_parser__code_lists__length test_script_parser__code_lists__makelistiter test_script_parser__code_lists__more test_script_parser__code_lists__cellvalue test_script_parser__pass_clause_lists__forward test_script_parser__pass_clause_lists__makelistiter test_script_parser__pass_clause_lists__more test_script_parser__pass_clause_lists__cellvalue local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__Oconcat 0
+GG EK_GLOBALS testgen_translator__Oconcat local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 ada__strings__unbounded__to_string local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator__Oconcat__2 0
+GG EK_GLOBALS testgen_translator__Oconcat__2 local TRUE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 ada__strings__unbounded__to_string local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS testgen_translator 0
+GG EK_GLOBALS testgen_translator local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 2 testgen_translator__magic_string_1 testgen_translator__magic_string_2 calls_proof 0 calls 0 calls_conditional 0 local_var 2 testgen_translator__magic_string_1 testgen_translator__magic_string_2 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

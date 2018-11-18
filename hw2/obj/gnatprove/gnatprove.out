@@ -1,0 +1,172 @@
+Summary of SPARK analysis
+=========================
+
+----------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer   Provers   Justified   Unproved
+----------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .         .           .          .
+Flow Dependencies                 .         .          .          .         .           .          .
+Initialization                    .         .          .          .         .           .          .
+Non-Aliasing                      .         .          .          .         .           .          .
+Run-time Checks                   .         .          .          .         .           .          .
+Assertions                        .         .          .          .         .           .          .
+Functional Contracts              .         .          .          .         .           .          .
+LSP Verification                  .         .          .          .         .           .          .
+----------------------------------------------------------------------------------------------------
+Total                             .         .          .          .         .           .          .
+
+
+Analyzed 10 units
+in unit bank_accounts, 0 subprograms and packages out of 4 analyzed
+  Bank_Accounts.Deposit at bank_accounts.ads:17 skipped
+  Bank_Accounts.Get_Balance at bank_accounts.ads:14 skipped
+  Bank_Accounts.Transfer at bank_accounts.ads:28 skipped
+  Bank_Accounts.Withdraw at bank_accounts.ads:22 skipped
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:2 skipped
+in unit main2, 0 subprograms and packages out of 1 analyzed
+  main2 at main2.adb:6 skipped
+in unit playing_cards, 2 subprograms and packages out of 6 analyzed
+  Playing_Cards.Card at playing_cards.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Playing_Cards.Deal_Three_Cards at playing_cards.ads:10 skipped
+  Playing_Cards.Deck at playing_cards.ads:7 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Playing_Cards.New_Deck at playing_cards.ads:12 skipped
+  Playing_Cards.Print at playing_cards.ads:9 skipped
+  Playing_Cards.Shuffle at playing_cards.ads:11 skipped
+in unit test_script_parser, 0 subprograms and packages out of 106 analyzed
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:73, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:93, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:106, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:119, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:132, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:154, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Attach at lists.ads:166, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.CellValue at lists.ads:548, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Copy at lists.ads:178, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Create at lists.ads:206, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.DeleteHead at lists.ads:218, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.DeleteItem at lists.ads:235, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.DeleteItem at lists.ads:253, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.DeleteItems at lists.ads:265, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.DeleteItems at lists.ads:278, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Destroy at lists.ads:291, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Equal at lists.ads:561, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.FirstValue at lists.ads:333, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Forward at lists.ads:348, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.IsEmpty at lists.ads:379, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.IsInList at lists.ads:391, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.LIST at lists.ads:49, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.LISTITER at lists.ads:50, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Last at lists.adb:13, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.LastValue at lists.ads:403, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Length at lists.ads:418, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.MakeList at lists.ads:430, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.MakeListIter at lists.ads:442, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.More at lists.ads:461, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Next at lists.ads:473, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.ReplaceHead at lists.ads:502, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.ReplaceTail at lists.ads:517, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Code_Lists.Tail at lists.ads:532, instantiated at test_script_parser.ads:47 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:73, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:93, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:106, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:119, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:132, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:154, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Attach at lists.ads:166, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.CellValue at lists.ads:548, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Copy at lists.ads:178, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Create at lists.ads:206, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.DeleteHead at lists.ads:218, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.DeleteItem at lists.ads:235, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.DeleteItem at lists.ads:253, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.DeleteItems at lists.ads:265, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.DeleteItems at lists.ads:278, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Destroy at lists.ads:291, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Equal at lists.ads:561, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.FirstValue at lists.ads:333, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Forward at lists.ads:348, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.IsEmpty at lists.ads:379, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.IsInList at lists.ads:391, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.LIST at lists.ads:49, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.LISTITER at lists.ads:50, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Last at lists.adb:13, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.LastValue at lists.ads:403, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Length at lists.ads:418, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.MakeList at lists.ads:430, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.MakeListIter at lists.ads:442, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.More at lists.ads:461, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Next at lists.ads:473, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.ReplaceHead at lists.ads:502, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.ReplaceTail at lists.ads:517, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Exception_Lists.Tail at lists.ads:532, instantiated at test_script_parser.ads:44 skipped
+  Test_Script_Parser.Get_Code_Lines at test_script_parser.adb:41 skipped
+  Test_Script_Parser.Get_Code_Part at test_script_parser.ads:101 skipped
+  Test_Script_Parser.Get_Exception_Names at test_script_parser.adb:56 skipped
+  Test_Script_Parser.Get_General_Part at test_script_parser.ads:84 skipped
+  Test_Script_Parser.Get_Pass_Clause at test_script_parser.adb:106 skipped
+  Test_Script_Parser.Get_Test_Case at test_script_parser.ads:113 skipped
+  Test_Script_Parser.Get_Test_Case_Title at test_script_parser.adb:77 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:73, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:93, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:106, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:119, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:132, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:154, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Attach at lists.ads:166, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.CellValue at lists.ads:548, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Copy at lists.ads:178, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Create at lists.ads:206, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.DeleteHead at lists.ads:218, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.DeleteItem at lists.ads:235, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.DeleteItem at lists.ads:253, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.DeleteItems at lists.ads:265, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.DeleteItems at lists.ads:278, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Destroy at lists.ads:291, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Equal at lists.ads:561, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.FirstValue at lists.ads:333, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Forward at lists.ads:348, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.IsEmpty at lists.ads:379, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.IsInList at lists.ads:391, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.LIST at lists.ads:49, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.LISTITER at lists.ads:50, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Last at lists.adb:13, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.LastValue at lists.ads:403, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Length at lists.ads:418, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.MakeList at lists.ads:430, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.MakeListIter at lists.ads:442, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.More at lists.ads:461, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Next at lists.ads:473, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.ReplaceHead at lists.ads:502, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.ReplaceTail at lists.ads:517, instantiated at test_script_parser.ads:70 skipped
+  Test_Script_Parser.Pass_Clause_Lists.Tail at lists.ads:532, instantiated at test_script_parser.ads:70 skipped
+in unit test_script_scanner, 0 subprograms and packages out of 6 analyzed
+  Test_Script_Scanner.Current_Line at test_script_scanner.ads:50 skipped
+  Test_Script_Scanner.Current_Token at test_script_scanner.ads:48 skipped
+  Test_Script_Scanner.Next_Token at test_script_scanner.ads:46 skipped
+  Test_Script_Scanner.Standard_Error at test_script_scanner.adb:18 skipped
+  Test_Script_Scanner.Token_Text at test_script_scanner.ads:52 skipped
+  Test_Script_Scanner.YYLex at test_script_scanner.adb:24 skipped
+in unit test_script_scanner_dfa, 0 subprograms and packages out of 3 analyzed
+  test_script_scanner_dfa.YYLength at test_script_scanner_dfa.ads:20 skipped
+  test_script_scanner_dfa.YYText at test_script_scanner_dfa.ads:19 skipped
+  test_script_scanner_dfa.YY_DO_BEFORE_ACTION at test_script_scanner_dfa.ads:21 skipped
+in unit test_script_scanner_io, 0 subprograms and packages out of 11 analyzed
+  test_script_scanner_io.Close_Input at test_script_scanner_io.ads:30 skipped
+  test_script_scanner_io.Close_Output at test_script_scanner_io.ads:32 skipped
+  test_script_scanner_io.Create_Output at test_script_scanner_io.ads:31 skipped
+  test_script_scanner_io.Open_Input at test_script_scanner_io.ads:29 skipped
+  test_script_scanner_io.YY_INPUT at test_script_scanner_io.ads:22 skipped
+  test_script_scanner_io.input at test_script_scanner_io.ads:26 skipped
+  test_script_scanner_io.output at test_script_scanner_io.ads:27 skipped
+  test_script_scanner_io.unput at test_script_scanner_io.ads:25 skipped
+  test_script_scanner_io.yy_get_next_buffer at test_script_scanner_io.ads:23 skipped
+  test_script_scanner_io.yyunput at test_script_scanner_io.ads:24 skipped
+  test_script_scanner_io.yywrap at test_script_scanner_io.ads:28 skipped
+in unit testgen, 0 subprograms and packages out of 1 analyzed
+  Testgen at testgen.adb:32 skipped
+in unit testgen_translator, 0 subprograms and packages out of 4 analyzed
+  Testgen_Translator.Oconcat at testgen_translator.adb:31 skipped
+  Testgen_Translator.Oconcat at testgen_translator.adb:37 skipped
+  Testgen_Translator.Put_Descriptions_Of_Output_Modes at testgen_translator.ads:31 skipped
+  Testgen_Translator.Translate at testgen_translator.ads:33 skipped

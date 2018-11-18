@@ -15,7 +15,7 @@ package body Bank_Accounts is
                      Amount : Cents_Type)
 
    is
-      Balance : Cents_Type := Account.Balance;
+      Balance : constant Cents_Type := Account.Balance;
 
    begin
       if Amount > 10000 then

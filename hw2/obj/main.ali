@@ -1,69 +1,40 @@
-V "GNAT Lib v2016"
+V "GNAT Lib v2018"
 M P W=b
 A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
 A -mtune=generic
-A -march=pentium4
+A -march=x86-64
 P ZX
 
 RN
-RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
-RV SPARK_05
 
-U main%b		main.adb		6ab09330 NE OO SU
-W ada%s			ada.ads			ada.ali
-W ada.numerics%s	a-numeri.ads		a-numeri.ali
-W ada.numerics.discrete_random%s
-W ada.text_io%s		a-textio.adb		a-textio.ali
+U main%b		main.adb		89157d4a NE OO SU
 W playing_cards%s	playing_cards.adb	playing_cards.ali
 
-D ada.ads		20160516092928 3ffc8e18 ada%s
-D a-except.ads		20160516092928 291912d5 ada.exceptions%s
-D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
-D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
-D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
-D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
-D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
-D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
-D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
-D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
-D interfac.ads		20160516092928 5ab55268 interfaces%s
-D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D main.adb		20181108103432 fdcaa7b9 main%b
-D playing_cards.ads	20181108103636 def29cb2 playing_cards%s
-D system.ads		20160516092930 2da59038 system%s
-D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
-D s-exctab.ads		20160516092930 54135002 system.exception_table%s
-D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
-D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
-D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
-D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
-D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
-D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
-D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
-D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
-D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
-X 1 ada.ads
-16K9*Ada 19e8 13|1r6 3r6 4r5 4r18
-X 4 a-numeri.ads
-16K13*Numerics 32e17 13|3r10 4r22
-X 5 a-nudira.ads
-44k22*Discrete_Random 75e33 13|3w19
-X 9 a-textio.ads
-49K13*Text_IO 471e16 13|1w10 4r9
-X 13 main.adb
-5U11*Main 5b11 12l5 12t9
-6r4 the_deck{14|7R9} 9m4 10m38 10r38 11m46 11r46
-7r4 card{14|6R9} 11m67
-X 14 playing_cards.ads
-2K9*Playing_Cards 13|2w6 6r15 7r11 9r16 10r4 11r7 14|30e18
-6R9*Card 13|7r25 14|21e14
-7R9*Deck 13|6r29 14|28e14
-10U14*Deal_Three_Cards 13|11s21
-10r31 From{7R9} 13|11r38
-10r51 The_Card{6R9} 13|11r55
-11U14*Shuffle 13|10s18
-11r22 The_Deck{7R9} 13|10r26
-12V13*New_Deck{7R9} 13|9s30
+D ada.ads		20180524051736 76789da1 ada%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D main.adb		20181118164054 57e7e1f8 main%b
+D playing_cards.ads	20181111155214 def29cb2 playing_cards%s
+D system.ads		20180524051738 32a08138 system%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+X 3 main.adb
+2U11*Main 2b11 9l5 9t9
+3r4 the_deck{4|7R9} 6m4 7m38 7r38 8m43 8r43
+4r4 card{4|6R9} 8m64
+X 4 playing_cards.ads
+2K9*Playing_Cards 3|1w6 3r15 4r11 6r16 7r4 8r4 4|30e18
+6R9*Card 3|4r25 4|21e14
+7R9*Deck 3|3r29 4|28e14
+10U14*Deal_Three_Cards 3|8s18
+10r31 From{7R9} 3|8r35
+10r51 The_Card{6R9} 3|8r52
+11U14*Shuffle 3|7s18
+11r22 The_Deck{7R9} 3|7r26
+12V13*New_Deck{7R9} 3|6s30
 
