@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\main.adb</vfs_file>
@@ -18,7 +17,7 @@
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 8" line=" 31" >
+    <file_marker column=" 8" line=" 34" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
     </file_marker>
@@ -30,7 +29,7 @@
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 14" line=" 5" >
+    <file_marker column=" 14" line=" 31" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.adb</vfs_file>
     </file_marker>
@@ -58,11 +57,35 @@
       <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 5" line=" 5" >
+    <file_marker column=" 5" line=" 31" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 14" line=" 1" >
+    <file_marker column=" 14" line=" 3" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 10" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 10" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\src\simon32.adb</vfs_file>
     </file_marker>

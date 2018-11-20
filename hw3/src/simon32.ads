@@ -6,8 +6,6 @@ package Simon32 is
    type Words is array ( Integer range <>) of Word ; 
    type Block_32 is new Bytes (0..3) ; 
    type Block_64 is new Bytes (0..7) ;
-   type n is new Integer;
-   type m is new Integer;
    type z is array (Integer range <>) of Integer;
    type TJ is array (Integer range <>, Integer range <>) of Integer;
 
@@ -24,6 +22,7 @@ package Simon32 is
    procedure Prepare_Key (Key : in Block_64 );
    -- Generates the round keys from the given cipher key .
    -- Must be invoked before any en - or decryption can happen .
+   
 private
    Num_Rounds : constant Positive := 32;
    Num_State_Words: constant Positive := 2;
