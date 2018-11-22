@@ -2,7 +2,7 @@ project Default is
 
    for Source_Dirs use ("src", "tg", "testgen");
    for Object_Dir use "obj";
-   for Main use ("simon32", "main.adb","testgen.adb");
+   for Main use ("main.adb");
 	
 	package Compiler is
       for Default_Switches ("ada") use ("-g", "-gnato", "-gnatwa", "-gnatQ");

@@ -1,30 +1,29 @@
-with Ada.Text_IO, Interfaces;
-use  Ada.Text_IO, Interfaces;
+with Ada.Text_IO, Interfaces; 
+use  Ada.Text_IO, Interfaces; 
 package Simon32 is
-   
-   type u8 is mod 2**8; 
+   subtype byte is Unsigned_8;
+   package Byte_IO is new Ada.Text_Io.Modular_IO (Byte);
    --  Unsigned 8-bit integer
-    type U32 is mod 2**32;
-   --  Unsigned 32-bit integer
-   type Bytes is array ( Integer range <>) of u8 ; 
-   type Words is array ( Integer range <>) of u32 ; 
+    subtype word is Unsigned_16;
+   package word_IO is new Ada.Text_Io.Modular_IO (word);
+   --  Unsigned 16-bit integer
+   type Bytes is array ( Integer range <>) of byte ; 
+   type Words is array ( Integer range <>) of word ; 
    type Block_32 is new Bytes (0..3) ; 
    type Block_64 is new Bytes (0..7) ;
-   type u8 is new Integer_8;
-   type u32 is new Integer_32;
-   type u64 is new Integer_64;
+   type V is array (Integer range 1..62) of byte;
 
    Cipher_Not_Initialized_Exception : exception;
 
-   function Decrypt ( Ciphertext : in Block_32 ) return Block_32 ;
+   function Decrypt ( Ciphertext : in Block_32; Key: in Block_64 ) return Block_32 ;
    -- Decrypts the given ciphertext block and returns the corresponding
    -- plaintext block . Requires that a key was given by calling Prepare_Key
    -- before ; raises a Cipher_Not_Initialized_Exception otherwise .
-   function Encrypt ( Plaintext : in Block_32, , Key: in Block_64 ) return Block_32 ;
+   function Encrypt ( Plaintext : in Block_32; Key: in Block_64 ) return Block_32 ;
    -- Encrypts the given plaintext block and returns the corresponding
    -- ciphertext block . Requires that a key was given by calling Prepare_Key
    -- before ; raises a Cipher_Not_Initialized_Exception otherwise .
-   procedure Prepare_Key (Key : in out Block_64 );
+   function Prepare_Key (Key : in Block_64 ) return Block_64;
    -- Generates the round keys from the given cipher key .
    -- Must be invoked before any en - or decryption can happen .
    

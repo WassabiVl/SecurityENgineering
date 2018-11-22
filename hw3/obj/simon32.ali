@@ -1,0 +1,114 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U simon32%b		simon32.adb		c6a9ece3 NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+U simon32%s		simon32.ads		a7599acd EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.modular_aux%s  a-timoau.adb	a-timoau.ali
+Z ada.text_io.modular_io%s
+W interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-timoau.ads		20180524051738 01c06610 ada.text_io.modular_aux%s
+D a-timoio.ads		20180524051736 d32407b9 ada.text_io.modular_io%s
+D a-timoio.adb		20180524051738 de0ea1c6 ada.text_io.modular_io%b
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D simon32.ads		20181122205700 75f17bff simon32%s
+D simon32.adb		20181122210650 b358971c simon32%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r6 5r27 8r27
+X 6 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 2r10 5r31 8r31
+X 8 a-timoio.ads
+46k21*Modular_IO 85e27 13|5r39 8r39
+X 11 interfac.ads
+38K9*Interfaces 184e15 13|1w19 2r19
+63M9*Unsigned_8 13|4r20
+66M9*Unsigned_16 13|7r21
+93V13*Rotate_Left{63M9} 14|30s37 30s65 30s95 47s37 47s65 47s95
+97V13*Rotate_Right{63M9} 14|10s17 14s25
+X 13 simon32.ads
+3K9*Simon32 31E4 38l5 38e12 14|1b14 57l5 57t12
+4M12*byte{11|63M9} 5r51 10r47 14r45 14|4r13 21r12 37r13
+5K12*Byte_IO[8|46]
+7M13*word{11|66M9} 8r51 11r47 34r48
+8K12*word_IO[8|46]
+10A9*Bytes(4M12)<integer> 12r25 13r25
+11A9*Words(7M13)<integer>
+12A9*Block_32<10A9>(4M12)<integer> 18r39 18r75 22r38 22r74 14|20r38 20r74
+. 22r15 36r39 36r75 38r15
+13A9*Block_64<10A9>(4M12)<integer> 18r57 22r56 26r35 26r53 14|3r35 3r53 6r17
+. 20r56 23r17 36r57 39r18
+14A9*V(4M12)<integer> 14|5r19
+16X4*Cipher_Not_Initialized_Exception
+18V13*Decrypt{12A9} 18>23 18>49 14|36b13 51l11 51t18
+18a23 Ciphertext{12A9} 14|36b23 43r19 44r19
+18a49 Key{13A9} 14|36b49 42r38
+22V13*Encrypt{12A9} 22>23 22>48 14|20b13 34l8 34t15
+22a23 Plaintext{12A9} 14|20b23 26r19 27r19
+22a48 Key{13A9} 14|20b48 25r38
+26V13*Prepare_Key{13A9} 26>26 14|3b13 18l8 18t19 25s19 42s19
+26a26 Key{13A9} 14|3b26 8r17 17r14 25r31 42r31
+31i4 Num_Rounds{positive} 34r32
+32i4 Num_State_Words{positive}
+34A9 Key_Type(7M13)<integer> 36r17
+36a4 Round_Keys{34A9}
+X 14 simon32.adb
+4m7 tmp{13|4M12} 10m10 12m16 12r23 14m10 14r17 14r38 15r49
+5a7 z{13|14A9} 15r57
+6a7 key_temp{13|13A9} 8m7 10r30 12r31 15m10 15r30
+9i11 i{integer} 10r39 11r16 12r40 15r19 15r39 15r59
+21m7 tmp{13|4M12} 29m10 31r22
+22a7 crypt{13|12A9} 26m7 27m7 29r17 30m10 30r22 30r49 30r77 30r107 31m10
+. 33r14
+23a7 Key_temp{13|13A9} 25m7 30r123
+28i11 i{integer} 30r132
+37m8 tmp{13|4M12} 46m10 48r22
+38a7 crypt{13|12A9} 43m7 44m7 46r17 47m10 47r22 47r49 47r77 47r107 48m10
+. 50r14
+39a8 Key_temp{13|13A9} 42m7 47r123
+45i11 i{integer} 47r135
+

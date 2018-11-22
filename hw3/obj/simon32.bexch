@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\wassabi.vl\AppData\Local\Temp\GNAT-TEMP-000003.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2018
+[MAIN BASE NAME]
+simon32
+[COMPILER PATH]
+c:\gnat\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\obj\simon32.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw3\default.gpr
+20181122185802

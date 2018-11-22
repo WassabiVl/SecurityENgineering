@@ -1,0 +1,14 @@
+main.adb:2:01: warning: use clause for package "Interfaces" has no effect
+main.adb:2:01: warning: use clause for package "Text_IO" has no effect
+main.adb:10:10: expected type "Block_64" defined at simon32.ads:13
+main.adb:10:10: found type universal integer
+main.adb:11:23: delimiter required between literal and identifier
+main.adb:12:18: "a86842f2" is undefined
+main.adb:13:04: warning: possibly useless assignment to "answer", value might not be referenced
+main.adb:15:04: no candidate interpretations match the actuals:
+main.adb:15:04: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:241
+main.adb:15:04: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:207
+main.adb:15:08: expected type "Standard.String"
+main.adb:15:08: found type "Block_32" defined at simon32.ads:12
+main.adb:15:08:   ==> in call to "Put" at a-textio.ads:242
+main.adb:15:08:   ==> in call to "Put" at a-textio.ads:208
