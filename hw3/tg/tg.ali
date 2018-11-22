@@ -75,9 +75,9 @@ D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-valenu.ads		20180524051738 bb1a4295 system.val_enum%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D text_io.ads		20180524051736 21b2c898 text_io%s
-D tg.adb		20181111155700 23fad1b2 tg%b
-D translator.ads	20181111155700 944913f6 translator%s
-D version.ads		20181111155702 8a475f2d version%s
+D tg.adb		20181119192306 23fad1b2 tg%b
+D translator.ads	20181119192306 944913f6 translator%s
+D version.ads		20181119192306 8a475f2d version%s
 X 1 ada.ads
 16K9*Ada 20e8 42|35r6 35r19 35r37 36r6 43r23 87r9
 X 4 a-comlin.ads

@@ -48,10 +48,10 @@ D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
-D test_script_scanner.ads  20181118163146 3ccb4fdc test_script_scanner%s
-D test_script_scanner.adb  20181118163208 180594f9 test_script_scanner%b
-D test_script_scanner_dfa.ads  20181111155702 926c4ed6 test_script_scanner_dfa%s
-D test_script_scanner_io.ads  20181111155700 9bb89214 test_script_scanner_io%s
+D test_script_scanner.ads  20181119192306 3ccb4fdc test_script_scanner%s
+D test_script_scanner.adb  20181119192306 180594f9 test_script_scanner%b
+D test_script_scanner_dfa.ads  20181119192306 926c4ed6 test_script_scanner_dfa%s
+D test_script_scanner_io.ads  20181119192306 9bb89214 test_script_scanner_io%s
 D text_io.ads		20180524051736 21b2c898 text_io%s
 X 6 a-textio.ads
 52P9*File_Type 26|18r42 476r35
