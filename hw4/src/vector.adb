@@ -1,4 +1,3 @@
-with Vector; use Vector;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Text_IO; use Ada.Text_IO;
 WITH Ada.Numerics.Elementary_Functions; use Ada.Numerics.Elementary_Functions;
@@ -66,10 +65,9 @@ package body Vector is
    end Distance;
 
    function Distance_To_Origin ( Item: Vector ) return Float is
-      a : Vector;
       Dist_To_O : Float;
    begin
-      Dist_To_O := Sqrt(a.X**2 + a.Y**2 + a.Z**2);
+      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
       return Dist_To_O;
 
       --return Distance(Left => Item, Right => a);
@@ -78,6 +76,7 @@ package body Vector is
    procedure Put ( Item: Vector ) is
       a : Vector;
    begin
+      a:= Item;
       Put(a.X);
       Put(" ,");
       Put(a.Y);
