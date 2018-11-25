@@ -23,7 +23,7 @@ package Simon32 is
    -- Encrypts the given plaintext block and returns the corresponding
    -- ciphertext block . Requires that a key was given by calling Prepare_Key
    -- before ; raises a Cipher_Not_Initialized_Exception otherwise .
-   function Prepare_Key (Key : in Block_64 ) return Block_64;
+   procedure Prepare_Key (Key : in Block_64 );
    -- Generates the round keys from the given cipher key .
    -- Must be invoked before any en - or decryption can happen .
    

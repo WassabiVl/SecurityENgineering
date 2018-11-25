@@ -1,12 +1,12 @@
 package body Simon32 is
    
-   function Prepare_Key (Key : in Block_64 ) return Block_64 is
+   procedure Prepare_Key (Key : in Block_64 ) is
       tmp : byte;
       z: constant V := (1,1,1,1,1,0,1,0,0,0,1,0,0,1,0,1,0,1,1,0,0,0,0,1,1,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,0,1,0,0,1,0,1,0,1,1,0,0,0,0,1,1,1,0,0,1,1,0);
       key_temp: Block_64;
    begin
       key_temp:=Key;
-      for i in 5..32 loop
+      for i in 5..42 loop
          tmp := Rotate_Right(key_temp(i-4),3);
             if i = 5 then
                tmp := tmp xor key_temp(i-3);
@@ -14,7 +14,6 @@ package body Simon32 is
          tmp := tmp xor Rotate_Right(tmp,1);
          Key_temp(i) := (not key_temp(i-4)) xor tmp xor z(i-4) xor 3;
       end loop; 
-      return key;
    end Prepare_Key;
    
    function Encrypt ( Plaintext : in Block_32; Key: in Block_64 ) return Block_32 is 
@@ -49,9 +48,4 @@ package body Simon32 is
       end loop;
       return crypt;
       end Decrypt;
-
-   
-
-   
-
 end Simon32; 
