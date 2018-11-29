@@ -1,4 +1,5 @@
 package body Coffee_Machine is
+   pragma SPARK_Mode;
 
    procedure Initialize(X : out State) is
    begin

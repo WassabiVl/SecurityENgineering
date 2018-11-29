@@ -1,8 +1,8 @@
-with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Text_IO; use Ada.Text_IO;
 WITH Ada.Numerics.Elementary_Functions; use Ada.Numerics.Elementary_Functions;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 package body Vector is
+   pragma SPARK_Mode;
 
    function "+"(Left : Vector ; Right : Vector ) return Vector is
       temp : Vector;

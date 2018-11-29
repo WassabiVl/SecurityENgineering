@@ -1,4 +1,5 @@
 package Coffee_Machine is
+   pragma SPARK_Mode;
 
    -- Simulation of a coin-driven coffee machine
 	-- User: - One slot to insert coins (only 10 or 20 cents)

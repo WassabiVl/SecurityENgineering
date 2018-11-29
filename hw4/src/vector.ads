@@ -1,5 +1,6 @@
 
 package Vector is
+   pragma SPARK_Mode;
 
    pragma Assertion_Policy(Check);
 
