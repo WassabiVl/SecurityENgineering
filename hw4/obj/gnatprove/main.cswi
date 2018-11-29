@@ -1,0 +1,14 @@
+20181129161124
+-c
+-x
+ada
+-gnatA
+-g
+-g
+-gnato
+-gnatwa
+-gnatQ
+-fprofile-arcs
+-ftest-coverage
+-gnatc
+-gnates=C:\Users\al-atrash\Desktop\Uni\SecurityENgineering\hw4\obj\gnatprove\b0ed733e.tmp

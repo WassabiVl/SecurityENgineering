@@ -9,7 +9,9 @@ package Vector is
       Y: Float := 0.0;
       Z: Float := 0.0;
    end record ;
-   function "+"(Left : Vector ; Right : Vector ) return Vector ;
+   function "+"(Left : Vector ; Right : Vector ) return Vector
+     with Pre => Left.X + Right.X < Float'Last,
+       Post => "+"'Result.X = Left.X + Right.X;
    -- Adds two vectors dimension - wise.
    function "-"(Left : Vector ; Right : Vector ) return Vector ;
    -- Subtracts the right vector from the left one dimension -wise .
@@ -28,7 +30,6 @@ package Vector is
    -- Computes the distance between both vectors .
    function Distance_To_Origin ( Item: Vector ) return Float ;
    -- Computes the distance to the origin of the coordinate system .
-   procedure Put ( Item: Vector );
-   -- Prints the vector in the format (X, Y, Z).
+
 
 end Vector;

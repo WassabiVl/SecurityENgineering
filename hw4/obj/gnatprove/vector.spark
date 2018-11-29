@@ -1,0 +1,582 @@
+{
+  "spark": [
+    {
+      "name": "Vector",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Oadd",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 12
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Osubtract",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 16
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Omultiply",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 18
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Omultiply",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Oeq",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 22
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Are_Orthogonal",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 25
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Cross_Product",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 27
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Distance",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 29
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Vector.Distance_To_Origin",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 31
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "vector.adb",
+      "line": 69,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Distance_To_Origin",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 31
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__23.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 11,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Oadd",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__73.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 11,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Oadd",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__74.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 11,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Oadd",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__75.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 20,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Osubtract",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__125.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 20,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Osubtract",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__126.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 20,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Osubtract",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__127.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 55,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Are_Orthogonal",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 25
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__187.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 43,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Omultiply",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 18
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__272.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 43,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Omultiply",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 18
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__273.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 43,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Omultiply",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 18
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__274.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 29,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Cross_Product",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 27
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__352.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 29,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Cross_Product",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 27
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__353.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "vector.adb",
+      "line": 29,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Vector.Cross_Product",
+        "sloc": [
+          {
+            "file": "vector.ads",
+            "line": 27
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "vector__flow__354.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Numerics.Elementary_Functions.Sqrt",
+            "sloc": [
+              {
+                "file": "a-ngelfu.ads",
+                "line": 52
+              },
+              {
+                "file": "a-nuelfu.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Distance",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Numerics.Elementary_Functions.Sqrt",
+            "sloc": [
+              {
+                "file": "a-ngelfu.ads",
+                "line": 52
+              },
+              {
+                "file": "a-nuelfu.ads",
+                "line": 18
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Distance_To_Origin",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 31
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Osubtract",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 16
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Omultiply",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Omultiply",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Oeq",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 22
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Vector.Omultiply",
+            "sloc": [
+              {
+                "file": "vector.ads",
+                "line": 20
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Are_Orthogonal",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Cross_Product",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 27
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Vector.Oadd",
+          "sloc": [
+            {
+              "file": "vector.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.26850896049291E-03,
+    "globals (basic)": 2.24277079105377E-02,
+    "globals/properties (advanced)": 2.77670361101627E-02,
+    "flow analysis": 4.89896610379219E-02
+  }
+}

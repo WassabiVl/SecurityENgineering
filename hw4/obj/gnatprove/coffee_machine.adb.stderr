@@ -1,0 +1,3 @@
+coffee_machine.adb:44:15: warning: "others" choice is redundant
+coffee_machine.adb:44:15: warning: previous choices cover all values
+coffee_machine.ads:18:16: medium: "React" might not be initialized in "X"[#0]

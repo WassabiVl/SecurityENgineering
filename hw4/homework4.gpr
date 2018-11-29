@@ -1,4 +1,4 @@
-project Default is
+project HomeWork4 is
 
    for Source_Dirs use ("src");
    for Object_Dir use "obj";
@@ -16,5 +16,5 @@ project Default is
       for Compiler_Command ("ada") use "gnatmake";
       for Compiler_Command ("c") use "gcc";
    end Ide;
-end Default;
+end HomeWork4;
 

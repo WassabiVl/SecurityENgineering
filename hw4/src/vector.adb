@@ -1,6 +1,4 @@
-with Ada.Text_IO; use Ada.Text_IO;
 WITH Ada.Numerics.Elementary_Functions; use Ada.Numerics.Elementary_Functions;
-with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 package body Vector is
    pragma SPARK_Mode;
 
@@ -73,16 +71,6 @@ package body Vector is
       --return Distance(Left => Item, Right => a);
    end Distance_To_Origin;
 
-   procedure Put ( Item: Vector ) is
-      a : Vector;
-   begin
-      a:= Item;
-      Put(a.X);
-      Put(" ,");
-      Put(a.Y);
-      Put(" ,");
-      Put(a.Z);
 
-   end Put;
 
 end Vector;
