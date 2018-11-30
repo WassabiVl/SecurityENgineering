@@ -15,6 +15,7 @@ package body Coffee_Machine is
                Act : in Action;
                React : out Reaction) is
    begin
+      React := Nothing; --initilize React
       case Act is
          when Twenty_Cent =>
             --update state and dispense coffee
@@ -41,10 +42,11 @@ package body Coffee_Machine is
                React := Drop_All_Coins;
                S := 0;
             end if;
-         when others =>
+            -- spark proof redundent
+        -- when others =>
             --because the "when others must always
             --be added when using case expression
-            React := Nothing;
+          --  React := Nothing;
       end case;
    end X;
 

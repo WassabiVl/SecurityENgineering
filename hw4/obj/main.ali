@@ -17,7 +17,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 
 U main%b		main.adb		c8bac64d NE OO SU
 
-D main.adb		20181126065014 c8bac64d main%b
+D main.adb		20181125133704 c8bac64d main%b
 D system.ads		20180524051738 32a08138 system%s
 X 1 main.adb
 1U11*Main 1b11 6l5 6t9

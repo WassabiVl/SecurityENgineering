@@ -67,7 +67,7 @@
       "line": 18,
       "col": 16,
       "rule": "UNINITIALIZED",
-      "severity": "medium",
+      "severity": "info",
       "entity": {
         "name": "Coffee_Machine.X",
         "sloc": [
@@ -79,10 +79,11 @@
       },
       "check_tree": {
       },
-      "tracefile": "coffee_machine__flow__56.trace",
-      "msg_id": 0,
+      "tracefile": "coffee_machine__flow__57.trace",
       "how_proved": "flow"
     }
+  ],
+  "proof": [
   ],
   "assumptions": [
     {
@@ -100,12 +101,33 @@
           ]
         }
       }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Coffee_Machine.X",
+          "sloc": [
+            {
+              "file": "coffee_machine.ads",
+              "line": 16
+            }
+          ]
+        }
+      }
     }
   ],
   "timings": {
-    "marking": 4.41932003013790E-04,
-    "globals (basic)": 3.79870005417615E-04,
-    "globals/properties (advanced)": 1.03765400126576E-03,
-    "flow analysis": 6.83460105210543E-03
+    "marking": 6.26744993496686E-04,
+    "globals (basic)": 4.15032991440967E-04,
+    "globals/properties (advanced)": 1.41483999323100E-03,
+    "flow analysis": 7.81146902590990E-03,
+    "codepeer results": 1.39900002977811E-05,
+    "init_why_sections": 9.84885962679982E-04,
+    "translation of standard": 1.21338684111834E-02,
+    "translation of compilation unit": 5.01256482675672E-03,
+    "proof": 5.59599993721349E-06
   }
 }

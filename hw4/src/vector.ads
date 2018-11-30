@@ -10,8 +10,8 @@ package Vector is
       Z: Float := 0.0;
    end record ;
    function "+"(Left : Vector ; Right : Vector ) return Vector
-     with Pre => Left.X + Right.X < Float'Last,
-       Post => "+"'Result.X = Left.X + Right.X;
+     with Pre => Left.X + Right.X < Float'Last and Left.Y + Right.Y < Float'Last and Left.Z + Right.Z < Float'Last,
+       Post => "+"'Result.X = Left.X + Right.X and "+"'Result.Y = Left.Y + Right.Y and "+"'Result.Z = Left.Z + Right.Z;
    -- Adds two vectors dimension - wise.
    function "-"(Left : Vector ; Right : Vector ) return Vector ;
    -- Subtracts the right vector from the left one dimension -wise .

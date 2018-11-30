@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="4">
+<prover id="0" name="CVC4" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="0"/>
+<prover id="1" name="CVC4_CE" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="0"/>
+<file name="..\vector.mlw">
+<theory name="Vector__package_def" proved="true">
+ <goal name="WP_parameter def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__Oadd__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="7855"/></proof>
+  <proof prover="1"><result status="unknown" steps="6664"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="11527"/></proof>
+  <proof prover="1"><result status="unknown" steps="9618"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="20566"/></proof>
+  <proof prover="1"><result status="unknown" steps="3245"/></proof>
+  </goal>
+  <goal name="WP_parameter def.3" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="29452"/></proof>
+  <proof prover="1"><result status="unknown" steps="4895"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.5" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="12"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__Osubtract__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="11210"/></proof>
+  <proof prover="1"><result status="unknown" steps="6634"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="22996"/></proof>
+  <proof prover="1"><result status="unknown" steps="3232"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="32462"/></proof>
+  <proof prover="1"><result status="unknown" steps="3581"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__Omultiply__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="12690"/></proof>
+  <proof prover="1"><result status="unknown" steps="5998"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="30192"/></proof>
+  <proof prover="1"><result status="unknown" steps="4324"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="57381"/></proof>
+  <proof prover="1"><result status="unknown" steps="5479"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__Omultiply__2__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="8149"/></proof>
+  <proof prover="1"><result status="unknown" steps="6673"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="13795"/></proof>
+  <proof prover="1"><result status="unknown" steps="3895"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="20714"/></proof>
+  <proof prover="1"><result status="unknown" steps="4845"/></proof>
+  </goal>
+  <goal name="WP_parameter def.3" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="54711"/></proof>
+  <proof prover="1"><result status="unknown" steps="2324"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="47217"/></proof>
+  <proof prover="1"><result status="unknown" steps="2937"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__Oeq__subprogram_def" proved="true">
+ <goal name="WP_parameter def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__are_orthogonal__subprogram_def" proved="true">
+ <goal name="WP_parameter def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__cross_product__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="11049"/></proof>
+  <proof prover="1"><result status="unknown" steps="6622"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="16046"/></proof>
+  <proof prover="1"><result status="unknown" steps="4179"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="36435"/></proof>
+  <proof prover="1"><result status="unknown" steps="4859"/></proof>
+  </goal>
+  <goal name="WP_parameter def.3" expl="precondition">
+  <proof prover="0"><result status="timeout"/></proof>
+  <proof prover="1"><result status="unknown" steps="4910"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="precondition">
+  <proof prover="0"><result status="timeout"/></proof>
+  <proof prover="1"><result status="unknown" steps="2746"/></proof>
+  </goal>
+  <goal name="WP_parameter def.5" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="121749"/></proof>
+  <proof prover="1"><result status="unknown" steps="3078"/></proof>
+  </goal>
+  <goal name="WP_parameter def.6" expl="precondition">
+  <proof prover="0"><result status="timeout"/></proof>
+  <proof prover="1"><result status="unknown" steps="4084"/></proof>
+  </goal>
+  <goal name="WP_parameter def.7" expl="precondition">
+  <proof prover="0"><result status="timeout"/></proof>
+  <proof prover="1"><result status="unknown" steps="4810"/></proof>
+  </goal>
+  <goal name="WP_parameter def.8" expl="precondition">
+  <proof prover="0"><result status="timeout"/></proof>
+  <proof prover="1"><result status="unknown" steps="5536"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__distance__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="7609"/></proof>
+  <proof prover="1"><result status="unknown" steps="5067"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="9490"/></proof>
+  <proof prover="1"><result status="unknown" steps="4426"/></proof>
+  </goal>
+  <goal name="WP_parameter def.3" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="17007"/></proof>
+  <proof prover="1"><result status="unknown" steps="4528"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.5" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="20092"/></proof>
+  <proof prover="1"><result status="unknown" steps="2433"/></proof>
+  </goal>
+  <goal name="WP_parameter def.6" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="28200"/></proof>
+  <proof prover="1"><result status="unknown" steps="2921"/></proof>
+  </goal>
+  <goal name="WP_parameter def.7" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.8" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="30942"/></proof>
+  <proof prover="1"><result status="unknown" steps="3561"/></proof>
+  </goal>
+  <goal name="WP_parameter def.9" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="38829"/></proof>
+  <proof prover="1"><result status="unknown" steps="4387"/></proof>
+  </goal>
+  <goal name="WP_parameter def.10" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="53465"/></proof>
+  <proof prover="1"><result status="unknown" steps="4944"/></proof>
+  </goal>
+  <goal name="WP_parameter def.11" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="34464"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Vector__distance_to_origin__subprogram_def">
+ <goal name="WP_parameter def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="WP_parameter def.0" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="4873"/></proof>
+  <proof prover="1"><result status="unknown" steps="4660"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="9826"/></proof>
+  <proof prover="1"><result status="unknown" steps="4096"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="13736"/></proof>
+  <proof prover="1"><result status="unknown" steps="2600"/></proof>
+  </goal>
+  <goal name="WP_parameter def.3" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="24450"/></proof>
+  <proof prover="1"><result status="unknown" steps="3226"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="precondition">
+  <proof prover="0"><result status="unknown" steps="33706"/></proof>
+  <proof prover="1"><result status="unknown" steps="3866"/></proof>
+  </goal>
+  <goal name="WP_parameter def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19152"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

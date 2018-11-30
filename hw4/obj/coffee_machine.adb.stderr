@@ -1,0 +1,3 @@
+coffee_machine.adb:18:23: missing ";"
+coffee_machine.adb:45:15: warning: "others" choice is redundant
+coffee_machine.adb:45:15: warning: previous choices cover all values

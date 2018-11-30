@@ -1701,7 +1701,7 @@ module Ada__numerics__elementary_functions__sqrt__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 52 0 0#"model" "model_trace:8435" "name:X" 
+ function x #"a-ngelfu.ads" 52 0 0#"model" "model_trace:8448" "name:X" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1734,7 +1734,7 @@ module Ada__numerics__elementary_functions__log__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 75 0 0#"model" "name:X" "model_trace:8471" 
+ function x #"a-ngelfu.ads" 75 0 0#"model" "name:X" "model_trace:8484" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1767,7 +1767,7 @@ module Ada__numerics__elementary_functions__log__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 79 0 0#"model" "name:X" "model_trace:8515" 
+ function x #"a-ngelfu.ads" 79 0 0#"model" "name:X" "model_trace:8528" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1787,7 +1787,7 @@ module Ada__numerics__elementary_functions__log__2__base
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function base #"a-ngelfu.ads" 79 0 0#"model" "model_trace:8525" "name:Base" 
+ function base #"a-ngelfu.ads" 79 0 0#"model" "model_trace:8538" "name:Base" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1820,7 +1820,7 @@ module Ada__numerics__elementary_functions__exp__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 83 0 0#"model" "name:X" "model_trace:8556" 
+ function x #"a-ngelfu.ads" 83 0 0#"model" "name:X" "model_trace:8569" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1853,7 +1853,7 @@ module Ada__numerics__elementary_functions__Oexpon__left
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function left #"a-ngelfu.ads" 86 0 0#"model" "model_trace:8632" "name:Left" 
+ function left #"a-ngelfu.ads" 86 0 0#"model" "model_trace:8645" "name:Left" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1873,7 +1873,7 @@ module Ada__numerics__elementary_functions__Oexpon__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function right #"a-ngelfu.ads" 86 0 0#"model" "model_trace:8642" "name:Right" 
+ function right #"a-ngelfu.ads" 86 0 0#"model" "model_trace:8655" "name:Right" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1906,7 +1906,7 @@ module Ada__numerics__elementary_functions__sin__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 94 0 0#"model" "name:X" "model_trace:8681" 
+ function x #"a-ngelfu.ads" 94 0 0#"model" "name:X" "model_trace:8694" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1939,7 +1939,7 @@ module Ada__numerics__elementary_functions__sin__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 98 0 0#"model" "name:X" "model_trace:8725" 
+ function x #"a-ngelfu.ads" 98 0 0#"model" "name:X" "model_trace:8738" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1959,7 +1959,7 @@ module Ada__numerics__elementary_functions__sin__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 98 0 0#"model" "model_trace:8735" "name:Cycle" 
+ function cycle #"a-ngelfu.ads" 98 0 0#"model" "model_trace:8748" "name:Cycle" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1992,7 +1992,7 @@ module Ada__numerics__elementary_functions__cos__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 103 0 0#"model" "name:X" "model_trace:8774" 
+ function x #"a-ngelfu.ads" 103 0 0#"model" "name:X" "model_trace:8787" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2025,7 +2025,7 @@ module Ada__numerics__elementary_functions__cos__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 107 0 0#"model" "name:X" "model_trace:8818" 
+ function x #"a-ngelfu.ads" 107 0 0#"model" "name:X" "model_trace:8831" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2045,7 +2045,7 @@ module Ada__numerics__elementary_functions__cos__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 107 0 0#"model" "name:Cycle" "model_trace:8828" 
+ function cycle #"a-ngelfu.ads" 107 0 0#"model" "name:Cycle" "model_trace:8841" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2078,7 +2078,7 @@ module Ada__numerics__elementary_functions__tan__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 112 0 0#"model" "name:X" "model_trace:8859" 
+ function x #"a-ngelfu.ads" 112 0 0#"model" "name:X" "model_trace:8872" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2111,7 +2111,7 @@ module Ada__numerics__elementary_functions__tan__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 115 0 0#"model" "name:X" "model_trace:8906" 
+ function x #"a-ngelfu.ads" 115 0 0#"model" "name:X" "model_trace:8919" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2131,7 +2131,7 @@ module Ada__numerics__elementary_functions__tan__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 115 0 0#"model" "name:Cycle" "model_trace:8916" 
+ function cycle #"a-ngelfu.ads" 115 0 0#"model" "name:Cycle" "model_trace:8929" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2164,7 +2164,7 @@ module Ada__numerics__elementary_functions__cot__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 120 0 0#"model" "name:X" "model_trace:8942" 
+ function x #"a-ngelfu.ads" 120 0 0#"model" "name:X" "model_trace:8955" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2197,7 +2197,7 @@ module Ada__numerics__elementary_functions__cot__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 123 0 0#"model" "name:X" "model_trace:8991" 
+ function x #"a-ngelfu.ads" 123 0 0#"model" "name:X" "model_trace:9004" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2217,7 +2217,7 @@ module Ada__numerics__elementary_functions__cot__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 123 0 0#"model" "name:Cycle" "model_trace:9001" 
+ function cycle #"a-ngelfu.ads" 123 0 0#"model" "name:Cycle" "model_trace:9014" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2250,7 +2250,7 @@ module Ada__numerics__elementary_functions__arcsin__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 129 0 0#"model" "name:X" "model_trace:9038" 
+ function x #"a-ngelfu.ads" 129 0 0#"model" "name:X" "model_trace:9051" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2283,7 +2283,7 @@ module Ada__numerics__elementary_functions__arcsin__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 133 0 0#"model" "name:X" "model_trace:9079" 
+ function x #"a-ngelfu.ads" 133 0 0#"model" "name:X" "model_trace:9092" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2303,7 +2303,7 @@ module Ada__numerics__elementary_functions__arcsin__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 133 0 0#"model" "name:Cycle" "model_trace:9089" 
+ function cycle #"a-ngelfu.ads" 133 0 0#"model" "name:Cycle" "model_trace:9102" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2336,7 +2336,7 @@ module Ada__numerics__elementary_functions__arccos__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 137 0 0#"model" "name:X" "model_trace:9126" 
+ function x #"a-ngelfu.ads" 137 0 0#"model" "name:X" "model_trace:9139" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2369,7 +2369,7 @@ module Ada__numerics__elementary_functions__arccos__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 141 0 0#"model" "name:X" "model_trace:9167" 
+ function x #"a-ngelfu.ads" 141 0 0#"model" "name:X" "model_trace:9180" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2389,7 +2389,7 @@ module Ada__numerics__elementary_functions__arccos__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 141 0 0#"model" "name:Cycle" "model_trace:9177" 
+ function cycle #"a-ngelfu.ads" 141 0 0#"model" "name:Cycle" "model_trace:9190" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2422,7 +2422,7 @@ module Ada__numerics__elementary_functions__arctan__y
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function y #"a-ngelfu.ads" 146 0 0#"model" "model_trace:9221" "name:Y" 
+ function y #"a-ngelfu.ads" 146 0 0#"model" "model_trace:9234" "name:Y" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2442,7 +2442,7 @@ module Ada__numerics__elementary_functions__arctan__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 147 0 0#"model" "name:X" "model_trace:9231" 
+ function x #"a-ngelfu.ads" 147 0 0#"model" "name:X" "model_trace:9244" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2475,7 +2475,7 @@ module Ada__numerics__elementary_functions__arctan__2__y
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function y #"a-ngelfu.ads" 153 0 0#"model" "name:Y" "model_trace:9280" 
+ function y #"a-ngelfu.ads" 153 0 0#"model" "name:Y" "model_trace:9293" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2495,7 +2495,7 @@ module Ada__numerics__elementary_functions__arctan__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 154 0 0#"model" "name:X" "model_trace:9290" 
+ function x #"a-ngelfu.ads" 154 0 0#"model" "name:X" "model_trace:9303" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2515,7 +2515,7 @@ module Ada__numerics__elementary_functions__arctan__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 155 0 0#"model" "name:Cycle" "model_trace:9301" 
+ function cycle #"a-ngelfu.ads" 155 0 0#"model" "name:Cycle" "model_trace:9314" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2548,7 +2548,7 @@ module Ada__numerics__elementary_functions__arccot__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 161 0 0#"model" "name:X" "model_trace:9345" 
+ function x #"a-ngelfu.ads" 161 0 0#"model" "name:X" "model_trace:9358" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2568,7 +2568,7 @@ module Ada__numerics__elementary_functions__arccot__y
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function y #"a-ngelfu.ads" 162 0 0#"model" "name:Y" "model_trace:9355" 
+ function y #"a-ngelfu.ads" 162 0 0#"model" "name:Y" "model_trace:9368" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2601,7 +2601,7 @@ module Ada__numerics__elementary_functions__arccot__2__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 168 0 0#"model" "name:X" "model_trace:9404" 
+ function x #"a-ngelfu.ads" 168 0 0#"model" "name:X" "model_trace:9417" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2621,7 +2621,7 @@ module Ada__numerics__elementary_functions__arccot__2__y
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function y #"a-ngelfu.ads" 169 0 0#"model" "name:Y" "model_trace:9414" 
+ function y #"a-ngelfu.ads" 169 0 0#"model" "name:Y" "model_trace:9427" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2641,7 +2641,7 @@ module Ada__numerics__elementary_functions__arccot__2__cycle
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function cycle #"a-ngelfu.ads" 170 0 0#"model" "name:Cycle" "model_trace:9425" 
+ function cycle #"a-ngelfu.ads" 170 0 0#"model" "name:Cycle" "model_trace:9438" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2674,7 +2674,7 @@ module Ada__numerics__elementary_functions__sinh__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 175 0 0#"model" "name:X" "model_trace:9456" 
+ function x #"a-ngelfu.ads" 175 0 0#"model" "name:X" "model_trace:9469" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2707,7 +2707,7 @@ module Ada__numerics__elementary_functions__cosh__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 178 0 0#"model" "name:X" "model_trace:9492" 
+ function x #"a-ngelfu.ads" 178 0 0#"model" "name:X" "model_trace:9505" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2740,7 +2740,7 @@ module Ada__numerics__elementary_functions__tanh__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 182 0 0#"model" "name:X" "model_trace:9531" 
+ function x #"a-ngelfu.ads" 182 0 0#"model" "name:X" "model_trace:9544" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2773,7 +2773,7 @@ module Ada__numerics__elementary_functions__coth__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 186 0 0#"model" "name:X" "model_trace:9564" 
+ function x #"a-ngelfu.ads" 186 0 0#"model" "name:X" "model_trace:9577" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2806,7 +2806,7 @@ module Ada__numerics__elementary_functions__arcsinh__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 190 0 0#"model" "name:X" "model_trace:9595" 
+ function x #"a-ngelfu.ads" 190 0 0#"model" "name:X" "model_trace:9608" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2839,7 +2839,7 @@ module Ada__numerics__elementary_functions__arccosh__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 193 0 0#"model" "name:X" "model_trace:9636" 
+ function x #"a-ngelfu.ads" 193 0 0#"model" "name:X" "model_trace:9649" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2872,7 +2872,7 @@ module Ada__numerics__elementary_functions__arctanh__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 198 0 0#"model" "name:X" "model_trace:9673" 
+ function x #"a-ngelfu.ads" 198 0 0#"model" "name:X" "model_trace:9686" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2905,7 +2905,7 @@ module Ada__numerics__elementary_functions__arccoth__x
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function x #"a-ngelfu.ads" 202 0 0#"model" "name:X" "model_trace:9700" 
+ function x #"a-ngelfu.ads" 202 0 0#"model" "name:X" "model_trace:9713" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3201,12 +3201,12 @@ module Vector__Oadd
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:15, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:16, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Osubtract__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 15 0 0#"model_projected" "name:Left" "model_trace:3032" 
+ function left #"vector.ads" 16 0 0#"model_projected" "name:Left" "model_trace:3045" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3214,19 +3214,19 @@ module Vector__Osubtract__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:15, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:16, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Osubtract__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:15, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:16, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Osubtract__right
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function right #"vector.ads" 15 0 0#"model_projected" "name:Right" "model_trace:3041" 
+ function right #"vector.ads" 16 0 0#"model_projected" "name:Right" "model_trace:3054" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3234,14 +3234,14 @@ module Vector__Osubtract__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:15, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:16, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Osubtract__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "Osubtract" defined at vector.ads:15, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "Osubtract" defined at vector.ads:16, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__Osubtract
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -3254,12 +3254,12 @@ module Vector__Osubtract
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:17, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:18, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Omultiply__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 17 0 0#"model_projected" "name:Left" "model_trace:3060" 
+ function left #"vector.ads" 18 0 0#"model_projected" "name:Left" "model_trace:3073" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3267,19 +3267,19 @@ module Vector__Omultiply__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:17, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:18, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Omultiply__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:17, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:18, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Omultiply__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
 
- function right #"vector.ads" 17 0 0#"model" "name:Right" "model_trace:3069" 
+ function right #"vector.ads" 18 0 0#"model" "name:Right" "model_trace:3082" 
    : Float32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3287,14 +3287,14 @@ module Vector__Omultiply__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:17, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:18, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Omultiply__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "Omultiply" defined at vector.ads:17, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "Omultiply" defined at vector.ads:18, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__Omultiply
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -3308,12 +3308,12 @@ module Vector__Omultiply
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:19, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:20, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Omultiply__2__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 19 0 0#"model_projected" "name:Left" "model_trace:3088" 
+ function left #"vector.ads" 20 0 0#"model_projected" "name:Left" "model_trace:3101" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3321,19 +3321,19 @@ module Vector__Omultiply__2__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:19, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:20, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Omultiply__2__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:19, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:20, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Omultiply__2__right
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function right #"vector.ads" 19 0 0#"model_projected" "name:Right" "model_trace:3097" 
+ function right #"vector.ads" 20 0 0#"model_projected" "name:Right" "model_trace:3110" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3341,14 +3341,14 @@ module Vector__Omultiply__2__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:19, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:20, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Omultiply__2__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "Omultiply__2" defined at vector.ads:19, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "Omultiply__2" defined at vector.ads:20, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__Omultiply__2
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -3362,12 +3362,12 @@ module Vector__Omultiply__2
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:21, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:22, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Oeq__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 21 0 0#"model_projected" "name:Left" "model_trace:3116" 
+ function left #"vector.ads" 22 0 0#"model_projected" "name:Left" "model_trace:3129" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3375,19 +3375,19 @@ module Vector__Oeq__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:21, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:22, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Oeq__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:21, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:22, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__Oeq__right
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function right #"vector.ads" 21 0 0#"model_projected" "name:Right" "model_trace:3125" 
+ function right #"vector.ads" 22 0 0#"model_projected" "name:Right" "model_trace:3138" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3395,14 +3395,14 @@ module Vector__Oeq__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:21, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:22, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__Oeq__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "Oeq" defined at vector.ads:21, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "Oeq" defined at vector.ads:22, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__Oeq
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -3415,12 +3415,12 @@ module Vector__Oeq
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:24, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:25, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__are_orthogonal__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 24 0 0#"model_projected" "name:Left" "model_trace:3144" 
+ function left #"vector.ads" 25 0 0#"model_projected" "name:Left" "model_trace:3157" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3428,19 +3428,19 @@ module Vector__are_orthogonal__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:24, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:25, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__are_orthogonal__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:24, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:25, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__are_orthogonal__right
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function right #"vector.ads" 24 0 0#"model_projected" "name:Right" "model_trace:3153" 
+ function right #"vector.ads" 25 0 0#"model_projected" "name:Right" "model_trace:3166" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3448,14 +3448,14 @@ module Vector__are_orthogonal__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:24, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:25, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__are_orthogonal__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "are_orthogonal" defined at vector.ads:24, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "are_orthogonal" defined at vector.ads:25, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__are_orthogonal
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -3468,12 +3468,12 @@ module Vector__are_orthogonal
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:26, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:27, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__cross_product__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 26 0 0#"model_projected" "name:Left" "model_trace:3172" 
+ function left #"vector.ads" 27 0 0#"model_projected" "name:Left" "model_trace:3185" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3481,19 +3481,19 @@ module Vector__cross_product__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:26, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:27, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__cross_product__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:26, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:27, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__cross_product__right
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function right #"vector.ads" 26 0 0#"model_projected" "name:Right" "model_trace:3181" 
+ function right #"vector.ads" 27 0 0#"model_projected" "name:Right" "model_trace:3194" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3501,14 +3501,14 @@ module Vector__cross_product__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:26, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:27, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__cross_product__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "cross_product" defined at vector.ads:26, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "cross_product" defined at vector.ads:27, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__cross_product
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -3521,12 +3521,12 @@ module Vector__cross_product
 
 end
 
-(* Module for defining the constant "left" defined at vector.ads:28, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "left" defined at vector.ads:29, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__distance__left
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function left #"vector.ads" 28 0 0#"model_projected" "name:Left" "model_trace:3200" 
+ function left #"vector.ads" 29 0 0#"model_projected" "name:Left" "model_trace:3213" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3534,19 +3534,19 @@ module Vector__distance__left
 
 end
 
-(* Module giving an empty axiom for the entity "left" defined at vector.ads:28, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "left" defined at vector.ads:29, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__distance__left___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "right" defined at vector.ads:28, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "right" defined at vector.ads:29, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__distance__right
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function right #"vector.ads" 28 0 0#"model_projected" "name:Right" "model_trace:3209" 
+ function right #"vector.ads" 29 0 0#"model_projected" "name:Right" "model_trace:3222" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3554,14 +3554,14 @@ module Vector__distance__right
 
 end
 
-(* Module giving an empty axiom for the entity "right" defined at vector.ads:28, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "right" defined at vector.ads:29, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__distance__right___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "distance" defined at vector.ads:28, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "distance" defined at vector.ads:29, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__distance
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -3575,12 +3575,12 @@ module Vector__distance
 
 end
 
-(* Module for defining the constant "item" defined at vector.ads:30, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "item" defined at vector.ads:31, created in Gnat2Why.Decls.Translate_Constant *)
 module Vector__distance_to_origin__item
  use import "_gnatprove_standard".Main
  use        Vector__vector
 
- function item #"vector.ads" 30 0 0#"model_projected" "model_trace:3228" "name:Item" 
+ function item #"vector.ads" 31 0 0#"model_projected" "model_trace:3241" "name:Item" 
    : Vector__vector.vector
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3588,14 +3588,14 @@ module Vector__distance_to_origin__item
 
 end
 
-(* Module giving an empty axiom for the entity "item" defined at vector.ads:30, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "item" defined at vector.ads:31, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Vector__distance_to_origin__item___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "distance_to_origin" defined at vector.ads:30, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "distance_to_origin" defined at vector.ads:31, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Vector__distance_to_origin
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -4843,19 +4843,19 @@ module Vector__Oadd___axiom
 
  val oadd 
    (left : Vector__vector.vector) (right : Vector__vector.vector) : Vector__vector.vector
-  requires {  true }
+  requires {  (Float32.lt (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields right)))) (340282346638528859811704183484516925440.0:Float32.t)) }
   ensures {  ( ( (result = (Vector__Oadd.oadd left right)) /\ (Vector__Oadd.oadd__function_guard result left right) ) /\ ( (Vector__vector___axiom.dynamic_invariant result True False True True) /\ (Float32.eq (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields result))) (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields right))))) ) ) }
  
  axiom oadd__post_axiom :
   (forall left   right   : Vector__vector.vector [(Vector__Oadd.oadd left right)].
-   ( ( (Vector__vector___axiom.dynamic_invariant left True True True True) /\ (Vector__vector___axiom.dynamic_invariant right True True True True) ) -> (let result = (Vector__Oadd.oadd left right) in (
+   ( ( ( (Vector__vector___axiom.dynamic_invariant left True True True True) /\ (Vector__vector___axiom.dynamic_invariant right True True True True) ) /\ (Float32.lt (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields right)))) (340282346638528859811704183484516925440.0:Float32.t)) ) -> (let result = (Vector__Oadd.oadd left right) in (
     (if ((Vector__Oadd.oadd__function_guard result left right)) then (
      ( ( (Float32.eq (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields result))) (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields right))))) /\ (Vector__vector___axiom.dynamic_invariant result True False True True) ) /\ true )) else true)))
     ))
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "Osubtract" defined at vector.ads:15, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "Osubtract" defined at vector.ads:16, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__Osubtract___axiom
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -4876,7 +4876,7 @@ module Vector__Osubtract___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "Omultiply" defined at vector.ads:17, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "Omultiply" defined at vector.ads:18, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__Omultiply___axiom
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -4900,7 +4900,7 @@ module Vector__Omultiply___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "Omultiply__2" defined at vector.ads:19, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "Omultiply__2" defined at vector.ads:20, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__Omultiply__2___axiom
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -4923,7 +4923,7 @@ module Vector__Omultiply__2___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "Oeq" defined at vector.ads:21, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "Oeq" defined at vector.ads:22, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__Oeq___axiom
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -4944,7 +4944,7 @@ module Vector__Oeq___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "are_orthogonal" defined at vector.ads:24, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "are_orthogonal" defined at vector.ads:25, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__are_orthogonal___axiom
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -4965,7 +4965,7 @@ module Vector__are_orthogonal___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "cross_product" defined at vector.ads:26, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "cross_product" defined at vector.ads:27, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__cross_product___axiom
  use import "_gnatprove_standard".Main
  use        Vector__vector
@@ -4986,7 +4986,7 @@ module Vector__cross_product___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "distance" defined at vector.ads:28, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "distance" defined at vector.ads:29, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__distance___axiom
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5009,7 +5009,7 @@ module Vector__distance___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "distance_to_origin" defined at vector.ads:30, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "distance_to_origin" defined at vector.ads:31, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Vector__distance_to_origin___axiom
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5045,26 +5045,27 @@ module Vector__package_def
   (#"vector.ads" 5 0 0# ());
   (#"vector.ads" 7 0 0# ());
   (#"vector.ads" 12 0 0# ());
+  (#"vector.ads" 14 0 0# ());
   (#"vector.ads" 13 0 0# ());
-  (#"vector.ads" 15 0 0# ());
-  (#"vector.ads" 17 0 0# ());
-  (#"vector.ads" 19 0 0# ());
-  (#"vector.ads" 21 0 0# ());
-  (#"vector.ads" 24 0 0# ());
-  (#"vector.ads" 26 0 0# ());
-  (#"vector.ads" 28 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
-  (#"vector.ads" 30 0 0# ());
+  (#"vector.ads" 16 0 0# ());
+  (#"vector.ads" 18 0 0# ());
+  (#"vector.ads" 20 0 0# ());
+  (#"vector.ads" 22 0 0# ());
+  (#"vector.ads" 25 0 0# ());
+  (#"vector.ads" 27 0 0# ());
+  (#"vector.ads" 29 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
+  (#"vector.ads" 31 0 0# ());
   (#"vector.adb" 3 0 0# ());
   (#"vector.adb" 5 0 0# ());
   (#"vector.adb" 14 0 0# ());
@@ -5101,8 +5102,8 @@ module Vector__Oadd__subprogram_def
  let def #"vector.ads" 12 0 0#"W:diverges:N" "GP_Subp:vector.ads:12" 
    (__void_param : unit)
   requires { #"vector.ads" 12 0 0# true }
-  ensures { #"vector.ads" 12 0 0# (#"vector.ads" 13 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:vector.ads:13:17" "GP_Reason:VC_POSTCONDITION" "GP_Id:4" "comment:   with Post => \"+\"'Result.X = Left.X + Right.X;
-                ^ vector.ads:13:17:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( "GP_Pretty_Ada:11880" "GP_Sloc:vector.ads:13:17" (Float32.eq (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields vector__Oadd__result.Vector__vector.vector__content))) (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields Vector__Oadd__left.left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields Vector__Oadd__right.right))))) ) )) }
+  ensures { #"vector.ads" 12 0 0# (#"vector.ads" 14 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:vector.ads:14:16" "GP_Reason:VC_POSTCONDITION" "GP_Id:5" "comment:       Post => \"+\"'Result.X = Left.X + Right.X;
+               ^ vector.ads:14:16:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( "GP_Pretty_Ada:11910" "GP_Sloc:vector.ads:14:16" (Float32.eq (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields vector__Oadd__result.Vector__vector.vector__content))) (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields Vector__Oadd__left.left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields Vector__Oadd__right.right))))) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:12 *)
   ;
@@ -5113,12 +5114,13 @@ module Vector__Oadd__subprogram_def
   ;
   () (* Check for RTE in the Pre of the subprogram vector.ads:12 *)
   ;
-   abstract ensures {true}(let _ = True in (
+   abstract ensures {true}(let _ = (Float32.lt((#"vector.ads" 13 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:pragargs__cmp__add" "GP_Sloc:vector.ads:13:25" "GP_Id:4" "comment:     with Pre => Left.X + Right.X < Float'Last,
+                        ^ vector.ads:13:25:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.add_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oadd__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oadd__right.right)))))))))) ))) ((340282346638528859811704183484516925440.0:Float32.t))) in (
    ()))
    end ;
   () (* Assume Pre of the subprogram vector.ads:12 *)
   ;
-   assume {  true };
+   assume {  (Float32.lt (Float32.add_rne (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields Vector__Oadd__left.left))) (Standard__float__rep.to_rep (Vector__vector.rec__vector__vector__x (Vector__vector.__split_fields Vector__Oadd__right.right)))) (340282346638528859811704183484516925440.0:Float32.t)) };
    try
    ( (#"vector.adb" 6 0 0# ( #"vector.adb" 6 0 0# abstract ensures {true}(let _ = #"vector.adb" 6 0 0# abstract ensures {true}(let _ = (let temp___169 = #"vector.adb" 6 0 0# (any Vector__vector.vector
    requires {#"vector.adb" 6 0 0# true} 
@@ -5180,14 +5182,14 @@ module Vector__Oadd__subprogram_def
   with
    Return__exc -> ()
   end;
-   abstract ensures {true}(let _ = (Float32.eq((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(vector__Oadd__result.Vector__vector.vector__content))))))) ((#"vector.ads" 13 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.ads:13:39" "GP_Id:3" "comment:   with Post => \"+\"'Result.X = Left.X + Right.X;
-                                      ^ vector.ads:13:39:VC_FP_OVERFLOW_CHECK" "GP_Shape:pragargs__cmp__add" (Standard__float.range_check_((Float32.add_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oadd__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oadd__right.right)))))))))) )))) in (
+   abstract ensures {true}(let _ = (Float32.eq((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(vector__Oadd__result.Vector__vector.vector__content))))))) ((#"vector.ads" 14 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.ads:14:38" "GP_Id:3" "comment:       Post => \"+\"'Result.X = Left.X + Right.X;
+                                     ^ vector.ads:14:38:VC_FP_OVERFLOW_CHECK" "GP_Shape:pragargs__cmp__add" (Standard__float.range_check_((Float32.add_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oadd__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oadd__right.right)))))))))) )))) in (
    ()))
    end ;
   vector__Oadd__result.Vector__vector.vector__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "Osubtract" defined at vector.ads:15, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "Osubtract" defined at vector.ads:16, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__Osubtract__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5205,29 +5207,29 @@ module Vector__Osubtract__subprogram_def
  use        Vector__Osubtract__right___axiom
  use        Vector__Oeq___axiom
 
- val vector__Osubtract__result "model_projected" "model_trace:3025@result" "name:Osubtract"  : Vector__vector.vector__ref 
+ val vector__Osubtract__result "model_projected" "model_trace:3038@result" "name:Osubtract"  : Vector__vector.vector__ref 
  
- let def #"vector.ads" 15 0 0#"W:diverges:N" "GP_Subp:vector.ads:15" 
+ let def #"vector.ads" 16 0 0#"W:diverges:N" "GP_Subp:vector.ads:16" 
    (__void_param : unit)
-  requires { #"vector.ads" 15 0 0# true }
-  ensures { #"vector.ads" 15 0 0# true }
+  requires { #"vector.ads" 16 0 0# true }
+  ensures { #"vector.ads" 16 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:15 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:16 *)
   ;
-  #"vector.ads" 15 0 0# assume { #"vector.ads" 15 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Osubtract__left.left True False True True) };
-  #"vector.ads" 15 0 0# assume { #"vector.ads" 15 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Osubtract__right.right True False True True) };
-  #"vector.ads" 15 0 0# assume { #"vector.ads" 15 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:15 *)
+  #"vector.ads" 16 0 0# assume { #"vector.ads" 16 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Osubtract__left.left True False True True) };
+  #"vector.ads" 16 0 0# assume { #"vector.ads" 16 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Osubtract__right.right True False True True) };
+  #"vector.ads" 16 0 0# assume { #"vector.ads" 16 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:16 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:15 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:16 *)
   ;
-  #"vector.ads" 15 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 16 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:15 *)
+  () (* Assume Pre of the subprogram vector.ads:16 *)
   ;
-  #"vector.ads" 15 0 0# assume { #"vector.ads" 15 0 0# true };
-  #"vector.ads" 15 0 0# try
+  #"vector.ads" 16 0 0# assume { #"vector.ads" 16 0 0# true };
+  #"vector.ads" 16 0 0# try
    ( (#"vector.adb" 15 0 0# ( #"vector.adb" 15 0 0# abstract ensures {true}(let _ = #"vector.adb" 15 0 0# abstract ensures {true}(let _ = (let temp___177 = #"vector.adb" 15 0 0# (any Vector__vector.vector
    requires {#"vector.adb" 15 0 0# true} 
    ensures {#"vector.adb" 15 0 0# true} 
@@ -5256,7 +5258,7 @@ module Vector__Osubtract__subprogram_def
     ( #"vector.adb" 17 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(temp___179)))) in (
      ()))
      end ;
-    { ( temp___179 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___179)) ) with Vector__vector.rec__vector__vector__x = (Standard__float__rep.of_rep((#"vector.adb" 17 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:17:24" "GP_Id:5" "comment:      temp.X := Left.X - Right.X;
+    { ( temp___179 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___179)) ) with Vector__vector.rec__vector__vector__x = (Standard__float__rep.of_rep((#"vector.adb" 17 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:17:24" "GP_Id:6" "comment:      temp.X := Left.X - Right.X;
                        ^ vector.adb:17:24:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Osubtract__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Osubtract__right.right)))))))))) )))) } } )))
     in (
      Vector__Osubtract__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___180)) )))
@@ -5266,7 +5268,7 @@ module Vector__Osubtract__subprogram_def
     ( #"vector.adb" 18 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(temp___181)))) in (
      ()))
      end ;
-    { ( temp___181 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___181)) ) with Vector__vector.rec__vector__vector__y = (Standard__float__rep.of_rep((#"vector.adb" 18 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:18:26" "GP_Id:6" "comment:        temp.Y := Left.Y - Right.Y;
+    { ( temp___181 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___181)) ) with Vector__vector.rec__vector__vector__y = (Standard__float__rep.of_rep((#"vector.adb" 18 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:18:26" "GP_Id:7" "comment:        temp.Y := Left.Y - Right.Y;
                          ^ vector.adb:18:26:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Osubtract__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Osubtract__right.right)))))))))) )))) } } )))
     in (
      Vector__Osubtract__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___182)) )))
@@ -5276,7 +5278,7 @@ module Vector__Osubtract__subprogram_def
     ( #"vector.adb" 19 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(temp___183)))) in (
      ()))
      end ;
-    { ( temp___183 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___183)) ) with Vector__vector.rec__vector__vector__z = (Standard__float__rep.of_rep((#"vector.adb" 19 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:19:24" "GP_Id:7" "comment:      temp.Z := Left.Z - Right.Y;
+    { ( temp___183 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___183)) ) with Vector__vector.rec__vector__vector__z = (Standard__float__rep.of_rep((#"vector.adb" 19 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:19:24" "GP_Id:8" "comment:      temp.Z := Left.Z - Right.Y;
                        ^ vector.adb:19:24:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__Osubtract__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Osubtract__right.right)))))))))) )))) } } )))
     in (
      Vector__Osubtract__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___184)) )))
@@ -5294,7 +5296,7 @@ module Vector__Osubtract__subprogram_def
   vector__Osubtract__result.Vector__vector.vector__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "Omultiply" defined at vector.ads:17, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "Omultiply" defined at vector.ads:18, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__Omultiply__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5313,29 +5315,29 @@ module Vector__Omultiply__subprogram_def
  use        Vector__Omultiply__right___axiom
  use        Vector__Oeq___axiom
 
- val vector__Omultiply__result "model_projected" "model_trace:3053@result" "name:Omultiply"  : Vector__vector.vector__ref 
+ val vector__Omultiply__result "model_projected" "model_trace:3066@result" "name:Omultiply"  : Vector__vector.vector__ref 
  
- let def #"vector.ads" 17 0 0#"W:diverges:N" "GP_Subp:vector.ads:17" 
+ let def #"vector.ads" 18 0 0#"W:diverges:N" "GP_Subp:vector.ads:18" 
    (__void_param : unit)
-  requires { #"vector.ads" 17 0 0# true }
-  ensures { #"vector.ads" 17 0 0# true }
+  requires { #"vector.ads" 18 0 0# true }
+  ensures { #"vector.ads" 18 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:17 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:18 *)
   ;
-  #"vector.ads" 17 0 0# assume { #"vector.ads" 17 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Omultiply__left.left True False True True) };
-  #"vector.ads" 17 0 0# assume { #"vector.ads" 17 0 0# (Standard__float___axiom.dynamic_invariant Vector__Omultiply__right.right True False True True) };
-  #"vector.ads" 17 0 0# assume { #"vector.ads" 17 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:17 *)
+  #"vector.ads" 18 0 0# assume { #"vector.ads" 18 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Omultiply__left.left True False True True) };
+  #"vector.ads" 18 0 0# assume { #"vector.ads" 18 0 0# (Standard__float___axiom.dynamic_invariant Vector__Omultiply__right.right True False True True) };
+  #"vector.ads" 18 0 0# assume { #"vector.ads" 18 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:18 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:17 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:18 *)
   ;
-  #"vector.ads" 17 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 18 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:17 *)
+  () (* Assume Pre of the subprogram vector.ads:18 *)
   ;
-  #"vector.ads" 17 0 0# assume { #"vector.ads" 17 0 0# true };
-  #"vector.ads" 17 0 0# try
+  #"vector.ads" 18 0 0# assume { #"vector.ads" 18 0 0# true };
+  #"vector.ads" 18 0 0# try
    ( (#"vector.adb" 38 0 0# ( #"vector.adb" 38 0 0# abstract ensures {true}(let _ = #"vector.adb" 38 0 0# abstract ensures {true}(let _ = (let temp___185 = #"vector.adb" 38 0 0# (any Vector__vector.vector
    requires {#"vector.adb" 38 0 0# true} 
    ensures {#"vector.adb" 38 0 0# true} 
@@ -5364,7 +5366,7 @@ module Vector__Omultiply__subprogram_def
     ( #"vector.adb" 40 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(temp___187)))) in (
      ()))
      end ;
-    { ( temp___187 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___187)) ) with Vector__vector.rec__vector__vector__x = (Standard__float__rep.of_rep((#"vector.adb" 40 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:40:25" "GP_Id:8" "comment:      temp.X :=  Left.X * Right;
+    { ( temp___187 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___187)) ) with Vector__vector.rec__vector__vector__x = (Standard__float__rep.of_rep((#"vector.adb" 40 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:40:25" "GP_Id:9" "comment:      temp.X :=  Left.X * Right;
                         ^ vector.adb:40:25:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__mult" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Omultiply__left.left))))))) (Vector__Omultiply__right.right)))) )))) } } )))
     in (
      Vector__Omultiply__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___188)) )))
@@ -5374,7 +5376,7 @@ module Vector__Omultiply__subprogram_def
     ( #"vector.adb" 41 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(temp___189)))) in (
      ()))
      end ;
-    { ( temp___189 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___189)) ) with Vector__vector.rec__vector__vector__y = (Standard__float__rep.of_rep((#"vector.adb" 41 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__mult" "GP_Sloc:vector.adb:41:24" "GP_Id:9" "comment:      temp.Y := Left.Y * Right;
+    { ( temp___189 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___189)) ) with Vector__vector.rec__vector__vector__y = (Standard__float__rep.of_rep((#"vector.adb" 41 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__mult" "GP_Sloc:vector.adb:41:24" "GP_Id:10" "comment:      temp.Y := Left.Y * Right;
                        ^ vector.adb:41:24:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Omultiply__left.left))))))) (Vector__Omultiply__right.right)))) )))) } } )))
     in (
      Vector__Omultiply__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___190)) )))
@@ -5384,7 +5386,7 @@ module Vector__Omultiply__subprogram_def
     ( #"vector.adb" 42 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(temp___191)))) in (
      ()))
      end ;
-    { ( temp___191 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___191)) ) with Vector__vector.rec__vector__vector__z = (Standard__float__rep.of_rep((#"vector.adb" 42 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__mult" "GP_Sloc:vector.adb:42:25" "GP_Id:10" "comment:      temp.Z :=  Left.Z * Right;
+    { ( temp___191 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___191)) ) with Vector__vector.rec__vector__vector__z = (Standard__float__rep.of_rep((#"vector.adb" 42 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__mult" "GP_Sloc:vector.adb:42:25" "GP_Id:11" "comment:      temp.Z :=  Left.Z * Right;
                         ^ vector.adb:42:25:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__Omultiply__left.left))))))) (Vector__Omultiply__right.right)))) )))) } } )))
     in (
      Vector__Omultiply__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___192)) )))
@@ -5402,7 +5404,7 @@ module Vector__Omultiply__subprogram_def
   vector__Omultiply__result.Vector__vector.vector__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "Omultiply__2" defined at vector.ads:19, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "Omultiply__2" defined at vector.ads:20, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__Omultiply__2__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5418,34 +5420,34 @@ module Vector__Omultiply__2__subprogram_def
  use        Vector__Omultiply__2__right___axiom
  use        Vector__Oeq___axiom
 
- val vector__Omultiply__2__result "model_projected" "name:Omultiply" "model_trace:3081@result"  : Float32.t__ref 
+ val vector__Omultiply__2__result "model_projected" "name:Omultiply" "model_trace:3094@result"  : Float32.t__ref 
  
- let def #"vector.ads" 19 0 0#"W:diverges:N" "GP_Subp:vector.ads:19" 
+ let def #"vector.ads" 20 0 0#"W:diverges:N" "GP_Subp:vector.ads:20" 
    (__void_param : unit)
-  requires { #"vector.ads" 19 0 0# true }
-  ensures { #"vector.ads" 19 0 0# true }
+  requires { #"vector.ads" 20 0 0# true }
+  ensures { #"vector.ads" 20 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:19 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:20 *)
   ;
-  #"vector.ads" 19 0 0# assume { #"vector.ads" 19 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Omultiply__2__left.left True False True True) };
-  #"vector.ads" 19 0 0# assume { #"vector.ads" 19 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Omultiply__2__right.right True False True True) };
-  #"vector.ads" 19 0 0# assume { #"vector.ads" 19 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:19 *)
+  #"vector.ads" 20 0 0# assume { #"vector.ads" 20 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Omultiply__2__left.left True False True True) };
+  #"vector.ads" 20 0 0# assume { #"vector.ads" 20 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Omultiply__2__right.right True False True True) };
+  #"vector.ads" 20 0 0# assume { #"vector.ads" 20 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:20 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:19 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:20 *)
   ;
-  #"vector.ads" 19 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 20 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:19 *)
+  () (* Assume Pre of the subprogram vector.ads:20 *)
   ;
-  #"vector.ads" 19 0 0# assume { #"vector.ads" 19 0 0# true };
-  #"vector.ads" 19 0 0# try
-   ( ( "GP_Sloc:vector.adb:34:7" (#"vector.adb" 34 0 0# ( #"vector.adb" 34 0 0# vector__Omultiply__2__result.Float32.t__content <- ( (#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:46" "GP_Id:15" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
-                                             ^ vector.adb:34:46:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:29" "GP_Id:13" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
-                            ^ vector.adb:34:29:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:20" "GP_Id:11" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
-                   ^ vector.adb:34:20:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__add__mult" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Omultiply__2__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Omultiply__2__right.right)))))))))) ))) ((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__add__mult" "GP_Sloc:vector.adb:34:37" "GP_Id:12" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
-                                    ^ vector.adb:34:37:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Omultiply__2__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Omultiply__2__right.right)))))))))) )))))) ))) ((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:54" "GP_Id:14" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
+  #"vector.ads" 20 0 0# assume { #"vector.ads" 20 0 0# true };
+  #"vector.ads" 20 0 0# try
+   ( ( "GP_Sloc:vector.adb:34:7" (#"vector.adb" 34 0 0# ( #"vector.adb" 34 0 0# vector__Omultiply__2__result.Float32.t__content <- ( (#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:46" "GP_Id:16" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
+                                             ^ vector.adb:34:46:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:29" "GP_Id:14" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
+                            ^ vector.adb:34:29:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:20" "GP_Id:12" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
+                   ^ vector.adb:34:20:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__add__mult" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Omultiply__2__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Omultiply__2__right.right)))))))))) ))) ((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__add__mult" "GP_Sloc:vector.adb:34:37" "GP_Id:13" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
+                                    ^ vector.adb:34:37:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Omultiply__2__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Omultiply__2__right.right)))))))))) )))))) ))) ((#"vector.adb" 34 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:34:54" "GP_Id:15" "comment:      return Left.X*Right.X + Left.Y*Right.Y + Left.Z*Right.Z;
                                                      ^ vector.adb:34:54:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__add__mult" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__Omultiply__2__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__Omultiply__2__right.right)))))))))) )))))) )) );
     raise Return__exc )) );
     raise Return__exc )
@@ -5458,7 +5460,7 @@ module Vector__Omultiply__2__subprogram_def
   vector__Omultiply__2__result.Float32.t__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "Oeq" defined at vector.ads:21, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "Oeq" defined at vector.ads:22, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__Oeq__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5475,29 +5477,29 @@ module Vector__Oeq__subprogram_def
  use        Vector__Oeq__left___axiom
  use        Vector__Oeq__right___axiom
 
- val vector__Oeq__result "model_projected" "model_trace:3109@result" "name:Oeq"  : bool__ref 
+ val vector__Oeq__result "model_projected" "model_trace:3122@result" "name:Oeq"  : bool__ref 
  
- let def #"vector.ads" 21 0 0#"W:diverges:N" "GP_Subp:vector.ads:21" 
+ let def #"vector.ads" 22 0 0#"W:diverges:N" "GP_Subp:vector.ads:22" 
    (__void_param : unit)
-  requires { #"vector.ads" 21 0 0# true }
-  ensures { #"vector.ads" 21 0 0# true }
+  requires { #"vector.ads" 22 0 0# true }
+  ensures { #"vector.ads" 22 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:21 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:22 *)
   ;
-  #"vector.ads" 21 0 0# assume { #"vector.ads" 21 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Oeq__left.left True False True True) };
-  #"vector.ads" 21 0 0# assume { #"vector.ads" 21 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Oeq__right.right True False True True) };
-  #"vector.ads" 21 0 0# assume { #"vector.ads" 21 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:21 *)
+  #"vector.ads" 22 0 0# assume { #"vector.ads" 22 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Oeq__left.left True False True True) };
+  #"vector.ads" 22 0 0# assume { #"vector.ads" 22 0 0# (Vector__vector___axiom.dynamic_invariant Vector__Oeq__right.right True False True True) };
+  #"vector.ads" 22 0 0# assume { #"vector.ads" 22 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:22 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:21 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:22 *)
   ;
-  #"vector.ads" 21 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 22 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:21 *)
+  () (* Assume Pre of the subprogram vector.ads:22 *)
   ;
-  #"vector.ads" 21 0 0# assume { #"vector.ads" 21 0 0# true };
-  #"vector.ads" 21 0 0# try
+  #"vector.ads" 22 0 0# assume { #"vector.ads" 22 0 0# true };
+  #"vector.ads" 22 0 0# try
    ( ( "GP_Sloc:vector.adb:48:7" (#"vector.adb" 48 0 0# ( #"vector.adb" 48 0 0# vector__Oeq__result.bool__content <- ( (Boolean.andb((Boolean.andb((Float32.eq((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oeq__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__Oeq__right.right))))))))) ((Float32.eq((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Oeq__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__Oeq__right.right))))))))))) ((Float32.eq((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__Oeq__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__Oeq__right.right)))))))))) );
    #"vector.adb" 48 0 0# raise Return__exc )) );
     raise Return__exc )
@@ -5510,7 +5512,7 @@ module Vector__Oeq__subprogram_def
   vector__Oeq__result.bool__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "are_orthogonal" defined at vector.ads:24, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "are_orthogonal" defined at vector.ads:25, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__are_orthogonal__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5528,29 +5530,29 @@ module Vector__are_orthogonal__subprogram_def
  use        Vector__are_orthogonal__left___axiom
  use        Vector__are_orthogonal__right___axiom
 
- val vector__are_orthogonal__result "model_projected" "model_trace:3137@result" "name:Are_Orthogonal"  : bool__ref 
+ val vector__are_orthogonal__result "model_projected" "model_trace:3150@result" "name:Are_Orthogonal"  : bool__ref 
  
- let def #"vector.ads" 24 0 0#"W:diverges:N" "GP_Subp:vector.ads:24" 
+ let def #"vector.ads" 25 0 0#"W:diverges:N" "GP_Subp:vector.ads:25" 
    (__void_param : unit)
-  requires { #"vector.ads" 24 0 0# true }
-  ensures { #"vector.ads" 24 0 0# true }
+  requires { #"vector.ads" 25 0 0# true }
+  ensures { #"vector.ads" 25 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:24 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:25 *)
   ;
-  #"vector.ads" 24 0 0# assume { #"vector.ads" 24 0 0# (Vector__vector___axiom.dynamic_invariant Vector__are_orthogonal__left.left True False True True) };
-  #"vector.ads" 24 0 0# assume { #"vector.ads" 24 0 0# (Vector__vector___axiom.dynamic_invariant Vector__are_orthogonal__right.right True False True True) };
-  #"vector.ads" 24 0 0# assume { #"vector.ads" 24 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:24 *)
+  #"vector.ads" 25 0 0# assume { #"vector.ads" 25 0 0# (Vector__vector___axiom.dynamic_invariant Vector__are_orthogonal__left.left True False True True) };
+  #"vector.ads" 25 0 0# assume { #"vector.ads" 25 0 0# (Vector__vector___axiom.dynamic_invariant Vector__are_orthogonal__right.right True False True True) };
+  #"vector.ads" 25 0 0# assume { #"vector.ads" 25 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:25 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:24 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:25 *)
   ;
-  #"vector.ads" 24 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 25 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:24 *)
+  () (* Assume Pre of the subprogram vector.ads:25 *)
   ;
-  #"vector.ads" 24 0 0# assume { #"vector.ads" 24 0 0# true };
-  #"vector.ads" 24 0 0# try
+  #"vector.ads" 25 0 0# assume { #"vector.ads" 25 0 0# true };
+  #"vector.ads" 25 0 0# try
    ( (#"vector.adb" 52 0 0# ( #"vector.adb" 52 0 0# abstract ensures {true}(let _ = () in (
     ()))
     end ;
@@ -5572,7 +5574,7 @@ module Vector__are_orthogonal__subprogram_def
   vector__are_orthogonal__result.bool__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "cross_product" defined at vector.ads:26, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "cross_product" defined at vector.ads:27, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__cross_product__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5590,29 +5592,29 @@ module Vector__cross_product__subprogram_def
  use        Vector__cross_product__left___axiom
  use        Vector__cross_product__right___axiom
 
- val vector__cross_product__result "model_projected" "model_trace:3165@result" "name:Cross_Product"  : Vector__vector.vector__ref 
+ val vector__cross_product__result "model_projected" "model_trace:3178@result" "name:Cross_Product"  : Vector__vector.vector__ref 
  
- let def #"vector.ads" 26 0 0#"W:diverges:N" "GP_Subp:vector.ads:26" 
+ let def #"vector.ads" 27 0 0#"W:diverges:N" "GP_Subp:vector.ads:27" 
    (__void_param : unit)
-  requires { #"vector.ads" 26 0 0# true }
-  ensures { #"vector.ads" 26 0 0# true }
+  requires { #"vector.ads" 27 0 0# true }
+  ensures { #"vector.ads" 27 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:26 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:27 *)
   ;
-  #"vector.ads" 26 0 0# assume { #"vector.ads" 26 0 0# (Vector__vector___axiom.dynamic_invariant Vector__cross_product__left.left True False True True) };
-  #"vector.ads" 26 0 0# assume { #"vector.ads" 26 0 0# (Vector__vector___axiom.dynamic_invariant Vector__cross_product__right.right True False True True) };
-  #"vector.ads" 26 0 0# assume { #"vector.ads" 26 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:26 *)
+  #"vector.ads" 27 0 0# assume { #"vector.ads" 27 0 0# (Vector__vector___axiom.dynamic_invariant Vector__cross_product__left.left True False True True) };
+  #"vector.ads" 27 0 0# assume { #"vector.ads" 27 0 0# (Vector__vector___axiom.dynamic_invariant Vector__cross_product__right.right True False True True) };
+  #"vector.ads" 27 0 0# assume { #"vector.ads" 27 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:27 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:26 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:27 *)
   ;
-  #"vector.ads" 26 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 27 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:26 *)
+  () (* Assume Pre of the subprogram vector.ads:27 *)
   ;
-  #"vector.ads" 26 0 0# assume { #"vector.ads" 26 0 0# true };
-  #"vector.ads" 26 0 0# try
+  #"vector.ads" 27 0 0# assume { #"vector.ads" 27 0 0# true };
+  #"vector.ads" 27 0 0# try
    ( (#"vector.adb" 24 0 0# ( #"vector.adb" 24 0 0# abstract ensures {true}(let _ = #"vector.adb" 24 0 0# abstract ensures {true}(let _ = (let temp___193 = #"vector.adb" 24 0 0# (any Vector__vector.vector
    requires {#"vector.adb" 24 0 0# true} 
    ensures {#"vector.adb" 24 0 0# true} 
@@ -5641,9 +5643,9 @@ module Vector__cross_product__subprogram_def
     ( #"vector.adb" 26 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(temp___195)))) in (
      ()))
      end ;
-    { ( temp___195 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___195)) ) with Vector__vector.rec__vector__vector__x = (Standard__float__rep.of_rep((#"vector.adb" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:26:36" "GP_Id:18" "comment:      temp.X := (left.Y * Right.Z) - (Left.Z * Right.Y);
-                                   ^ vector.adb:26:36:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((#"vector.adb" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:26:25" "GP_Id:16" "comment:      temp.X := (left.Y * Right.Z) - (Left.Z * Right.Y);
-                        ^ vector.adb:26:25:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) ))) ((#"vector.adb" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:26:46" "GP_Id:17" "comment:      temp.X := (left.Y * Right.Z) - (Left.Z * Right.Y);
+    { ( temp___195 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___195)) ) with Vector__vector.rec__vector__vector__x = (Standard__float__rep.of_rep((#"vector.adb" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:26:36" "GP_Id:19" "comment:      temp.X := (left.Y * Right.Z) - (Left.Z * Right.Y);
+                                   ^ vector.adb:26:36:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((#"vector.adb" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:26:25" "GP_Id:17" "comment:      temp.X := (left.Y * Right.Z) - (Left.Z * Right.Y);
+                        ^ vector.adb:26:25:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) ))) ((#"vector.adb" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:26:46" "GP_Id:18" "comment:      temp.X := (left.Y * Right.Z) - (Left.Z * Right.Y);
                                              ^ vector.adb:26:46:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) )))))) )))) } } )))
     in (
      Vector__cross_product__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___196)) )))
@@ -5653,9 +5655,9 @@ module Vector__cross_product__subprogram_def
     ( #"vector.adb" 27 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(temp___197)))) in (
      ()))
      end ;
-    { ( temp___197 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___197)) ) with Vector__vector.rec__vector__vector__y = (Standard__float__rep.of_rep((#"vector.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:27:36" "GP_Id:21" "comment:      temp.Y := (Left.Z * Right.X) - (Left.X * Right.Z);
-                                   ^ vector.adb:27:36:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((#"vector.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:27:25" "GP_Id:19" "comment:      temp.Y := (Left.Z * Right.X) - (Left.X * Right.Z);
-                        ^ vector.adb:27:25:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) ))) ((#"vector.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:27:46" "GP_Id:20" "comment:      temp.Y := (Left.Z * Right.X) - (Left.X * Right.Z);
+    { ( temp___197 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___197)) ) with Vector__vector.rec__vector__vector__y = (Standard__float__rep.of_rep((#"vector.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:27:36" "GP_Id:22" "comment:      temp.Y := (Left.Z * Right.X) - (Left.X * Right.Z);
+                                   ^ vector.adb:27:36:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((#"vector.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:27:25" "GP_Id:20" "comment:      temp.Y := (Left.Z * Right.X) - (Left.X * Right.Z);
+                        ^ vector.adb:27:25:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) ))) ((#"vector.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:27:46" "GP_Id:21" "comment:      temp.Y := (Left.Z * Right.X) - (Left.X * Right.Z);
                                              ^ vector.adb:27:46:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) )))))) )))) } } )))
     in (
      Vector__cross_product__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___198)) )))
@@ -5665,9 +5667,9 @@ module Vector__cross_product__subprogram_def
     ( #"vector.adb" 28 0 0# abstract ensures {true}(let _ = (Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(temp___199)))) in (
      ()))
      end ;
-    { ( temp___199 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___199)) ) with Vector__vector.rec__vector__vector__z = (Standard__float__rep.of_rep((#"vector.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:28:36" "GP_Id:24" "comment:      temp.Z := (Left.X * Right.Y) - (Left.Y * Right.X);
-                                   ^ vector.adb:28:36:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((#"vector.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:28:25" "GP_Id:22" "comment:      temp.Z := (Left.X * Right.Y) - (Left.Y * Right.X);
-                        ^ vector.adb:28:25:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) ))) ((#"vector.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:28:46" "GP_Id:23" "comment:      temp.Z := (Left.X * Right.Y) - (Left.Y * Right.X);
+    { ( temp___199 ) with Vector__vector.__split_fields = { ( (Vector__vector.__split_fields(temp___199)) ) with Vector__vector.rec__vector__vector__z = (Standard__float__rep.of_rep((#"vector.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub" "GP_Sloc:vector.adb:28:36" "GP_Id:25" "comment:      temp.Z := (Left.X * Right.Y) - (Left.Y * Right.X);
+                                   ^ vector.adb:28:36:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((#"vector.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:28:25" "GP_Id:23" "comment:      temp.Z := (Left.X * Right.Y) - (Left.Y * Right.X);
+                        ^ vector.adb:28:25:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) ))) ((#"vector.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:temp_assign__sub__mult" "GP_Sloc:vector.adb:28:46" "GP_Id:24" "comment:      temp.Z := (Left.X * Right.Y) - (Left.Y * Right.X);
                                              ^ vector.adb:28:46:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__cross_product__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__cross_product__right.right)))))))))) )))))) )))) } } )))
     in (
      Vector__cross_product__temp.temp__split_fields.Vector__vector.__split_fields__content <- ( (Vector__vector.__split_fields(temp___200)) )))
@@ -5685,7 +5687,7 @@ module Vector__cross_product__subprogram_def
   vector__cross_product__result.Vector__vector.vector__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "distance" defined at vector.ads:28, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "distance" defined at vector.ads:29, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__distance__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5703,42 +5705,42 @@ module Vector__distance__subprogram_def
  use        Vector__distance__right___axiom
  use        Ada__numerics__elementary_functions__sqrt___axiom
 
- val vector__distance__result "model_projected" "model_trace:3193@result" "name:Distance"  : Float32.t__ref 
+ val vector__distance__result "model_projected" "model_trace:3206@result" "name:Distance"  : Float32.t__ref 
  
- let def #"vector.ads" 28 0 0#"W:diverges:N" "GP_Subp:vector.ads:28" 
+ let def #"vector.ads" 29 0 0#"W:diverges:N" "GP_Subp:vector.ads:29" 
    (__void_param : unit)
-  requires { #"vector.ads" 28 0 0# true }
-  ensures { #"vector.ads" 28 0 0# true }
+  requires { #"vector.ads" 29 0 0# true }
+  ensures { #"vector.ads" 29 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:28 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:29 *)
   ;
-  #"vector.ads" 28 0 0# assume { #"vector.ads" 28 0 0# (Vector__vector___axiom.dynamic_invariant Vector__distance__left.left True False True True) };
-  #"vector.ads" 28 0 0# assume { #"vector.ads" 28 0 0# (Vector__vector___axiom.dynamic_invariant Vector__distance__right.right True False True True) };
-  #"vector.ads" 28 0 0# assume { #"vector.ads" 28 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:28 *)
+  #"vector.ads" 29 0 0# assume { #"vector.ads" 29 0 0# (Vector__vector___axiom.dynamic_invariant Vector__distance__left.left True False True True) };
+  #"vector.ads" 29 0 0# assume { #"vector.ads" 29 0 0# (Vector__vector___axiom.dynamic_invariant Vector__distance__right.right True False True True) };
+  #"vector.ads" 29 0 0# assume { #"vector.ads" 29 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:29 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:28 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:29 *)
   ;
-  #"vector.ads" 28 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 29 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:28 *)
+  () (* Assume Pre of the subprogram vector.ads:29 *)
   ;
-  #"vector.ads" 28 0 0# assume { #"vector.ads" 28 0 0# true };
-  #"vector.ads" 28 0 0# try
+  #"vector.ads" 29 0 0# assume { #"vector.ads" 29 0 0# true };
+  #"vector.ads" 29 0 0# try
    ( ( "GP_Sloc:vector.adb:60:14" (#"vector.adb" 60 0 0# ()) );
-   ( "GP_Sloc:vector.adb:60:7" (#"vector.adb" 60 0 0# ( #"vector.adb" 60 0 0# vector__distance__result.Float32.t__content <- ( (#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:vector.adb:60:14" "GP_Reason:VC_PRECONDITION" "GP_Id:33" "comment:      return Sqrt((Left.X - Right.X)**2
-             ^ vector.adb:60:14:VC_PRECONDITION" "GP_Shape:return__call_sqrt" (Ada__numerics__elementary_functions__sqrt___axiom.sqrt((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:19" "GP_Id:32" "comment:                  + (Left.Z - Right.Z)**2);
-                  ^ vector.adb:62:19:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:61:19" "GP_Id:29" "comment:                  + (Left.Y - Right.Y)**2
-                  ^ vector.adb:61:19:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:60:37" "GP_Id:26" "comment:      return Sqrt((Left.X - Right.X)**2
-                                    ^ vector.adb:60:37:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp" (Standard__float.range_check_((Float32.mul_rne((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:60:27" "GP_Id:25" "comment:      return Sqrt((Left.X - Right.X)**2
-                          ^ vector.adb:60:27:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) ))) ((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:60:27" "GP_Id:25" "comment:      return Sqrt((Left.X - Right.X)**2
-                          ^ vector.adb:60:27:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) )))))) ))) ((#"vector.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp" "GP_Sloc:vector.adb:61:39" "GP_Id:28" "comment:                  + (Left.Y - Right.Y)**2
-                                      ^ vector.adb:61:39:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((#"vector.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" "GP_Sloc:vector.adb:61:29" "GP_Id:27" "comment:                  + (Left.Y - Right.Y)**2
-                            ^ vector.adb:61:29:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) ))) ((#"vector.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" "GP_Sloc:vector.adb:61:29" "GP_Id:27" "comment:                  + (Left.Y - Right.Y)**2
-                            ^ vector.adb:61:29:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) )))))) )))))) ))) ((#"vector.adb" 62 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:39" "GP_Id:31" "comment:                  + (Left.Z - Right.Z)**2);
-                                      ^ vector.adb:62:39:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__exp" (Standard__float.range_check_((Float32.mul_rne((#"vector.adb" 62 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:29" "GP_Id:30" "comment:                  + (Left.Z - Right.Z)**2);
-                            ^ vector.adb:62:29:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) ))) ((#"vector.adb" 62 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:29" "GP_Id:30" "comment:                  + (Left.Z - Right.Z)**2);
+   ( "GP_Sloc:vector.adb:60:7" (#"vector.adb" 60 0 0# ( #"vector.adb" 60 0 0# vector__distance__result.Float32.t__content <- ( (#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:vector.adb:60:14" "GP_Reason:VC_PRECONDITION" "GP_Id:34" "comment:      return Sqrt((Left.X - Right.X)**2
+             ^ vector.adb:60:14:VC_PRECONDITION" "GP_Shape:return__call_sqrt" (Ada__numerics__elementary_functions__sqrt___axiom.sqrt((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:19" "GP_Id:33" "comment:                  + (Left.Z - Right.Z)**2);
+                  ^ vector.adb:62:19:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:61:19" "GP_Id:30" "comment:                  + (Left.Y - Right.Y)**2
+                  ^ vector.adb:61:19:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:60:37" "GP_Id:27" "comment:      return Sqrt((Left.X - Right.X)**2
+                                    ^ vector.adb:60:37:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp" (Standard__float.range_check_((Float32.mul_rne((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:60:27" "GP_Id:26" "comment:      return Sqrt((Left.X - Right.X)**2
+                          ^ vector.adb:60:27:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) ))) ((#"vector.adb" 60 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:60:27" "GP_Id:26" "comment:      return Sqrt((Left.X - Right.X)**2
+                          ^ vector.adb:60:27:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) )))))) ))) ((#"vector.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp" "GP_Sloc:vector.adb:61:39" "GP_Id:29" "comment:                  + (Left.Y - Right.Y)**2
+                                      ^ vector.adb:61:39:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((#"vector.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" "GP_Sloc:vector.adb:61:29" "GP_Id:28" "comment:                  + (Left.Y - Right.Y)**2
+                            ^ vector.adb:61:29:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) ))) ((#"vector.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__add__exp__sub" "GP_Sloc:vector.adb:61:29" "GP_Id:28" "comment:                  + (Left.Y - Right.Y)**2
+                            ^ vector.adb:61:29:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) )))))) )))))) ))) ((#"vector.adb" 62 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:39" "GP_Id:32" "comment:                  + (Left.Z - Right.Z)**2);
+                                      ^ vector.adb:62:39:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__exp" (Standard__float.range_check_((Float32.mul_rne((#"vector.adb" 62 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:29" "GP_Id:31" "comment:                  + (Left.Z - Right.Z)**2);
+                            ^ vector.adb:62:29:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) ))) ((#"vector.adb" 62 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:62:29" "GP_Id:31" "comment:                  + (Left.Z - Right.Z)**2);
                             ^ vector.adb:62:29:VC_FP_OVERFLOW_CHECK" "GP_Shape:return__call_sqrt__add__exp__sub" (Standard__float.range_check_((Float32.sub_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance__left.left))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance__right.right)))))))))) )))))) )))))) )))) )) );
     raise Return__exc )) );
     raise Return__exc )
@@ -5751,7 +5753,7 @@ module Vector__distance__subprogram_def
   vector__distance__result.Float32.t__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "distance_to_origin" defined at vector.ads:30, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "distance_to_origin" defined at vector.ads:31, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Vector__distance_to_origin__subprogram_def
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Float32
@@ -5770,28 +5772,28 @@ module Vector__distance_to_origin__subprogram_def
  use        Vector__distance_to_origin__item___axiom
  use        Ada__numerics__elementary_functions__sqrt___axiom
 
- val vector__distance_to_origin__result "model_projected" "model_trace:3221@result" "name:Distance_To_Origin"  : Float32.t__ref 
+ val vector__distance_to_origin__result "model_projected" "model_trace:3234@result" "name:Distance_To_Origin"  : Float32.t__ref 
  
- let def #"vector.ads" 30 0 0#"W:diverges:N" "GP_Subp:vector.ads:30" 
+ let def #"vector.ads" 31 0 0#"W:diverges:N" "GP_Subp:vector.ads:31" 
    (__void_param : unit)
-  requires { #"vector.ads" 30 0 0# true }
-  ensures { #"vector.ads" 30 0 0# true }
+  requires { #"vector.ads" 31 0 0# true }
+  ensures { #"vector.ads" 31 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:30 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram vector.ads:31 *)
   ;
-  #"vector.ads" 30 0 0# assume { #"vector.ads" 30 0 0# (Vector__vector___axiom.dynamic_invariant Vector__distance_to_origin__item.item True False True True) };
-  #"vector.ads" 30 0 0# assume { #"vector.ads" 30 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:30 *)
+  #"vector.ads" 31 0 0# assume { #"vector.ads" 31 0 0# (Vector__vector___axiom.dynamic_invariant Vector__distance_to_origin__item.item True False True True) };
+  #"vector.ads" 31 0 0# assume { #"vector.ads" 31 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram vector.ads:31 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram vector.ads:30 *)
+  () (* Check for RTE in the Pre of the subprogram vector.ads:31 *)
   ;
-  #"vector.ads" 30 0 0# abstract ensures {true}(let _ = True in (
+  #"vector.ads" 31 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram vector.ads:30 *)
+  () (* Assume Pre of the subprogram vector.ads:31 *)
   ;
-  #"vector.ads" 30 0 0# assume { #"vector.ads" 30 0 0# true };
-  #"vector.ads" 30 0 0# try
+  #"vector.ads" 31 0 0# assume { #"vector.ads" 31 0 0# true };
+  #"vector.ads" 31 0 0# try
    ( (#"vector.adb" 66 0 0# ( #"vector.adb" 66 0 0# abstract ensures {true}(let _ = () in (
     ()))
     end ;
@@ -5799,12 +5801,12 @@ module Vector__distance_to_origin__subprogram_def
    #"vector.adb" 66 0 0# assume { #"vector.adb" 66 0 0# (Standard__float___axiom.dynamic_invariant Vector__distance_to_origin__dist_to_o.dist_to_o.Float32.t__content False False True True) } ));
    ( "GP_Sloc:vector.adb:68:7" (#"vector.adb" 68 0 0# ()) );
    ( "GP_Sloc:vector.adb:68:20" (#"vector.adb" 68 0 0# ()) );
-   ( "GP_Sloc:vector.adb:68:17" (#"vector.adb" 68 0 0# #"vector.adb" 68 0 0# Vector__distance_to_origin__dist_to_o.dist_to_o.Float32.t__content <- ( (#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_PRECONDITION" "GP_Sloc:vector.adb:68:20" "GP_Id:39" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
-                   ^ vector.adb:68:20:VC_PRECONDITION" "GP_Shape:dist_to_o_assign__call_sqrt" (Ada__numerics__elementary_functions__sqrt___axiom.sqrt((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:47" "GP_Id:38" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
-                                              ^ vector.adb:68:47:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:35" "GP_Id:36" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
-                                  ^ vector.adb:68:35:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:31" "GP_Id:34" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
-                              ^ vector.adb:68:31:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__add__exp" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance_to_origin__item.item))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance_to_origin__item.item)))))))))) ))) ((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__add__exp" "GP_Sloc:vector.adb:68:43" "GP_Id:35" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
-                                          ^ vector.adb:68:43:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance_to_origin__item.item))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance_to_origin__item.item)))))))))) )))))) ))) ((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:55" "GP_Id:37" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
+   ( "GP_Sloc:vector.adb:68:17" (#"vector.adb" 68 0 0# #"vector.adb" 68 0 0# Vector__distance_to_origin__dist_to_o.dist_to_o.Float32.t__content <- ( (#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_PRECONDITION" "GP_Sloc:vector.adb:68:20" "GP_Id:40" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
+                   ^ vector.adb:68:20:VC_PRECONDITION" "GP_Shape:dist_to_o_assign__call_sqrt" (Ada__numerics__elementary_functions__sqrt___axiom.sqrt((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:47" "GP_Id:39" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
+                                              ^ vector.adb:68:47:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:35" "GP_Id:37" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
+                                  ^ vector.adb:68:35:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__add" (Standard__float.range_check_((Float32.add_rne((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:31" "GP_Id:35" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
+                              ^ vector.adb:68:31:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__add__exp" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance_to_origin__item.item))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__x((Vector__vector.__split_fields(Vector__distance_to_origin__item.item)))))))))) ))) ((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__add__exp" "GP_Sloc:vector.adb:68:43" "GP_Id:36" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
+                                          ^ vector.adb:68:43:VC_FP_OVERFLOW_CHECK" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance_to_origin__item.item))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__y((Vector__vector.__split_fields(Vector__distance_to_origin__item.item)))))))))) )))))) ))) ((#"vector.adb" 68 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_FP_OVERFLOW_CHECK" "GP_Sloc:vector.adb:68:55" "GP_Id:38" "comment:      Dist_To_O := Sqrt(Item.X**2 + Item.Y**2 + Item.Z**2);
                                                       ^ vector.adb:68:55:VC_FP_OVERFLOW_CHECK" "GP_Shape:dist_to_o_assign__call_sqrt__add__exp" (Standard__float.range_check_((Float32.mul_rne((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance_to_origin__item.item))))))) ((Standard__float__rep.to_rep((Vector__vector.rec__vector__vector__z((Vector__vector.__split_fields(Vector__distance_to_origin__item.item)))))))))) )))))) )))) )) )) );
    ( "GP_Sloc:vector.adb:69:14" (#"vector.adb" 69 0 0# ()) );
    ( "GP_Sloc:vector.adb:69:7" (#"vector.adb" 69 0 0# ( #"vector.adb" 69 0 0# vector__distance_to_origin__result.Float32.t__content <- ( Vector__distance_to_origin__dist_to_o.dist_to_o.Float32.t__content );
