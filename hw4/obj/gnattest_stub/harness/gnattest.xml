@@ -1,0 +1,52 @@
+<tests_mapping mode="monolith">
+   <unit source_file="coffee_machine.ads">
+      <test_unit target_file="coffee_machine-test_data-tests.ads">
+         <setup file="coffee_machine-test_data.adb" name="Set_Up" line="8"  column="4"/>
+         <teardown file="coffee_machine-test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Initialize" line="15" column="14">
+            <test file="coffee_machine-test_data-tests.adb" line="39" column="1" name="Test_Initialize_9b5956" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="X" line="16" column="14">
+            <test file="coffee_machine-test_data-tests.adb" line="60" column="1" name="Test_X_ceffac" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
+   <unit source_file="vector.ads">
+      <test_unit target_file="vector-test_data-tests.ads">
+         <setup file="vector-test_data.adb" name="Set_Up" line="8"  column="4"/>
+         <teardown file="vector-test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Plus" line="12" column="13">
+            <test file="vector-test_data-tests.adb" line="39" column="1" name="Test_Plus_72512a" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Minus" line="16" column="13">
+            <test file="vector-test_data-tests.adb" line="60" column="1" name="Test_Minus_68a7b4" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Multiply" line="18" column="13">
+            <test file="vector-test_data-tests.adb" line="81" column="1" name="Test_Multiply_a10e1f" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Multiply" line="20" column="13">
+            <test file="vector-test_data-tests.adb" line="102" column="1" name="Test_Multiply_3c8f66" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Equal" line="22" column="13">
+            <test file="vector-test_data-tests.adb" line="123" column="1" name="Test_Equal_a77ad2" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Are_Orthogonal" line="25" column="13">
+            <test file="vector-test_data-tests.adb" line="144" column="1" name="Test_Are_Orthogonal_cfff6c" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Cross_Product" line="27" column="13">
+            <test file="vector-test_data-tests.adb" line="167" column="1" name="Test_Cross_Product_0db7c7" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Distance" line="29" column="13">
+            <test file="vector-test_data-tests.adb" line="188" column="1" name="Test_Distance_55bb3a" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <tested name="Distance_To_Origin" line="31" column="13">
+            <test file="vector-test_data-tests.adb" line="209" column="1" name="Test_Distance_To_Origin_fd5984" timestamp="2018-12-02 10:52:48"/>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
+   <additional_tests/>
+</tests_mapping>

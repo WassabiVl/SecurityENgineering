@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 12" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\hw4.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnatprove\gnatprove.out</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\coffee_machine-test_data-tests-suite-test_runner.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\coffee_machine-test_data-tests-suite.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\coffee_machine-test_data-tests-suite.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\coffee_machine-test_data-tests.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

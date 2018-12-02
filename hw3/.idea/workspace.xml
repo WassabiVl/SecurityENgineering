@@ -2,10 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23a5864-f5e2-4be1-886b-96a648855bf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hw1/obj/gnatinspect.db" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/obj/gnatinspect.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/obj/project_set_1-loc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/obj/project_set_1-loc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw2/obj/gpsauto.cgpr" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw2/obj/problem_set_2-loc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2/obj/problem_set_2-loc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tg/test_coffee_machine.mod" beforeDir="false" afterPath="$PROJECT_DIR$/tg/test_coffee_machine.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw2/src/main2.adb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2/src/main2.adb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/assignment4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/gnat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/homework4.gpr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/coffee_machine.adb.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/coffee_machine.adb.stdout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/coffee_machine.ali" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/coffee_machine.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/default-loc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatinspect.db" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatinspect.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.adb.stderr" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.adb.stderr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.ali" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.ali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.cswi" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.cswi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.spark" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine.spark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/coffee_machine__flow__56.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/gnatprove.out" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/gnatprove.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/main.ali" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/main.ali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/main.cswi" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/main.cswi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/main.spark" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/main.spark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb.stderr" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb.stderr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_10_24_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_12_26_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_13_24_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_18_26_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_19_24_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_21_26_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_22_24_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_26_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_26_36_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_27_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_27_36_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_27_46_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_28_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_28_36_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_28_46_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_29_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_29_36_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_30_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_30_36_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_30_46_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_31_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_31_36_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_31_46_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_34_20_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_34_29_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_34_37_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_34_46_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_37_20_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_37_29_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_37_37_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_37_46_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_41_24_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_42_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_44_24_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_45_25_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_60_27_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_60_37_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_61_19_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_61_29_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_61_39_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_62_19_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_62_39_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_63_27_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_63_37_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_64_19_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_64_29_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_64_39_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_65_19_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_65_39_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_68_31_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_68_35_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_68_43_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_68_47_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_71_31_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_71_35_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_71_43_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_71_47_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.adb_9_26_fp_overflow_check.trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.ali" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.ali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.cswi" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.cswi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.mlw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.spark" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector.spark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector/why3session.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector/why3session.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector/why3shapes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/gnatprove/vector/why3shapes.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/homework4-loc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/main.ali" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/main.ali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/main.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/main.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/vector.adb.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/vector.adb.stdout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/vector.ali" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/vector.bexch" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/obj/vector.bexch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/vector.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/obj/vector.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/slides03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/src/coffee_machine.adb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/src/coffee_machine.adb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/src/main.adb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/src/main.adb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,45 +110,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-608624430">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="mod" value="1" />
-          <entry key="ts" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="DTD" value="1" />
-          <entry key="TypeScript" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -65,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,14 +145,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VR_python/hw4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -117,27 +180,24 @@
       <option name="presentableId" value="Default" />
       <updated>1542911884316</updated>
       <workItem from="1542911885994" duration="77000" />
+      <workItem from="1543707980988" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77000" />
+    <option name="totallyTimeSpent" value="99000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -145,23 +205,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tg/test_coffee_machine.ts">

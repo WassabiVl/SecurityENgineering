@@ -1,0 +1,160 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U vector.test_data.tests.suite%b  vector-test_data-tests-suite.adb  588a136a OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W aunit%s		aunit.adb		aunit.ali
+Z aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+Z aunit.memory.utils%s	aunit-memory-utils.adb	aunit-memory-utils.ali  ED
+Z aunit.simple_test_cases%s  aunit-simple_test_cases.adb  aunit-simple_test_cases.ali
+W aunit.test_caller%s	aunit-test_caller.adb	aunit-test_caller.ali  ED
+Z aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+W gnattest_generated%s	gnattest_generated.ads	gnattest_generated.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W vector.test_data.tests%s  vector-test_data-tests.adb  vector-test_data-tests.ali
+
+U vector.test_data.tests.suite%s  vector-test_data-tests-suite.ads  1c5dd51b EE NE OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_suites%s	aunit-test_suites.adb	aunit-test_suites.ali
+W vector.test_data.tests%s  vector-test_data-tests.adb  vector-test_data-tests.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20180524045508 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20180524045508 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20180524045508 76cdf7c6 aunit%s
+D aunit-assertions.ads	20180524045508 b7f9ecd6 aunit.assertions%s
+D aunit-memory.ads	20180524045508 a0315146 aunit.memory%s
+D aunit-memory-utils.ads  20180524045508 5b1e3d11 aunit.memory.utils%s
+D aunit-memory-utils.adb  20180524045508 c00242e3 aunit.memory.utils%b
+D aunit-options.ads	20180524045508 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20180524045508 4111c32f aunit.simple_test_cases%s
+D aunit-test_caller.ads	20180524045508 956cfce4 aunit.test_caller%s
+D aunit-test_caller.adb	20180524045508 0f783ccd aunit.test_caller%b
+D aunit-test_filters.ads  20180524045508 f10b2127 aunit.test_filters%s
+D aunit-test_fixtures.ads  20180524045508 faadeab5 aunit.test_fixtures%s
+D aunit-test_results.ads  20180524045508 171847c9 aunit.test_results%s
+D aunit-test_suites.ads	20180524045508 6821dc24 aunit.test_suites%s
+D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
+D gnat.ads		20180524051738 fd2ad2f1 gnat%s
+D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
+D gnattest_generated.ads  20181202105248 33489ddc gnattest_generated%s
+D system.ads		20180524051738 32a08138 system%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-finmas.ads		20180524051738 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-memory.ads		20180524051736 597d6634 system.memory%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-pooglo.ads		20180524051736 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stalib.adb		20180524051736 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524051736 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D vector.ads		20181201193934 f5a26b34 vector%s
+D vector-test_data.ads	20181202001014 cd011895 vector.test_data%s
+D vector-test_data-tests.ads  20181202105248 5376bf0d vector.test_data.tests%s
+D vector-test_data-tests-suite.ads  20181202105248 270ab632 vector.test_data.tests.suite%s
+D vector-test_data-tests-suite.adb  20181202105248 d9a4c460 vector.test_data.tests.suite%b
+X 10 aunit.ads
+34K9*AUnit 48e10 47|5r6 9r26 48|5r6 10r28 13r21 25r26
+X 17 aunit-test_caller.ads
+78k15*Test_Caller 121e22 48|5w12 10r34
+80R9*Test_Case<16|44R9> 48|15r49[10] 16r50[10] 17r53[10] 18r53[10] 19r50[10]
+. 20r59[10] 21r58[10] 22r53[10] 23r63[10]
+91U14*Create 48|28s16[10] 32s16[10] 36s16[10] 40s16[10] 44s16[10] 48s16[10]
+. 52s16[10] 56s16[10] 60s16[10]
+112P9 Fixture_Access(46|10R9)
+X 18 aunit-test_caller.adb
+38V13 New_Fixture[13|40]{17|112P9[48|10]} 14|38b13[48|10]
+66P12 Access_Type(17|80R9[48|10])
+67V16 Alloc[13|40]{66P12[48|10]} 14|38b13[48|10]
+X 22 aunit-test_suites.ads
+41K15*Test_Suites 86e22 47|5w12 9r32 48|13r27 25r32
+43R9*Test_Suite<23|38R9> 84e14 48|13r39
+44P9*Access_Test_Suite(43R9) 47|9r44 48|25r44
+48U14*Add_Test 48|65s14 66s14 67s14 68s14 69s14 70s14 71s14 72s14 73s14
+X 27 gnattest_generated.ads
+1K9*Gnattest_Generated 4e23 48|6w6 11r7
+2K12*GNATtest_Standard=2:38 48|11r26
+X 28 system.ads
+67M9*Address
+X 32 s-memory.ads
+53V13*Alloc{28|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{28|67M9} 105i<c,__gnat_realloc>22
+X 39 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 44 vector.ads
+2K9*Vector 35e11 47|7r9 11r5 48|8r14 11r44 79r5
+X 45 vector-test_data.ads
+8K16*Test_Data 44|2k9 45|18e21 47|7r16 11r12 48|8r21 11r51 79r12
+X 46 vector-test_data-tests.ads
+8K26*Tests 45|8k16 46|42e27 47|7r26 11r22 48|8r31 11r61 79r22
+10R9*Test<45|11R9> 11e20 48|11r67
+13U14*Test_Plus_72512a 48|31r10
+16U14*Test_Minus_68a7b4 48|35r10
+19U14*Test_Multiply_a10e1f 48|39r10
+22U14*Test_Multiply_3c8f66 48|43r10
+25U14*Test_Equal_a77ad2 48|47r10
+28U14*Test_Are_Orthogonal_cfff6c 48|51r10
+31U14*Test_Cross_Product_0db7c7 48|55r10
+34U14*Test_Distance_55bb3a 48|59r10
+37U14*Test_Distance_To_Origin_fd5984 48|63r10
+X 47 vector-test_data-tests-suite.ads
+7K32*Suite 46|8k26 47|11l28 11e33 48|8b37 79l28 79t33
+9V13*Suite{22|44P9} 48|25b13 77l8 77t13
+X 48 vector-test_data-tests-suite.adb
+10K12 Runner_1[17|78] 15r40 16r41 17r44 18r44 19r41 20r50 21r49 22r44 23r54
+. 28r7 32r7 36r7 40r7 44r7 48r7 52r7 56r7 60r7
+13r4 Result{22|43R9} 65r7 66r7 67r7 68r7 69r7 70r7 71r7 72r7 73r7 75m14 75r14
+15r4 Case_1_1_Test_Plus_72512a{17|80R9[10]} 29m10 65m24 65r24
+16r4 Case_2_1_Test_Minus_68a7b4{17|80R9[10]} 33m10 66m24 66r24
+17r4 Case_3_1_Test_Multiply_a10e1f{17|80R9[10]} 37m10 67m24 67r24
+18r4 Case_4_1_Test_Multiply_3c8f66{17|80R9[10]} 41m10 68m24 68r24
+19r4 Case_5_1_Test_Equal_a77ad2{17|80R9[10]} 45m10 69m24 69r24
+20r4 Case_6_1_Test_Are_Orthogonal_cfff6c{17|80R9[10]} 49m10 70m24 70r24
+21r4 Case_7_1_Test_Cross_Product_0db7c7{17|80R9[10]} 53m10 71m24 71r24
+22r4 Case_8_1_Test_Distance_55bb3a{17|80R9[10]} 57m10 72m24 72r24
+23r4 Case_9_1_Test_Distance_To_Origin_fd5984{17|80R9[10]} 61m10 73m24 73r24
+

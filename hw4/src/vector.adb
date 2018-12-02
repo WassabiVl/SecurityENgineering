@@ -7,7 +7,7 @@ package body Vector is
    begin
       temp.X := Left.X + Right.X;
         temp.Y := Left.Y + Right.Y;
-      temp.Z := Left.Z + Right.Y;
+      temp.Z := Left.Z + Right.Z;
       return temp;
    end "+";
 
@@ -16,7 +16,7 @@ package body Vector is
    begin
       temp.X := Left.X - Right.X;
         temp.Y := Left.Y - Right.Y;
-      temp.Z := Left.Z - Right.Y;
+      temp.Z := Left.Z - Right.Z;
       return temp;
    end "-";
 

@@ -1,0 +1,1 @@
+gnatmake -P hw4.gpr -f -cargs -fprofile-arcs -ftest-coverage -largs -fprofile-arcs

@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\hw4.gpr
+20181201223854
+[BOUND OBJECT FILES]
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\
+-LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\
+-LC:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

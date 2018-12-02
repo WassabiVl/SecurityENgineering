@@ -1,0 +1,86 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U vector.test_data%b	vector-test_data.adb	c0a70728 OO PK
+W vector%s		vector.adb		vector.ali
+
+U vector.test_data%s	vector-test_data.ads	c20e9914 EE OO PF PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W vector%s		vector.adb		vector.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20180524045508 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20180524045508 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20180524045508 76cdf7c6 aunit%s
+D aunit-assertions.ads	20180524045508 b7f9ecd6 aunit.assertions%s
+D aunit-test_fixtures.ads  20180524045508 faadeab5 aunit.test_fixtures%s
+D aunit-test_results.ads  20180524045508 171847c9 aunit.test_results%s
+D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
+D gnat.ads		20180524051738 fd2ad2f1 gnat%s
+D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
+D system.ads		20180524051738 32a08138 system%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-finmas.ads		20180524051738 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-pooglo.ads		20180524051736 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524051736 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D vector.ads		20181201193934 f5a26b34 vector%s
+D vector-test_data.ads	20181202001014 cd011895 vector.test_data%s
+D vector-test_data.adb	20181202001014 0da61fbd vector.test_data%b
+X 9 ada_containers-aunit_lists.ads
+53R9*Cursor
+X 10 aunit.ads
+34K9*AUnit 48e10 33|6r6 11r21
+X 11 aunit-assertions.ads
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter<9|53R9[145]>
+113V13*First_Failure{110R9}
+X 12 aunit-test_fixtures.ads
+76K15*Test_Fixtures 90e24 33|6w12 11r27
+78R9*Test_Fixture<11|96R9> 88e67 33|11r41
+X 32 vector.ads
+2K9*Vector 35e11 33|8r9 18r5 34|6r14 20r5
+X 33 vector-test_data.ads
+8K16*Test_Data 32|2k9 33|18l12 18e21 34|6b21 20l12 20t21
+11R9*Test<12|78R9> 11|101p14 104p14 107p13 113p13 33|13e20 15P14 15r42 16P14
+. 16r45 34|8r42 14r45
+15U14*Set_Up<12|80p14> 15=22 34|8b14 12l8 12t14
+15r22 Gnattest_T{11R9} 34|8b22 9r28
+16U14*Tear_Down<12|83p14> 16=25 34|14b14 18l8 18t17
+16r25 Gnattest_T{11R9} 34|14b25 15r28
+

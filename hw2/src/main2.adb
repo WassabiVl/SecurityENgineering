@@ -1,8 +1,6 @@
 with Ada.Text_IO, Ada.Integer_Text_IO, Bank_Accounts;
 use Ada.Text_IO, Ada.Integer_Text_IO, Bank_Accounts;
 
-
-
 procedure main2 is
    
    From : Account_Type;
