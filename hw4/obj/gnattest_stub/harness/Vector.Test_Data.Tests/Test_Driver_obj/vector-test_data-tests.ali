@@ -91,7 +91,7 @@ D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
 D s-stoele.adb		20180524051736 ed88f8fb system.storage_elements%b
 D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
-D vector.ads		20181201193934 f5a26b34 vector%s
+D vector.ads		20181204173732 0cc67ef3 vector%s
 D vector-test_data.ads	20181202001014 cd011895 vector.test_data%s
 D vector-test_data-tests.ads  20181202105248 5376bf0d vector.test_data.tests%s
 D vector-test_data-tests.adb  20181202113202 04a9c243 vector.test_data.tests%b
@@ -135,14 +135,14 @@ X 32 s-memory.ads
 X 39 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
 X 44 vector.ads
-2K9*Vector 35e11 46|8r9 10r58 42r5 47|21r14 242r5
+2K9*Vector 39e11 46|8r9 10r58 42r5 47|21r14 242r5
 7R9*Vector 11e15 47|23r10 24r11 25r13
 8f7*X{float} 47|49m11 50m12 51m14 71m12 72m12 73m14
 9f7*Y{float} 47|49m25 50m26 51m30 71m26 72m26 73m31
 10f7*Z{float} 47|49m40 50m41 51m48 71m41 72m41 73m49
 12V14*"+"{7R9} 47|53s15
 16V14*"-"{7R9} 47|76s15
-22V14*"="{boolean} 47|53s22 76s22
+26V14*"="{boolean} 47|53s22 76s22
 X 45 vector-test_data.ads
 8K16*Test_Data 44|2k9 45|18e21 46|8r16 10r65 42r12 47|21r21 242r12
 11R9*Test<20|78R9> 13e20 46|10r75

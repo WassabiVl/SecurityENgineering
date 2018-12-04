@@ -65,7 +65,7 @@ D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
 D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
-D vector.ads		20181201193934 f5a26b34 vector%s
+D vector.ads		20181204173732 0cc67ef3 vector%s
 D vector-test_data.ads	20181202001014 cd011895 vector.test_data%s
 D vector-test_data-tests.ads  20181202105248 5376bf0d vector.test_data.tests%s
 D vector-test_data-tests-suite.ads  20181202105248 270ab632 vector.test_data.tests.suite%s
@@ -92,7 +92,7 @@ X 22 aunit-test_suites.ads
 X 27 gnattest_generated.ads
 1K9*Gnattest_Generated 4e23 46|6w6
 X 41 vector.ads
-2K9*Vector 35e11 46|10r11 20r5
+2K9*Vector 39e11 46|10r11 20r5
 X 42 vector-test_data.ads
 8K16*Test_Data 18e21 46|10r18 20r12
 X 43 vector-test_data-tests.ads

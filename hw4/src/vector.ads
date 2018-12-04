@@ -13,9 +13,13 @@ package Vector is
      with Pre => Left.X + Right.X < Float'Last and Left.Y + Right.Y < Float'Last and Left.Z + Right.Z < Float'Last,
        Post => "+"'Result.X = Left.X + Right.X and "+"'Result.Y = Left.Y + Right.Y and "+"'Result.Z = Left.Z + Right.Z;
    -- Adds two vectors dimension - wise.
-   function "-"(Left : Vector ; Right : Vector ) return Vector ;
+   function "-"(Left : Vector ; Right : Vector ) return Vector
+   with Pre => Left.X + Right.X < Float'Last and Left.Y + Right.Y < Float'Last and Left.Z + Right.Z < Float'Last,
+       Post => "-"'Result.X = Left.X - Right.X and "-"'Result.Y = Left.Y - Right.Y and "-"'Result.Z = Left.Z - Right.Z;
    -- Subtracts the right vector from the left one dimension -wise .
-   function "*"(Left : Vector ; Right : Float ) return Vector ;
+   function "*"(Left : Vector ; Right : Float ) return Vector
+     with Pre => Left.X * Right < Float'Last and Left.Y * Right < Float'Last and Left.Z * Right < Float'Last,
+       Post => "*"'Result.X = Left.X * Right and "*"'Result.Y = Left.Y * Right and "*"'Result.Z = Left.Z * Right;
    -- Multiplies all dimensions of Left by Right .
    function "*"(Left : Vector ; Right : Vector ) return Float ;
    -- Computes the scalar product .
