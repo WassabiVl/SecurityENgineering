@@ -1,33 +1,176 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\test_drivers.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 47" line=" 12" >
+    <file_marker column=" 7" line=" 49" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\hw4.gpr</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnatprove\gnatprove.out</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\coffee_machine-test_data-tests-suite-test_runner.adb</vfs_file>
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\coffee_machine-test_data-tests-suite.adb</vfs_file>
+    <file_marker column=" 32" line=" 42" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\coffee_machine-test_data-tests-suite.ads</vfs_file>
+    <file_marker column=" 27" line=" 40" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 32" line=" 42" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 113" line=" 22" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 11" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\coffee_machine-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 34" >
       <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\coffee_machine-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\vector.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\include\aunit\ada_containers-aunit_lists.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Vector.Test_Data.Tests\vector-test_data-tests-suite-test_runner.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Vector.Test_Data.Tests\vector-test_data-tests-suite.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Vector.Test_Data.Tests\vector-test_data-tests-suite.ads</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 242" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 30" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.ads</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 30" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data.adb</vfs_file>
+    </file_marker>
+    <mdi_marker title="Coverage Report"  />
+    <file_marker column=" 30" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\vector-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\hw4.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\coffee_machine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 15" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\hw4.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\coffee_machine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 44" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\harness\Coffee_Machine.Test_Data.Tests\test_driver.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\obj\gnattest_stub\tests\coffee_machine-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 15" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\hw4.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw4\src\coffee_machine.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>
