@@ -1,0 +1,41 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U ticket_machine_wael%b	ticket_machine_wael.adb	d6cfb83c NE OO PK IL
+Z interfaces%s		interfac.ads		interfac.ali
+
+U ticket_machine_wael%s	ticket_machine_wael.ads	e78f7715 EE NE OO PK IL
+
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D system.ads		20180524051738 32a08138 system%s
+D ticket_machine_wael.ads  20181212221250 e78f7715 ticket_machine_wael%s
+D ticket_machine_wael.adb  20181212221250 3140cf29 ticket_machine_wael%b
+X 3 ticket_machine_wael.ads
+1K9*ticket_machine_wael 18l5 18e24 4|1b14 52l5 52t24
+9I17*State{natural} 15r37 16r39 4|2r29 22r34 27r16
+10E14*Action 10e83 16r52 4|23r30
+10n25*Insert_Five_Eur{10E14} 4|37r15
+10n42*Insert_Ten_Eur{10E14} 4|34r15
+10n58*Insert_Twenty_Eur{10E14} 4|31r15
+10n77*Reset{10E14} 4|39r15
+11E14*Reaction 11e56 16r67 4|24r31
+11n27*Nothing{11E14} 4|47r15
+11n36*Reset{11E14} 4|41r18
+11n43*Print_Ticket{11E14} 4|44r15
+13i9*Ticket_Prize{natural} 4|43r15
+15U19*Initialize 15<30 4|2b11 5l8 5t18
+15i30 S{9I17} 4|2b22 4m7
+16U19*Do_Action 16=29 16>46 16<60 4|22b14 49l11 49t20
+16i29 S{9I17} 4|22b24 29r17 33m13 36m13 38m13 40m13 43r10 45m10
+16e46 A{10E14} 4|23b24 30r12
+16e60 R{11E14} 4|24b24 41m13 44m10 47m10
+X 4 ticket_machine_wael.adb
+27i7 s_rose{3|9I17} 29m7 33r23 36r23 38r22
+

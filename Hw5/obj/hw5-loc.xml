@@ -1,9 +1,314 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 27" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 9" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 9" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 9" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 9" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 241" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\lib\gcc\x86_64-pc-mingw32\7.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 242" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\lib\gcc\x86_64-pc-mingw32\7.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 15" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 263" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\lib\gcc\x86_64-pc-mingw32\7.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 259" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\lib\gcc\x86_64-pc-mingw32\7.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 242" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\lib\gcc\x86_64-pc-mingw32\7.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 6" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 59" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 68" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 67" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 10" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 9" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 12" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 12" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 7" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 13" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 15" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 50" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine_wael.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine_wael.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine_wael.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine_wael.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine_wael.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\main.adb</vfs_file>
+    </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw5.gpr</vfs_project>
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\src\ticket_machine.adb</vfs_file>
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\hw5.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\src\ticket_machine.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
