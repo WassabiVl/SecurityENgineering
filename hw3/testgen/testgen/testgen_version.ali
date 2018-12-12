@@ -1,0 +1,19 @@
+V "GNAT Lib v2018"
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U testgen_version%s	testgen_version.ads	1265058a NE OO PK
+
+D system.ads		20180524051738 32a08138 system%s
+D testgen_version.ads	20181119192306 1265058a testgen_version%s
+X 2 testgen_version.ads
+24K9*Testgen_Version 28l5 28e20
+26a3*Id{string}
+

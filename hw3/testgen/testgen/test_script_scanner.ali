@@ -1,0 +1,205 @@
+V "GNAT Lib v2018"
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U test_script_scanner%b	test_script_scanner.adb	29570471 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U test_script_scanner%s	test_script_scanner.ads	c1e3f7dc EE NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W test_script_scanner_dfa%s  test_script_scanner_dfa.adb  test_script_scanner_dfa.ali
+W test_script_scanner_io%s  test_script_scanner_io.adb  test_script_scanner_io.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_script_scanner.ads  20181119192306 e985e386 test_script_scanner%s
+D test_script_scanner.adb  20181119192306 e1602f6f test_script_scanner%b
+D test_script_scanner_dfa.ads  20181119192306 926c4ed6 test_script_scanner_dfa%s
+D test_script_scanner_io.ads  20181119192306 9bb89214 test_script_scanner_io%s
+D text_io.ads		20180524051736 21b2c898 text_io%s
+X 6 a-textio.ads
+52P9*File_Type 25|13r42 471r35
+104V13*Name{string} 25|473s23
+107V13*Is_Open{boolean} 25|404s16
+118V13*Standard_Output{52P9} 25|15s20
+166U14*New_Line 25|875s29
+241U14*Put 25|405s14 549s21 550s21
+242U14*Put 25|407s14 873s29 874s29
+259U14*Put_Line 25|551s21
+X 24 test_script_scanner.ads
+33K9*Test_Script_Scanner 57l5 57e24 25|5b14 899l5 899t24
+35E8*Token 47e38 51r33 25|7r12 19r23 884r33
+35n18*Key_Fail_Handling{35E8} 25|571r27
+35n37*Key_Error_Handling{35E8} 25|576r27
+36n18*Key_Stop{35E8} 25|710r45
+36n33*Key_Continue{35E8} 25|715r45
+37n18*Key_Context{35E8} 25|581r25
+37n33*Key_Exceptions{35E8} 25|586r25
+37n49*Key_Code{35E8} 25|591r25
+39n18*Key_Begin_Test_Case{35E8} 25|596r25
+40n18*Key_Define{35E8} 25|601r25
+40n33*Key_Prepare{35E8} 25|606r25
+40n48*Key_Test{35E8} 25|611r25
+41n18*Key_Pass{35E8} 25|616r25
+41n33*Key_Cleanup{35E8} 25|621r25
+43n18*Key_Normal_Path{35E8} 25|747r47
+43n35*Key_Exception{35E8} 25|753r47
+44n18*Test_Case_Number{35E8} 25|630r10
+44n36*Test_Case_Title{35E8} 25|634r10
+45n18*Indented_Text_Line{35E8} 25|657r10
+45n38*Ada_Exception{35E8} 25|724r10 779r54
+45n53*Colon{35E8} 25|728r10 759r47 791r54
+45n60*Semicolon{35E8} 25|737r54
+47n18*End_Of_Input{35E8} 25|830r12
+47n32*Error{35E8} 25|7r27
+49U13*Next_Token 25|882b13 882l51 882t61
+51V12*Current_Token{35E8} 25|884b12 887l7 887t20
+53V12*Current_Line{positive} 25|889b12 892l7 892t19
+55V12*Token_Text{string} 25|894b12 897l7 897t17
+X 25 test_script_scanner.adb
+7e3 Tok{24|35E8} 882m33 886r12
+8i3 Column{natural} 580m2 585m2 590m2 595m2 600m2 605m2 610m2 615m2 620m2
+. 646m2 646r12 667r16 670r56 742m2 742r12 746m2 746r12 751m2 751r12 757m2
+. 757r12 773m2 773r12 777m2 777r12 784m46 789m2 789r12
+9i3 Line{positive} 638m2 638r10 661m2 661r10 676m49 676r57 695m2 695r10 699m2
+. 699r10 732m2 732r10 783m2 783r10 804m2 804r10 813m2 813r10 891r12
+11e3 Discarded_Character{character} 668m30 669r35 678r56
+13V12 Standard_Error{6|52P9} 13b12 16l7 16t21 549s26 550s26 551s31
+19V10 YYLex{24|35E8} 19b10 879l5 879t10 882s40
+20I9 short{integer} 22r12 40r39 99r49 117r36 125r37 185r36 245r36 322r36
+. 445r12
+21i5 yy_act{integer} 544m13 550r56 556r18 851m33 874r48
+22i5 yy_c{20I9} 523m17 528r60 531m25 531r41 534r72
+25i1 YY_END_TOK{integer}
+26N1 YY_END_OF_BUFFER 423r13 819r6 820r1 821r1 822r1 823r1 824r1 825r1 826r1
+. 827r1 828r1 829r1 831r22
+27I9 yy_state_type{integer} 28r20 443r39 444r24
+28i1 yy_current_state{27I9} 518m9 520m13 520r33 524r32 525r48 528r40 528r69
+. 529m21 529r48 530r26 534m17 534r52 536r6 541m9 544r33 561m17 865m29
+29N1 INITIAL 819r25
+30N1 Count_White_Space 580r22 590r22 600r22 605r22 610r22 620r22 758r46 790r53
+. 820r20
+31N1 Skip_White_Space 662r35 821r20
+32N1 Stop_Or_Continue 570r9 575r9 822r20
+33N1 Exception_List 585r23 823r20
+34N1 Pass_Clause 615r22 824r20
+35N1 Pass_Exception 752r46 825r20
+36N1 Indented_Text 651r35 671r58 674r56 679r56 686r9 764r46 826r20
+37N1 Comment 796r8 827r20
+38N1 Title_Line 595r22 828r20
+39N1 No_Condition 639r32 691r35 700r35 709r9 714r9 736r9 768r9 785r53 805r46
+. 829r20
+40a1 yy_accept(20I9) 455r14 524r22 544r23
+99a1 yy_ec(20I9) 454r17 523r25
+117a1 yy_meta(20I9) 462r25 531r33
+125a1 yy_base(20I9) 459r24 465r36 528r32 534r44
+185a1 yy_def(20I9) 460r33 529r41
+245a1 yy_nxt(20I9) 465r29 534r37
+322a1 yy_chk(20I9) 459r17 528r25
+402U11 ECHO 402b11 409l5 409t9
+415U11 ENTER 415b11 415>18 418l5 418t10 570s2 575s2 580s15 585s16 590s15
+. 595s15 600s15 605s15 610s15 615s15 620s15 639s25 651s28 662s28 671s51 674s49
+. 679s49 686s2 691s28 700s28 709s2 714s2 736s2 752s39 758s39 764s39 768s2
+. 785s46 790s46 796s2 805s39
+415i18 state{integer} 417r26
+421V10 YY_STATE_EOF{integer} 421b10 421>23 424l5 424t17 851s43
+421i23 state{integer} 423r32
+427U11 yyless 427b11 427>18 433l5 433t11
+427i18 n{integer} 430r26
+436U11 YY_USER_ACTION 436b11 439t4 546s13
+443V10 yy_get_previous_state{27I9} 443b10 469l5 469t26 865s49
+444i5 yy_current_state{27I9} 448m5 450m9 450r29 455r24 456r40 459r32 459r61
+. 460m13 460r40 461r18 465m9 465r44 468r12
+445i5 yy_c{20I9} 454m9 459r52 462m17 462r33 465r64
+446i5 yy_bp{integer} 449r20
+453i9 yy_cp{integer} 454r33 457r39
+471U11 yyrestart 471b11 471>22 474l5 474t14
+471p22 input_file{6|52P9} 473r28
+477L3 new_file 857r38
+543L3 next_action 562r22 869r34
+555L3 do_action 853r38
+667i6 I{integer} 670r52
+X 26 test_script_scanner_dfa.ads
+1K9*test_script_scanner_dfa 24|3w6 3r35 26|28e28
+2b1*aflex_debug{boolean} 25|548r12
+3i1*yytext_ptr{integer} 25|446r24 453r18 501m9 502r23 835m21 849r47 861r43
+. 868r38
+10A6*unbounded_character_array(character)<integer>
+11A9*ch_buf_type{10A6}<integer>
+12a1*yy_ch_buf{11A9} 25|429m9 449r10 454r23 489m9 496m9 497m9 503r25 513m9
+. 519r14 523r31 559m17 833m21 862r45
+13i1*yy_cp{integer} 25|429r19 430m9 431r23 510m9 513r19 517r18 523r41 526r47
+. 535m13 535r22 540m9 559r27 560m17 833r31 867m29
+13i8*yy_bp{integer} 25|430r18 517m9 519r24 835r35 868m29
+16e1*yy_hold_char{character} 25|429r29 503m9 513r29 559r37 833r41 862m29
+17i1*yy_c_buf_p{integer} 25|431m9 453r30 502m9 503r35 510r18 849m33 861m29
+. 862r55 864m29 867r38
+19V10*YYText{string} 25|405s37 407s19 551s55 650s9 650s16 690s9 690s16 763s9
+. 763s16 778s59 896s12
+21U11*YY_DO_BEFORE_ACTION 25|432s9 545s13
+23b1*yy_init{boolean} 25|481r10 504m9 856m33
+24i1*yy_start{integer} 25|417m6 448r25 482r14 483m13 518r29 851r57
+25I9*yy_state_type{integer}
+26i1*yy_last_accepting_state{25I9} 25|456m13 525m21 541r29 561r37
+27i1*yy_last_accepting_cpos{integer} 25|457m13 526m21 540r18 560r26
+X 27 test_script_scanner_io.ads
+4K9*test_script_scanner_io 24|4w6 4r34 27|35e27
+6p1*user_output_file{6|52P9} 25|404r24 405r19
+8X1*AFLEX_INTERNAL_ERROR 25|876r27
+11X1*AFLEX_SCANNER_JAMMED 25|818r7
+12n27*EOB_ACT_RESTART_SCAN{12E6} 25|860r30
+13n27*EOB_ACT_END_OF_FILE{12E6} 25|838r30
+14n27*EOB_ACT_LAST_MATCH{12E6} 25|863r30
+15e1*YY_END_OF_BUFFER_CHAR{character} 25|496r34 497r38
+16i1*yy_n_chars{integer} 25|490m9 496r19 497r19 864r43
+19b1*yy_eof_has_been_seen{boolean} 25|499m9
+23V10*yy_get_next_buffer{12E6} 25|837s26
+25U11*unput 25|650s2 678s49 690s2 763s2
+26V10*input{character} 25|668s53
+28V10*yywrap{boolean} 25|840s34
+29U11*Open_Input 25|473s4
+X 28 text_io.ads
+24K9*Text_IO=24:29 24|2w6 2r19 25|3w6 3r19 13r34 15r12 404r8 405r6 407r6
+. 473r15 549r13 550r13 551r13 873r21 874r21 875r21
+

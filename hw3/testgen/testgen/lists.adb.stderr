@@ -1,0 +1,4 @@
+lists.adb:280:08: warning: variable "Temp_L" is never read and never assigned
+lists.adb:541:08: warning: variable "Temp_L" is never read and never assigned
+lists.adb:587:09: warning: variable "Contents1" is never read and never assigned
+lists.adb:588:09: warning: variable "Contents2" is never read and never assigned

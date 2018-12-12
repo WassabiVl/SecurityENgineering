@@ -1,0 +1,26 @@
+[GENERATED OBJECT FILE]
+b__testgen.o
+[PROJECT FILES]
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\default.gpr
+20180524062658
+[BOUND OBJECT FILES]
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\lists.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\test_script_scanner_dfa.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\test_script_scanner_io.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\test_script_scanner.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\test_script_parser.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\testgen_translator.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\testgen_version.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\testgen.o
+[GENERATED SOURCE FILES]
+b__testgen.ads
+b__testgen.adb
+b__testgen.ali
+[RESULTING OPTIONS]
+-LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\
+-LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw3\testgen\testgen\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
