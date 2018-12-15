@@ -1,4 +1,5 @@
-package Ticket_Machine is
+package Ticket_Machine 
+with SPARK_Mode is
 	-- Simulation of a ticket machine that hands out tickets which 
     -- cost 30 EUR each. The machine accepts only 5, 10, or 20 EUR
     -- notes and outputs the ticket immediately after the user has 
@@ -11,6 +12,12 @@ package Ticket_Machine is
 	
 	Ticket_Prize: constant Natural := 30;
 	
-	procedure Initialize(S: out State);
-	procedure Do_Action(S: in out State; A: in Action; R: out Reaction);
+   procedure Initialize(S: out State);
+   procedure Do_Action(S: in out State; 
+                       A: in Action; 
+                       R: out Reaction) 
+     with
+       Global => null, 
+       Depends => (S => (S, A), R => (S, A));
+                
 end Ticket_Machine;

@@ -1,78 +1,14 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
-    <file_marker column=" 34" line=" 6" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 87" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
-    </file_marker>
+    <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw1\project_set_1.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\mini_project_1.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\bank_accounts.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\main2.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 27" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw2\src\playing_cards.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw1\src\animal.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw1\src\box_measurement.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw1\src\calculator.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw1\src\calculator_updated.adb</vfs_file>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw1\Engineering\Exercises\SecurityENgineering\hw1\project_set_1.gpr</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw1\src\hello.adb</vfs_file>
+      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw1\project_set_1.gpr</vfs_project>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw1\src\animal.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >

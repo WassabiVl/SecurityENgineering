@@ -1,7 +1,8 @@
 package body Ticket_Machine is
+
    procedure Initialize(S: out State) is
    begin
-      X := 0; --begin with no money
+      S := 0; --begin with no money
    end Initialize;
 
    --ticket machine states are:
@@ -17,20 +18,18 @@ package body Ticket_Machine is
        -- or [three Ten EUR] or [one Twenty EUR and one Ten EUR] or [one Twenty EUR and two 5 EUR]
        --(state = 30)
 
-   procedure Do_Action(S: in out State;
-                       A: in Action;
-                       R: out Reaction) is
+   procedure Do_Action(S: in out State; A: in Action; R: out Reaction)
+     with SPARK_Mode is
 
-      --I think I should have S'old and S'new variables...
-
+      S_Update : State := S;
    begin
-      case Change is
+--        S_Update := S;
+      case A is
          when Insert_Twenty_Eur =>
-            --update state to reflect amount, check total state and issue ticket
-            S := 20;
-            --if I have S'old and S'new, I can update S'New with a S'New := S + S'Old
-            --and check if S'New = 30
-            if S == Ticket_Prize then
+            --update state to reflect amount
+            S := S_Update + 20;
+            --Print ticket if total amount is the ticket prize else do nothing
+            if S >= Ticket_Prize then
                R := Print_Ticket;
                S := 0;
             else
@@ -38,9 +37,10 @@ package body Ticket_Machine is
             end if;
 
          when Insert_Ten_Eur =>
-            --update state to reflect amount, check total state and issue ticket
-            S := 10;
-            if S = Ticket_Prize then
+            --update state to reflect amount
+            S := S_Update + 10;
+            --Print ticket if total amount is the ticket prize else do nothing
+            if S >= Ticket_Prize then
                R := Print_Ticket;
                S := 0;
             else
@@ -48,8 +48,10 @@ package body Ticket_Machine is
             end if;
 
          when Insert_Five_Eur =>
-            S := 5;
-            if S = Ticket_Prize then
+            --update state to reflect amount
+            S := S_Update + 5;
+            --Print ticket if total amount is the ticket prize else do nothing
+            if S >= Ticket_Prize then
                R := Print_Ticket;
                S := 0;
             else
@@ -57,12 +59,9 @@ package body Ticket_Machine is
             end if;
 
          when Reset =>
-            if S = 0 then
-               --there is no need to reset
-               R := Nothing;
-            else
-               R := Reset;
-               S := 0;
-            end if;
+            --reset and update state to start
+            R := Reset;
+            S := 0;
       end case;
-   end Ticket_Machine;
+   end Do_Action;
+end Ticket_Machine;

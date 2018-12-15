@@ -40,10 +40,10 @@ package body Coffee_Machine is
                React := Drop_All_Coins;
                S := 0;
             end if;
-         when others =>
-            --because the "when others must always
-            --be added when using case expression
-            React := Nothing;
+--           when others =>
+--              --because the "when others must always
+--              --be added when using case expression
+--              React := Nothing;
       end case;
    end X;
 end Coffee_Machine;

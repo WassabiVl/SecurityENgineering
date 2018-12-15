@@ -1,0 +1,140 @@
+{
+  "spark": [
+    {
+      "name": "Ticket_Machine",
+      "sloc": [
+        {
+          "file": "ticket_machine.ads",
+          "line": 1
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Ticket_Machine.Initialize",
+      "sloc": [
+        {
+          "file": "ticket_machine.ads",
+          "line": 15
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Ticket_Machine.Do_Action",
+      "sloc": [
+        {
+          "file": "ticket_machine.ads",
+          "line": 16
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "ticket_machine.ads",
+      "line": 18,
+      "col": 24,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__54.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "ticket_machine.adb",
+      "line": 30,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__55.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "ticket_machine.adb",
+      "line": 41,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__56.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "ticket_machine.adb",
+      "line": 52,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__57.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Ticket_Machine.Do_Action",
+          "sloc": [
+            {
+              "file": "ticket_machine.ads",
+              "line": 16
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 4.20792988734320E-04,
+    "globals (basic)": 2.65562004642561E-04,
+    "globals/properties (advanced)": 9.15139971766621E-04,
+    "flow analysis": 7.28134997189045E-03
+  }
+}

@@ -46,7 +46,5 @@ procedure Initialize(S: out State) is
       else
          R := Nothing;
       end if;
-      end Do_Action;
-   
-
+   end Do_Action;
 end ticket_machine_wael;

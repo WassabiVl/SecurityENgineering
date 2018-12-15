@@ -1,0 +1,34 @@
+{
+  "spark": [
+    {
+      "name": "ticket_machine_wael.Initialize",
+      "sloc": [
+        {
+          "file": "ticket_machine_wael.ads",
+          "line": 15
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "ticket_machine_wael.Do_Action",
+      "sloc": [
+        {
+          "file": "ticket_machine_wael.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 3.33984004100785E-04,
+    "globals (basic)": 2.96351005090401E-04,
+    "globals/properties (advanced)": 8.62541026435792E-04,
+    "flow analysis": 1.01350000477396E-04
+  }
+}

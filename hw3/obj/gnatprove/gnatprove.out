@@ -1,0 +1,23 @@
+Summary of SPARK analysis
+=========================
+
+----------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer   Provers   Justified   Unproved
+----------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .         .           .          .
+Flow Dependencies                 .         .          .          .         .           .          .
+Initialization                    .         .          .          .         .           .          .
+Non-Aliasing                      .         .          .          .         .           .          .
+Run-time Checks                   .         .          .          .         .           .          .
+Assertions                        .         .          .          .         .           .          .
+Functional Contracts              .         .          .          .         .           .          .
+LSP Verification                  .         .          .          .         .           .          .
+----------------------------------------------------------------------------------------------------
+Total                             .         .          .          .         .           .          .
+
+
+Analyzed 1 unit
+in unit coffee_machine, 1 subprograms and packages out of 3 analyzed
+  Coffee_Machine.Initialize at coffee_machine.ads:14 skipped
+  Coffee_Machine.State at coffee_machine.ads:10 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Coffee_Machine.X at coffee_machine.ads:15 skipped

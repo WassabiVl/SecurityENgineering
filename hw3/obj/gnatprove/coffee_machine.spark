@@ -1,0 +1,44 @@
+{
+  "spark": [
+    {
+      "name": "Coffee_Machine.State",
+      "sloc": [
+        {
+          "file": "coffee_machine.ads",
+          "line": 10
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Coffee_Machine.Initialize",
+      "sloc": [
+        {
+          "file": "coffee_machine.ads",
+          "line": 14
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Coffee_Machine.X",
+      "sloc": [
+        {
+          "file": "coffee_machine.ads",
+          "line": 15
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.88588004675694E-04,
+    "globals (basic)": 1.59507995704189E-04,
+    "globals/properties (advanced)": 4.64840006316081E-04,
+    "flow analysis": 5.77300015720539E-05
+  }
+}

@@ -236,11 +236,11 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\ticket_machine_wael.o
-   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\main.o
-   --   -LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\
-   --   -LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\
-   --   -LC:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\ticket_machine_wael.o
+   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\main.o
+   --   -LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\
+   --   -LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\
+   --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat
    --   -Wl,--stack=0x2000000
