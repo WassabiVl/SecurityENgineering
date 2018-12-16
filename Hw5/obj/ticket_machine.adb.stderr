@@ -1,0 +1,2 @@
+ticket_machine.adb:23:77: aspect specification must appear on initial declaration
+ticket_machine.adb:24:06: aspect specification must appear on initial declaration
