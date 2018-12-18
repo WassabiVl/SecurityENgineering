@@ -5,7 +5,7 @@
       "sloc": [
         {
           "file": "bank_accounts.ads",
-          "line": 14
+          "line": 13
         }
       ],
       "spark": "no"
@@ -15,7 +15,7 @@
       "sloc": [
         {
           "file": "bank_accounts.ads",
-          "line": 17
+          "line": 16
         }
       ],
       "spark": "no"
@@ -25,7 +25,7 @@
       "sloc": [
         {
           "file": "bank_accounts.ads",
-          "line": 22
+          "line": 21
         }
       ],
       "spark": "no"
@@ -35,7 +35,7 @@
       "sloc": [
         {
           "file": "bank_accounts.ads",
-          "line": 28
+          "line": 27
         }
       ],
       "spark": "no"
@@ -48,14 +48,14 @@
   "assumptions": [
   ],
   "timings": {
-    "marking": 3.75115009956062E-03,
-    "globals (basic)": 3.06620616465807E-02,
-    "globals/properties (advanced)": 4.82706427574158E-02,
-    "flow analysis": 2.87723989458755E-04,
-    "codepeer results": 8.86100042407634E-06,
-    "init_why_sections": 1.12105498556048E-03,
-    "translation of standard": 1.32852448150516E-02,
-    "translation of compilation unit": 1.03170618414879E-01,
-    "proof": 5.12999986312934E-06
+    "marking": 1.53350096661597E-03,
+    "globals (basic)": 9.61495656520128E-03,
+    "globals/properties (advanced)": 2.10067406296730E-02,
+    "flow analysis": 1.06908999441657E-04,
+    "codepeer results": 4.70399982077652E-06,
+    "init_why_sections": 2.54443002631888E-04,
+    "translation of standard": 4.10016905516386E-03,
+    "translation of compilation unit": 4.20455522835255E-02,
+    "proof": 2.99299995276670E-06
   }
 }

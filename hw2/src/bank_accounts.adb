@@ -1,4 +1,4 @@
-with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+
 with Ada.Text_IO; use Ada.Text_IO;
 with Bank_Accounts; use Bank_Accounts;
 
@@ -29,15 +29,15 @@ package body Bank_Accounts is
 
    procedure Withdraw(Account : in out Account_Type;
                       Amount : Cents_Type) is
-      Balance : Cents_Type := Account.Balance;
+--        Balance : Cents_Type := Account.Balance;
    begin
-      if Amount > Balance then
+      if Amount > Account.Balance then
          Put("you have insufficient balance.");
          New_Line;
       elsif Amount <= 0 then
          put("cant withdraw negative money");
       else
-         Account.Balance := Balance - Amount;
+         Account.Balance := Account.Balance - Amount;
       end if;
    end Withdraw;
 

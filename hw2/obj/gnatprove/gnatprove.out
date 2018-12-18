@@ -18,10 +18,10 @@ Total                             .         .          .          .         .   
 
 Analyzed 10 units
 in unit bank_accounts, 0 subprograms and packages out of 4 analyzed
-  Bank_Accounts.Deposit at bank_accounts.ads:17 skipped
-  Bank_Accounts.Get_Balance at bank_accounts.ads:14 skipped
-  Bank_Accounts.Transfer at bank_accounts.ads:28 skipped
-  Bank_Accounts.Withdraw at bank_accounts.ads:22 skipped
+  Bank_Accounts.Deposit at bank_accounts.ads:16 skipped
+  Bank_Accounts.Get_Balance at bank_accounts.ads:13 skipped
+  Bank_Accounts.Transfer at bank_accounts.ads:27 skipped
+  Bank_Accounts.Withdraw at bank_accounts.ads:21 skipped
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:2 skipped
 in unit main2, 0 subprograms and packages out of 1 analyzed

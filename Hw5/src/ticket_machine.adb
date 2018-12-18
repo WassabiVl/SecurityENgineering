@@ -20,7 +20,8 @@ package body Ticket_Machine is
        -- or [three Ten EUR] or [one Twenty EUR and one Ten EUR] or [one Twenty EUR and two 5 EUR]
        --(state = 30)
 
-   procedure Do_Action(S: in out State; A: in Action; R: out Reaction) with Pre => (S >=0),
+   procedure Do_Action(S: in out State; A: in Action; R: out Reaction) with
+     Pre => (S >= 0),
      Post => (S < 30) is
 
       S_Update : State := S;

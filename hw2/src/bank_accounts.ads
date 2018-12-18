@@ -1,5 +1,4 @@
-with Ada.Integer_Text_IO, Ada.Text_IO;
-use Ada.Integer_Text_IO, Ada.Text_IO;
+
 
 package Bank_Accounts is
    pragma Assertion_Policy(Check);

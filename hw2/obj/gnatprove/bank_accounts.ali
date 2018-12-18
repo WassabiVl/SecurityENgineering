@@ -17,25 +17,19 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U bank_accounts%b	bank_accounts.adb	5170c209 OO PK
+U bank_accounts%b	bank_accounts.adb	196b71f9 OO PK
 W ada%s			ada.ads			ada.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W bank_accounts%s	bank_accounts.adb	bank_accounts.ali
 
-U bank_accounts%s	bank_accounts.ads	9cb26e80 OO PK
-W ada%s			ada.ads			ada.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
+U bank_accounts%s	bank_accounts.ads	882fe4dd OO PK
 
 D ada.ads		20180524051736 76789da1 ada%s
-D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
 D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
-D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
-D bank_accounts.ads	20181111155214 e2e4547e bank_accounts%s
-D bank_accounts.adb	20181118163950 2f26f8f7 bank_accounts%b
+D bank_accounts.ads	20181217133824 882fe4dd bank_accounts%s
+D bank_accounts.adb	20181217133952 9176c2a3 bank_accounts%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
 D system.ads		20180524051738 32a08138 system%s
@@ -44,38 +38,35 @@ D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 20e8 7|1r6 1r27 2r5 2r26 8|1r6 1r31 2r6 2r23
-X 2 a-inteio.ads
-18K13*Integer_Text_IO[6|46] 7|1w10 2r9 8|1w10 1r35
-X 5 a-textio.ads
-49K13*Text_IO 471e16 7|1w31 2r30 8|2w10 2r27
-166U14*New_Line 8|36s10 50s10
-242U14*Put 8|22s10 24s10 35s10 38s10 49s10 52s10
-X 7 bank_accounts.ads
-4K9*Bank_Accounts 35l5 35e18 8|3w6 3r25 5b14 59l5 59t18
-7I12*Cents_Type{integer} 11r17 14r57 18r31 23r32 30r32 8|7r56 8r17 15r31
-. 18r26 31r32 32r17 46r33
-9R9*Account_Type 12e15 14r36 17r38 22r40 28r37 29r35 8|7r35 14r38 30r40 44r38
+16K9*Ada 20e8 6|2r6 2r23
+X 4 a-textio.ads
+49K13*Text_IO 471e16 6|2w10 2r27
+166U14*New_Line 6|36s10 50s10
+242U14*Put 6|22s10 24s10 35s10 38s10 49s10 52s10
+X 5 bank_accounts.ads
+3K9*Bank_Accounts 34l5 34e18 6|3w6 3r25 5b14 59l5 59t18
+6I12*Cents_Type{integer} 10r17 13r57 17r31 22r32 29r32 6|7r56 8r17 15r31
+. 18r26 31r32 46r33
+8R9*Account_Type 11e15 13r36 16r38 21r40 27r37 28r35 6|7r35 14r38 30r40 44r38
 . 45r35
-10i7*Number{natural}
-11i7*Balance{7I12} 24r59 25r19 31r54 32r16 8|10r26 18r48 26m18 32r39 40m18
-. 48r24 54m15 54r31 55m13 55r27
-14V13*Get_Balance{7I12} 14>26 8|7b13 12l8 12t19
-14r26 Account{9R9} 8|7b25 10r18
-17U14*Deposit 17=22 18>22 8|14b14 28l8 28t15
-17r22 Account{9R9} 8|14b22 18r40 26m10
-18i22 Amount{7I12} 19r18 19r33 8|15b22 21r10 23r13 26r39
-22U14*Withdraw 22=23 23>23 8|30b14 42l8 42t16
-22r23 Account{9R9} 24r51 25r11 8|30b23 32r31 40m10
-23i23 Amount{7I12} 24r18 24r32 8|31b23 34r10 37r13 40r39
-28U14*Transfer 28=23 29=23 30>23 8|44b14 57l8 57t16
-28r23 From{9R9} 31r49 32r11 8|44b24 48r19 54m10 54r26
-29r23 To{9R9} 8|45b23 55m10 55r24
-30i23 Amount{7I12} 31r16 31r30 8|46b24 48r10 51r13 54r41 55r37
-X 8 bank_accounts.adb
-8i7 Balance{7|7I12} 10m7 11r14
-18i7 Balance{7|7I12} 26r29
-32i7 Balance{7|7I12} 34r19 40r29
+9i7*Number{natural}
+10i7*Balance{6I12} 23r59 24r19 30r54 31r16 6|10r26 18r48 26m18 34r27 40m18
+. 40r37 48r24 54m15 54r31 55m13 55r27
+13V13*Get_Balance{6I12} 13>26 6|7b13 12l8 12t19
+13r26 Account{8R9} 6|7b25 10r18
+16U14*Deposit 16=22 17>22 6|14b14 28l8 28t15
+16r22 Account{8R9} 6|14b22 18r40 26m10
+17i22 Amount{6I12} 18r18 18r33 6|15b22 21r10 23r13 26r39
+21U14*Withdraw 21=23 22>23 6|30b14 42l8 42t16
+21r23 Account{8R9} 23r51 24r11 6|30b23 34r19 40m10 40r29
+22i23 Amount{6I12} 23r18 23r32 6|31b23 34r10 37r13 40r47
+27U14*Transfer 27=23 28=23 29>23 6|44b14 57l8 57t16
+27r23 From{8R9} 30r49 31r11 6|44b24 48r19 54m10 54r26
+28r23 To{8R9} 6|45b23 55m10 55r24
+29i23 Amount{6I12} 30r16 30r30 6|46b24 48r10 51r13 54r41 55r37
+X 6 bank_accounts.adb
+8i7 Balance{5|6I12} 10m7 11r14
+18i7 Balance{5|6I12} 26r29
 
 QQ SPARKVERSION 2018 (20180523)
 GG EK_DIRECT_CALLS bank_accounts__get_balance 0
