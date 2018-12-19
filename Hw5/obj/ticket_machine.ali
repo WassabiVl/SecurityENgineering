@@ -6,36 +6,35 @@ A -march=x86-64
 P NO FX
 
 RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U ticket_machine%b	ticket_machine.adb	1f3e9bf5 OO PK
+U ticket_machine%b	ticket_machine.adb	404b8388 OO PK
 
-U ticket_machine%s	ticket_machine.ads	7131ddde EE OO PK
+U ticket_machine%s	ticket_machine.ads	1051ca03 EE OO PK
 
-D ticket_machine.ads	20181213122752 7131ddde ticket_machine%s
-D ticket_machine.adb	20181213143422 6e0f462b ticket_machine%b
+D ticket_machine.ads	20181219195202 1051ca03 ticket_machine%s
+D ticket_machine.adb	20181219195726 501a498b ticket_machine%b
 X 1 ticket_machine.ads
-1K9*Ticket_Machine 17l5 17e19 2|1b14 71l5 71t19
-9I17*State{natural} 15r37 16r39 2|3r32 21r34 28r18
-10E14*Action 10e83 16r52 2|22r30
-10n25*Insert_Five_Eur{10E14} 2|54r15
-10n42*Insert_Ten_Eur{10E14} 2|43r15
-10n58*Insert_Twenty_Eur{10E14} 2|32r15
-10n77*Reset{10E14} 2|65r15
-11E14*Reaction 11e56 16r67 2|23r31
-11n27*Nothing{11E14} 2|40r21 51r21 62r21
-11n36*Reset{11E14} 2|67r18
-11n43*Print_Ticket{11E14} 2|37r21 48r21 59r21
-13i9*Ticket_Prize{natural} 2|36r21 47r21 58r21
-15U19*Initialize 15<30 2|3b14 6l8 6t18
-15i30 S{9I17} 2|3b25 5m7
-16U19*Do_Action 16=29 16>46 16<60 2|21b14 70l8 70t17
-16i29 S{9I17} 2|21b24 30r19 34m13 36r16 38m16 45m13 47r16 49m16 56m13 58r16
-. 60m16 68m13
-16e46 A{10E14} 2|22b24 31r12
-16e60 R{11E14} 2|23b24 37m16 40m16 48m16 51m16 59m16 62m16 67m13
-X 2 ticket_machine.adb
-28i7 S_Update{1|9I17} 30m7 34r18 45r18 56r18
+1K9*Ticket_Machine 27l5 27e19 2|1b14 68l5 68t19
+9I17*State{natural} 15r32 18r34 2|5r32 23r34
+10E14*Action 10e83 19r30 2|23r47
+10n25*Insert_Five_Eur{10E14} 2|51r15
+10n42*Insert_Ten_Eur{10E14} 2|40r15
+10n58*Insert_Twenty_Eur{10E14} 2|29r15
+10n77*Reset{10E14} 2|62r15
+11E14*Reaction 11e56 20r31 2|23r62
+11n27*Nothing{11E14} 2|37r21 48r21 59r21
+11n36*Reset{11E14} 2|64r18
+11n43*Print_Ticket{11E14} 2|34r21 45r21 56r21
+13i9*Ticket_Prize{natural} 2|33r21 44r21 55r21
+15U14*Initialize 15<25 2|5b14 8l8 8t18
+15i25 S{9I17} 17r14 2|5b25 7m7
+18U14*Do_Action 18=24 19>24 20<24 2|23b14 67l8 67t17
+18i24 S{9I17} 23r20 23r26 23r39 24r16 25r15 2|23b24 31m13 31r18 33r16 35m16
+. 42m13 42r18 44r16 46m16 53m13 53r18 55r16 57m16 65m13
+19e24 A{10E14} 23r29 23r42 2|23b41 28r12
+20e24 R{11E14} 23r33 2|23b55 34m16 37m16 45m16 48m16 56m16 59m16 64m13
 

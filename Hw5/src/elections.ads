@@ -1,7 +1,6 @@
 package Elections is
    type Party is (None, A, B, C, D);
    type Votes_Array is array(Party) of Natural;
-   type New_Array is array(1..5) of Natural;
    
    Empty_Array : Exception;
 

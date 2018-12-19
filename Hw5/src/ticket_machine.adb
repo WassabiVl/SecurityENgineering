@@ -22,13 +22,13 @@ package body Ticket_Machine is
 
    procedure Do_Action(S: in out State; A: in Action; R: out Reaction) with SPARK_Mode is
 
-      S_Update : State := S;
+      --S_Update : State := S;
    begin
 --        S_Update := S;
       case A is
          when Insert_Twenty_Eur =>
             --update state to reflect amount
-            S := S_Update + 20;
+            S := S + 20;
             --Print ticket if total amount is the ticket prize else do nothing
             if S >= Ticket_Prize then
                R := Print_Ticket;
@@ -39,7 +39,7 @@ package body Ticket_Machine is
 
          when Insert_Ten_Eur =>
             --update state to reflect amount
-            S := S_Update + 10;
+            S := S + 10;
             --Print ticket if total amount is the ticket prize else do nothing
             if S >= Ticket_Prize then
                R := Print_Ticket;
@@ -50,7 +50,7 @@ package body Ticket_Machine is
 
          when Insert_Five_Eur =>
             --update state to reflect amount
-            S := S_Update + 5;
+            S := S + 5;
             --Print ticket if total amount is the ticket prize else do nothing
             if S >= Ticket_Prize then
                R := Print_Ticket;

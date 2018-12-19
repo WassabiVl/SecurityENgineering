@@ -1,16 +1,11 @@
 package body Elections is
-   Votes_A : Natural := 0;
-   Votes_B : Natural := 0;
-   Votes_C : Natural := 0;
-   Votes_D : Natural := 0;
-   Votes_None : Natural := 0;
 
    procedure Initialize(Num_Voters: Natural) is
     -- Resets the number of made votes and votes for all parties to 0, and
     -- sets the number of total Voters to the given.
-
    begin
       Num_Votes_Made := 0;
+      Num_Total_Voters := 0;
 
    end Initialize;
 
@@ -20,29 +15,24 @@ package body Elections is
       while Num_Votes_Made < Num_Total_Voters loop
          case Vote is
             when A =>
-               Votes_A := Votes_A + 1;
+               Votes_Distribution(A) := Votes_Distribution(A) + 1;
                Num_Votes_Made := Num_Votes_Made + 1;
-               Votes_Distribution(A) := Votes_A;
 
             when B =>
-               Votes_B := Votes_B + 1;
+               Votes_Distribution(B) := Votes_Distribution(B) + 1;
                Num_Votes_Made := Num_Votes_Made + 1;
-               Votes_Distribution(B) := Votes_B;
 
             when C =>
-               Votes_C := Votes_C + 1;
+               Votes_Distribution(C) := Votes_Distribution(C) + 1;
                Num_Votes_Made := Num_Votes_Made + 1;
-               Votes_Distribution(C) := Votes_C;
 
             when D =>
-               Votes_D := Votes_D + 1;
+               Votes_Distribution(D) := Votes_Distribution(D) + 1;
                Num_Votes_Made := Num_Votes_Made + 1;
-               Votes_Distribution(D) := Votes_D;
 
             when None =>
-               Votes_None := Votes_None + 1;
+               Votes_Distribution(None) := Votes_Distribution(None) + 1;
                Num_Votes_Made := Num_Votes_Made + 1;
-               Votes_Distribution(None) := Votes_None;
          end case;
       end loop;
 
@@ -51,7 +41,6 @@ package body Elections is
    function All_Voters_Voted return Boolean is
 
    begin
-      --checks if Num_Votes_Made = Num_Total_Voters
       if Num_Votes_Made = Num_Total_Voters then
          return True;
       else

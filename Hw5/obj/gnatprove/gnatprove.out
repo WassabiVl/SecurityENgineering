@@ -1,25 +1,25 @@
 Summary of SPARK analysis
 =========================
 
------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total       Flow   Interval   CodePeer   Provers   Justified   Unproved
------------------------------------------------------------------------------------------------------
-Data Dependencies                 .          .          .          .         .           .          .
-Flow Dependencies                 .          .          .          .         .           .          .
-Initialization                    4          4          .          .         .           .          .
-Non-Aliasing                      .          .          .          .         .           .          .
-Run-time Checks                   3          .          .          .         .           .          3
-Assertions                        .          .          .          .         .           .          .
-Functional Contracts              .          .          .          .         .           .          .
-LSP Verification                  .          .          .          .         .           .          .
------------------------------------------------------------------------------------------------------
-Total                             7    4 (57%)          .          .         .           .    3 (43%)
+------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total        Flow   Interval   CodePeer   Provers   Justified   Unproved
+------------------------------------------------------------------------------------------------------
+Data Dependencies                 .           .          .          .         .           .          .
+Flow Dependencies                 .           .          .          .         .           .          .
+Initialization                    2           2          .          .         .           .          .
+Non-Aliasing                      .           .          .          .         .           .          .
+Run-time Checks                   .           .          .          .         .           .          .
+Assertions                        .           .          .          .         .           .          .
+Functional Contracts              .           .          .          .         .           .          .
+LSP Verification                  .           .          .          .         .           .          .
+------------------------------------------------------------------------------------------------------
+Total                             2    2 (100%)          .          .         .           .          .
 
 
 Analyzed 2 units
 in unit ticket_machine, 1 subprograms and packages out of 3 analyzed
   Ticket_Machine at ticket_machine.ads:1 skipped
-  Ticket_Machine.Do_Action at ticket_machine.ads:16 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 0 checks out of 3 proved
+  Ticket_Machine.Do_Action at ticket_machine.ads:18 flow analyzed (0 errors, 0 checks and 0 warnings)
   Ticket_Machine.Initialize at ticket_machine.ads:15 skipped
 in unit ticket_machine_wael, 0 subprograms and packages out of 2 analyzed
   ticket_machine_wael.Do_Action at ticket_machine_wael.ads:16 skipped
