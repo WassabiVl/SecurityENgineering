@@ -49,32 +49,12 @@
       },
       "check_tree": {
       },
-      "tracefile": "ticket_machine__flow__54.trace",
-      "how_proved": "flow"
-    },
-    {
-      "file": "ticket_machine.adb",
-      "line": 30,
-      "col": 15,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Ticket_Machine.Do_Action",
-        "sloc": [
-          {
-            "file": "ticket_machine.ads",
-            "line": 16
-          }
-        ]
-      },
-      "check_tree": {
-      },
       "tracefile": "ticket_machine__flow__55.trace",
       "how_proved": "flow"
     },
     {
       "file": "ticket_machine.adb",
-      "line": 41,
+      "line": 31,
       "col": 15,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -94,7 +74,7 @@
     },
     {
       "file": "ticket_machine.adb",
-      "line": 52,
+      "line": 42,
       "col": 15,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -111,9 +91,282 @@
       },
       "tracefile": "ticket_machine__flow__57.trace",
       "how_proved": "flow"
+    },
+    {
+      "file": "ticket_machine.adb",
+      "line": 53,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__58.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "ticket_machine.adb",
+      "line": 42,
+      "col": 27,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 14,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "ticket_machine.adb",
+      "check_line": 42,
+      "check_col": 27,
+      "cntexmp": {
+        "ticket_machine.adb": {
+          "25": [
+            {
+              "name": "S_Update",
+              "value": "21",
+              "kind": "variable"
+            }
+          ],
+          "42": [
+            {
+              "name": "S_Update",
+              "value": "21",
+              "kind": "variable"
+            }
+          ]
+        },
+        "ticket_machine.ads": {
+          "16": [
+            {
+              "name": "S",
+              "value": "21",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "A",
+              "value": "Insert_Ten_Eur",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 0,
+      "how_proved": "prover"
+    },
+    {
+      "file": "ticket_machine.adb",
+      "line": 53,
+      "col": 27,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 14,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "ticket_machine.adb",
+      "check_line": 53,
+      "check_col": 27,
+      "cntexmp": {
+        "ticket_machine.adb": {
+          "25": [
+            {
+              "name": "S_Update",
+              "value": "26",
+              "kind": "variable"
+            }
+          ],
+          "53": [
+            {
+              "name": "S_Update",
+              "value": "26",
+              "kind": "variable"
+            }
+          ]
+        },
+        "ticket_machine.ads": {
+          "16": [
+            {
+              "name": "S",
+              "value": "26",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "A",
+              "value": "Insert_Five_Eur",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "ticket_machine.adb",
+      "line": 31,
+      "col": 27,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 16
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 14,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "ticket_machine.adb",
+      "check_line": 31,
+      "check_col": 27,
+      "cntexmp": {
+        "ticket_machine.adb": {
+          "25": [
+            {
+              "name": "S_Update",
+              "value": "11",
+              "kind": "variable"
+            }
+          ],
+          "31": [
+            {
+              "name": "S_Update",
+              "value": "11",
+              "kind": "variable"
+            }
+          ]
+        },
+        "ticket_machine.ads": {
+          "16": [
+            {
+              "name": "S",
+              "value": "11",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "A",
+              "value": "Insert_Twenty_Eur",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 2,
+      "how_proved": "prover"
     }
   ],
   "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Ticket_Machine.Initialize",
+          "sloc": [
+            {
+              "file": "ticket_machine.ads",
+              "line": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Ticket_Machine",
+          "sloc": [
+            {
+              "file": "ticket_machine.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
     {
       "assumptions": [
       ],
@@ -132,9 +385,14 @@
     }
   ],
   "timings": {
-    "marking": 4.20792988734320E-04,
-    "globals (basic)": 2.65562004642561E-04,
-    "globals/properties (advanced)": 9.15139971766621E-04,
-    "flow analysis": 7.28134997189045E-03
+    "marking": 1.91152998013422E-04,
+    "globals (basic)": 1.50099993334152E-04,
+    "globals/properties (advanced)": 4.45596000645310E-04,
+    "flow analysis": 2.87670409306884E-03,
+    "codepeer results": 4.70399982077652E-06,
+    "init_why_sections": 2.32206002692692E-04,
+    "translation of standard": 3.49677610211074E-03,
+    "translation of compilation unit": 1.43984903115779E-03,
+    "proof": 1.03419888019562E+00
   }
 }

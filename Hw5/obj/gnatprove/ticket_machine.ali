@@ -11,35 +11,35 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U ticket_machine%b	ticket_machine.adb	fc6888ed OO PK
+U ticket_machine%b	ticket_machine.adb	a9a644bd OO PK
 
-U ticket_machine%s	ticket_machine.ads	babaf7af OO PK
+U ticket_machine%s	ticket_machine.ads	d4e0e486 OO PK
 
 D system.ads		20180524051738 32a08138 system%s
-D ticket_machine.ads	20181215115028 babaf7af ticket_machine%s
-D ticket_machine.adb	20181214145548 46d27f42 ticket_machine%b
+D ticket_machine.ads	20181219130214 d4e0e486 ticket_machine%s
+D ticket_machine.adb	20181219130042 7d46a03b ticket_machine%b
 X 2 ticket_machine.ads
-1K9*Ticket_Machine 23l5 23e19 3|1b14 67l5 67t19
-9I17*State{natural} 15r32 16r34 3|3r32 21r34 24r18
-10E14*Action 10e83 17r30 3|21r47
-10n25*Insert_Five_Eur{10E14} 3|50r15
-10n42*Insert_Ten_Eur{10E14} 3|39r15
-10n58*Insert_Twenty_Eur{10E14} 3|28r15
-10n77*Reset{10E14} 3|61r15
-11E14*Reaction 11e56 18r31 3|21r62
-11n27*Nothing{11E14} 3|36r21 47r21 58r21
-11n36*Reset{11E14} 3|63r18
-11n43*Print_Ticket{11E14} 3|33r21 44r21 55r21
-13i9*Ticket_Prize{natural} 3|32r21 43r21 54r21
-15U14*Initialize 15<25 3|3b14 6l8 6t18
-15i25 S{9I17} 3|3b25 5m7
-16U14*Do_Action 16=24 17>24 18<24 3|21b14 66l8 66t17
-16i24 S{9I17} 21r20 21r26 21r39 3|21b24 24r27 30m13 32r16 34m16 41m13 43r16
-. 45m16 52m13 54r16 56m16 64m13
-17e24 A{10E14} 21r29 21r42 3|21b41 27r12
-18e24 R{11E14} 21r33 3|21b55 33m16 36m16 44m16 47m16 55m16 58m16 63m13
+1K9*Ticket_Machine 24l5 24e19 3|1b14 68l5 68t19
+9I17*State{natural} 15r32 16r34 3|5r32 23r34 25r18
+10E14*Action 10e83 17r30 3|23r47
+10n25*Insert_Five_Eur{10E14} 3|51r15
+10n42*Insert_Ten_Eur{10E14} 3|40r15
+10n58*Insert_Twenty_Eur{10E14} 3|29r15
+10n77*Reset{10E14} 3|62r15
+11E14*Reaction 11e56 18r31 3|23r62
+11n27*Nothing{11E14} 3|37r21 48r21 59r21
+11n36*Reset{11E14} 3|64r18
+11n43*Print_Ticket{11E14} 3|34r21 45r21 56r21
+13i9*Ticket_Prize{natural} 3|33r21 44r21 55r21
+15U14*Initialize 15<25 3|5b14 8l8 8t18
+15i25 S{9I17} 3|5b25 7m7
+16U14*Do_Action 16=24 17>24 18<24 3|23b14 67l8 67t17
+16i24 S{9I17} 21r20 21r26 21r39 22r16 3|23b24 25r27 31m13 33r16 35m16 42m13
+. 44r16 46m16 53m13 55r16 57m16 65m13
+17e24 A{10E14} 21r29 21r42 3|23b41 28r12
+18e24 R{11E14} 21r33 3|23b55 34m16 37m16 45m16 48m16 56m16 59m16 64m13
 X 3 ticket_machine.adb
-24i7 S_Update{2|9I17} 30r18 41r18 52r18
+25i7 S_Update{2|9I17} 31r18 42r18 53r18
 
 QQ SPARKVERSION 2018 (20180523)
 GG EK_DIRECT_CALLS ticket_machine__initialize 0

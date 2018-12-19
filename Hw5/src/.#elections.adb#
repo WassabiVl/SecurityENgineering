@@ -11,6 +11,7 @@ package body Elections is
 
    begin
       Num_Votes_Made := 0;
+      Num_Voters : Natural;
 
    end Initialize;
 

@@ -1,0 +1,52 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U elections%b		elections.adb		f9bbfc40 OO PK
+
+U elections%s		elections.ads		c1a8f74c EE OO PK
+
+D elections.ads		20181219122736 c1a8f74c elections%s
+D elections.adb		20181219165936 38130b0c elections%b
+X 1 elections.ads
+1K9*Elections 23l5 23e14 2|1b14 88l5 88t14
+2E9*Party 2e36 3r30 17r29 20r32 2|17r29 63r32 66r16
+2n19*None{2E9} 2|42r18 45r35 80r23
+2n25*A{2E9} 2|22r18 25r35
+2n28*B{2E9} 2|27r18 30r35
+2n31*C{2E9} 2|32r18 35r35
+2n34*D{2E9} 2|37r18 40r35
+3A9*Votes_Array(natural)<2E9> 8r38 9r24
+4A9*New_Array(natural)<integer>
+6X4*Empty_Array 2|70r16
+8a4*Zero_Votes_Distribution{3A9} 9r39
+9a4*Votes_Distribution{3A9} 2|25m16 30m16 35m16 40m16 45m16 69r10 73r16 75r13
+. 76r29 79r16
+10i4*Num_Votes_Made{natural} 2|13m7 20r13 24m16 24r34 29m16 29r34 34m16 34r34
+. 39m16 39r34 44m16 44r34 55r10
+11i4*Num_Total_Voters{natural} 2|20r30 55r27
+13U14*Initialize 13>25 2|8b14 15l8 15t18
+13i25 Num_Voters{natural} 2|8b25
+17U14*Vote_For 17>23 2|17b14 49l8 49t16
+17e23 Vote{2E9} 2|17b23 21r15
+19V13*All_Voters_Voted{boolean} 2|51b13 61l8 61t24
+20V13*Find_Winner{2E9} 2|63b13 86l8 86t19
+X 2 elections.adb
+2i4 Votes_A{natural} 23m16 23r27 25r41
+3i4 Votes_B{natural} 28m16 28r27 30r41
+4i4 Votes_C{natural} 33m16 33r27 35r41
+5i4 Votes_D{natural} 38m16 38r27 40r41
+6i4 Votes_None{natural} 43m16 43r30 45r44
+66e7 Winner{1|2E9} 77m13 84r16
+67i7 Highest_Vote{natural} 75r37 76m13 79r40
+73e11 I{1|2E9} 75r32 76r48 77r23 79r35
+

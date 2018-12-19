@@ -1,11 +1,15 @@
 package Elections is
-    type Party is (None, A, B, C, D);
-    type Votes_Array is array(Party) of Natural;
+   type Party is (None, A, B, C, D);
+   type Votes_Array is array(Party) of Natural;
+   type New_Array is array(1..5) of Natural;
+   
+   Empty_Array : Exception;
 
    Zero_Votes_Distribution: constant Votes_Array := (others => 0);
    Votes_Distribution: Votes_Array := Zero_Votes_Distribution;
    Num_Votes_Made: Natural := 0;
    Num_Total_Voters: Natural := 0;
+  
    procedure Initialize(Num_Voters: Natural);
      
     -- Resets the number of made votes and votes for all parties to 0, and 
