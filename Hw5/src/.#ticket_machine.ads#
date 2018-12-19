@@ -12,8 +12,10 @@ with SPARK_Mode is
 	
 	Ticket_Prize: constant Natural := 30;
 	
-   procedure Initialize(S: out State);
-   --Post
+   procedure Initialize(S: out State) with 
+     Global => S,
+       Depends => null,
+         Post => S = 0;
    procedure Do_Action(S: in out State; 
                        A: in Action; 
                        R: out Reaction) 
