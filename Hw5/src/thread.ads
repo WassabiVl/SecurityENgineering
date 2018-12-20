@@ -1,12 +1,15 @@
 -- http://docs.adacore.com/spark2014-docs/html/lrm/subprograms.html
-package Thread is
+package Thread 
+with SPARK_Mode
+is
+   
    type State  is (None, Ready, Running, Stopped, Sleeping, Waiting);
     type Action is (Notify, Resume, Sleep, Start, Stop, Wait);
 
    S: State := None;
-   with function image(Item : in State) return String;;
+   --with function image(Item : in State) return String;
 
-    procedure Initialize with Global => S;
+    procedure Initialize with Global => (In_out => S), Post => S = Ready;
     -- Sets S to Ready.
 
    procedure Do_Action(A: Action) with Global => (In_out =>S);

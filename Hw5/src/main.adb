@@ -1,9 +1,10 @@
 with ticket_machine, Ada.Text_IO, Ada.Integer_Text_IO;
 use Ada.Text_IO;
 use ticket_machine, Ada.Text_IO, Ada.Integer_Text_IO;
-
+with Thread; use Thread;
+with Elections; use Elections;
 procedure Main is
-   x : State;
+   x : Ticket_Machine.State;
    y : ticket_machine.Reaction;
 begin
    ticket_machine.Initialize(S => x);

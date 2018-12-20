@@ -1,4 +1,4 @@
-package body Elections is
+package body Elections with SPARK_Mode is
 
    procedure Initialize(Num_Voters: Natural) is
     -- Resets the number of made votes and votes for all parties to 0, and
@@ -56,6 +56,7 @@ package body Elections is
       Winner : Party;
       Highest_Vote : Natural := Natural'First;
    begin
+      Winner := None;
       if Votes_Distribution'Length = 0 then
          raise Empty_Array;
       end if;
