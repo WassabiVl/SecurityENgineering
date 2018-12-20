@@ -1638,7 +1638,7 @@ module Standard__universal_integer__rep
 
 end
 
-(* Module for axiomatizing type "state" defined at ticket_machine.ads:9, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "state" defined at ticket_machine.ads:11, created in Gnat2Why.Types.Translate_Type *)
 module Ticket_machine__state
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -1681,7 +1681,7 @@ module Ticket_machine__state
 
 end
 
-(* Module defining to_rep/of_rep for type "state" defined at ticket_machine.ads:9, created in Gnat2Why.Types.Translate_Type *)
+(* Module defining to_rep/of_rep for type "state" defined at ticket_machine.ads:11, created in Gnat2Why.Types.Translate_Type *)
 module Ticket_machine__state__rep
  use        Ticket_machine__state
  use import "_gnatprove_standard".Main
@@ -1701,7 +1701,7 @@ module Ticket_machine__state__rep
 
 end
 
-(* Module for axiomatizing type "action" defined at ticket_machine.ads:10, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "action" defined at ticket_machine.ads:12, created in Gnat2Why.Types.Translate_Type *)
 module Ticket_machine__action
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -1743,7 +1743,7 @@ module Ticket_machine__action
 
 end
 
-(* Module defining to_rep/of_rep for type "action" defined at ticket_machine.ads:10, created in Gnat2Why.Types.Translate_Type *)
+(* Module defining to_rep/of_rep for type "action" defined at ticket_machine.ads:12, created in Gnat2Why.Types.Translate_Type *)
 module Ticket_machine__action__rep
  use        Ticket_machine__action
  use import "_gnatprove_standard".Main
@@ -1758,7 +1758,7 @@ module Ticket_machine__action__rep
 
 end
 
-(* Module for axiomatizing type "reaction" defined at ticket_machine.ads:11, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "reaction" defined at ticket_machine.ads:13, created in Gnat2Why.Types.Translate_Type *)
 module Ticket_machine__reaction
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -1800,7 +1800,7 @@ module Ticket_machine__reaction
 
 end
 
-(* Module defining to_rep/of_rep for type "reaction" defined at ticket_machine.ads:11, created in Gnat2Why.Types.Translate_Type *)
+(* Module defining to_rep/of_rep for type "reaction" defined at ticket_machine.ads:13, created in Gnat2Why.Types.Translate_Type *)
 module Ticket_machine__reaction__rep
  use        Ticket_machine__reaction
  use import "_gnatprove_standard".Main
@@ -1815,11 +1815,11 @@ module Ticket_machine__reaction__rep
 
 end
 
-(* Module for defining the constant "ticket_prize" defined at ticket_machine.ads:13, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "ticket_prize" defined at ticket_machine.ads:15, created in Gnat2Why.Decls.Translate_Constant *)
 module Ticket_machine__ticket_prize
  use import "_gnatprove_standard".Main
 
- function ticket_prize #"ticket_machine.ads" 13 0 0#"model" "model_trace:2561" "name:Ticket_Prize" 
+ function ticket_prize #"ticket_machine.ads" 15 0 0#"model" "model_trace:2550" "name:Ticket_Prize" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1827,11 +1827,11 @@ module Ticket_machine__ticket_prize
 
 end
 
-(* Module for defining the constant "a" defined at ticket_machine.ads:17, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "a" defined at ticket_machine.ads:21, created in Gnat2Why.Decls.Translate_Constant *)
 module Ticket_machine__do_action__a
  use import "_gnatprove_standard".Main
 
- function a #"ticket_machine.ads" 17 0 0#"model" "model_trace:2605" "name:A" 
+ function a #"ticket_machine.ads" 21 0 0#"model" "model_trace:2604" "name:A" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1839,79 +1839,61 @@ module Ticket_machine__do_action__a
 
 end
 
-(* Module giving an empty axiom for the entity "a" defined at ticket_machine.ads:17, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "a" defined at ticket_machine.ads:21, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Ticket_machine__do_action__a___axiom
  use import "_gnatprove_standard".Main
 
 
 end
-(* Module for defining a ref holding the value of variable "s" defined at ticket_machine.ads:15, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "s" defined at ticket_machine.ads:17, created in Gnat2Why.Decls.Translate_Variable *)
 module Ticket_machine__initialize__s
  use import "_gnatprove_standard".Main
 
- val s #"ticket_machine.ads" 15 0 0#"model_projected" "model_trace:2578" "name:S"  : int__ref 
+ val s #"ticket_machine.ads" 17 0 0#"model_projected" "model_trace:2567" "name:S"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "s" defined at ticket_machine.ads:15, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "s" defined at ticket_machine.ads:17, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Ticket_machine__initialize__s___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining a ref holding the value of variable "s" defined at ticket_machine.ads:16, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "s" defined at ticket_machine.ads:20, created in Gnat2Why.Decls.Translate_Variable *)
 module Ticket_machine__do_action__s
  use import "_gnatprove_standard".Main
 
- val s #"ticket_machine.ads" 16 0 0#"model_projected" "name:S" "model_trace:2596"  : int__ref 
+ val s #"ticket_machine.ads" 20 0 0#"model_projected" "name:S" "model_trace:2595"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "s" defined at ticket_machine.ads:16, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "s" defined at ticket_machine.ads:20, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Ticket_machine__do_action__s___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining a ref holding the value of variable "r" defined at ticket_machine.ads:18, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "r" defined at ticket_machine.ads:22, created in Gnat2Why.Decls.Translate_Variable *)
 module Ticket_machine__do_action__r
  use import "_gnatprove_standard".Main
 
- val r #"ticket_machine.ads" 18 0 0#"model_projected" "model_trace:2614" "name:R"  : int__ref 
+ val r #"ticket_machine.ads" 22 0 0#"model_projected" "model_trace:2613" "name:R"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "r" defined at ticket_machine.ads:18, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "r" defined at ticket_machine.ads:22, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Ticket_machine__do_action__r___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module for defining a ref holding the value of variable "s_update" defined at ticket_machine.adb:25, created in Gnat2Why.Decls.Translate_Variable *)
-module Ticket_machine__do_action__s_update
- use import "_gnatprove_standard".Main
-
- val s_update #"ticket_machine.adb" 25 0 0#"model_projected" "model_trace:2375" "name:S_Update"  : int__ref 
- 
- function attr__ATTRIBUTE_ADDRESS 
-   : int
-
-end
-
-(* Module giving an empty axiom for the entity "s_update" defined at ticket_machine.adb:25, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
-module Ticket_machine__do_action__s_update___axiom
  use import "_gnatprove_standard".Main
 
 
@@ -2279,21 +2261,21 @@ module Standard__universal_integer___axiom
 
 end
 
-(* Module for possibly declaring a logic function for "initialize" defined at ticket_machine.ads:15, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "initialize" defined at ticket_machine.ads:17, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Ticket_machine__initialize
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "do_action" defined at ticket_machine.ads:16, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "do_action" defined at ticket_machine.ads:20, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Ticket_machine__do_action
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "state" defined at ticket_machine.ads:9, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "state" defined at ticket_machine.ads:11, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Ticket_machine__state___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2310,7 +2292,7 @@ module Ticket_machine__state___axiom
 
 end
 
-(* Module giving axioms for type "action" defined at ticket_machine.ads:10, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "action" defined at ticket_machine.ads:12, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Ticket_machine__action___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2327,7 +2309,7 @@ module Ticket_machine__action___axiom
 
 end
 
-(* Module giving axioms for type "reaction" defined at ticket_machine.ads:11, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "reaction" defined at ticket_machine.ads:13, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Ticket_machine__reaction___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2343,7 +2325,7 @@ module Ticket_machine__reaction___axiom
   true
 
 end
-(* Module for defining the value of constant "ticket_prize" defined at ticket_machine.ads:13, created in Gnat2Why.Decls.Translate_Constant_Value *)
+(* Module for defining the value of constant "ticket_prize" defined at ticket_machine.ads:15, created in Gnat2Why.Decls.Translate_Constant_Value *)
 module Ticket_machine__ticket_prize___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2354,20 +2336,21 @@ module Ticket_machine__ticket_prize___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "initialize" defined at ticket_machine.ads:15, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "initialize" defined at ticket_machine.ads:17, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Ticket_machine__initialize___axiom
  use import "_gnatprove_standard".Main
+ use import "int".Int
  use        Ticket_machine__state___axiom
 
  val initialize 
    (s : int__ref) : unit
   requires {  true }
-  ensures {  (Ticket_machine__state___axiom.dynamic_invariant s.int__content True True True True) }
+  ensures {  ( (s.int__content = 0) /\ (Ticket_machine__state___axiom.dynamic_invariant s.int__content True True True True) ) }
   writes {s}
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "do_action" defined at ticket_machine.ads:16, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "do_action" defined at ticket_machine.ads:20, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Ticket_machine__do_action___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2376,8 +2359,11 @@ module Ticket_machine__do_action___axiom
 
  val do_action 
    (s : int__ref) (a : int) (r : int__ref) : unit
-  requires {  (s.int__content >= 0) }
-  ensures {  ( (Ticket_machine__state___axiom.dynamic_invariant s.int__content True True True True) /\ (Ticket_machine__reaction___axiom.dynamic_invariant r.int__content True True True True) ) }
+  requires {  ( (s.int__content >= 0) /\ ( ( ( (a = 0) \/ (a = 1) ) \/ (a = 2) ) \/ (a = 3) ) ) }
+  ensures {  ( (if ((s.int__content = 0)) then (
+   ( (r.int__content = 2) \/ (r.int__content = 1) )) else ((if ((s.int__content > 0)) then (
+   (r.int__content = 0)) else (
+   true)))) /\ ( (Ticket_machine__state___axiom.dynamic_invariant s.int__content True True True True) /\ (Ticket_machine__reaction___axiom.dynamic_invariant r.int__content True True True True) ) ) }
   writes {s, r}
 
 end
@@ -2397,24 +2383,30 @@ module Ticket_machine__package_def
   ensures { #"ticket_machine.ads" 1 0 0# true }
    =
   ( (#"ticket_machine.ads" 2 0 0# ());
-  (#"ticket_machine.ads" 9 0 0# ());
-  (#"ticket_machine.ads" 10 0 0# ());
+  (#"ticket_machine.ads" 3 0 0# ());
+  (#"ticket_machine.ads" 4 0 0# ());
+  (#"ticket_machine.ads" 3 0 0# ());
   (#"ticket_machine.ads" 11 0 0# ());
-  (#"ticket_machine.ads" 13 0 0# ( #"ticket_machine.ads" 13 0 0# abstract ensures {true}(let _ = 30 in (
+  (#"ticket_machine.ads" 12 0 0# ());
+  (#"ticket_machine.ads" 13 0 0# ());
+  (#"ticket_machine.ads" 15 0 0# ( #"ticket_machine.ads" 15 0 0# abstract ensures {true}(let _ = 30 in (
    ()))
    end ;
-  #"ticket_machine.ads" 13 0 0# assume { #"ticket_machine.ads" 13 0 0# (Standard__natural___axiom.dynamic_invariant Ticket_machine__ticket_prize.ticket_prize True False True True) } ));
-  (#"ticket_machine.ads" 15 0 0# ());
-  (#"ticket_machine.ads" 16 0 0# ());
-  (#"ticket_machine.ads" 22 0 0# ());
-  (#"ticket_machine.ads" 21 0 0# ());
+  #"ticket_machine.ads" 15 0 0# assume { #"ticket_machine.ads" 15 0 0# (Standard__natural___axiom.dynamic_invariant Ticket_machine__ticket_prize.ticket_prize True False True True) } ));
+  (#"ticket_machine.ads" 17 0 0# ());
+  (#"ticket_machine.ads" 19 0 0# ());
+  (#"ticket_machine.ads" 18 0 0# ());
   (#"ticket_machine.ads" 20 0 0# ());
-  (#"ticket_machine.ads" 20 0 0# ());
-  (#"ticket_machine.ads" 20 0 0# ());
-  (#"ticket_machine.ads" 20 0 0# ()) )
+  (#"ticket_machine.ads" 28 0 0# ());
+  (#"ticket_machine.ads" 26 0 0# ());
+  (#"ticket_machine.ads" 25 0 0# ());
+  (#"ticket_machine.ads" 24 0 0# ());
+  (#"ticket_machine.ads" 24 0 0# ());
+  (#"ticket_machine.ads" 24 0 0# ());
+  (#"ticket_machine.ads" 24 0 0# ()) )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "initialize" defined at ticket_machine.ads:15, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "initialize" defined at ticket_machine.ads:17, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Ticket_machine__initialize__subprogram_def
  use import "_gnatprove_standard".Main
  use        Ticket_machine__state___axiom
@@ -2422,29 +2414,30 @@ module Ticket_machine__initialize__subprogram_def
  use        Ticket_machine__state___axiom
  use        Ticket_machine__initialize__s___axiom
 
- let def #"ticket_machine.ads" 15 0 0#"W:diverges:N" "GP_Subp:ticket_machine.ads:15" 
+ let def #"ticket_machine.ads" 17 0 0#"W:diverges:N" "GP_Subp:ticket_machine.ads:17" 
    (__void_param : unit)
-  requires { #"ticket_machine.ads" 15 0 0# true }
-  ensures { #"ticket_machine.ads" 15 0 0# true }
+  requires { #"ticket_machine.ads" 17 0 0# true }
+  ensures { #"ticket_machine.ads" 17 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram ticket_machine.ads:15 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram ticket_machine.ads:17 *)
   ;
-  #"ticket_machine.ads" 15 0 0# assume { #"ticket_machine.ads" 15 0 0# (Ticket_machine__state___axiom.dynamic_invariant Ticket_machine__initialize__s.s.int__content False False True True) };
-  #"ticket_machine.ads" 15 0 0# assume { #"ticket_machine.ads" 15 0 0# true };
-  () (* Check for RTE in the Pre of the subprogram ticket_machine.ads:15 *)
+  #"ticket_machine.ads" 17 0 0# assume { #"ticket_machine.ads" 17 0 0# (Ticket_machine__state___axiom.dynamic_invariant Ticket_machine__initialize__s.s.int__content False False True True) };
+  #"ticket_machine.ads" 17 0 0# assume { #"ticket_machine.ads" 17 0 0# true };
+  () (* Check for RTE in the Pre of the subprogram ticket_machine.ads:17 *)
   ;
-  #"ticket_machine.ads" 15 0 0# abstract ensures {true}(let _ = True in (
+  #"ticket_machine.ads" 17 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram ticket_machine.ads:15 *)
+  () (* Assume Pre of the subprogram ticket_machine.ads:17 *)
   ;
-  #"ticket_machine.ads" 15 0 0# assume { #"ticket_machine.ads" 15 0 0# true } )
+  #"ticket_machine.ads" 17 0 0# assume { #"ticket_machine.ads" 17 0 0# true } )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "do_action" defined at ticket_machine.ads:16, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "do_action" defined at ticket_machine.ads:20, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Ticket_machine__do_action__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
+ use        "_gnatprove_standard".Boolean
  use        Ticket_machine__state
  use        Ticket_machine__state___axiom
  use        Ticket_machine__action___axiom
@@ -2452,8 +2445,6 @@ module Ticket_machine__do_action__subprogram_def
  use        Ticket_machine__do_action__s
  use        Ticket_machine__do_action__a
  use        Ticket_machine__do_action__r
- use        Ticket_machine__do_action__s_update
- use        Ticket_machine__do_action__s_update___axiom
  use        Ticket_machine__state___axiom
  use        Ticket_machine__action___axiom
  use        Ticket_machine__reaction___axiom
@@ -2461,60 +2452,62 @@ module Ticket_machine__do_action__subprogram_def
  use        Ticket_machine__do_action__a___axiom
  use        Ticket_machine__do_action__r___axiom
 
- let def #"ticket_machine.ads" 16 0 0#"W:diverges:N" "GP_Subp:ticket_machine.ads:16" 
+ let def #"ticket_machine.ads" 20 0 0#"W:diverges:N" "GP_Subp:ticket_machine.ads:20" 
    (__void_param : unit)
-  requires { #"ticket_machine.ads" 16 0 0# true }
-  ensures { #"ticket_machine.ads" 16 0 0# true }
+  requires { #"ticket_machine.ads" 20 0 0# true }
+  ensures { #"ticket_machine.ads" 20 0 0# (#"ticket_machine.ads" 28 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:ticket_machine.ads:28:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:3" "comment:     Post => (if S = 0 then (R = Print_Ticket or R = Reset) elsif S > 0 then R = Nothing);
+             ^ ticket_machine.ads:28:14:VC_POSTCONDITION" "GP_Shape:pragargs__if" (if ((Ticket_machine__do_action__s.s.int__content = 0)) then (
+   ( "GP_Pretty_Ada:2672" "GP_Sloc:ticket_machine.ads:28:29" ( (Ticket_machine__do_action__r.r.int__content = 2) \/ (Ticket_machine__do_action__r.r.int__content = 1) ) )) else ((if ((Ticket_machine__do_action__s.s.int__content > 0)) then (
+   ( "GP_Pretty_Ada:2680" "GP_Sloc:ticket_machine.ads:28:78" (Ticket_machine__do_action__r.r.int__content = 0) )) else (
+   ( "GP_Pretty_Ada:2826" "GP_Sloc:ticket_machine.ads:28:61" true ))))) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram ticket_machine.ads:16 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram ticket_machine.ads:20 *)
   ;
-  #"ticket_machine.ads" 16 0 0# assume { #"ticket_machine.ads" 16 0 0# (Ticket_machine__state___axiom.dynamic_invariant Ticket_machine__do_action__s.s.int__content True False True True) };
-  #"ticket_machine.ads" 16 0 0# assume { #"ticket_machine.ads" 16 0 0# (Ticket_machine__action___axiom.dynamic_invariant Ticket_machine__do_action__a.a True False True True) };
-  #"ticket_machine.ads" 16 0 0# assume { #"ticket_machine.ads" 16 0 0# (Ticket_machine__reaction___axiom.dynamic_invariant Ticket_machine__do_action__r.r.int__content False False True True) };
-  #"ticket_machine.ads" 16 0 0# assume { #"ticket_machine.ads" 16 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram ticket_machine.ads:16 *)
+   assume {  (Ticket_machine__state___axiom.dynamic_invariant Ticket_machine__do_action__s.s.int__content True False True True) };
+   assume {  (Ticket_machine__action___axiom.dynamic_invariant Ticket_machine__do_action__a.a True False True True) };
+   assume {  (Ticket_machine__reaction___axiom.dynamic_invariant Ticket_machine__do_action__r.r.int__content False False True True) };
+   assume {  true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram ticket_machine.ads:20 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram ticket_machine.ads:16 *)
+  () (* Check for RTE in the Pre of the subprogram ticket_machine.ads:20 *)
   ;
-  #"ticket_machine.ads" 16 0 0# abstract ensures {true}(let _ = (Ticket_machine__do_action__s.s.int__content >= 0) in (
+   abstract ensures {true}(let _ = (Boolean.andb((Ticket_machine__do_action__s.s.int__content >= 0)) ((Boolean.orb((Boolean.orb((Boolean.orb((Ticket_machine__do_action__a.a = 0)) ((Ticket_machine__do_action__a.a = 1)))) ((Ticket_machine__do_action__a.a = 2)))) ((Ticket_machine__do_action__a.a = 3))))) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram ticket_machine.ads:16 *)
+  () (* Assume Pre of the subprogram ticket_machine.ads:20 *)
   ;
-  #"ticket_machine.ads" 16 0 0# assume { #"ticket_machine.ads" 16 0 0# (Ticket_machine__do_action__s.s.int__content >= 0) };
-  #"ticket_machine.ads" 16 0 0# try
-   ( (#"ticket_machine.adb" 23 0 0# ());
-   (#"ticket_machine.adb" 25 0 0# ( #"ticket_machine.adb" 25 0 0# Ticket_machine__do_action__s_update.s_update.int__content <- ( Ticket_machine__do_action__s.s.int__content );
-   #"ticket_machine.adb" 25 0 0# assume { #"ticket_machine.adb" 25 0 0# (Ticket_machine__state___axiom.dynamic_invariant Ticket_machine__do_action__s_update.s_update.int__content True False True True) } ));
-   ( "GP_Sloc:ticket_machine.adb:28:7" (#"ticket_machine.adb" 28 0 0# (if ((Ticket_machine__do_action__a.a = 2)) then (
-    ( ( "GP_Sloc:ticket_machine.adb:31:18" (#"ticket_machine.adb" 31 0 0# ()) );
-    ( "GP_Sloc:ticket_machine.adb:31:15" (#"ticket_machine.adb" 31 0 0# #"ticket_machine.adb" 31 0 0# Ticket_machine__do_action__s.s.int__content <- ( (#"ticket_machine.adb" 31 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:ticket_machine.adb:31:27" "GP_Reason:VC_RANGE_CHECK" "GP_Id:0" "comment:            S := S_Update + 20;
-                          ^ ticket_machine.adb:31:27:VC_RANGE_CHECK" "GP_Shape:case__s_assign__add" (Ticket_machine__state.range_check_((Ticket_machine__do_action__s_update.s_update.int__content + 20))) )) )) );
-    ( "GP_Sloc:ticket_machine.adb:33:13" (#"ticket_machine.adb" 33 0 0# (if ((Ticket_machine__do_action__s.s.int__content >= 30)) then (
-     ( ( "GP_Sloc:ticket_machine.adb:34:18" (#"ticket_machine.adb" 34 0 0# #"ticket_machine.adb" 34 0 0# Ticket_machine__do_action__r.r.int__content <- ( 2 )) );
-     ( "GP_Sloc:ticket_machine.adb:35:18" (#"ticket_machine.adb" 35 0 0# #"ticket_machine.adb" 35 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )) else (
-     ( "GP_Sloc:ticket_machine.adb:37:18" (#"ticket_machine.adb" 37 0 0# #"ticket_machine.adb" 37 0 0# Ticket_machine__do_action__r.r.int__content <- ( 0 )) )))) ) )) else if ((Ticket_machine__do_action__a.a = 1)) then (
-    ( ( "GP_Sloc:ticket_machine.adb:42:18" (#"ticket_machine.adb" 42 0 0# ()) );
-    ( "GP_Sloc:ticket_machine.adb:42:15" (#"ticket_machine.adb" 42 0 0# #"ticket_machine.adb" 42 0 0# Ticket_machine__do_action__s.s.int__content <- ( (#"ticket_machine.adb" 42 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Shape:case__s_assign__add" "GP_Sloc:ticket_machine.adb:42:27" "GP_Id:1" "comment:            S := S_Update + 10;
-                          ^ ticket_machine.adb:42:27:VC_RANGE_CHECK" (Ticket_machine__state.range_check_((Ticket_machine__do_action__s_update.s_update.int__content + 10))) )) )) );
-    ( "GP_Sloc:ticket_machine.adb:44:13" (#"ticket_machine.adb" 44 0 0# (if ((Ticket_machine__do_action__s.s.int__content >= 30)) then (
-     ( ( "GP_Sloc:ticket_machine.adb:45:18" (#"ticket_machine.adb" 45 0 0# #"ticket_machine.adb" 45 0 0# Ticket_machine__do_action__r.r.int__content <- ( 2 )) );
-     ( "GP_Sloc:ticket_machine.adb:46:18" (#"ticket_machine.adb" 46 0 0# #"ticket_machine.adb" 46 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )) else (
-     ( "GP_Sloc:ticket_machine.adb:48:18" (#"ticket_machine.adb" 48 0 0# #"ticket_machine.adb" 48 0 0# Ticket_machine__do_action__r.r.int__content <- ( 0 )) )))) ) ))  else if ((Ticket_machine__do_action__a.a = 0)) then (
-    ( ( "GP_Sloc:ticket_machine.adb:53:18" (#"ticket_machine.adb" 53 0 0# ()) );
-    ( "GP_Sloc:ticket_machine.adb:53:15" (#"ticket_machine.adb" 53 0 0# #"ticket_machine.adb" 53 0 0# Ticket_machine__do_action__s.s.int__content <- ( (#"ticket_machine.adb" 53 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Shape:case__s_assign__add" "GP_Sloc:ticket_machine.adb:53:27" "GP_Id:2" "comment:            S := S_Update + 5;
-                          ^ ticket_machine.adb:53:27:VC_RANGE_CHECK" (Ticket_machine__state.range_check_((Ticket_machine__do_action__s_update.s_update.int__content + 5))) )) )) );
-    ( "GP_Sloc:ticket_machine.adb:55:13" (#"ticket_machine.adb" 55 0 0# (if ((Ticket_machine__do_action__s.s.int__content >= 30)) then (
-     ( ( "GP_Sloc:ticket_machine.adb:56:18" (#"ticket_machine.adb" 56 0 0# #"ticket_machine.adb" 56 0 0# Ticket_machine__do_action__r.r.int__content <- ( 2 )) );
-     ( "GP_Sloc:ticket_machine.adb:57:18" (#"ticket_machine.adb" 57 0 0# #"ticket_machine.adb" 57 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )) else (
-     ( "GP_Sloc:ticket_machine.adb:59:18" (#"ticket_machine.adb" 59 0 0# #"ticket_machine.adb" 59 0 0# Ticket_machine__do_action__r.r.int__content <- ( 0 )) )))) ) )) else (
-    ( ( "GP_Sloc:ticket_machine.adb:64:15" (#"ticket_machine.adb" 64 0 0# #"ticket_machine.adb" 64 0 0# Ticket_machine__do_action__r.r.int__content <- ( 1 )) );
-    ( "GP_Sloc:ticket_machine.adb:65:15" (#"ticket_machine.adb" 65 0 0# #"ticket_machine.adb" 65 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )))) );
+   assume {  ( (Ticket_machine__do_action__s.s.int__content >= 0) /\ ( ( ( (Ticket_machine__do_action__a.a = 0) \/ (Ticket_machine__do_action__a.a = 1) ) \/ (Ticket_machine__do_action__a.a = 2) ) \/ (Ticket_machine__do_action__a.a = 3) ) ) };
+   try
+   ( (#"ticket_machine.adb" 21 0 0# ());
+   ( "GP_Sloc:ticket_machine.adb:26:7" (#"ticket_machine.adb" 26 0 0# (if ((Ticket_machine__do_action__a.a = 2)) then (
+    ( ( "GP_Sloc:ticket_machine.adb:29:15" (#"ticket_machine.adb" 29 0 0# #"ticket_machine.adb" 29 0 0# Ticket_machine__do_action__s.s.int__content <- ( (#"ticket_machine.adb" 29 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:ticket_machine.adb:29:20" "GP_Reason:VC_RANGE_CHECK" "GP_Id:0" "comment:            S := S + 20;
+                   ^ ticket_machine.adb:29:20:VC_RANGE_CHECK" "GP_Shape:case__s_assign__add" (Ticket_machine__state.range_check_((Ticket_machine__do_action__s.s.int__content + 20))) )) )) );
+    ( "GP_Sloc:ticket_machine.adb:31:13" (#"ticket_machine.adb" 31 0 0# (if ((Ticket_machine__do_action__s.s.int__content >= 30)) then (
+     ( ( "GP_Sloc:ticket_machine.adb:32:18" (#"ticket_machine.adb" 32 0 0# #"ticket_machine.adb" 32 0 0# Ticket_machine__do_action__r.r.int__content <- ( 2 )) );
+     ( "GP_Sloc:ticket_machine.adb:33:18" (#"ticket_machine.adb" 33 0 0# #"ticket_machine.adb" 33 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )) else (
+     ( "GP_Sloc:ticket_machine.adb:35:18" (#"ticket_machine.adb" 35 0 0# #"ticket_machine.adb" 35 0 0# Ticket_machine__do_action__r.r.int__content <- ( 0 )) )))) ) )) else if ((Ticket_machine__do_action__a.a = 1)) then (
+    ( ( "GP_Sloc:ticket_machine.adb:40:15" (#"ticket_machine.adb" 40 0 0# #"ticket_machine.adb" 40 0 0# Ticket_machine__do_action__s.s.int__content <- ( (#"ticket_machine.adb" 40 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Shape:case__s_assign__add" "GP_Sloc:ticket_machine.adb:40:20" "GP_Id:1" "comment:            S := S + 10;
+                   ^ ticket_machine.adb:40:20:VC_RANGE_CHECK" (Ticket_machine__state.range_check_((Ticket_machine__do_action__s.s.int__content + 10))) )) )) );
+    ( "GP_Sloc:ticket_machine.adb:42:13" (#"ticket_machine.adb" 42 0 0# (if ((Ticket_machine__do_action__s.s.int__content >= 30)) then (
+     ( ( "GP_Sloc:ticket_machine.adb:43:18" (#"ticket_machine.adb" 43 0 0# #"ticket_machine.adb" 43 0 0# Ticket_machine__do_action__r.r.int__content <- ( 2 )) );
+     ( "GP_Sloc:ticket_machine.adb:44:18" (#"ticket_machine.adb" 44 0 0# #"ticket_machine.adb" 44 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )) else (
+     ( "GP_Sloc:ticket_machine.adb:46:18" (#"ticket_machine.adb" 46 0 0# #"ticket_machine.adb" 46 0 0# Ticket_machine__do_action__r.r.int__content <- ( 0 )) )))) ) ))  else if ((Ticket_machine__do_action__a.a = 0)) then (
+    ( ( "GP_Sloc:ticket_machine.adb:51:15" (#"ticket_machine.adb" 51 0 0# #"ticket_machine.adb" 51 0 0# Ticket_machine__do_action__s.s.int__content <- ( (#"ticket_machine.adb" 51 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Shape:case__s_assign__add" "GP_Sloc:ticket_machine.adb:51:20" "GP_Id:2" "comment:            S := S + 5;
+                   ^ ticket_machine.adb:51:20:VC_RANGE_CHECK" (Ticket_machine__state.range_check_((Ticket_machine__do_action__s.s.int__content + 5))) )) )) );
+    ( "GP_Sloc:ticket_machine.adb:53:13" (#"ticket_machine.adb" 53 0 0# (if ((Ticket_machine__do_action__s.s.int__content >= 30)) then (
+     ( ( "GP_Sloc:ticket_machine.adb:54:18" (#"ticket_machine.adb" 54 0 0# #"ticket_machine.adb" 54 0 0# Ticket_machine__do_action__r.r.int__content <- ( 2 )) );
+     ( "GP_Sloc:ticket_machine.adb:55:18" (#"ticket_machine.adb" 55 0 0# #"ticket_machine.adb" 55 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )) else (
+     ( "GP_Sloc:ticket_machine.adb:57:18" (#"ticket_machine.adb" 57 0 0# #"ticket_machine.adb" 57 0 0# Ticket_machine__do_action__r.r.int__content <- ( 0 )) )))) ) )) else (
+    ( ( "GP_Sloc:ticket_machine.adb:62:15" (#"ticket_machine.adb" 62 0 0# #"ticket_machine.adb" 62 0 0# Ticket_machine__do_action__r.r.int__content <- ( 1 )) );
+    ( "GP_Sloc:ticket_machine.adb:63:15" (#"ticket_machine.adb" 63 0 0# #"ticket_machine.adb" 63 0 0# Ticket_machine__do_action__s.s.int__content <- ( 0 )) ) )))) );
     raise Return__exc )
   with
    Return__exc -> ()
   end;
-   abstract ensures {true}(let _ = True in (
+   abstract ensures {true}(let _ = (if ((Ticket_machine__do_action__s.s.int__content = 0)) then (
+   (Boolean.orb((Ticket_machine__do_action__r.r.int__content = 2)) ((Ticket_machine__do_action__r.r.int__content = 1)))) else ((if ((Ticket_machine__do_action__s.s.int__content > 0)) then (
+   (Ticket_machine__do_action__r.r.int__content = 0)) else (
+   (Boolean.of_int(1)))))) in (
    ()))
    end  )
 end

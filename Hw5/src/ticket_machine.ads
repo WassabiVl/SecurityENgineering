@@ -25,6 +25,6 @@ with SPARK_Mode is
        Depends => (S => (S, A), R => (S, A)),
        Pre => (S >= 0 and (A = Insert_Five_Eur or  A = Insert_Ten_Eur 
                or A = Insert_Twenty_Eur or A = Reset)),
-     Post => (if S = 0 then (R = Print_Ticket or R = Reset)) or (if S > 0 then R = Nothing);
+     Post => (if S = 0 then (R = Print_Ticket or R = Reset) elsif S > 0 then R = Nothing);
                 
 end Ticket_Machine;

@@ -10,17 +10,18 @@ package Elections with SPARK_Mode is
    Num_Total_Voters: Natural := 0;
   
    procedure Initialize(Num_Voters: Natural) with
-     Global => Num_Total_Voters,
-     --Depends => (Num_Voters),
-     Post => (Num_Total_Voters = Num_Voters) and (Num_Voters <= Natural'Last);
+     Global => (Num_Total_Voters, Num_Votes_Made),
+     --Depends => (Num_Voters => (Num_Total_Voters,Num_Voters)),
+     Post => (Num_Total_Voters = Num_Voters) and then (Num_Voters <= Natural'Last);
    
      
     -- Resets the number of made votes and votes for all parties to 0, and 
     -- sets the number of total Voters to the given.
     
    procedure Vote_For(Vote: Party) with 
-     Global => null,
-     Pre => (Num_Total_Voters <= Natural'Last) and then (Votes_Distribution'Length = 0),
+     Global => (Num_Total_Voters, Num_Votes_Made),
+     --Depends => (Num_Votes_Made => Vote),
+     Pre => (Num_Total_Voters >= 0) and  (Num_Votes_Made >= 0),
      Post => (Num_Votes_Made = Num_Votes_Made'Old + 1) and then (if Vote = A then 
               Votes_Distribution(A) = Votes_Distribution(A)'Old + 1 elsif Vote = B then 
               Votes_Distribution(B) = Votes_Distribution(B)'Old + 1 elsif Vote = C then 
@@ -30,9 +31,9 @@ package Elections with SPARK_Mode is
    
    function All_Voters_Voted return Boolean with 
      Global => null,
-     --Depends => (Num_Total_Voters),
-     Pre => Num_Votes_Made <= Num_Total_Voters and Num_Total_Voters <= Natural'Last,
-     Post => True or False;
+     --Depends => (Num_Total_Voters => Num_Total_Voters),
+     Pre => Num_Votes_Made <= Num_Total_Voters and Num_Total_Voters <= Natural'Last;
+     --Post => True or False;
    
    function Find_Winner return Party;
     -- Returns Party with most votes assigned. 
