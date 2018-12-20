@@ -49,7 +49,7 @@
       },
       "check_tree": {
       },
-      "tracefile": "ticket_machine__flow__58.trace",
+      "tracefile": "ticket_machine__flow__60.trace",
       "how_proved": "flow"
     },
     {
@@ -69,7 +69,7 @@
       },
       "check_tree": {
       },
-      "tracefile": "ticket_machine__flow__59.trace",
+      "tracefile": "ticket_machine__flow__61.trace",
       "how_proved": "flow"
     }
   ],
@@ -93,7 +93,7 @@
         {
           "proof_attempts": {
             "CVC4": {
-              "result": "Unknown (none)",
+              "result": "Unknown (other)",
               "steps": 14,
               "time": 0
             },
@@ -250,7 +250,7 @@
         {
           "proof_attempts": {
             "CVC4": {
-              "result": "Unknown (none)",
+              "result": "Unknown (other)",
               "steps": 14,
               "time": 0
             },
@@ -407,7 +407,7 @@
         {
           "proof_attempts": {
             "CVC4": {
-              "result": "Unknown (none)",
+              "result": "Unknown (other)",
               "steps": 14,
               "time": 0
             },
@@ -577,7 +577,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 46,
-              "time": 5.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -592,7 +592,7 @@
         "CVC4": {
           "count": 2,
           "max_steps": 1,
-          "max_time": 5.00000007450581E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     }
@@ -664,14 +664,14 @@
     }
   ],
   "timings": {
-    "marking": 3.30134993419051E-04,
-    "globals (basic)": 2.36054998822510E-04,
-    "globals/properties (advanced)": 7.20566022209823E-04,
-    "flow analysis": 5.57722197845578E-03,
-    "codepeer results": 1.41119999170769E-05,
-    "init_why_sections": 3.13457014271989E-04,
-    "translation of standard": 4.21819603070617E-03,
-    "translation of compilation unit": 1.85080699156970E-03,
-    "proof": 1.34600329399109E+00
+    "marking": 2.21088004764169E-04,
+    "globals (basic)": 1.91580998944119E-04,
+    "globals/properties (advanced)": 5.00760972499847E-04,
+    "flow analysis": 3.30049102194607E-03,
+    "codepeer results": 5.98699989495799E-06,
+    "init_why_sections": 2.44180002482608E-04,
+    "translation of standard": 4.73520811647177E-03,
+    "translation of compilation unit": 2.37594288773835E-03,
+    "proof": 1.48656928539276E+00
   }
 }
