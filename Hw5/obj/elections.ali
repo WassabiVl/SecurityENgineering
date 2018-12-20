@@ -1,46 +1,60 @@
 V "GNAT Lib v2018"
 A -gnatA
-A -gnatc
 A -mtune=generic
 A -march=x86-64
-P NO FX
+P ZX
 
 RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U elections%b		elections.adb		70c7c3ab OO PK
+U elections%b		elections.adb		d1abfb29 NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
 
-U elections%s		elections.ads		9cf002f0 EE OO PK
+U elections%s		elections.ads		6d6b6cf3 EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D elections.ads		20181219202136 9cf002f0 elections%s
-D elections.adb		20181219215452 ec37c15b elections%b
-X 1 elections.ads
-1K9*Elections 22l5 22e14 2|1b14 77l5 77t14
-2E9*Party 2e36 3r30 16r29 19r32 2|12r29 52r32 55r16
-2n19*None{2E9} 2|33r18 34r35 34r63 69r23
-2n25*A{2E9} 2|17r18 18r35 18r60
-2n28*B{2E9} 2|21r18 22r35 22r60
-2n31*C{2E9} 2|25r18 26r35 26r60
-2n34*D{2E9} 2|29r18 30r35 30r60
+D ada.ads		20180524051736 76789da1 ada%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D elections.ads		20181220214642 6d6b6cf3 elections%s
+D elections.adb		20181220203052 bcc097da elections%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D system.ads		20180524051738 32a08138 system%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+X 3 elections.ads
+1K9*Elections 43l5 43e14 4|1b14 79l5 79t14
+2E9*Party 2e36 3r30 22r29 39r32 4|12r29 53r32 56r16
+2n19*None{2E9} 30r82 31r39 31r66 4|34r18 35r35 35r63 59r17 71r23
+2n25*A{2E9} 26r76 27r34 27r58 4|18r18 19r35 19r60
+2n28*B{2E9} 27r82 28r34 28r58 4|22r18 23r35 23r60
+2n31*C{2E9} 28r82 29r34 29r58 4|26r18 27r35 27r60
+2n34*D{2E9} 29r82 30r34 30r58 4|30r18 31r35 31r60
 3A9*Votes_Array(natural)<2E9> 7r38 8r24
-5X4*Empty_Array 2|59r16
+5X4*Empty_Array 4|61r16
 7a4*Zero_Votes_Distribution{3A9} 8r39
-8a4*Votes_Distribution{3A9} 2|18m16 18r41 22m16 22r41 26m16 26r41 30m16 30r41
-. 34m16 34r44 58r10 62r16 64r13 65r29 68r16
-9i4*Num_Votes_Made{natural} 2|7m7 15r13 19m16 19r34 23m16 23r34 27m16 27r34
-. 31m16 31r34 35m16 35r34 44r10
-10i4*Num_Total_Voters{natural} 2|8m7 15r30 44r27
-12U14*Initialize 12>25 2|3b14 10l8 10t18
-12i25 Num_Voters{natural} 2|3b25 8r27
-16U14*Vote_For 16>23 2|12b14 39l8 39t16
-16e23 Vote{2E9} 2|12b23 16r15
-18V13*All_Voters_Voted{boolean} 2|41b13 50l8 50t24
-19V13*Find_Winner{2E9} 2|52b13 75l8 75t19
-X 2 elections.adb
-55e7 Winner{1|2E9} 66m13 73r16
-56i7 Highest_Vote{natural} 64r37 65m13 68r40
-62e11 I{1|2E9} 64r32 65r48 66r23 68r35
+8a4*Votes_Distribution{3A9} 23r62 27r15 27r39 28r15 28r39 29r15 29r39 30r15
+. 30r39 31r20 31r47 39r54 4|19m16 19r41 23m16 23r41 27m16 27r41 31m16 31r41
+. 35m16 35r44 60r10 64r16 66r13 67r29 70r16
+9i4*Num_Votes_Made{natural} 13r46 14r70 14r89 16r51 23r46 25r43 26r15 26r32
+. 34r35 36r13 39r73 40r16 4|7m7 16r13 20m16 20r34 24m16 24r34 28m16 28r34
+. 32m16 32r34 36m16 36r34 45r10
+10i4*Num_Total_Voters{natural} 13r28 14r18 14r39 16r15 23r28 25r14 25r68
+. 25r104 34r17 36r31 36r52 4|8m7 16r31 45r27
+12U14*Initialize 12>25 4|3b14 10l8 10t18
+12i25 Num_Voters{natural} 14r57 14r105 15r14 16r34 4|3b25 8r27
+22U14*Vote_For 22>23 4|12b14 40l8 40t16
+22e23 Vote{2E9} 26r69 27r75 28r75 29r75 30r75 4|12b23 17r15
+33V13*All_Voters_Voted{boolean} 4|42b13 51l8 51t24
+39V13*Find_Winner{2E9} 4|53b13 77l8 77t19
+X 4 elections.adb
+56e7 Winner{3|2E9} 59m7 68m13 75r16
+57i7 Highest_Vote{natural} 66r37 67m13 70r40
+64e11 I{3|2E9} 66r32 67r48 68r23 70r35
 

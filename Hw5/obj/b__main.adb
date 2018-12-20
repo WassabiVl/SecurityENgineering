@@ -28,8 +28,10 @@ package body ada_main is
    E112 : Short_Integer; pragma Import (Ada, E112, "ada__finalization_E");
    E111 : Short_Integer; pragma Import (Ada, E111, "system__file_io_E");
    E099 : Short_Integer; pragma Import (Ada, E099, "ada__text_io_E");
-   E137 : Short_Integer; pragma Import (Ada, E137, "system__assertions_E");
-   E135 : Short_Integer; pragma Import (Ada, E135, "ticket_machine_E");
+   E141 : Short_Integer; pragma Import (Ada, E141, "system__assertions_E");
+   E135 : Short_Integer; pragma Import (Ada, E135, "elections_E");
+   E137 : Short_Integer; pragma Import (Ada, E137, "thread_E");
+   E139 : Short_Integer; pragma Import (Ada, E139, "ticket_machine_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -202,8 +204,11 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E099 := E099 + 1;
       System.Assertions'Elab_Spec;
-      E137 := E137 + 1;
+      E141 := E141 + 1;
+      Elections'Elab_Spec;
       E135 := E135 + 1;
+      E137 := E137 + 1;
+      E139 := E139 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -239,11 +244,13 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\ticket_machine.o
-   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\main.o
-   --   -LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\
-   --   -LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\Hw5\obj\
-   --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\elections.o
+   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\thread.o
+   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\ticket_machine.o
+   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\main.o
+   --   -LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\
+   --   -LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\Hw5\obj\
+   --   -LC:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat
    --   -Wl,--stack=0x2000000

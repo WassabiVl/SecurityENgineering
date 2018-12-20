@@ -1,3 +1,0 @@
-ticket_machine.adb:29:20: medium: range check might fail (e.g. when S = 11)[#2]
-ticket_machine.adb:40:20: medium: range check might fail (e.g. when S = 21)[#0]
-ticket_machine.adb:51:20: medium: range check might fail (e.g. when S = 26)[#1]

@@ -1,0 +1,288 @@
+{
+  "spark": [
+    {
+      "name": "Elections",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Elections.Initialize",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 12
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Elections.Vote_For",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 22
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Elections.All_Voters_Voted",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 33
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Elections.Find_Winner",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 39
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "elections.ads",
+      "line": 23,
+      "col": 28,
+      "suppressed": "",
+      "rule": "INOUT_ONLY_READ",
+      "severity": "warning",
+      "entity": {
+        "name": "Elections.Vote_For",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 22
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.adb",
+      "line": 66,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Find_Winner",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 39
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__119.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.adb",
+      "line": 70,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Find_Winner",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 39
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__120.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.adb",
+      "line": 75,
+      "col": 9,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Find_Winner",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 39
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__121.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.ads",
+      "line": 13,
+      "col": 46,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Initialize",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__138.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.ads",
+      "line": 13,
+      "col": 28,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Initialize",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__139.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.ads",
+      "line": 16,
+      "col": 46,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Initialize",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__140.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "elections.ads",
+      "line": 16,
+      "col": 46,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Elections.Initialize",
+        "sloc": [
+          {
+            "file": "elections.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "elections__flow__141.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Elections.Initialize",
+          "sloc": [
+            {
+              "file": "elections.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Elections.Vote_For",
+          "sloc": [
+            {
+              "file": "elections.ads",
+              "line": 22
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Elections.All_Voters_Voted",
+          "sloc": [
+            {
+              "file": "elections.ads",
+              "line": 33
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Elections.Find_Winner",
+          "sloc": [
+            {
+              "file": "elections.ads",
+              "line": 39
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 8.81700019817799E-04,
+    "globals (basic)": 3.86500003514811E-04,
+    "globals/properties (advanced)": 1.94290000945330E-03,
+    "flow analysis": 1.89692992717028E-02
+  }
+}

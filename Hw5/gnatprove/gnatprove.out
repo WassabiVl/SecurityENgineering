@@ -1,0 +1,40 @@
+Summary of SPARK analysis
+=========================
+
+-------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total         Flow   Interval   CodePeer   Provers   Justified   Unproved
+-------------------------------------------------------------------------------------------------------
+Data Dependencies                 .            .          .          .         .           .          .
+Flow Dependencies                 .            .          .          .         .           .          .
+Initialization                   11           11          .          .         .           .          .
+Non-Aliasing                      .            .          .          .         .           .          .
+Run-time Checks                   .            .          .          .         .           .          .
+Assertions                        .            .          .          .         .           .          .
+Functional Contracts              .            .          .          .         .           .          .
+LSP Verification                  .            .          .          .         .           .          .
+-------------------------------------------------------------------------------------------------------
+Total                            11    11 (100%)          .          .         .           .          .
+
+
+Analyzed 5 units
+in unit elections, 5 subprograms and packages out of 5 analyzed
+  Elections at elections.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Elections.All_Voters_Voted at elections.ads:33 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Elections.Find_Winner at elections.ads:39 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Elections.Initialize at elections.ads:12 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Elections.Vote_For at elections.ads:22 flow analyzed (0 errors, 0 checks and 0 warnings)
+   suppressed messages:
+    elections.ads:23:28: 
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:6 skipped
+in unit thread, 3 subprograms and packages out of 3 analyzed
+  Thread at thread.ads:2 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Thread.Do_Action at thread.ads:15 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Thread.Initialize at thread.ads:12 flow analyzed (0 errors, 0 checks and 0 warnings)
+in unit ticket_machine, 1 subprograms and packages out of 3 analyzed
+  Ticket_Machine at ticket_machine.ads:1 skipped
+  Ticket_Machine.Do_Action at ticket_machine.ads:20 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Ticket_Machine.Initialize at ticket_machine.ads:17 skipped
+in unit ticket_machine_wael, 0 subprograms and packages out of 2 analyzed
+  ticket_machine_wael.Do_Action at ticket_machine_wael.ads:16 skipped
+  ticket_machine_wael.Initialize at ticket_machine_wael.ads:15 skipped

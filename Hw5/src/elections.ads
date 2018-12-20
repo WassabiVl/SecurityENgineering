@@ -10,9 +10,9 @@ package Elections with SPARK_Mode is
    Num_Total_Voters: Natural := 0;
   
    procedure Initialize(Num_Voters: Natural) with
-     Global => (In_out => (Num_Total_Voters, Num_Votes_Made)),
-   --Depends => (Num_Voters => Num_Total_Voters, 0=> Num_Voters),
-   Pre => (Num_Voters <= Natural'Last),
+     Global => (Output => (Num_Total_Voters, Num_Votes_Made)),
+     --Depends => ( Num_Total_Voters =>  (Num_Votes_Made,Num_Voters),
+     Pre => (Num_Voters <= Natural'Last),
      Post => (Num_Total_Voters = Num_Voters) and (Num_Votes_Made = 0) ;
    
      

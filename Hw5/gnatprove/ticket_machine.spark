@@ -1,0 +1,100 @@
+{
+  "spark": [
+    {
+      "name": "Ticket_Machine",
+      "sloc": [
+        {
+          "file": "ticket_machine.ads",
+          "line": 1
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Ticket_Machine.Initialize",
+      "sloc": [
+        {
+          "file": "ticket_machine.ads",
+          "line": 17
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Ticket_Machine.Do_Action",
+      "sloc": [
+        {
+          "file": "ticket_machine.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "ticket_machine.ads",
+      "line": 22,
+      "col": 24,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 20
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__60.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "ticket_machine.ads",
+      "line": 28,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Ticket_Machine.Do_Action",
+        "sloc": [
+          {
+            "file": "ticket_machine.ads",
+            "line": 20
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "ticket_machine__flow__61.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Ticket_Machine.Do_Action",
+          "sloc": [
+            {
+              "file": "ticket_machine.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 5.57999999728054E-04,
+    "globals (basic)": 3.25900007737800E-04,
+    "globals/properties (advanced)": 1.21510005556047E-03,
+    "flow analysis": 9.05929971486330E-03
+  }
+}

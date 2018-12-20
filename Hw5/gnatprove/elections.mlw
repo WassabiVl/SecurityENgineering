@@ -1,0 +1,3378 @@
+(* Module for axiomatizing type "short_short_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__short_short_integer
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type short_short_integer =
+  < range -128 127 >
+ 
+ function first 
+   : int =
+  ( -128 )
+ 
+ function last 
+   : int =
+  127
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = short_short_integer, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type short_short_integer__ref =
+  { mutable short_short_integer__content "model_trace:" "name:" : short_short_integer }
+ 
+ function short_short_integer__ref___projection 
+   (a : short_short_integer__ref) : short_short_integer =
+  a.short_short_integer__content
+ 
+ meta "model_projection" function short_short_integer__ref___projection
+ 
+ meta "inline : no" function short_short_integer__ref___projection
+ 
+ val short_short_integer__havoc 
+   (x : short_short_integer__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "short_short_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__short_short_integer__rep
+ use        Standard__short_short_integer
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__short_short_integer.short_short_integer) : int =
+  (Standard__short_short_integer.short_short_integer'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__short_short_integer.short_short_integer, 
+ predicate in_range = Standard__short_short_integer.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "short_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__short_integer
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type short_integer =
+  < range -32768 32767 >
+ 
+ function first 
+   : int =
+  ( -32768 )
+ 
+ function last 
+   : int =
+  32767
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = short_integer, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type short_integer__ref =
+  { mutable short_integer__content "model_trace:" "name:" : short_integer }
+ 
+ function short_integer__ref___projection 
+   (a : short_integer__ref) : short_integer =
+  a.short_integer__content
+ 
+ meta "model_projection" function short_integer__ref___projection
+ 
+ meta "inline : no" function short_integer__ref___projection
+ 
+ val short_integer__havoc 
+   (x : short_integer__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "short_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__short_integer__rep
+ use        Standard__short_integer
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__short_integer.short_integer) : int =
+  (Standard__short_integer.short_integer'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__short_integer.short_integer, 
+ predicate in_range = Standard__short_integer.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type integer =
+  < range -2147483648 2147483647 >
+ 
+ function first 
+   : int =
+  ( -2147483648 )
+ 
+ function last 
+   : int =
+  2147483647
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = integer, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type integer__ref =
+  { mutable integer__content "model_trace:" "name:" : integer }
+ 
+ function integer__ref___projection 
+   (a : integer__ref) : integer =
+  a.integer__content
+ 
+ meta "model_projection" function integer__ref___projection
+ 
+ meta "inline : no" function integer__ref___projection
+ 
+ val integer__havoc 
+   (x : integer__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer__rep
+ use        Standard__integer
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__integer.integer) : int =
+  (Standard__integer.integer'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__integer.integer, 
+ predicate in_range = Standard__integer.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "long_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__long_integer
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type long_integer =
+  < range -2147483648 2147483647 >
+ 
+ function first 
+   : int =
+  ( -2147483648 )
+ 
+ function last 
+   : int =
+  2147483647
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = long_integer, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type long_integer__ref =
+  { mutable long_integer__content "model_trace:" "name:" : long_integer }
+ 
+ function long_integer__ref___projection 
+   (a : long_integer__ref) : long_integer =
+  a.long_integer__content
+ 
+ meta "model_projection" function long_integer__ref___projection
+ 
+ meta "inline : no" function long_integer__ref___projection
+ 
+ val long_integer__havoc 
+   (x : long_integer__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "long_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__long_integer__rep
+ use        Standard__long_integer
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__long_integer.long_integer) : int =
+  (Standard__long_integer.long_integer'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__long_integer.long_integer, 
+ predicate in_range = Standard__long_integer.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "long_long_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__long_long_integer
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type long_long_integer =
+  < range -9223372036854775808 9223372036854775807 >
+ 
+ function first 
+   : int =
+  ( -9223372036854775808 )
+ 
+ function last 
+   : int =
+  9223372036854775807
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = long_long_integer, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type long_long_integer__ref =
+  { mutable long_long_integer__content "model_trace:" "name:" : long_long_integer }
+ 
+ function long_long_integer__ref___projection 
+   (a : long_long_integer__ref) : long_long_integer =
+  a.long_long_integer__content
+ 
+ meta "model_projection" function long_long_integer__ref___projection
+ 
+ meta "inline : no" function long_long_integer__ref___projection
+ 
+ val long_long_integer__havoc 
+   (x : long_long_integer__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "long_long_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__long_long_integer__rep
+ use        Standard__long_long_integer
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__long_long_integer.long_long_integer) : int =
+  (Standard__long_long_integer.long_long_integer'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__long_long_integer.long_long_integer, 
+ predicate in_range = Standard__long_long_integer.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "natural", created in Gnat2Why.Types.Translate_Type *)
+module Standard__natural
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type natural =
+  < range 0 2147483647 >
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  2147483647
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = natural, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type natural__ref =
+  { mutable natural__content "model_trace:" "name:" : natural }
+ 
+ function natural__ref___projection 
+   (a : natural__ref) : natural =
+  a.natural__content
+ 
+ meta "model_projection" function natural__ref___projection
+ 
+ meta "inline : no" function natural__ref___projection
+ 
+ val natural__havoc 
+   (x : natural__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "natural", created in Gnat2Why.Types.Translate_Type *)
+module Standard__natural__rep
+ use        Standard__natural
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__natural.natural) : int =
+  (Standard__natural.natural'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__natural.natural, 
+ predicate in_range = Standard__natural.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "positive", created in Gnat2Why.Types.Translate_Type *)
+module Standard__positive
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type positive =
+  < range 1 2147483647 >
+ 
+ function first 
+   : int =
+  1
+ 
+ function last 
+   : int =
+  2147483647
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = positive, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type positive__ref =
+  { mutable positive__content "model_trace:" "name:" : positive }
+ 
+ function positive__ref___projection 
+   (a : positive__ref) : positive =
+  a.positive__content
+ 
+ meta "model_projection" function positive__ref___projection
+ 
+ meta "inline : no" function positive__ref___projection
+ 
+ val positive__havoc 
+   (x : positive__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "positive", created in Gnat2Why.Types.Translate_Type *)
+module Standard__positive__rep
+ use        Standard__positive
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__positive.positive) : int =
+  (Standard__positive.positive'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__positive.positive, 
+ predicate in_range = Standard__positive.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "short_float", created in Gnat2Why.Types.Translate_Type *)
+module Standard__short_float
+ use import "_gnatprove_standard".Main
+ use        "_gnatprove_standard".Float32
+
+ type short_float 
+ 
+ function first 
+   : Float32.t =
+  (Float32.neg (340282346638528859811704183484516925440.0:Float32.t))
+ 
+ function last 
+   : Float32.t =
+  (340282346638528859811704183484516925440.0:Float32.t)
+ 
+ predicate in_range 
+   (x : Float32.t)  =
+  (Float32.t'isFinite x)
+ 
+ clone export "ada__model".Static_Float32 with
+ type t = short_float, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type short_float__ref =
+  { mutable short_float__content "model_trace:" "name:" : short_float }
+ 
+ function short_float__ref___projection 
+   (a : short_float__ref) : short_float =
+  a.short_float__content
+ 
+ meta "model_projection" function short_float__ref___projection
+ 
+ meta "inline : no" function short_float__ref___projection
+ 
+ val short_float__havoc 
+   (x : short_float__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "short_float", created in Gnat2Why.Types.Translate_Type *)
+module Standard__short_float__rep
+ use        Standard__short_float
+ use        "_gnatprove_standard".Float32
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Float32 with
+ type t = Standard__short_float.short_float, 
+ predicate in_range = Standard__short_float.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "float", created in Gnat2Why.Types.Translate_Type *)
+module Standard__float
+ use import "_gnatprove_standard".Main
+ use        "_gnatprove_standard".Float32
+
+ type float 
+ 
+ function first 
+   : Float32.t =
+  (Float32.neg (340282346638528859811704183484516925440.0:Float32.t))
+ 
+ function last 
+   : Float32.t =
+  (340282346638528859811704183484516925440.0:Float32.t)
+ 
+ predicate in_range 
+   (x : Float32.t)  =
+  (Float32.t'isFinite x)
+ 
+ clone export "ada__model".Static_Float32 with
+ type t = float, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type float__ref =
+  { mutable float__content "model_trace:" "name:" : float }
+ 
+ function float__ref___projection 
+   (a : float__ref) : float =
+  a.float__content
+ 
+ meta "model_projection" function float__ref___projection
+ 
+ meta "inline : no" function float__ref___projection
+ 
+ val float__havoc 
+   (x : float__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "float", created in Gnat2Why.Types.Translate_Type *)
+module Standard__float__rep
+ use        Standard__float
+ use        "_gnatprove_standard".Float32
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Float32 with
+ type t = Standard__float.float, 
+ predicate in_range = Standard__float.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "long_float", created in Gnat2Why.Types.Translate_Type *)
+module Standard__long_float
+ use import "_gnatprove_standard".Main
+ use        "_gnatprove_standard".Float64
+
+ type long_float 
+ 
+ function first 
+   : Float64.t =
+  (Float64.neg (179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0:Float64.t))
+ 
+ function last 
+   : Float64.t =
+  (179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0:Float64.t)
+ 
+ predicate in_range 
+   (x : Float64.t)  =
+  (Float64.t'isFinite x)
+ 
+ clone export "ada__model".Static_Float64 with
+ type t = long_float, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type long_float__ref =
+  { mutable long_float__content "model_trace:" "name:" : long_float }
+ 
+ function long_float__ref___projection 
+   (a : long_float__ref) : long_float =
+  a.long_float__content
+ 
+ meta "model_projection" function long_float__ref___projection
+ 
+ meta "inline : no" function long_float__ref___projection
+ 
+ val long_float__havoc 
+   (x : long_float__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "long_float", created in Gnat2Why.Types.Translate_Type *)
+module Standard__long_float__rep
+ use        Standard__long_float
+ use        "_gnatprove_standard".Float64
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Float64 with
+ type t = Standard__long_float.long_float, 
+ predicate in_range = Standard__long_float.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "character", created in Gnat2Why.Types.Translate_Type *)
+module Standard__character
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type character 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  255
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = character, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type character__ref =
+  { mutable character__content "model_trace:" "name:" : character }
+ 
+ function character__ref___projection 
+   (a : character__ref) : character =
+  a.character__content
+ 
+ meta "model_projection" function character__ref___projection
+ 
+ meta "inline : no" function character__ref___projection
+ 
+ val character__havoc 
+   (x : character__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "character", created in Gnat2Why.Types.Translate_Type *)
+module Standard__character__rep
+ use        Standard__character
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__character.character, 
+ predicate in_range = Standard__character.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "wide_character", created in Gnat2Why.Types.Translate_Type *)
+module Standard__wide_character
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type wide_character 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  65535
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = wide_character, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type wide_character__ref =
+  { mutable wide_character__content "model_trace:" "name:" : wide_character }
+ 
+ function wide_character__ref___projection 
+   (a : wide_character__ref) : wide_character =
+  a.wide_character__content
+ 
+ meta "model_projection" function wide_character__ref___projection
+ 
+ meta "inline : no" function wide_character__ref___projection
+ 
+ val wide_character__havoc 
+   (x : wide_character__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "wide_character", created in Gnat2Why.Types.Translate_Type *)
+module Standard__wide_character__rep
+ use        Standard__wide_character
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__wide_character.wide_character, 
+ predicate in_range = Standard__wide_character.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "wide_wide_character", created in Gnat2Why.Types.Translate_Type *)
+module Standard__wide_wide_character
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type wide_wide_character 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  2147483647
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = wide_wide_character, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type wide_wide_character__ref =
+  { mutable wide_wide_character__content "model_trace:" "name:" : wide_wide_character }
+ 
+ function wide_wide_character__ref___projection 
+   (a : wide_wide_character__ref) : wide_wide_character =
+  a.wide_wide_character__content
+ 
+ meta "model_projection" function wide_wide_character__ref___projection
+ 
+ meta "inline : no" function wide_wide_character__ref___projection
+ 
+ val wide_wide_character__havoc 
+   (x : wide_wide_character__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "wide_wide_character", created in Gnat2Why.Types.Translate_Type *)
+module Standard__wide_wide_character__rep
+ use        Standard__wide_wide_character
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__wide_wide_character.wide_wide_character, 
+ predicate in_range = Standard__wide_wide_character.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing the array theory associated to type "string", created in Why.Gen.Arrays.Create_Rep_Array_Theory *)
+module Array__Int__Standard__character
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__character
+ use        Standard__character__rep
+
+ function index_I1_one 
+   : int =
+  1
+ 
+ type component_type =
+  Standard__character.character
+ 
+ clone export "_gnatprove_standard".Array__1 with
+ type I1.t = int, 
+ predicate I1.le = Int.(<=), 
+ predicate I1.lt = Int.(<), 
+ predicate I1.gt = Int.(>), 
+ function I1.add = Int.(+), 
+ function I1.sub = Int.(-), 
+ function I1.one = index_I1_one, 
+ type component_type = component_type
+ 
+ function bool_eq 
+   (a : map) (a__first : int) (a__last : int) (b : map) (b__first : int) (b__last : int) : bool =
+  ( (if ((a__first <= a__last)) then (
+   ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+   (b__first > b__last))) /\ (forall temp___idx_91   : int.
+   (if (( (a__first <= temp___idx_91) /\ (temp___idx_91 <= a__last) )) then (
+    ((Standard__character__rep.to_rep (get a temp___idx_91)) = (Standard__character__rep.to_rep (get b ((b__first - a__first) + temp___idx_91))))) else true)) )
+ 
+ axiom bool_eq_rev :
+  (forall a   b   : map.
+  (forall a__first   a__last   b__first   b__last   : int.
+   ( ((bool_eq b b__first b__last a a__first a__last) = True) -> ( (if ((a__first <= a__last)) then (
+    ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+    (b__first > b__last))) /\ (forall temp___idx_91   : int.
+    (if (( (a__first <= temp___idx_91) /\ (temp___idx_91 <= a__last) )) then (
+     ((Standard__character__rep.to_rep (get a temp___idx_91)) = (Standard__character__rep.to_rep (get b ((b__first - a__first) + temp___idx_91))))) else true)) ) )))
+
+end
+
+(* Module for axiomatizing concatenation for the array theory associated to type "string", created in Why.Gen.Arrays.Declare_Concatenation_Symbols *)
+module Array__Int__Standard__character__Concat
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Array__Int__Standard__character
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "_gnatprove_standard".Array__1__Concat with
+ type component_type = Array__Int__Standard__character.component_type, 
+ type map = Array__Int__Standard__character.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__character.get
+
+end
+
+(* Module for axiomatizing comparison for the array theory associated to type "string", created in Why.Gen.Arrays.Declare_Comparison_Symbols *)
+module Array__Int__Standard__character_Comp
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__character__rep
+ use        Array__Int__Standard__character
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "ada__model".Array_Int_Rep_Comparison_Axiom with
+ type component_type = Array__Int__Standard__character.component_type, 
+ function to_rep = Standard__character__rep.to_rep, 
+ type map = Array__Int__Standard__character.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__character.get, 
+ function bool_eq = Array__Int__Standard__character.bool_eq
+
+end
+
+(* Module for axiomatizing type "string", created in Gnat2Why.Types.Translate_Type *)
+module Standard__string
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        "_gnatprove_standard".Main
+ use        Standard__integer
+ use        Standard__positive
+ use        Standard__character
+ use        Array__Int__Standard__character
+ use        Standard__integer__rep
+
+ type component_type =
+  Standard__character.character
+ 
+ function index_1_id 
+   (x : int) : int =
+  x
+ 
+ clone export "ada__model".Unconstr_Array with
+ type map = Array__Int__Standard__character.map, 
+ function array_bool_eq = Array__Int__Standard__character.bool_eq, 
+ type index_base_type = Standard__integer.integer, 
+ type index_rep_type = int, 
+ function to_rep = Standard__integer__rep.to_rep, 
+ function rep_to_int = index_1_id, 
+ predicate in_range_base = Standard__integer.in_range, 
+ predicate index_dynamic_property = Standard__positive.dynamic_property, 
+ predicate index_rep_le = Int.(<=)
+ 
+ type string =
+  __t
+ 
+ meta "model_projection" function to_array
+ 
+ meta "inline : no" function to_array
+ 
+ meta "model_projection" function first
+ 
+ meta "inline : no" function first
+ 
+ meta "model_projection" function last
+ 
+ meta "inline : no" function last
+ 
+ function to_string 
+   (x : Main.__image) : string
+ 
+ function from_string 
+   (x : string) : Main.__image
+ 
+ type string__ref =
+  { mutable string__content "model_trace:" "name:" : string }
+ 
+ function string__ref___projection 
+   (a : string__ref) : string =
+  a.string__content
+ 
+ meta "model_projection" function string__ref___projection
+ 
+ meta "inline : no" function string__ref___projection
+ 
+ val string__havoc 
+   (x : string__ref) : unit
+  writes {x}
+
+end
+
+(* Module for axiomatizing the array theory associated to type "wide_string", created in Why.Gen.Arrays.Create_Rep_Array_Theory *)
+module Array__Int__Standard__wide_character
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__wide_character
+ use        Standard__wide_character__rep
+
+ function index_I1_one 
+   : int =
+  1
+ 
+ type component_type =
+  Standard__wide_character.wide_character
+ 
+ clone export "_gnatprove_standard".Array__1 with
+ type I1.t = int, 
+ predicate I1.le = Int.(<=), 
+ predicate I1.lt = Int.(<), 
+ predicate I1.gt = Int.(>), 
+ function I1.add = Int.(+), 
+ function I1.sub = Int.(-), 
+ function I1.one = index_I1_one, 
+ type component_type = component_type
+ 
+ function bool_eq 
+   (a : map) (a__first : int) (a__last : int) (b : map) (b__first : int) (b__last : int) : bool =
+  ( (if ((a__first <= a__last)) then (
+   ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+   (b__first > b__last))) /\ (forall temp___idx_98   : int.
+   (if (( (a__first <= temp___idx_98) /\ (temp___idx_98 <= a__last) )) then (
+    ((Standard__wide_character__rep.to_rep (get a temp___idx_98)) = (Standard__wide_character__rep.to_rep (get b ((b__first - a__first) + temp___idx_98))))) else true)) )
+ 
+ axiom bool_eq_rev :
+  (forall a   b   : map.
+  (forall a__first   a__last   b__first   b__last   : int.
+   ( ((bool_eq b b__first b__last a a__first a__last) = True) -> ( (if ((a__first <= a__last)) then (
+    ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+    (b__first > b__last))) /\ (forall temp___idx_98   : int.
+    (if (( (a__first <= temp___idx_98) /\ (temp___idx_98 <= a__last) )) then (
+     ((Standard__wide_character__rep.to_rep (get a temp___idx_98)) = (Standard__wide_character__rep.to_rep (get b ((b__first - a__first) + temp___idx_98))))) else true)) ) )))
+
+end
+
+(* Module for axiomatizing concatenation for the array theory associated to type "wide_string", created in Why.Gen.Arrays.Declare_Concatenation_Symbols *)
+module Array__Int__Standard__wide_character__Concat
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Array__Int__Standard__wide_character
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "_gnatprove_standard".Array__1__Concat with
+ type component_type = Array__Int__Standard__wide_character.component_type, 
+ type map = Array__Int__Standard__wide_character.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__wide_character.get
+
+end
+
+(* Module for axiomatizing comparison for the array theory associated to type "wide_string", created in Why.Gen.Arrays.Declare_Comparison_Symbols *)
+module Array__Int__Standard__wide_character_Comp
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__wide_character__rep
+ use        Array__Int__Standard__wide_character
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "ada__model".Array_Int_Rep_Comparison_Axiom with
+ type component_type = Array__Int__Standard__wide_character.component_type, 
+ function to_rep = Standard__wide_character__rep.to_rep, 
+ type map = Array__Int__Standard__wide_character.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__wide_character.get, 
+ function bool_eq = Array__Int__Standard__wide_character.bool_eq
+
+end
+
+(* Module for axiomatizing type "wide_string", created in Gnat2Why.Types.Translate_Type *)
+module Standard__wide_string
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer
+ use        Standard__positive
+ use        Standard__wide_character
+ use        Standard__integer__rep
+ use        Array__Int__Standard__wide_character
+
+ type component_type =
+  Standard__wide_character.wide_character
+ 
+ function index_1_id 
+   (x : int) : int =
+  x
+ 
+ clone export "ada__model".Unconstr_Array with
+ type map = Array__Int__Standard__wide_character.map, 
+ function array_bool_eq = Array__Int__Standard__wide_character.bool_eq, 
+ type index_base_type = Standard__integer.integer, 
+ type index_rep_type = int, 
+ function to_rep = Standard__integer__rep.to_rep, 
+ function rep_to_int = index_1_id, 
+ predicate in_range_base = Standard__integer.in_range, 
+ predicate index_dynamic_property = Standard__positive.dynamic_property, 
+ predicate index_rep_le = Int.(<=)
+ 
+ type wide_string =
+  __t
+ 
+ meta "model_projection" function to_array
+ 
+ meta "inline : no" function to_array
+ 
+ meta "model_projection" function first
+ 
+ meta "inline : no" function first
+ 
+ meta "model_projection" function last
+ 
+ meta "inline : no" function last
+ 
+ type wide_string__ref =
+  { mutable wide_string__content "model_trace:" "name:" : wide_string }
+ 
+ function wide_string__ref___projection 
+   (a : wide_string__ref) : wide_string =
+  a.wide_string__content
+ 
+ meta "model_projection" function wide_string__ref___projection
+ 
+ meta "inline : no" function wide_string__ref___projection
+ 
+ val wide_string__havoc 
+   (x : wide_string__ref) : unit
+  writes {x}
+
+end
+
+(* Module for axiomatizing the array theory associated to type "wide_wide_string", created in Why.Gen.Arrays.Create_Rep_Array_Theory *)
+module Array__Int__Standard__wide_wide_character
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__wide_wide_character
+ use        Standard__wide_wide_character__rep
+
+ function index_I1_one 
+   : int =
+  1
+ 
+ type component_type =
+  Standard__wide_wide_character.wide_wide_character
+ 
+ clone export "_gnatprove_standard".Array__1 with
+ type I1.t = int, 
+ predicate I1.le = Int.(<=), 
+ predicate I1.lt = Int.(<), 
+ predicate I1.gt = Int.(>), 
+ function I1.add = Int.(+), 
+ function I1.sub = Int.(-), 
+ function I1.one = index_I1_one, 
+ type component_type = component_type
+ 
+ function bool_eq 
+   (a : map) (a__first : int) (a__last : int) (b : map) (b__first : int) (b__last : int) : bool =
+  ( (if ((a__first <= a__last)) then (
+   ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+   (b__first > b__last))) /\ (forall temp___idx_105   : int.
+   (if (( (a__first <= temp___idx_105) /\ (temp___idx_105 <= a__last) )) then (
+    ((Standard__wide_wide_character__rep.to_rep (get a temp___idx_105)) = (Standard__wide_wide_character__rep.to_rep (get b ((b__first - a__first) + temp___idx_105))))) else true)) )
+ 
+ axiom bool_eq_rev :
+  (forall a   b   : map.
+  (forall a__first   a__last   b__first   b__last   : int.
+   ( ((bool_eq b b__first b__last a a__first a__last) = True) -> ( (if ((a__first <= a__last)) then (
+    ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+    (b__first > b__last))) /\ (forall temp___idx_105   : int.
+    (if (( (a__first <= temp___idx_105) /\ (temp___idx_105 <= a__last) )) then (
+     ((Standard__wide_wide_character__rep.to_rep (get a temp___idx_105)) = (Standard__wide_wide_character__rep.to_rep (get b ((b__first - a__first) + temp___idx_105))))) else true)) ) )))
+
+end
+
+(* Module for axiomatizing concatenation for the array theory associated to type "wide_wide_string", created in Why.Gen.Arrays.Declare_Concatenation_Symbols *)
+module Array__Int__Standard__wide_wide_character__Concat
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Array__Int__Standard__wide_wide_character
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "_gnatprove_standard".Array__1__Concat with
+ type component_type = Array__Int__Standard__wide_wide_character.component_type, 
+ type map = Array__Int__Standard__wide_wide_character.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__wide_wide_character.get
+
+end
+
+(* Module for axiomatizing comparison for the array theory associated to type "wide_wide_string", created in Why.Gen.Arrays.Declare_Comparison_Symbols *)
+module Array__Int__Standard__wide_wide_character_Comp
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__wide_wide_character__rep
+ use        Array__Int__Standard__wide_wide_character
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "ada__model".Array_Int_Rep_Comparison_Axiom with
+ type component_type = Array__Int__Standard__wide_wide_character.component_type, 
+ function to_rep = Standard__wide_wide_character__rep.to_rep, 
+ type map = Array__Int__Standard__wide_wide_character.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__wide_wide_character.get, 
+ function bool_eq = Array__Int__Standard__wide_wide_character.bool_eq
+
+end
+
+(* Module for axiomatizing type "wide_wide_string", created in Gnat2Why.Types.Translate_Type *)
+module Standard__wide_wide_string
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer
+ use        Standard__positive
+ use        Standard__wide_wide_character
+ use        Standard__integer__rep
+ use        Array__Int__Standard__wide_wide_character
+
+ type component_type =
+  Standard__wide_wide_character.wide_wide_character
+ 
+ function index_1_id 
+   (x : int) : int =
+  x
+ 
+ clone export "ada__model".Unconstr_Array with
+ type map = Array__Int__Standard__wide_wide_character.map, 
+ function array_bool_eq = Array__Int__Standard__wide_wide_character.bool_eq, 
+ type index_base_type = Standard__integer.integer, 
+ type index_rep_type = int, 
+ function to_rep = Standard__integer__rep.to_rep, 
+ function rep_to_int = index_1_id, 
+ predicate in_range_base = Standard__integer.in_range, 
+ predicate index_dynamic_property = Standard__positive.dynamic_property, 
+ predicate index_rep_le = Int.(<=)
+ 
+ type wide_wide_string =
+  __t
+ 
+ meta "model_projection" function to_array
+ 
+ meta "inline : no" function to_array
+ 
+ meta "model_projection" function first
+ 
+ meta "inline : no" function first
+ 
+ meta "model_projection" function last
+ 
+ meta "inline : no" function last
+ 
+ type wide_wide_string__ref =
+  { mutable wide_wide_string__content "model_trace:" "name:" : wide_wide_string }
+ 
+ function wide_wide_string__ref___projection 
+   (a : wide_wide_string__ref) : wide_wide_string =
+  a.wide_wide_string__content
+ 
+ meta "model_projection" function wide_wide_string__ref___projection
+ 
+ meta "inline : no" function wide_wide_string__ref___projection
+ 
+ val wide_wide_string__havoc 
+   (x : wide_wide_string__ref) : unit
+  writes {x}
+
+end
+
+(* Module for fixed-point operation for type at system.ads:1, created in Why.Gen.Scalars.Create_Fixed_Point_Theory_If_Needed *)
+module Fixed_Point__1_1000000000
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ function num_small 
+   : int =
+  1
+ 
+ function den_small 
+   : int =
+  1000000000
+ 
+ clone export "ada__model".Fixed_Point_Rep with
+ function num_small = num_small, 
+ function den_small = den_small
+
+end
+
+(* Module for axiomatizing type "duration", created in Gnat2Why.Types.Translate_Type *)
+module Standard__duration
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        "_gnatprove_standard".Main
+
+ type duration 
+ 
+ function num_small 
+   : Main.__fixed =
+  1
+ 
+ function den_small 
+   : Main.__fixed =
+  1000000000
+ 
+ function first 
+   : Main.__fixed =
+  ( -9223372036854775808 )
+ 
+ function last 
+   : Main.__fixed =
+  9223372036854775807
+ 
+ predicate in_range 
+   (x : Main.__fixed)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Fixed_Point with
+ type t = duration, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type duration__ref =
+  { mutable duration__content "model_trace:" "name:" : duration }
+ 
+ function duration__ref___projection 
+   (a : duration__ref) : duration =
+  a.duration__content
+ 
+ meta "model_projection" function duration__ref___projection
+ 
+ meta "inline : no" function duration__ref___projection
+ 
+ val duration__havoc 
+   (x : duration__ref) : unit
+  writes {x}
+
+end
+
+(* Module for axiomatizing type "integer_8", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_8
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type integer_8 =
+  < range -128 127 >
+ 
+ function first 
+   : int =
+  ( -128 )
+ 
+ function last 
+   : int =
+  127
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = integer_8, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type integer_8__ref =
+  { mutable integer_8__content "model_trace:" "name:" : integer_8 }
+ 
+ function integer_8__ref___projection 
+   (a : integer_8__ref) : integer_8 =
+  a.integer_8__content
+ 
+ meta "model_projection" function integer_8__ref___projection
+ 
+ meta "inline : no" function integer_8__ref___projection
+ 
+ val integer_8__havoc 
+   (x : integer_8__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "integer_8", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_8__rep
+ use        Standard__integer_8
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__integer_8.integer_8) : int =
+  (Standard__integer_8.integer_8'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__integer_8.integer_8, 
+ predicate in_range = Standard__integer_8.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "integer_16", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_16
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type integer_16 =
+  < range -32768 32767 >
+ 
+ function first 
+   : int =
+  ( -32768 )
+ 
+ function last 
+   : int =
+  32767
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = integer_16, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type integer_16__ref =
+  { mutable integer_16__content "model_trace:" "name:" : integer_16 }
+ 
+ function integer_16__ref___projection 
+   (a : integer_16__ref) : integer_16 =
+  a.integer_16__content
+ 
+ meta "model_projection" function integer_16__ref___projection
+ 
+ meta "inline : no" function integer_16__ref___projection
+ 
+ val integer_16__havoc 
+   (x : integer_16__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "integer_16", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_16__rep
+ use        Standard__integer_16
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__integer_16.integer_16) : int =
+  (Standard__integer_16.integer_16'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__integer_16.integer_16, 
+ predicate in_range = Standard__integer_16.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "integer_32", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_32
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type integer_32 =
+  < range -2147483648 2147483647 >
+ 
+ function first 
+   : int =
+  ( -2147483648 )
+ 
+ function last 
+   : int =
+  2147483647
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = integer_32, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type integer_32__ref =
+  { mutable integer_32__content "model_trace:" "name:" : integer_32 }
+ 
+ function integer_32__ref___projection 
+   (a : integer_32__ref) : integer_32 =
+  a.integer_32__content
+ 
+ meta "model_projection" function integer_32__ref___projection
+ 
+ meta "inline : no" function integer_32__ref___projection
+ 
+ val integer_32__havoc 
+   (x : integer_32__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "integer_32", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_32__rep
+ use        Standard__integer_32
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__integer_32.integer_32) : int =
+  (Standard__integer_32.integer_32'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__integer_32.integer_32, 
+ predicate in_range = Standard__integer_32.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "integer_64", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_64
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type integer_64 =
+  < range -9223372036854775808 9223372036854775807 >
+ 
+ function first 
+   : int =
+  ( -9223372036854775808 )
+ 
+ function last 
+   : int =
+  9223372036854775807
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = integer_64, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type integer_64__ref =
+  { mutable integer_64__content "model_trace:" "name:" : integer_64 }
+ 
+ function integer_64__ref___projection 
+   (a : integer_64__ref) : integer_64 =
+  a.integer_64__content
+ 
+ meta "model_projection" function integer_64__ref___projection
+ 
+ meta "inline : no" function integer_64__ref___projection
+ 
+ val integer_64__havoc 
+   (x : integer_64__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "integer_64", created in Gnat2Why.Types.Translate_Type *)
+module Standard__integer_64__rep
+ use        Standard__integer_64
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__integer_64.integer_64) : int =
+  (Standard__integer_64.integer_64'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__integer_64.integer_64, 
+ predicate in_range = Standard__integer_64.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "universal_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__universal_integer
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type universal_integer =
+  < range -9223372036854775808 9223372036854775807 >
+ 
+ function first 
+   : int =
+  ( -9223372036854775808 )
+ 
+ function last 
+   : int =
+  9223372036854775807
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = universal_integer, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type universal_integer__ref =
+  { mutable universal_integer__content "model_trace:" "name:" : universal_integer }
+ 
+ function universal_integer__ref___projection 
+   (a : universal_integer__ref) : universal_integer =
+  a.universal_integer__content
+ 
+ meta "model_projection" function universal_integer__ref___projection
+ 
+ meta "inline : no" function universal_integer__ref___projection
+ 
+ val universal_integer__havoc 
+   (x : universal_integer__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "universal_integer", created in Gnat2Why.Types.Translate_Type *)
+module Standard__universal_integer__rep
+ use        Standard__universal_integer
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Standard__universal_integer.universal_integer) : int =
+  (Standard__universal_integer.universal_integer'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Standard__universal_integer.universal_integer, 
+ predicate in_range = Standard__universal_integer.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "party" defined at elections.ads:2, created in Gnat2Why.Types.Translate_Type *)
+module Elections__party
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type party 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  4
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = party, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type party__ref =
+  { mutable party__content "model_trace:" "name:" : party }
+ 
+ function party__ref___projection 
+   (a : party__ref) : party =
+  a.party__content
+ 
+ meta "model_projection" function party__ref___projection
+ 
+ meta "inline : no" function party__ref___projection
+ 
+ val party__havoc 
+   (x : party__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "party" defined at elections.ads:2, created in Gnat2Why.Types.Translate_Type *)
+module Elections__party__rep
+ use        Elections__party
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Elections__party.party, 
+ predicate in_range = Elections__party.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing the array theory associated to type "Tvotes_arrayB" defined at elections.ads:3, created in Why.Gen.Arrays.Create_Rep_Array_Theory *)
+module Array__Int__Standard__natural
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural
+ use        Standard__natural__rep
+
+ function index_I1_one 
+   : int =
+  1
+ 
+ type component_type =
+  Standard__natural.natural
+ 
+ clone export "_gnatprove_standard".Array__1 with
+ type I1.t = int, 
+ predicate I1.le = Int.(<=), 
+ predicate I1.lt = Int.(<), 
+ predicate I1.gt = Int.(>), 
+ function I1.add = Int.(+), 
+ function I1.sub = Int.(-), 
+ function I1.one = index_I1_one, 
+ type component_type = component_type
+ 
+ function bool_eq 
+   (a : map) (a__first : int) (a__last : int) (b : map) (b__first : int) (b__last : int) : bool =
+  ( (if ((a__first <= a__last)) then (
+   ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+   (b__first > b__last))) /\ (forall temp___idx_154   : int.
+   (if (( (a__first <= temp___idx_154) /\ (temp___idx_154 <= a__last) )) then (
+    ((Standard__natural__rep.to_rep (get a temp___idx_154)) = (Standard__natural__rep.to_rep (get b ((b__first - a__first) + temp___idx_154))))) else true)) )
+ 
+ axiom bool_eq_rev :
+  (forall a   b   : map.
+  (forall a__first   a__last   b__first   b__last   : int.
+   ( ((bool_eq b b__first b__last a a__first a__last) = True) -> ( (if ((a__first <= a__last)) then (
+    ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+    (b__first > b__last))) /\ (forall temp___idx_154   : int.
+    (if (( (a__first <= temp___idx_154) /\ (temp___idx_154 <= a__last) )) then (
+     ((Standard__natural__rep.to_rep (get a temp___idx_154)) = (Standard__natural__rep.to_rep (get b ((b__first - a__first) + temp___idx_154))))) else true)) ) )))
+
+end
+
+(* Module for axiomatizing concatenation for the array theory associated to type "Tvotes_arrayB" defined at elections.ads:3, created in Why.Gen.Arrays.Declare_Concatenation_Symbols *)
+module Array__Int__Standard__natural__Concat
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Array__Int__Standard__natural
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "_gnatprove_standard".Array__1__Concat with
+ type component_type = Array__Int__Standard__natural.component_type, 
+ type map = Array__Int__Standard__natural.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__natural.get
+
+end
+
+(* Module for axiomatizing comparison for the array theory associated to type "Tvotes_arrayB" defined at elections.ads:3, created in Why.Gen.Arrays.Declare_Comparison_Symbols *)
+module Array__Int__Standard__natural_Comp
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural__rep
+ use        Array__Int__Standard__natural
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "ada__model".Array_Int_Rep_Comparison_Axiom with
+ type component_type = Array__Int__Standard__natural.component_type, 
+ function to_rep = Standard__natural__rep.to_rep, 
+ type map = Array__Int__Standard__natural.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Standard__natural.get, 
+ function bool_eq = Array__Int__Standard__natural.bool_eq
+
+end
+
+(* Module for axiomatizing type "Tvotes_arrayB" defined at elections.ads:3, created in Gnat2Why.Types.Translate_Type *)
+module Elections__Tvotes_arrayB
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural
+ use        Elections__party
+ use        Elections__party__rep
+ use        Array__Int__Standard__natural
+
+ type component_type =
+  Standard__natural.natural
+ 
+ function index_1_id 
+   (x : int) : int =
+  x
+ 
+ clone export "ada__model".Unconstr_Array with
+ type map = Array__Int__Standard__natural.map, 
+ function array_bool_eq = Array__Int__Standard__natural.bool_eq, 
+ type index_base_type = Elections__party.party, 
+ type index_rep_type = int, 
+ function to_rep = Elections__party__rep.to_rep, 
+ function rep_to_int = index_1_id, 
+ predicate in_range_base = Elections__party.in_range, 
+ predicate index_dynamic_property = Elections__party.dynamic_property, 
+ predicate index_rep_le = Int.(<=)
+ 
+ type tvotes_arrayB =
+  __t
+ 
+ meta "model_projection" function to_array
+ 
+ meta "inline : no" function to_array
+ 
+ meta "model_projection" function first
+ 
+ meta "inline : no" function first
+ 
+ meta "model_projection" function last
+ 
+ meta "inline : no" function last
+ 
+ type tvotes_arrayB__ref =
+  { mutable tvotes_arrayB__content "model_trace:" "name:" : tvotes_arrayB }
+ 
+ function tvotes_arrayB__ref___projection 
+   (a : tvotes_arrayB__ref) : tvotes_arrayB =
+  a.tvotes_arrayB__content
+ 
+ meta "model_projection" function tvotes_arrayB__ref___projection
+ 
+ meta "inline : no" function tvotes_arrayB__ref___projection
+ 
+ val tvotes_arrayB__havoc 
+   (x : tvotes_arrayB__ref) : unit
+  writes {x}
+
+end
+
+(* Module for axiomatizing type "votes_array" defined at elections.ads:3, created in Gnat2Why.Types.Translate_Type *)
+module Elections__votes_array
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural
+ use        Array__Int__Standard__natural
+
+ type component_type =
+  Standard__natural.natural
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  4
+ 
+ clone export "ada__model".Constr_Array with
+ type map = Array__Int__Standard__natural.map, 
+ function array_bool_eq = Array__Int__Standard__natural.bool_eq, 
+ function first = first, 
+ function last = last, 
+ type index_rep_type = int
+
+end
+
+(* Module for axiomatizing type "T3s" defined at elections.ads:7, created in Gnat2Why.Types.Translate_Type *)
+module Elections__T3s
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type t3s 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  4
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = t3s, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type t3s__ref =
+  { mutable t3s__content "model_trace:" "name:" : t3s }
+ 
+ function t3s__ref___projection 
+   (a : t3s__ref) : t3s =
+  a.t3s__content
+ 
+ meta "model_projection" function t3s__ref___projection
+ 
+ meta "inline : no" function t3s__ref___projection
+ 
+ val t3s__havoc 
+   (x : t3s__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "T3s" defined at elections.ads:7, created in Gnat2Why.Types.Translate_Type *)
+module Elections__T3s__rep
+ use        Elections__T3s
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Elections__T3s.t3s, 
+ predicate in_range = Elections__T3s.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "T4s" defined at elections.ads:7, created in Gnat2Why.Types.Translate_Type *)
+module Elections__T4s
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural
+ use        Array__Int__Standard__natural
+
+ type component_type =
+  Standard__natural.natural
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  4
+ 
+ clone export "ada__model".Constr_Array with
+ type map = Array__Int__Standard__natural.map, 
+ function array_bool_eq = Array__Int__Standard__natural.bool_eq, 
+ function first = first, 
+ function last = last, 
+ type index_rep_type = int
+
+end
+
+(* Module for defining the constant "zero_votes_distribution" defined at elections.ads:7, created in Gnat2Why.Decls.Translate_Constant *)
+module Elections__zero_votes_distribution
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Standard__natural
+
+ function zero_votes_distribution #"elections.ads" 7 0 0#"model_projected" "model_trace:2647" "name:Zero_Votes_Distribution" 
+   : Array__Int__Standard__natural.map
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module for defining the constant "num_voters" defined at elections.ads:12, created in Gnat2Why.Decls.Translate_Constant *)
+module Elections__initialize__num_voters
+ use import "_gnatprove_standard".Main
+
+ function num_voters #"elections.ads" 12 0 0#"model" "model_trace:2697" "name:Num_Voters" 
+   : int
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "num_voters" defined at elections.ads:12, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__initialize__num_voters___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining the constant "vote" defined at elections.ads:22, created in Gnat2Why.Decls.Translate_Constant *)
+module Elections__vote_for__vote
+ use import "_gnatprove_standard".Main
+
+ function vote #"elections.ads" 22 0 0#"model" "model_trace:2741" "name:Vote" 
+   : int
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "vote" defined at elections.ads:22, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__vote_for__vote___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for axiomatizing type "T3b" defined at elections.adb:64, created in Gnat2Why.Types.Translate_Type *)
+module Elections__find_winner__L_2__T3b
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type t3b 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  4
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = t3b, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type t3b__ref =
+  { mutable t3b__content "model_trace:" "name:" : t3b }
+ 
+ function t3b__ref___projection 
+   (a : t3b__ref) : t3b =
+  a.t3b__content
+ 
+ meta "model_projection" function t3b__ref___projection
+ 
+ meta "inline : no" function t3b__ref___projection
+ 
+ val t3b__havoc 
+   (x : t3b__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "T3b" defined at elections.adb:64, created in Gnat2Why.Types.Translate_Type *)
+module Elections__find_winner__L_2__T3b__rep
+ use        Elections__find_winner__L_2__T3b
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Elections__find_winner__L_2__T3b.t3b, 
+ predicate in_range = Elections__find_winner__L_2__T3b.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+(* Module for defining a ref holding the value of variable "votes_distribution" defined at elections.ads:8, created in Gnat2Why.Decls.Translate_Variable *)
+module Elections__votes_distribution
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Standard__natural
+
+ val votes_distribution #"elections.ads" 8 0 0#"model_projected" "model_trace:2660" "name:Votes_Distribution"  : Array__Int__Standard__natural.map__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "votes_distribution" defined at elections.ads:8, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__votes_distribution___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "num_votes_made" defined at elections.ads:9, created in Gnat2Why.Decls.Translate_Variable *)
+module Elections__num_votes_made
+ use import "_gnatprove_standard".Main
+
+ val num_votes_made #"elections.ads" 9 0 0#"model_projected" "model_trace:2670" "name:Num_Votes_Made"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "num_votes_made" defined at elections.ads:9, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__num_votes_made___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "num_total_voters" defined at elections.ads:10, created in Gnat2Why.Decls.Translate_Variable *)
+module Elections__num_total_voters
+ use import "_gnatprove_standard".Main
+
+ val num_total_voters #"elections.ads" 10 0 0#"model_projected" "model_trace:2680" "name:Num_Total_Voters"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "num_total_voters" defined at elections.ads:10, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__num_total_voters___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "winner" defined at elections.adb:56, created in Gnat2Why.Decls.Translate_Variable *)
+module Elections__find_winner__winner
+ use import "_gnatprove_standard".Main
+
+ val winner #"elections.adb" 56 0 0#"model_projected" "model_trace:2472" "name:Winner"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "winner" defined at elections.adb:56, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__find_winner__winner___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "highest_vote" defined at elections.adb:57, created in Gnat2Why.Decls.Translate_Variable *)
+module Elections__find_winner__highest_vote
+ use import "_gnatprove_standard".Main
+
+ val highest_vote #"elections.adb" 57 0 0#"model_projected" "model_trace:2481" "name:Highest_Vote"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "highest_vote" defined at elections.adb:57, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__find_winner__highest_vote___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "i" defined at elections.adb:64, created in Gnat2Why.Decls.Translate_Variable *)
+module Elections__find_winner__L_2__i
+ use import "_gnatprove_standard".Main
+
+ val i #"elections.adb" 64 0 0#"model_projected" "model_trace:2507" "name:I"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "i" defined at elections.adb:64, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__find_winner__L_2__i___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+(* Module giving axioms for type "short_short_integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__short_short_integer___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__short_short_integer
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_4 : int) (temp___is_init_0 : bool) (temp___skip_constant_1 : bool) (temp___do_toplevel_2 : bool) (temp___do_typ_inv_3 : bool)  =
+  (if (( temp___is_init_0 \/ (Standard__short_short_integer.first <= Standard__short_short_integer.last) )) then (
+   (Standard__short_short_integer.dynamic_property Standard__short_short_integer.first Standard__short_short_integer.last temp___expr_4)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_5 : int) (temp___skip_top_level_6 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "short_integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__short_integer___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__short_integer
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_11 : int) (temp___is_init_7 : bool) (temp___skip_constant_8 : bool) (temp___do_toplevel_9 : bool) (temp___do_typ_inv_10 : bool)  =
+  (if (( temp___is_init_7 \/ (Standard__short_integer.first <= Standard__short_integer.last) )) then (
+   (Standard__short_integer.dynamic_property Standard__short_integer.first Standard__short_integer.last temp___expr_11)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_12 : int) (temp___skip_top_level_13 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__integer___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_18 : int) (temp___is_init_14 : bool) (temp___skip_constant_15 : bool) (temp___do_toplevel_16 : bool) (temp___do_typ_inv_17 : bool)  =
+  (if (( temp___is_init_14 \/ (Standard__integer.first <= Standard__integer.last) )) then (
+   (Standard__integer.dynamic_property Standard__integer.first Standard__integer.last temp___expr_18)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_19 : int) (temp___skip_top_level_20 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "long_integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__long_integer___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__long_integer
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_25 : int) (temp___is_init_21 : bool) (temp___skip_constant_22 : bool) (temp___do_toplevel_23 : bool) (temp___do_typ_inv_24 : bool)  =
+  (if (( temp___is_init_21 \/ (Standard__long_integer.first <= Standard__long_integer.last) )) then (
+   (Standard__long_integer.dynamic_property Standard__long_integer.first Standard__long_integer.last temp___expr_25)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_26 : int) (temp___skip_top_level_27 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "long_long_integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__long_long_integer___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__long_long_integer
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_32 : int) (temp___is_init_28 : bool) (temp___skip_constant_29 : bool) (temp___do_toplevel_30 : bool) (temp___do_typ_inv_31 : bool)  =
+  (if (( temp___is_init_28 \/ (Standard__long_long_integer.first <= Standard__long_long_integer.last) )) then (
+   (Standard__long_long_integer.dynamic_property Standard__long_long_integer.first Standard__long_long_integer.last temp___expr_32)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_33 : int) (temp___skip_top_level_34 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "natural", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__natural___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_39 : int) (temp___is_init_35 : bool) (temp___skip_constant_36 : bool) (temp___do_toplevel_37 : bool) (temp___do_typ_inv_38 : bool)  =
+  (if (( temp___is_init_35 \/ (Standard__natural.first <= Standard__natural.last) )) then (
+   (Standard__natural.dynamic_property Standard__natural.first Standard__natural.last temp___expr_39)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_40 : int) (temp___skip_top_level_41 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "positive", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__positive___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__positive
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_46 : int) (temp___is_init_42 : bool) (temp___skip_constant_43 : bool) (temp___do_toplevel_44 : bool) (temp___do_typ_inv_45 : bool)  =
+  (if (( temp___is_init_42 \/ (Standard__positive.first <= Standard__positive.last) )) then (
+   (Standard__positive.dynamic_property Standard__positive.first Standard__positive.last temp___expr_46)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_47 : int) (temp___skip_top_level_48 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "short_float", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__short_float___axiom
+ use import "_gnatprove_standard".Main
+ use        "_gnatprove_standard".Float32
+ use        Standard__short_float
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_53 : Float32.t) (temp___is_init_49 : bool) (temp___skip_constant_50 : bool) (temp___do_toplevel_51 : bool) (temp___do_typ_inv_52 : bool)  =
+  (if (( temp___is_init_49 \/ (Float32.le Standard__short_float.first Standard__short_float.last) )) then (
+   (Standard__short_float.dynamic_property Standard__short_float.first Standard__short_float.last temp___expr_53)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_54 : Float32.t) (temp___skip_top_level_55 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "float", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__float___axiom
+ use import "_gnatprove_standard".Main
+ use        "_gnatprove_standard".Float32
+ use        Standard__float
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_60 : Float32.t) (temp___is_init_56 : bool) (temp___skip_constant_57 : bool) (temp___do_toplevel_58 : bool) (temp___do_typ_inv_59 : bool)  =
+  (if (( temp___is_init_56 \/ (Float32.le Standard__float.first Standard__float.last) )) then (
+   (Standard__float.dynamic_property Standard__float.first Standard__float.last temp___expr_60)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_61 : Float32.t) (temp___skip_top_level_62 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "long_float", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__long_float___axiom
+ use import "_gnatprove_standard".Main
+ use        "_gnatprove_standard".Float64
+ use        Standard__long_float
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_67 : Float64.t) (temp___is_init_63 : bool) (temp___skip_constant_64 : bool) (temp___do_toplevel_65 : bool) (temp___do_typ_inv_66 : bool)  =
+  (if (( temp___is_init_63 \/ (Float64.le Standard__long_float.first Standard__long_float.last) )) then (
+   (Standard__long_float.dynamic_property Standard__long_float.first Standard__long_float.last temp___expr_67)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_68 : Float64.t) (temp___skip_top_level_69 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "character", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__character___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__character
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_74 : int) (temp___is_init_70 : bool) (temp___skip_constant_71 : bool) (temp___do_toplevel_72 : bool) (temp___do_typ_inv_73 : bool)  =
+  (if (( temp___is_init_70 \/ (Standard__character.first <= Standard__character.last) )) then (
+   (Standard__character.dynamic_property Standard__character.first Standard__character.last temp___expr_74)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_75 : int) (temp___skip_top_level_76 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "wide_character", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__wide_character___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__wide_character
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_81 : int) (temp___is_init_77 : bool) (temp___skip_constant_78 : bool) (temp___do_toplevel_79 : bool) (temp___do_typ_inv_80 : bool)  =
+  (if (( temp___is_init_77 \/ (Standard__wide_character.first <= Standard__wide_character.last) )) then (
+   (Standard__wide_character.dynamic_property Standard__wide_character.first Standard__wide_character.last temp___expr_81)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_82 : int) (temp___skip_top_level_83 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "wide_wide_character", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__wide_wide_character___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__wide_wide_character
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_88 : int) (temp___is_init_84 : bool) (temp___skip_constant_85 : bool) (temp___do_toplevel_86 : bool) (temp___do_typ_inv_87 : bool)  =
+  (if (( temp___is_init_84 \/ (Standard__wide_wide_character.first <= Standard__wide_wide_character.last) )) then (
+   (Standard__wide_wide_character.dynamic_property Standard__wide_wide_character.first Standard__wide_wide_character.last temp___expr_88)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_89 : int) (temp___skip_top_level_90 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "string", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__string___axiom
+ use import "_gnatprove_standard".Main
+ use        Standard__string
+ use        Standard__positive
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_96 : Standard__string.string) (temp___is_init_92 : bool) (temp___skip_constant_93 : bool) (temp___do_toplevel_94 : bool) (temp___do_typ_inv_95 : bool)  =
+  (if (temp___skip_constant_93) then (
+   true) else (
+   (Standard__string.dynamic_property Standard__positive.first Standard__positive.last (Standard__string.first temp___expr_96) (Standard__string.last temp___expr_96))))
+
+end
+
+(* Module giving axioms for type "wide_string", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__wide_string___axiom
+ use import "_gnatprove_standard".Main
+ use        Standard__positive
+ use        Standard__wide_string
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_103 : Standard__wide_string.wide_string) (temp___is_init_99 : bool) (temp___skip_constant_100 : bool) (temp___do_toplevel_101 : bool) (temp___do_typ_inv_102 : bool)  =
+  (if (temp___skip_constant_100) then (
+   true) else (
+   (Standard__wide_string.dynamic_property Standard__positive.first Standard__positive.last (Standard__wide_string.first temp___expr_103) (Standard__wide_string.last temp___expr_103))))
+
+end
+
+(* Module giving axioms for type "wide_wide_string", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__wide_wide_string___axiom
+ use import "_gnatprove_standard".Main
+ use        Standard__positive
+ use        Standard__wide_wide_string
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_110 : Standard__wide_wide_string.wide_wide_string) (temp___is_init_106 : bool) (temp___skip_constant_107 : bool) (temp___do_toplevel_108 : bool) (temp___do_typ_inv_109 : bool)  =
+  (if (temp___skip_constant_107) then (
+   true) else (
+   (Standard__wide_wide_string.dynamic_property Standard__positive.first Standard__positive.last (Standard__wide_wide_string.first temp___expr_110) (Standard__wide_wide_string.last temp___expr_110))))
+
+end
+
+(* Module giving axioms for type "duration", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__duration___axiom
+ use import "_gnatprove_standard".Main
+ use        Standard__duration
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_116 : Standard__duration.duration) (temp___is_init_112 : bool) (temp___skip_constant_113 : bool) (temp___do_toplevel_114 : bool) (temp___do_typ_inv_115 : bool)  =
+  true
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_117 : Standard__duration.duration) (temp___skip_top_level_118 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "integer_8", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__integer_8___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer_8
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_123 : int) (temp___is_init_119 : bool) (temp___skip_constant_120 : bool) (temp___do_toplevel_121 : bool) (temp___do_typ_inv_122 : bool)  =
+  (if (( temp___is_init_119 \/ (Standard__integer_8.first <= Standard__integer_8.last) )) then (
+   (Standard__integer_8.dynamic_property Standard__integer_8.first Standard__integer_8.last temp___expr_123)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_124 : int) (temp___skip_top_level_125 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "integer_16", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__integer_16___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer_16
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_130 : int) (temp___is_init_126 : bool) (temp___skip_constant_127 : bool) (temp___do_toplevel_128 : bool) (temp___do_typ_inv_129 : bool)  =
+  (if (( temp___is_init_126 \/ (Standard__integer_16.first <= Standard__integer_16.last) )) then (
+   (Standard__integer_16.dynamic_property Standard__integer_16.first Standard__integer_16.last temp___expr_130)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_131 : int) (temp___skip_top_level_132 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "integer_32", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__integer_32___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer_32
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_137 : int) (temp___is_init_133 : bool) (temp___skip_constant_134 : bool) (temp___do_toplevel_135 : bool) (temp___do_typ_inv_136 : bool)  =
+  (if (( temp___is_init_133 \/ (Standard__integer_32.first <= Standard__integer_32.last) )) then (
+   (Standard__integer_32.dynamic_property Standard__integer_32.first Standard__integer_32.last temp___expr_137)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_138 : int) (temp___skip_top_level_139 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "integer_64", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__integer_64___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__integer_64
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_144 : int) (temp___is_init_140 : bool) (temp___skip_constant_141 : bool) (temp___do_toplevel_142 : bool) (temp___do_typ_inv_143 : bool)  =
+  (if (( temp___is_init_140 \/ (Standard__integer_64.first <= Standard__integer_64.last) )) then (
+   (Standard__integer_64.dynamic_property Standard__integer_64.first Standard__integer_64.last temp___expr_144)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_145 : int) (temp___skip_top_level_146 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "universal_integer", created in Gnat2Why.Types.Generate_Type_Completion *)
+module Standard__universal_integer___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__universal_integer
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_151 : int) (temp___is_init_147 : bool) (temp___skip_constant_148 : bool) (temp___do_toplevel_149 : bool) (temp___do_typ_inv_150 : bool)  =
+  (if (( temp___is_init_147 \/ (Standard__universal_integer.first <= Standard__universal_integer.last) )) then (
+   (Standard__universal_integer.dynamic_property Standard__universal_integer.first Standard__universal_integer.last temp___expr_151)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_152 : int) (temp___skip_top_level_153 : bool)  =
+  true
+
+end
+
+(* Module for declaring an abstract function for the aggregate at elections.ads:7, created in Gnat2Why.Expr.Transform_Aggregate.Generate_Logic_Function *)
+module Elections__zero_votes_distribution__aggregate_def
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Standard__natural
+
+ function elections__zero_votes_distribution__aggregate_def 
+   (temp___156 : int) : Array__Int__Standard__natural.map
+
+end
+
+(* Module for possibly declaring a logic function for "initialize" defined at elections.ads:12, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Elections__initialize
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for possibly declaring a logic function for "vote_for" defined at elections.ads:22, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Elections__vote_for
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for possibly declaring a logic function for "all_voters_voted" defined at elections.ads:33, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Elections__all_voters_voted
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use import "_gnatprove_standard".Main
+
+ function all_voters_voted 
+   (elections__num_votes_made : int) (elections__num_total_voters : int) : bool
+ 
+ predicate all_voters_voted__function_guard 
+   (result : bool) (elections__num_votes_made : int) (elections__num_total_voters : int) 
+
+end
+
+(* Module for possibly declaring a logic function for "find_winner" defined at elections.ads:39, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Elections__find_winner
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Standard__natural
+
+ function find_winner 
+   (elections__votes_distribution : Array__Int__Standard__natural.map) (elections__num_votes_made : int) : int
+ 
+ predicate find_winner__function_guard 
+   (result : int) (elections__votes_distribution : Array__Int__Standard__natural.map) (elections__num_votes_made : int) 
+
+end
+
+(* Module for defining the loop exit exception for the loop "L_1" defined at elections.adb:16, created in Gnat2Why.Decls.Translate_Loop_Entity *)
+module Elections__vote_for__L_1
+ use import "_gnatprove_standard".Main
+
+ exception L_1
+
+end
+
+(* Module giving an empty axiom for the entity "L_1" defined at elections.adb:16, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__vote_for__L_1___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining the loop exit exception for the loop "L_2" defined at elections.adb:64, created in Gnat2Why.Decls.Translate_Loop_Entity *)
+module Elections__find_winner__L_2
+ use import "_gnatprove_standard".Main
+
+ exception L_2
+
+end
+
+(* Module giving an empty axiom for the entity "L_2" defined at elections.adb:64, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Elections__find_winner__L_2___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module giving axioms for type "party" defined at elections.ads:2, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Elections__party___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Elections__party
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_162 : int) (temp___is_init_158 : bool) (temp___skip_constant_159 : bool) (temp___do_toplevel_160 : bool) (temp___do_typ_inv_161 : bool)  =
+  (if (( temp___is_init_158 \/ (Elections__party.first <= Elections__party.last) )) then (
+   (Elections__party.dynamic_property Elections__party.first Elections__party.last temp___expr_162)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_163 : int) (temp___skip_top_level_164 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "Tvotes_arrayB" defined at elections.ads:3, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Elections__Tvotes_arrayB___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module giving axioms for type "votes_array" defined at elections.ads:3, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Elections__votes_array___axiom
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Standard__natural
+ use        Array__Int__Standard__natural
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_169 : Array__Int__Standard__natural.map) (temp___is_init_165 : bool) (temp___skip_constant_166 : bool) (temp___do_toplevel_167 : bool) (temp___do_typ_inv_168 : bool)  =
+  true
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_171 : Array__Int__Standard__natural.map) (temp___skip_top_level_172 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "T3s" defined at elections.ads:7, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Elections__T3s___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module giving axioms for type "T4s" defined at elections.ads:7, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Elections__T4s___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module giving axioms for type "T3b" defined at elections.adb:64, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Elections__find_winner__L_2__T3b___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+(* Module for defining the value of the aggregate at elections.ads:7, created in Gnat2Why.Expr.Transform_Aggregate.Generate_Logic_Function *)
+module Elections__zero_votes_distribution__aggregate_def___axiom
+ use import "_gnatprove_standard".Main
+ use        Standard__natural
+ use        Standard__natural___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__zero_votes_distribution__aggregate_def
+ use        Array__Int__Standard__natural
+
+ axiom def_axiom :
+  (forall temp___156   : int.
+   (let temp___155 = (Elections__zero_votes_distribution__aggregate_def.elections__zero_votes_distribution__aggregate_def temp___156) in (
+    (if ((Standard__natural___axiom.dynamic_invariant temp___156 True True True True)) then (
+     (forall temp___157   : int.
+      ((Array__Int__Standard__natural.get temp___155 temp___157) = ( 0 : Standard__natural.natural )))) else true)))
+  )
+
+end
+
+(* Module for defining the value of constant "zero_votes_distribution" defined at elections.ads:7, created in Gnat2Why.Decls.Translate_Constant_Value *)
+module Elections__zero_votes_distribution___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Elections__zero_votes_distribution
+ use        Array__Int__Standard__natural
+ use        Elections__zero_votes_distribution__aggregate_def
+ use        Array__Int__Standard__natural
+
+ axiom zero_votes_distribution__def_axiom :
+  ((Elections__zero_votes_distribution.zero_votes_distribution ) = (Elections__zero_votes_distribution__aggregate_def.elections__zero_votes_distribution__aggregate_def 0))
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "initialize" defined at elections.ads:12, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Elections__initialize___axiom
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural___axiom
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+
+ val initialize 
+   (num_voters : int) : unit
+  requires {  (num_voters <= 2147483647) }
+  ensures {  ( ( (Elections__num_total_voters.num_total_voters.int__content = num_voters) /\ (Elections__num_votes_made.num_votes_made.int__content = 0) ) /\ ( (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True True True True) /\ (Standard__natural___axiom.dynamic_invariant Elections__num_total_voters.num_total_voters.int__content True True True True) ) ) }
+  reads {Elections__num_votes_made.num_votes_made, Elections__num_total_voters.num_total_voters}
+  writes {Elections__num_votes_made.num_votes_made, Elections__num_total_voters.num_total_voters}
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "vote_for" defined at elections.ads:22, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Elections__vote_for___axiom
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural
+ use        Standard__natural___axiom
+ use        Standard__natural__rep
+ use        Array__Int__Standard__natural
+ use        Elections__votes_array___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+
+ val vote_for 
+   (vote : int) : unit
+  requires {  ( ( ( (Elections__num_total_voters.num_total_voters.int__content >= 0) /\ (Elections__num_votes_made.num_votes_made.int__content >= 0) ) /\ (Elections__num_total_voters.num_total_voters.int__content < 2147483647) ) /\ (Elections__num_total_voters.num_total_voters.int__content < 2147483647) ) }
+  ensures {  ( ( (Elections__num_votes_made.num_votes_made.int__content = ((old Elections__num_votes_made.num_votes_made.int__content ) + 1)) /\ (if ((vote = 1)) then (
+   ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 1)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 1)) ) + 1))) else ((if ((vote = 2)) then (
+   ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 2)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 2)) ) + 1))) else ((if ((vote = 3)) then (
+   ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 3)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 3)) ) + 1))) else ((if ((vote = 4)) then (
+   ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 4)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 4)) ) + 1))) else ((if ((vote = 0)) then (
+   ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 0)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 0)) ) + 1))) else (
+   true)))))))))) ) /\ ( ( (Elections__votes_array___axiom.dynamic_invariant Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content True True True True) /\ (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True True True True) ) /\ (Standard__natural___axiom.dynamic_invariant Elections__num_total_voters.num_total_voters.int__content True True True True) ) ) }
+  reads {Elections__votes_distribution.votes_distribution, Elections__num_votes_made.num_votes_made, Elections__num_total_voters.num_total_voters}
+  writes {Elections__votes_distribution.votes_distribution, Elections__num_votes_made.num_votes_made, Elections__num_total_voters.num_total_voters}
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "all_voters_voted" defined at elections.ads:33, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Elections__all_voters_voted___axiom
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural___axiom
+ use        Elections__all_voters_voted
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+
+ val all_voters_voted 
+   (__void_param : unit) : bool
+  requires {  ( (Elections__num_votes_made.num_votes_made.int__content <= Elections__num_total_voters.num_total_voters.int__content) /\ (Elections__num_total_voters.num_total_voters.int__content <= 2147483647) ) }
+  ensures {  ( ( (result = (Elections__all_voters_voted.all_voters_voted Elections__num_votes_made.num_votes_made.int__content Elections__num_total_voters.num_total_voters.int__content)) /\ (Elections__all_voters_voted.all_voters_voted__function_guard result Elections__num_votes_made.num_votes_made.int__content Elections__num_total_voters.num_total_voters.int__content) ) /\ true ) }
+  reads {Elections__num_votes_made.num_votes_made, Elections__num_total_voters.num_total_voters}
+ 
+ axiom all_voters_voted__post_axiom :
+  (forall elections__num_votes_made   elections__num_total_voters   : int [(Elections__all_voters_voted.all_voters_voted elections__num_votes_made elections__num_total_voters)].
+   ( ( ( (Standard__natural___axiom.dynamic_invariant elections__num_votes_made True True True True) /\ (Standard__natural___axiom.dynamic_invariant elections__num_total_voters True True True True) ) /\ ( (elections__num_votes_made <= elections__num_total_voters) /\ (elections__num_total_voters <= 2147483647) ) ) -> (let result = (Elections__all_voters_voted.all_voters_voted elections__num_votes_made elections__num_total_voters) in (
+    (if ((Elections__all_voters_voted.all_voters_voted__function_guard result elections__num_votes_made elections__num_total_voters)) then (
+     ( ( true /\ true ) /\ true )) else true)))
+    ))
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "find_winner" defined at elections.ads:39, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Elections__find_winner___axiom
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural___axiom
+ use        Elections__find_winner
+ use        Elections__party___axiom
+ use        Elections__votes_array___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+
+ val find_winner 
+   (__void_param : unit) : int
+  requires {  (0 >= Elections__num_votes_made.num_votes_made.int__content) }
+  ensures {  ( ( (result = (Elections__find_winner.find_winner Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content Elections__num_votes_made.num_votes_made.int__content)) /\ (Elections__find_winner.find_winner__function_guard result Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content Elections__num_votes_made.num_votes_made.int__content) ) /\ (Elections__party___axiom.dynamic_invariant result True False True True) ) }
+  reads {Elections__votes_distribution.votes_distribution, Elections__num_votes_made.num_votes_made}
+ 
+ axiom find_winner__post_axiom :
+  (forall elections__votes_distribution   : Array__Int__Standard__natural.map.
+  (forall elections__num_votes_made   : int [(Elections__find_winner.find_winner elections__votes_distribution elections__num_votes_made)].
+   ( ( ( (Elections__votes_array___axiom.dynamic_invariant elections__votes_distribution True True True True) /\ (Standard__natural___axiom.dynamic_invariant elections__num_votes_made True True True True) ) /\ (0 >= elections__num_votes_made) ) -> (let result = (Elections__find_winner.find_winner elections__votes_distribution elections__num_votes_made) in (
+    (if ((Elections__find_winner.find_winner__function_guard result elections__votes_distribution elections__num_votes_made)) then (
+     ( ( true /\ (Elections__party___axiom.dynamic_invariant result True False True True) ) /\ true )) else true)))
+    )))
+
+end
+
+(* Module for checking absence of run-time errors and package initial condition on package elaboration of "elections" defined at elections.ads:1, created in Gnat2Why.Subprograms.Generate_VCs_For_Package_Elaboration *)
+module Elections__package_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Standard__natural___axiom
+ use        Elections__votes_array___axiom
+ use        Elections__zero_votes_distribution
+ use        Elections__zero_votes_distribution__aggregate_def
+ use        Array__Int__Standard__natural
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use        Array__Int__Standard__natural
+ use        Array__Int__Standard__natural
+ use        Array__Int__Standard__natural
+ use        Standard__natural___axiom
+ use        Elections__votes_array___axiom
+ use        Elections__zero_votes_distribution___axiom
+ use        Elections__zero_votes_distribution__aggregate_def___axiom
+ use        Elections__votes_distribution___axiom
+ use        Elections__num_votes_made___axiom
+ use        Elections__num_total_voters___axiom
+
+ let def #"elections.ads" 1 0 0#"GP_Subp:elections.ads:1" "W:diverges:N" 
+   (__void_param : unit)
+  requires { #"elections.ads" 1 0 0# true }
+  ensures { #"elections.ads" 1 0 0# true }
+   =
+  ( (#"elections.ads" 1 0 0# ());
+  (#"elections.ads" 2 0 0# ());
+  (#"elections.ads" 3 0 0# ());
+  (#"elections.ads" 5 0 0# ());
+  (#"elections.ads" 7 0 0# ());
+  (#"elections.ads" 7 0 0# ());
+  (#"elections.ads" 7 0 0# ());
+  (#"elections.ads" 7 0 0# ( (let elections__zero_votes_distribution__assume = (Elections__zero_votes_distribution__aggregate_def.elections__zero_votes_distribution__aggregate_def(0)) in (
+   #"elections.ads" 7 0 0# assume { #"elections.ads" 7 0 0# (elections__zero_votes_distribution__assume = Elections__zero_votes_distribution.zero_votes_distribution) }))
+  ;
+  #"elections.ads" 7 0 0# assume { #"elections.ads" 7 0 0# (Elections__votes_array___axiom.dynamic_invariant Elections__zero_votes_distribution.zero_votes_distribution True False True True) } ));
+  (#"elections.ads" 8 0 0# ( #"elections.ads" 8 0 0# Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content <- ( Elections__zero_votes_distribution.zero_votes_distribution );
+  #"elections.ads" 8 0 0# assume { #"elections.ads" 8 0 0# (Elections__votes_array___axiom.dynamic_invariant Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content True False True True) } ));
+  (#"elections.ads" 9 0 0# ( #"elections.ads" 9 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( 0 );
+  #"elections.ads" 9 0 0# assume { #"elections.ads" 9 0 0# (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True False True True) } ));
+  (#"elections.ads" 10 0 0# ( #"elections.ads" 10 0 0# Elections__num_total_voters.num_total_voters.int__content <- ( 0 );
+  #"elections.ads" 10 0 0# assume { #"elections.ads" 10 0 0# (Standard__natural___axiom.dynamic_invariant Elections__num_total_voters.num_total_voters.int__content True False True True) } ));
+  (#"elections.ads" 12 0 0# ());
+  (#"elections.ads" 16 0 0# ());
+  (#"elections.ads" 15 0 0# ());
+  (#"elections.ads" 13 0 0# ());
+  (#"elections.ads" 22 0 0# ());
+  (#"elections.ads" 26 0 0# ());
+  (#"elections.ads" 26 0 0# ());
+  (#"elections.ads" 25 0 0# ());
+  (#"elections.ads" 23 0 0# ());
+  (#"elections.ads" 33 0 0# ());
+  (#"elections.ads" 36 0 0# ());
+  (#"elections.ads" 34 0 0# ());
+  (#"elections.ads" 39 0 0# ());
+  (#"elections.ads" 40 0 0# ());
+  (#"elections.ads" 39 0 0# ());
+  (#"elections.adb" 1 0 0# ());
+  (#"elections.adb" 3 0 0# ());
+  (#"elections.adb" 12 0 0# ());
+  (#"elections.adb" 42 0 0# ());
+  (#"elections.adb" 53 0 0# ());
+  ( "GP_Sloc:elections.adb:79:1" (#"elections.adb" 79 0 0# ()) ) )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "initialize" defined at elections.ads:12, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Elections__initialize__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        "_gnatprove_standard".Boolean
+ use        Standard__natural___axiom
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use        Elections__initialize__num_voters
+ use        Standard__natural___axiom
+ use        Elections__num_votes_made___axiom
+ use        Elections__num_total_voters___axiom
+ use        Elections__initialize__num_voters___axiom
+
+ let def #"elections.ads" 12 0 0#"W:diverges:N" "GP_Subp:elections.ads:12" 
+   (__void_param : unit)
+  requires { #"elections.ads" 12 0 0# true }
+  ensures { #"elections.ads" 12 0 0# (#"elections.ads" 16 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:elections.ads:16:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:0" "comment:     Post => (Num_Total_Voters = Num_Voters) and (Num_Votes_Made = 0) ;
+             ^ elections.ads:16:14:VC_POSTCONDITION" "GP_Shape:pragargs__and" ( ( "GP_Pretty_Ada:2729" "GP_Sloc:elections.ads:16:14" (Elections__num_total_voters.num_total_voters.int__content = Elections__initialize__num_voters.num_voters) ) /\ ( "GP_Pretty_Ada:2733" "GP_Sloc:elections.ads:16:50" (Elections__num_votes_made.num_votes_made.int__content = 0) ) ) )) }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram elections.ads:12 *)
+  ;
+   assume {  (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True False True True) };
+   assume {  (Standard__natural___axiom.dynamic_invariant Elections__num_total_voters.num_total_voters.int__content True False True True) };
+   assume {  (Standard__natural___axiom.dynamic_invariant Elections__initialize__num_voters.num_voters True False True True) };
+   assume {  true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram elections.ads:12 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram elections.ads:12 *)
+  ;
+   abstract ensures {true}(let _ = (Elections__initialize__num_voters.num_voters <= 2147483647) in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram elections.ads:12 *)
+  ;
+   assume {  (Elections__initialize__num_voters.num_voters <= 2147483647) };
+   try
+   ( ( "GP_Sloc:elections.adb:7:7" (#"elections.adb" 7 0 0# ()) );
+   ( "GP_Sloc:elections.adb:7:22" (#"elections.adb" 7 0 0# #"elections.adb" 7 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( 0 )) );
+   ( "GP_Sloc:elections.adb:8:7" (#"elections.adb" 8 0 0# ()) );
+   ( "GP_Sloc:elections.adb:8:24" (#"elections.adb" 8 0 0# #"elections.adb" 8 0 0# Elections__num_total_voters.num_total_voters.int__content <- ( Elections__initialize__num_voters.num_voters )) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   abstract ensures {true}(let _ = (Boolean.andb((Elections__num_total_voters.num_total_voters.int__content = Elections__initialize__num_voters.num_voters)) ((Elections__num_votes_made.num_votes_made.int__content = 0))) in (
+   ()))
+   end  )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "vote_for" defined at elections.ads:22, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Elections__vote_for__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        "_gnatprove_standard".Boolean
+ use        Standard__integer
+ use        Standard__natural
+ use        Standard__natural___axiom
+ use        Standard__natural__rep
+ use        Elections__party
+ use        Elections__party___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__votes_array___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use        Elections__vote_for__vote
+ use        Elections__vote_for__L_1
+ use        Standard__natural___axiom
+ use        Standard__integer___axiom
+ use        Elections__vote_for__L_1___axiom
+ use        Elections__party___axiom
+ use        Elections__votes_array___axiom
+ use        Elections__votes_distribution___axiom
+ use        Elections__num_votes_made___axiom
+ use        Elections__num_total_voters___axiom
+ use        Elections__vote_for__vote___axiom
+
+ let def #"elections.ads" 22 0 0#"W:diverges:N" "GP_Subp:elections.ads:22" 
+   (__void_param : unit)
+  requires { #"elections.ads" 22 0 0# true }
+  ensures { #"elections.ads" 22 0 0# (#"elections.ads" 26 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Sloc:elections.ads:26:14" "GP_Id:17" "comment:     Post => (Num_Votes_Made = Num_Votes_Made'Old + 1) and then (if Vote = A then 
+             ^ elections.ads:26:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( ( "GP_Pretty_Ada:3160" "GP_Sloc:elections.ads:26:14" (Elections__num_votes_made.num_votes_made.int__content = ((old Elections__num_votes_made.num_votes_made.int__content ) + 1)) ) /\ (if ((Elections__vote_for__vote.vote = 1)) then (
+   ( "GP_Pretty_Ada:2802" "GP_Sloc:elections.ads:27:15" ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 1)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 1)) ) + 1)) )) else ((if ((Elections__vote_for__vote.vote = 2)) then (
+   ( "GP_Pretty_Ada:2816" "GP_Sloc:elections.ads:28:15" ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 2)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 2)) ) + 1)) )) else ((if ((Elections__vote_for__vote.vote = 3)) then (
+   ( "GP_Pretty_Ada:2830" "GP_Sloc:elections.ads:29:15" ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 3)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 3)) ) + 1)) )) else ((if ((Elections__vote_for__vote.vote = 4)) then (
+   ( "GP_Pretty_Ada:2844" "GP_Sloc:elections.ads:30:15" ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 4)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 4)) ) + 1)) )) else ((if ((Elections__vote_for__vote.vote = 0)) then (
+   ( "GP_Pretty_Ada:2858" "GP_Sloc:elections.ads:31:20" ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 0)) = ((old (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 0)) ) + 1)) )) else (
+   ( "GP_Pretty_Ada:3252" "GP_Sloc:elections.ads:30:69" true ))))))))))) ) )) }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram elections.ads:22 *)
+  ;
+   assume {  (Elections__votes_array___axiom.dynamic_invariant Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content True False True True) };
+   assume {  (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True False True True) };
+   assume {  (Standard__natural___axiom.dynamic_invariant Elections__num_total_voters.num_total_voters.int__content True False True True) };
+   assume {  (Elections__party___axiom.dynamic_invariant Elections__vote_for__vote.vote True False True True) };
+   assume {  true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram elections.ads:22 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram elections.ads:22 *)
+  ;
+   abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb((Boolean.andb((Elections__num_total_voters.num_total_voters.int__content >= 0)) ((Elections__num_votes_made.num_votes_made.int__content >= 0)))) ((Elections__num_total_voters.num_total_voters.int__content < 2147483647)))) ((Elections__num_total_voters.num_total_voters.int__content < 2147483647))) in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram elections.ads:22 *)
+  ;
+   assume {  ( ( ( (Elections__num_total_voters.num_total_voters.int__content >= 0) /\ (Elections__num_votes_made.num_votes_made.int__content >= 0) ) /\ (Elections__num_total_voters.num_total_voters.int__content < 2147483647) ) /\ (Elections__num_total_voters.num_total_voters.int__content < 2147483647) ) };
+   abstract ensures {true}(let _ = (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (0)))) in (
+   ()))
+   end ;
+  (let temp___old_188 =  (any int
+  ensures { (result = (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 0)))} 
+  ) in (
+   (  abstract ensures {true}(let _ = (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (1)))) in (
+    ()))
+    end ;
+   (let temp___old_184 =  (any int
+   ensures { (result = (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 1)))} 
+   ) in (
+    (  abstract ensures {true}(let _ = (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (4)))) in (
+     ()))
+     end ;
+    (let temp___old_187 =  (any int
+    ensures { (result = (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 4)))} 
+    ) in (
+     (  abstract ensures {true}(let _ = Elections__num_votes_made.num_votes_made.int__content in (
+      ()))
+      end ;
+     (let temp___old_189 =  (any int
+     ensures { (result = Elections__num_votes_made.num_votes_made.int__content)} 
+     ) in (
+      (  abstract ensures {true}(let _ = (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (3)))) in (
+       ()))
+       end ;
+      (let temp___old_186 =  (any int
+      ensures { (result = (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 3)))} 
+      ) in (
+       (  abstract ensures {true}(let _ = (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (2)))) in (
+        ()))
+        end ;
+       (let temp___old_185 =  (any int
+       ensures { (result = (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content 2)))} 
+       ) in (
+        (  try
+         ( (#"elections.adb" 16 0 0# ());
+         ( "GP_Sloc:elections.adb:16:48" (#"elections.adb" 16 0 0# ( () (* Translation of an Ada loop from elections.adb:16 *)
+         ;
+         (if ((Elections__num_votes_made.num_votes_made.int__content <= Elections__num_total_voters.num_total_voters.int__content)) then (
+          #"elections.adb" 16 0 0# try
+           ( #"elections.adb" 16 0 0# abstract ensures {true}(let _ = Elections__num_votes_made.num_votes_made.int__content in (
+            ()))
+            end ;
+           (let temp___182 = #"elections.adb" 16 0 0# (any int
+           ensures {#"elections.adb" 16 0 0# (result = Elections__num_votes_made.num_votes_made.int__content)} 
+           ) in (
+            ( #"elections.adb" 16 0 0# abstract ensures {true}(let _ = Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content in (
+             ()))
+             end ;
+            (let temp___180 = #"elections.adb" 16 0 0# (any Array__Int__Standard__natural.map
+            ensures {#"elections.adb" 16 0 0# (result = Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content)} 
+            ) in (
+             ( () (* First unroling of the loop statements appearing before the loop invariant of loop elections.adb:16 *)
+             ;
+             () (* While loop translating the Ada loop from elections.adb:16 *)
+             ;
+             #"elections.adb" 16 0 0# while True do
+              ( () (* Assume implicit invariants from the loop elections.adb:16 *)
+              ;
+              #"elections.adb" 16 0 0# assume { #"elections.adb" 16 0 0# (Boolean.andb(( ( ( ( true /\ (Elections__votes_array___axiom.dynamic_invariant Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content True True True True) ) /\ (forall temp___181 #"elections.adb" 16 0 0#  : int.
+               (if (( (Elections__party.first <= temp___181) /\ (temp___181 <= Elections__party.last) )) then (
+                (if (( (2 <> temp___181) /\ ( (0 <> temp___181) /\ ( (1 <> temp___181) /\ ( (4 <> temp___181) /\ (3 <> temp___181) ) ) ) )) then (
+                 ((Array__Int__Standard__natural.get Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content temp___181) = (Array__Int__Standard__natural.get temp___180 temp___181))) else (
+                 true))) else true)) ) /\ (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True True True True) ) /\ true )) ((Elections__num_votes_made.num_votes_made.int__content <= Elections__num_total_voters.num_total_voters.int__content))) };
+              () (* Check for absence of RTE in the invariant of loop elections.adb:16 *)
+              ;
+              () (* Loop statements appearing after the loop invariant of loop elections.adb:16 *)
+              ;
+              ( "GP_Sloc:elections.adb:17:10" (#"elections.adb" 17 0 0# (if ((Elections__vote_for__vote.vote = 1)) then (
+               ( ( "GP_Sloc:elections.adb:19:16" (#"elections.adb" 19 0 0# ()) );
+               ( "GP_Sloc:elections.adb:19:41" (#"elections.adb" 19 0 0# ()) );
+               ( "GP_Sloc:elections.adb:19:38" (#"elections.adb" 19 0 0# #"elections.adb" 19 0 0# Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (1) ((Standard__natural__rep.of_rep((#"elections.adb" 19 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:elections.adb:19:63" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Id:1" "comment:               Votes_Distribution(A) := Votes_Distribution(A) + 1;
+                                                              ^ elections.adb:19:63:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__votes_distribution_assign__add" (Standard__integer.range_check_(((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (1)))) + 1))) )))))) )) );
+               ( "GP_Sloc:elections.adb:20:16" (#"elections.adb" 20 0 0# ()) );
+               ( "GP_Sloc:elections.adb:20:34" (#"elections.adb" 20 0 0# ()) );
+               ( "GP_Sloc:elections.adb:20:31" (#"elections.adb" 20 0 0# #"elections.adb" 20 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( (#"elections.adb" 20 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.adb:20:49" "GP_Id:2" "comment:               Num_Votes_Made := Num_Votes_Made + 1;
+                                                ^ elections.adb:20:49:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__num_votes_made_assign__add" (Standard__integer.range_check_((Elections__num_votes_made.num_votes_made.int__content + 1))) )) )) ) )) else if ((Elections__vote_for__vote.vote = 2)) then (
+               ( ( "GP_Sloc:elections.adb:23:16" (#"elections.adb" 23 0 0# ()) );
+               ( "GP_Sloc:elections.adb:23:41" (#"elections.adb" 23 0 0# ()) );
+               ( "GP_Sloc:elections.adb:23:38" (#"elections.adb" 23 0 0# #"elections.adb" 23 0 0# Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (2) ((Standard__natural__rep.of_rep((#"elections.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__votes_distribution_assign__add" "GP_Sloc:elections.adb:23:63" "GP_Id:3" "comment:               Votes_Distribution(B) := Votes_Distribution(B) + 1;
+                                                              ^ elections.adb:23:63:VC_OVERFLOW_CHECK" (Standard__integer.range_check_(((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (2)))) + 1))) )))))) )) );
+               ( "GP_Sloc:elections.adb:24:16" (#"elections.adb" 24 0 0# ()) );
+               ( "GP_Sloc:elections.adb:24:34" (#"elections.adb" 24 0 0# ()) );
+               ( "GP_Sloc:elections.adb:24:31" (#"elections.adb" 24 0 0# #"elections.adb" 24 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( (#"elections.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__num_votes_made_assign__add" "GP_Sloc:elections.adb:24:49" "GP_Id:4" "comment:               Num_Votes_Made := Num_Votes_Made + 1;
+                                                ^ elections.adb:24:49:VC_OVERFLOW_CHECK" (Standard__integer.range_check_((Elections__num_votes_made.num_votes_made.int__content + 1))) )) )) ) ))  else if ((Elections__vote_for__vote.vote = 3)) then (
+               ( ( "GP_Sloc:elections.adb:27:16" (#"elections.adb" 27 0 0# ()) );
+               ( "GP_Sloc:elections.adb:27:41" (#"elections.adb" 27 0 0# ()) );
+               ( "GP_Sloc:elections.adb:27:38" (#"elections.adb" 27 0 0# #"elections.adb" 27 0 0# Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (3) ((Standard__natural__rep.of_rep((#"elections.adb" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__votes_distribution_assign__add" "GP_Sloc:elections.adb:27:63" "GP_Id:5" "comment:               Votes_Distribution(C) := Votes_Distribution(C) + 1;
+                                                              ^ elections.adb:27:63:VC_OVERFLOW_CHECK" (Standard__integer.range_check_(((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (3)))) + 1))) )))))) )) );
+               ( "GP_Sloc:elections.adb:28:16" (#"elections.adb" 28 0 0# ()) );
+               ( "GP_Sloc:elections.adb:28:34" (#"elections.adb" 28 0 0# ()) );
+               ( "GP_Sloc:elections.adb:28:31" (#"elections.adb" 28 0 0# #"elections.adb" 28 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( (#"elections.adb" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__num_votes_made_assign__add" "GP_Sloc:elections.adb:28:49" "GP_Id:6" "comment:               Num_Votes_Made := Num_Votes_Made + 1;
+                                                ^ elections.adb:28:49:VC_OVERFLOW_CHECK" (Standard__integer.range_check_((Elections__num_votes_made.num_votes_made.int__content + 1))) )) )) ) ))  else if ((Elections__vote_for__vote.vote = 4)) then (
+               ( ( "GP_Sloc:elections.adb:31:16" (#"elections.adb" 31 0 0# ()) );
+               ( "GP_Sloc:elections.adb:31:41" (#"elections.adb" 31 0 0# ()) );
+               ( "GP_Sloc:elections.adb:31:38" (#"elections.adb" 31 0 0# #"elections.adb" 31 0 0# Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (4) ((Standard__natural__rep.of_rep((#"elections.adb" 31 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__votes_distribution_assign__add" "GP_Sloc:elections.adb:31:63" "GP_Id:7" "comment:               Votes_Distribution(D) := Votes_Distribution(D) + 1;
+                                                              ^ elections.adb:31:63:VC_OVERFLOW_CHECK" (Standard__integer.range_check_(((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (4)))) + 1))) )))))) )) );
+               ( "GP_Sloc:elections.adb:32:16" (#"elections.adb" 32 0 0# ()) );
+               ( "GP_Sloc:elections.adb:32:34" (#"elections.adb" 32 0 0# ()) );
+               ( "GP_Sloc:elections.adb:32:31" (#"elections.adb" 32 0 0# #"elections.adb" 32 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( (#"elections.adb" 32 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__num_votes_made_assign__add" "GP_Sloc:elections.adb:32:49" "GP_Id:8" "comment:               Num_Votes_Made := Num_Votes_Made + 1;
+                                                ^ elections.adb:32:49:VC_OVERFLOW_CHECK" (Standard__integer.range_check_((Elections__num_votes_made.num_votes_made.int__content + 1))) )) )) ) )) else (
+               ( ( "GP_Sloc:elections.adb:35:16" (#"elections.adb" 35 0 0# ()) );
+               ( "GP_Sloc:elections.adb:35:44" (#"elections.adb" 35 0 0# ()) );
+               ( "GP_Sloc:elections.adb:35:41" (#"elections.adb" 35 0 0# #"elections.adb" 35 0 0# Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (0) ((Standard__natural__rep.of_rep((#"elections.adb" 35 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__votes_distribution_assign__add" "GP_Sloc:elections.adb:35:69" "GP_Id:9" "comment:               Votes_Distribution(None) := Votes_Distribution(None) + 1;
+                                                                    ^ elections.adb:35:69:VC_OVERFLOW_CHECK" (Standard__integer.range_check_(((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (0)))) + 1))) )))))) )) );
+               ( "GP_Sloc:elections.adb:36:16" (#"elections.adb" 36 0 0# ()) );
+               ( "GP_Sloc:elections.adb:36:34" (#"elections.adb" 36 0 0# ()) );
+               ( "GP_Sloc:elections.adb:36:31" (#"elections.adb" 36 0 0# #"elections.adb" 36 0 0# Elections__num_votes_made.num_votes_made.int__content <- ( (#"elections.adb" 36 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__case__num_votes_made_assign__add" "GP_Sloc:elections.adb:36:49" "GP_Id:10" "comment:               Num_Votes_Made := Num_Votes_Made + 1;
+                                                ^ elections.adb:36:49:VC_OVERFLOW_CHECK" (Standard__integer.range_check_((Elections__num_votes_made.num_votes_made.int__content + 1))) )) )) ) )))) );
+              () (* Check for the exit condition and loop statements appearing before the loop invariant of loop elections.adb:16 *)
+              ;
+              (if (not ( (Elections__num_votes_made.num_votes_made.int__content <= Elections__num_total_voters.num_total_voters.int__content) )) then (
+                raise Elections__vote_for__L_1.L_1)) )
+             done )))
+             )))
+            )
+          with
+           Elections__vote_for__L_1.L_1 -> ()
+          end)) )) );
+          raise Return__exc )
+        with
+         Return__exc -> ()
+        end;
+         abstract ensures {true}(let _ = ( (Elections__num_votes_made.num_votes_made.int__content = (#"elections.ads" 26 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.ads:26:51" "GP_Id:16" "comment:     Post => (Num_Votes_Made = Num_Votes_Made'Old + 1) and then (if Vote = A then 
+                                                  ^ elections.ads:26:51:VC_OVERFLOW_CHECK" "GP_Shape:pragargs__cmp__add" (Standard__integer.range_check_((temp___old_189 + 1))) ))) && (if ((Elections__vote_for__vote.vote = 1)) then (
+         ((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (1)))) = (#"elections.ads" 27 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.ads:27:65" "GP_Id:11" "comment:              Votes_Distribution(A) = Votes_Distribution(A)'Old + 1 elsif Vote = B then 
+                                                                ^ elections.ads:27:65:VC_OVERFLOW_CHECK" "GP_Shape:pragargs__if__cmp__add" (Standard__integer.range_check_((temp___old_184 + 1))) )))) else ((if ((Elections__vote_for__vote.vote = 2)) then (
+         ((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (2)))) = (#"elections.ads" 28 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.ads:28:65" "GP_Id:12" "comment:              Votes_Distribution(B) = Votes_Distribution(B)'Old + 1 elsif Vote = C then 
+                                                                ^ elections.ads:28:65:VC_OVERFLOW_CHECK" "GP_Shape:pragargs__if__if__cmp__add" (Standard__integer.range_check_((temp___old_185 + 1))) )))) else ((if ((Elections__vote_for__vote.vote = 3)) then (
+         ((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (3)))) = (#"elections.ads" 29 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.ads:29:65" "GP_Id:13" "comment:              Votes_Distribution(C) = Votes_Distribution(C)'Old + 1 elsif Vote = D then 
+                                                                ^ elections.ads:29:65:VC_OVERFLOW_CHECK" "GP_Shape:pragargs__if__if__if__cmp__add" (Standard__integer.range_check_((temp___old_186 + 1))) )))) else ((if ((Elections__vote_for__vote.vote = 4)) then (
+         ((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (4)))) = (#"elections.ads" 30 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.ads:30:65" "GP_Id:14" "comment:              Votes_Distribution(D) = Votes_Distribution(D)'Old + 1 elsif Vote = None 
+                                                                ^ elections.ads:30:65:VC_OVERFLOW_CHECK" "GP_Shape:pragargs__if__if__if__if__cmp__add" (Standard__integer.range_check_((temp___old_187 + 1))) )))) else ((if ((Elections__vote_for__vote.vote = 0)) then (
+         ((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (0)))) = (#"elections.ads" 31 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:elections.ads:31:76" "GP_Id:15" "comment:              then Votes_Distribution(None) = Votes_Distribution(None)'Old + 1);
+                                                                           ^ elections.ads:31:76:VC_OVERFLOW_CHECK" "GP_Shape:pragargs__if__if__if__if__if__cmp__add" (Standard__integer.range_check_((temp___old_188 + 1))) )))) else (
+         (Boolean.of_int(1)))))))))))) ) in (
+         ()))
+         end  )))
+        )))
+       )))
+      )))
+     )))
+    )))
+   )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "all_voters_voted" defined at elections.ads:33, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Elections__all_voters_voted__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        "_gnatprove_standard".Boolean
+ use        Standard__natural___axiom
+ use        Elections__num_votes_made
+ use        Elections__num_total_voters
+ use        Standard__natural___axiom
+ use        Elections__num_votes_made___axiom
+ use        Elections__num_total_voters___axiom
+
+ val elections__all_voters_voted__result "model_projected" "model_trace:2870@result" "name:All_Voters_Voted"  : bool__ref 
+ 
+ let def #"elections.ads" 33 0 0#"W:diverges:N" "GP_Subp:elections.ads:33" 
+   (__void_param : unit)
+  requires { #"elections.ads" 33 0 0# true }
+  ensures { #"elections.ads" 33 0 0# true }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram elections.ads:33 *)
+  ;
+  #"elections.ads" 33 0 0# assume { #"elections.ads" 33 0 0# (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True False True True) };
+  #"elections.ads" 33 0 0# assume { #"elections.ads" 33 0 0# (Standard__natural___axiom.dynamic_invariant Elections__num_total_voters.num_total_voters.int__content True False True True) };
+  #"elections.ads" 33 0 0# assume { #"elections.ads" 33 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram elections.ads:33 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram elections.ads:33 *)
+  ;
+  #"elections.ads" 33 0 0# abstract ensures {true}(let _ = (Boolean.andb((Elections__num_votes_made.num_votes_made.int__content <= Elections__num_total_voters.num_total_voters.int__content)) ((Elections__num_total_voters.num_total_voters.int__content <= 2147483647))) in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram elections.ads:33 *)
+  ;
+  #"elections.ads" 33 0 0# assume { #"elections.ads" 33 0 0# ( (Elections__num_votes_made.num_votes_made.int__content <= Elections__num_total_voters.num_total_voters.int__content) /\ (Elections__num_total_voters.num_total_voters.int__content <= 2147483647) ) };
+  #"elections.ads" 33 0 0# try
+   ( ( "GP_Sloc:elections.adb:45:10" (#"elections.adb" 45 0 0# ()) );
+   ( "GP_Sloc:elections.adb:45:27" (#"elections.adb" 45 0 0# ()) );
+   ( "GP_Sloc:elections.adb:45:7" (#"elections.adb" 45 0 0# (if ((Elections__num_votes_made.num_votes_made.int__content = Elections__num_total_voters.num_total_voters.int__content)) then (
+    ( "GP_Sloc:elections.adb:46:10" (#"elections.adb" 46 0 0# ( #"elections.adb" 46 0 0# elections__all_voters_voted__result.bool__content <- ( (Boolean.of_int(1)) );
+    #"elections.adb" 46 0 0# raise Return__exc )) )) else (
+    ( "GP_Sloc:elections.adb:48:10" (#"elections.adb" 48 0 0# ( #"elections.adb" 48 0 0# elections__all_voters_voted__result.bool__content <- ( (Boolean.of_int(0)) );
+    #"elections.adb" 48 0 0# raise Return__exc )) )))) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   abstract ensures {true}(let _ = True in (
+   ()))
+   end ;
+  elections__all_voters_voted__result.bool__content )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "find_winner" defined at elections.ads:39, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Elections__find_winner__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        "_gnatprove_standard".Boolean
+ use        Standard__natural
+ use        Standard__natural___axiom
+ use        Standard__natural__rep
+ use        Elections__party___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__votes_array___axiom
+ use        Array__Int__Standard__natural
+ use        Elections__votes_distribution
+ use        Elections__num_votes_made
+ use        Elections__find_winner__winner
+ use        Elections__find_winner__highest_vote
+ use        Elections__find_winner__L_2
+ use        Elections__find_winner__L_2__i
+ use        Standard__natural___axiom
+ use        Elections__find_winner__winner___axiom
+ use        Elections__find_winner__highest_vote___axiom
+ use        Elections__find_winner__L_2__i___axiom
+ use        Elections__find_winner__L_2___axiom
+ use        Elections__party___axiom
+ use        Elections__votes_array___axiom
+ use        Elections__votes_distribution___axiom
+ use        Elections__num_votes_made___axiom
+
+ val elections__find_winner__result "model_projected" "model_trace:2898@result" "name:Find_Winner"  : int__ref 
+ 
+ let def #"elections.ads" 39 0 0#"W:diverges:N" "GP_Subp:elections.ads:39" 
+   (__void_param : unit)
+  requires { #"elections.ads" 39 0 0# true }
+  ensures { #"elections.ads" 39 0 0# true }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram elections.ads:39 *)
+  ;
+  #"elections.ads" 39 0 0# assume { #"elections.ads" 39 0 0# (Elections__votes_array___axiom.dynamic_invariant Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content True False True True) };
+  #"elections.ads" 39 0 0# assume { #"elections.ads" 39 0 0# (Standard__natural___axiom.dynamic_invariant Elections__num_votes_made.num_votes_made.int__content True False True True) };
+  #"elections.ads" 39 0 0# assume { #"elections.ads" 39 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram elections.ads:39 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram elections.ads:39 *)
+  ;
+  #"elections.ads" 39 0 0# abstract ensures {true}(let _ = (0 >= Elections__num_votes_made.num_votes_made.int__content) in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram elections.ads:39 *)
+  ;
+  #"elections.ads" 39 0 0# assume { #"elections.ads" 39 0 0# (0 >= Elections__num_votes_made.num_votes_made.int__content) };
+  #"elections.ads" 39 0 0# try
+   ( (#"elections.adb" 56 0 0# ( #"elections.adb" 56 0 0# abstract ensures {true}(let _ = () in (
+    ()))
+    end ;
+   #"elections.adb" 56 0 0# assume { #"elections.adb" 56 0 0# (Elections__party___axiom.default_initial_assumption Elections__find_winner__winner.winner.int__content False) };
+   #"elections.adb" 56 0 0# assume { #"elections.adb" 56 0 0# (Elections__party___axiom.dynamic_invariant Elections__find_winner__winner.winner.int__content False False True True) } ));
+   (#"elections.adb" 57 0 0# ( #"elections.adb" 57 0 0# Elections__find_winner__highest_vote.highest_vote.int__content <- ( 0 );
+   #"elections.adb" 57 0 0# assume { #"elections.adb" 57 0 0# (Standard__natural___axiom.dynamic_invariant Elections__find_winner__highest_vote.highest_vote.int__content True False True True) } ));
+   (#"elections.adb" 64 0 0# ());
+   ( "GP_Sloc:elections.adb:59:7" (#"elections.adb" 59 0 0# ()) );
+   ( "GP_Sloc:elections.adb:59:14" (#"elections.adb" 59 0 0# #"elections.adb" 59 0 0# Elections__find_winner__winner.winner.int__content <- ( 0 )) );
+   ( "GP_Sloc:elections.adb:60:10" (#"elections.adb" 60 0 0# ()) );
+   ( "GP_Sloc:elections.adb:60:7" (#"elections.adb" 60 0 0# (if ((Boolean.of_int(0))) then (
+    ( "GP_Sloc:elections.adb:61:10" (#"elections.adb" 61 0 0# (#"elections.adb" 61 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:elections.adb:61:10" "GP_Reason:VC_RAISE" "GP_Id:18" "comment:         raise Empty_Array;
+         ^ elections.adb:61:10:VC_RAISE" "GP_Shape:if__raise_empty_array" absurd ))) )) else (
+    ()))) );
+   ( "GP_Sloc:elections.adb:64:16" (#"elections.adb" 64 0 0# ()) );
+   ( "GP_Sloc:elections.adb:64:41" (#"elections.adb" 64 0 0# (let temp___191 = 0 in (
+   (let temp___192 = 4 in (
+    ( () (* Translation of an Ada loop from elections.adb:64 *)
+    ;
+    #"elections.adb" 64 0 0# try
+     ( #"elections.adb" 64 0 0# abstract ensures {true}(let _ = Elections__find_winner__highest_vote.highest_vote.int__content in (
+      ()))
+      end ;
+     (let temp___194 = #"elections.adb" 64 0 0# (any int
+     ensures {#"elections.adb" 64 0 0# (result = Elections__find_winner__highest_vote.highest_vote.int__content)} 
+     ) in (
+      ( #"elections.adb" 64 0 0# abstract ensures {true}(let _ = Elections__find_winner__winner.winner.int__content in (
+       ()))
+       end ;
+      (let temp___193 = #"elections.adb" 64 0 0# (any int
+      ensures {#"elections.adb" 64 0 0# (result = Elections__find_winner__winner.winner.int__content)} 
+      ) in (
+       ( () (* Unrolling of the loop statements of loop elections.adb:64 *)
+       ;
+       #"elections.adb" 64 0 0# Elections__find_winner__L_2__i.i.int__content <- ( 0 );
+       ( "GP_Sloc:elections.adb:66:13" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:37" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:10" (#"elections.adb" 66 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) > Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+        ( ( "GP_Sloc:elections.adb:67:13" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:29" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:26" (#"elections.adb" 67 0 0# #"elections.adb" 67 0 0# Elections__find_winner__highest_vote.highest_vote.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) )) );
+        ( "GP_Sloc:elections.adb:68:13" (#"elections.adb" 68 0 0# ()) );
+        ( "GP_Sloc:elections.adb:68:20" (#"elections.adb" 68 0 0# #"elections.adb" 68 0 0# Elections__find_winner__winner.winner.int__content <- ( Elections__find_winner__L_2__i.i.int__content )) ) )) else (
+        ( ( "GP_Sloc:elections.adb:70:16" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:40" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:13" (#"elections.adb" 70 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) = Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+         ( "GP_Sloc:elections.adb:71:16" (#"elections.adb" 71 0 0# ( #"elections.adb" 71 0 0# elections__find_winner__result.int__content <- ( 0 );
+         #"elections.adb" 71 0 0# raise Return__exc )) )) else (
+         ()))) ) )))) );
+        Elections__find_winner__L_2__i.i.int__content <- ( 1 );
+       ( "GP_Sloc:elections.adb:66:13" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:37" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:10" (#"elections.adb" 66 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) > Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+        ( ( "GP_Sloc:elections.adb:67:13" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:29" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:26" (#"elections.adb" 67 0 0# #"elections.adb" 67 0 0# Elections__find_winner__highest_vote.highest_vote.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) )) );
+        ( "GP_Sloc:elections.adb:68:13" (#"elections.adb" 68 0 0# ()) );
+        ( "GP_Sloc:elections.adb:68:20" (#"elections.adb" 68 0 0# #"elections.adb" 68 0 0# Elections__find_winner__winner.winner.int__content <- ( Elections__find_winner__L_2__i.i.int__content )) ) )) else (
+        ( ( "GP_Sloc:elections.adb:70:16" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:40" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:13" (#"elections.adb" 70 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) = Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+         ( "GP_Sloc:elections.adb:71:16" (#"elections.adb" 71 0 0# ( #"elections.adb" 71 0 0# elections__find_winner__result.int__content <- ( 0 );
+         #"elections.adb" 71 0 0# raise Return__exc )) )) else (
+         ()))) ) )))) );
+        Elections__find_winner__L_2__i.i.int__content <- ( 2 );
+       ( "GP_Sloc:elections.adb:66:13" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:37" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:10" (#"elections.adb" 66 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) > Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+        ( ( "GP_Sloc:elections.adb:67:13" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:29" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:26" (#"elections.adb" 67 0 0# #"elections.adb" 67 0 0# Elections__find_winner__highest_vote.highest_vote.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) )) );
+        ( "GP_Sloc:elections.adb:68:13" (#"elections.adb" 68 0 0# ()) );
+        ( "GP_Sloc:elections.adb:68:20" (#"elections.adb" 68 0 0# #"elections.adb" 68 0 0# Elections__find_winner__winner.winner.int__content <- ( Elections__find_winner__L_2__i.i.int__content )) ) )) else (
+        ( ( "GP_Sloc:elections.adb:70:16" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:40" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:13" (#"elections.adb" 70 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) = Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+         ( "GP_Sloc:elections.adb:71:16" (#"elections.adb" 71 0 0# ( #"elections.adb" 71 0 0# elections__find_winner__result.int__content <- ( 0 );
+         #"elections.adb" 71 0 0# raise Return__exc )) )) else (
+         ()))) ) )))) );
+        Elections__find_winner__L_2__i.i.int__content <- ( 3 );
+       ( "GP_Sloc:elections.adb:66:13" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:37" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:10" (#"elections.adb" 66 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) > Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+        ( ( "GP_Sloc:elections.adb:67:13" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:29" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:26" (#"elections.adb" 67 0 0# #"elections.adb" 67 0 0# Elections__find_winner__highest_vote.highest_vote.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) )) );
+        ( "GP_Sloc:elections.adb:68:13" (#"elections.adb" 68 0 0# ()) );
+        ( "GP_Sloc:elections.adb:68:20" (#"elections.adb" 68 0 0# #"elections.adb" 68 0 0# Elections__find_winner__winner.winner.int__content <- ( Elections__find_winner__L_2__i.i.int__content )) ) )) else (
+        ( ( "GP_Sloc:elections.adb:70:16" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:40" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:13" (#"elections.adb" 70 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) = Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+         ( "GP_Sloc:elections.adb:71:16" (#"elections.adb" 71 0 0# ( #"elections.adb" 71 0 0# elections__find_winner__result.int__content <- ( 0 );
+         #"elections.adb" 71 0 0# raise Return__exc )) )) else (
+         ()))) ) )))) );
+        Elections__find_winner__L_2__i.i.int__content <- ( 4 );
+       ( "GP_Sloc:elections.adb:66:13" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:37" (#"elections.adb" 66 0 0# ()) );
+       ( "GP_Sloc:elections.adb:66:10" (#"elections.adb" 66 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) > Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+        ( ( "GP_Sloc:elections.adb:67:13" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:29" (#"elections.adb" 67 0 0# ()) );
+        ( "GP_Sloc:elections.adb:67:26" (#"elections.adb" 67 0 0# #"elections.adb" 67 0 0# Elections__find_winner__highest_vote.highest_vote.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) )) );
+        ( "GP_Sloc:elections.adb:68:13" (#"elections.adb" 68 0 0# ()) );
+        ( "GP_Sloc:elections.adb:68:20" (#"elections.adb" 68 0 0# #"elections.adb" 68 0 0# Elections__find_winner__winner.winner.int__content <- ( Elections__find_winner__L_2__i.i.int__content )) ) )) else (
+        ( ( "GP_Sloc:elections.adb:70:16" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:40" (#"elections.adb" 70 0 0# ()) );
+        ( "GP_Sloc:elections.adb:70:13" (#"elections.adb" 70 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Elections__votes_distribution.votes_distribution.Array__Int__Standard__natural.map__content) (Elections__find_winner__L_2__i.i.int__content)))) = Elections__find_winner__highest_vote.highest_vote.int__content)) then (
+         ( "GP_Sloc:elections.adb:71:16" (#"elections.adb" 71 0 0# ( #"elections.adb" 71 0 0# elections__find_winner__result.int__content <- ( 0 );
+         #"elections.adb" 71 0 0# raise Return__exc )) )) else (
+         ()))) ) )))) ) )))
+       )))
+      )
+    with
+     Elections__find_winner__L_2.L_2 -> ()
+    end )))
+   ))
+   ) );
+   ( "GP_Sloc:elections.adb:75:16" (#"elections.adb" 75 0 0# ()) );
+   ( "GP_Sloc:elections.adb:75:9" (#"elections.adb" 75 0 0# ( #"elections.adb" 75 0 0# elections__find_winner__result.int__content <- ( Elections__find_winner__winner.winner.int__content );
+   #"elections.adb" 75 0 0# raise Return__exc )) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   abstract ensures {true}(let _ = True in (
+   ()))
+   end ;
+  elections__find_winner__result.int__content )
+end

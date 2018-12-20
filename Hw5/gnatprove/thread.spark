@@ -1,0 +1,116 @@
+{
+  "spark": [
+    {
+      "name": "Thread",
+      "sloc": [
+        {
+          "file": "thread.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Thread.Initialize",
+      "sloc": [
+        {
+          "file": "thread.ads",
+          "line": 12
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Thread.Do_Action",
+      "sloc": [
+        {
+          "file": "thread.ads",
+          "line": 15
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "thread.ads",
+      "line": 12,
+      "col": 52,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Thread.Initialize",
+        "sloc": [
+          {
+            "file": "thread.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "thread__flow__11.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "thread.ads",
+      "line": 12,
+      "col": 66,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Thread.Initialize",
+        "sloc": [
+          {
+            "file": "thread.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "thread__flow__12.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Thread.Initialize",
+          "sloc": [
+            {
+              "file": "thread.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Thread.Do_Action",
+          "sloc": [
+            {
+              "file": "thread.ads",
+              "line": 15
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 3.58000001870096E-03,
+    "globals (basic)": 1.97748001664877E-02,
+    "globals/properties (advanced)": 3.58414985239506E-02,
+    "flow analysis": 1.24164996668696E-02
+  }
+}

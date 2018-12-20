@@ -9,10 +9,12 @@ is
    S: State := None;
    --with function image(Item : in State) return String;
 
-    procedure Initialize with Global => (In_out => S), Post => S = Ready;
+    procedure Initialize with Global => (Output => S), Post => S = Ready;
     -- Sets S to Ready.
 
-   procedure Do_Action(A: Action) with Global => (In_out =>S);
+   procedure Do_Action(A: Action) with Global => (In_out =>S), 
+     Depends => (S => (S,A)),
+   Post => (if S'Old = None then S =None else S /= None);
    -- Updates the state S according to the given input state S, and the 
     -- given action A. Sets S to None if the transition is not defined.
    
