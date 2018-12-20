@@ -3,16 +3,14 @@ package Thread is
    type State  is (None, Ready, Running, Stopped, Sleeping, Waiting);
     type Action is (Notify, Resume, Sleep, Start, Stop, Wait);
 
-    S: State := None;
+   S: State := None;
+   with function image(Item : in State) return String;;
 
-    procedure Initialize with Global => (Input => null, Output => S);
+    procedure Initialize with Global => S;
     -- Sets S to Ready.
 
-    procedure Do_Action(A: Action) with Global => (Input => Action, Output=> State), Depends => (A =>+ S),
-										Pre  => General_Precondition,
-										Post => General_Postcondition,
-										;
-    -- Updates the state S according to the given input state S, and the 
+   procedure Do_Action(A: Action) with Global => (In_out =>S);
+   -- Updates the state S according to the given input state S, and the 
     -- given action A. Sets S to None if the transition is not defined.
    
 
