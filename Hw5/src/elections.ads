@@ -12,7 +12,7 @@ package Elections with SPARK_Mode is
    procedure Initialize(Num_Voters: Natural) with
      Global => (Num_Total_Voters, Num_Votes_Made),
      --Depends => (Num_Voters => (Num_Total_Voters,Num_Voters)),
-     Post => (Num_Total_Voters = Num_Voters) and then (Num_Voters <= Natural'Last);
+     Post => (Num_Total_Voters = Num_Voters);
    
      
     -- Resets the number of made votes and votes for all parties to 0, and 

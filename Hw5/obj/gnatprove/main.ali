@@ -12,7 +12,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U main%b		main.adb		41d244a3 OO SU
+U main%b		main.adb		ee709a0b OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -33,7 +33,7 @@ D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
-D ticket_machine.ads	20181220124618 41f54f78 ticket_machine%s
+D ticket_machine.ads	20181220152912 ee5791d0 ticket_machine%s
 X 1 ada.ads
 16K9*Ada 20e8 9|1r22 1r35 2r5 3r21 3r34 11r4 13r4
 X 2 a-inteio.ads

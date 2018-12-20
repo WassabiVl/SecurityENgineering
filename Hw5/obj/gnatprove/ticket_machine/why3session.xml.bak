@@ -33,7 +33,10 @@
   <proof prover="1"><result status="unknown" steps="14"/></proof>
   </goal>
   <goal name="WP_parameter def.3" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="0"><result status="valid" steps="46"/></proof>
+  </goal>
+  <goal name="WP_parameter def.4" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="44"/></proof>
   </goal>
  </transf>
  </goal>

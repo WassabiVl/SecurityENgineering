@@ -24,6 +24,7 @@ package body Ticket_Machine is
    begin
 --        S_Update := S;
       case A is
+         --when a 20 is inserted
          when Insert_Twenty_Eur =>
             --update state to reflect amount
             S := S + 20;
@@ -32,6 +33,7 @@ package body Ticket_Machine is
                R := Print_Ticket;
                S := 0;
             else
+               --do nothing and retain the state
                R := Nothing;
             end if;
 
@@ -61,6 +63,8 @@ package body Ticket_Machine is
             --reset and update state to start
             R := Reset;
             S := 0;
+         when others =>
+            null;
       end case;
    end Do_Action;
 end Ticket_Machine;

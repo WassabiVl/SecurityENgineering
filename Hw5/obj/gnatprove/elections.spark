@@ -56,9 +56,9 @@
   "assumptions": [
   ],
   "timings": {
-    "marking": 2.45034985709935E-04,
-    "globals (basic)": 1.96284992853180E-04,
-    "globals/properties (advanced)": 5.97406993620098E-04,
-    "flow analysis": 1.66991702280939E-03
+    "marking": 2.89508985588327E-04,
+    "globals (basic)": 2.33489001402631E-04,
+    "globals/properties (advanced)": 6.10236020293087E-04,
+    "flow analysis": 1.47234904579818E-03
   }
 }

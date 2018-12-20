@@ -1,1 +1,0 @@
-elections.ads:15:67: warning: conjunct in postcondition does not check the outcome of calling "Initialize"
