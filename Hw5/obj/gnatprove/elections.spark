@@ -1,0 +1,64 @@
+{
+  "spark": [
+    {
+      "name": "Elections",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 1
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Elections.Initialize",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 12
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Elections.Vote_For",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 21
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Elections.All_Voters_Voted",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 31
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Elections.Find_Winner",
+      "sloc": [
+        {
+          "file": "elections.ads",
+          "line": 37
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 3.17305995849892E-04,
+    "globals (basic)": 3.55792988557369E-04,
+    "globals/properties (advanced)": 6.91913999617100E-04,
+    "flow analysis": 3.75228784978390E-02
+  }
+}

@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#e3b56309#;
+   u00001 : constant Version_32 := 16#41d244a3#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -303,14 +303,18 @@ package ada_main is
    pragma Export (C, u00132, "system__val_unsB");
    u00133 : constant Version_32 := 16#168e1080#;
    pragma Export (C, u00133, "system__val_unsS");
-   u00134 : constant Version_32 := 16#d6cfb83c#;
-   pragma Export (C, u00134, "ticket_machine_waelB");
-   u00135 : constant Version_32 := 16#e78f7715#;
-   pragma Export (C, u00135, "ticket_machine_waelS");
-   u00136 : constant Version_32 := 16#5dc07a5a#;
-   pragma Export (C, u00136, "system__memoryB");
-   u00137 : constant Version_32 := 16#6bdde70c#;
-   pragma Export (C, u00137, "system__memoryS");
+   u00134 : constant Version_32 := 16#be8fc173#;
+   pragma Export (C, u00134, "ticket_machineB");
+   u00135 : constant Version_32 := 16#41f54f78#;
+   pragma Export (C, u00135, "ticket_machineS");
+   u00136 : constant Version_32 := 16#52f1910f#;
+   pragma Export (C, u00136, "system__assertionsB");
+   u00137 : constant Version_32 := 16#ff2dadac#;
+   pragma Export (C, u00137, "system__assertionsS");
+   u00138 : constant Version_32 := 16#5dc07a5a#;
+   pragma Export (C, u00138, "system__memoryB");
+   u00139 : constant Version_32 := 16#6bdde70c#;
+   pragma Export (C, u00139, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -447,8 +451,10 @@ package ada_main is
    --  ada.text_io.integer_aux%b
    --  ada.integer_text_io%s
    --  ada.integer_text_io%b
-   --  ticket_machine_wael%s
-   --  ticket_machine_wael%b
+   --  system.assertions%s
+   --  system.assertions%b
+   --  ticket_machine%s
+   --  ticket_machine%b
    --  main%b
    --  END ELABORATION ORDER
 

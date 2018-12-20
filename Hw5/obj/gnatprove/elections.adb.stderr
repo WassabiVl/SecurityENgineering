@@ -1,0 +1,3 @@
+elections.ads:15:62: warning: conjunct in postcondition does not check the outcome of calling "Initialize"
+elections.ads:35:06: warning: postcondition does not check the outcome of calling "All_Voters_Voted"
+elections.ads:35:06: warning: postcondition does not mention function result

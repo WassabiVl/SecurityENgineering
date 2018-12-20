@@ -15,7 +15,7 @@
       "sloc": [
         {
           "file": "ticket_machine.ads",
-          "line": 15
+          "line": 17
         }
       ],
       "spark": "spec"
@@ -25,7 +25,7 @@
       "sloc": [
         {
           "file": "ticket_machine.ads",
-          "line": 18
+          "line": 20
         }
       ],
       "spark": "all"
@@ -34,7 +34,7 @@
   "flow": [
     {
       "file": "ticket_machine.ads",
-      "line": 20,
+      "line": 22,
       "col": 24,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -43,19 +43,19 @@
         "sloc": [
           {
             "file": "ticket_machine.ads",
-            "line": 18
+            "line": 20
           }
         ]
       },
       "check_tree": {
       },
-      "tracefile": "ticket_machine__flow__55.trace",
+      "tracefile": "ticket_machine__flow__58.trace",
       "how_proved": "flow"
     },
     {
       "file": "ticket_machine.ads",
-      "line": 26,
-      "col": 32,
+      "line": 28,
+      "col": 62,
       "rule": "UNINITIALIZED",
       "severity": "info",
       "entity": {
@@ -63,13 +63,13 @@
         "sloc": [
           {
             "file": "ticket_machine.ads",
-            "line": 18
+            "line": 20
           }
         ]
       },
       "check_tree": {
       },
-      "tracefile": "ticket_machine__flow__56.trace",
+      "tracefile": "ticket_machine__flow__59.trace",
       "how_proved": "flow"
     }
   ],
@@ -84,7 +84,7 @@
           "sloc": [
             {
               "file": "ticket_machine.ads",
-              "line": 18
+              "line": 20
             }
           ]
         }
@@ -92,9 +92,9 @@
     }
   ],
   "timings": {
-    "marking": 3.01055988529697E-04,
-    "globals (basic)": 3.38687008479610E-04,
-    "globals/properties (advanced)": 7.65467993915081E-04,
-    "flow analysis": 4.20109089463949E-03
+    "marking": 2.38620996242389E-04,
+    "globals (basic)": 1.91152998013422E-04,
+    "globals/properties (advanced)": 4.96056978590786E-04,
+    "flow analysis": 4.00480581447482E-03
   }
 }

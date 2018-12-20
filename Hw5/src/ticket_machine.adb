@@ -1,6 +1,4 @@
 package body Ticket_Machine is
-   pragma Assertion_Policy (Pre => Check,
-                           Post => Check);
 
    procedure Initialize(S: out State) is
    begin

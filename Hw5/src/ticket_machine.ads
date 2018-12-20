@@ -1,5 +1,7 @@
 package Ticket_Machine 
-with SPARK_Mode is
+with SPARK_Mode is 
+   pragma Assertion_Policy (Pre => Check,
+                           Post => Check);
 	-- Simulation of a ticket machine that hands out tickets which 
     -- cost 30 EUR each. The machine accepts only 5, 10, or 20 EUR
     -- notes and outputs the ticket immediately after the user has 
@@ -23,6 +25,6 @@ with SPARK_Mode is
        Depends => (S => (S, A), R => (S, A)),
        Pre => (S >= 0 and (A = Insert_Five_Eur or  A = Insert_Ten_Eur 
                or A = Insert_Twenty_Eur or A = Reset)),
-     Post => (R = Print_Ticket and (S >=0));
+     Post => (if S = 0 then (R = Print_Ticket or R = Reset)) or (if S > 0 then R = Nothing);
                 
 end Ticket_Machine;

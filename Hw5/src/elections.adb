@@ -5,14 +5,15 @@ package body Elections is
     -- sets the number of total Voters to the given.
    begin
       Num_Votes_Made := 0;
-      Num_Total_Voters := 0;
+      Num_Total_Voters := Num_Voters;
 
    end Initialize;
 
    procedure Vote_For(Vote: Party) is
       --perform the actual voting
    begin
-      while Num_Votes_Made < Num_Total_Voters loop
+      --perform voting until total number of voter is reached
+      while Num_Votes_Made <= Num_Total_Voters loop
          case Vote is
             when A =>
                Votes_Distribution(A) := Votes_Distribution(A) + 1;
