@@ -1,0 +1,50 @@
+{
+  "spark": [
+    {
+      "name": "Sorting",
+      "sloc": [
+        {
+          "file": "sorting.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Sorting.Selection_Sort",
+      "sloc": [
+        {
+          "file": "sorting.ads",
+          "line": 6
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Sorting.Selection_Sort",
+          "sloc": [
+            {
+              "file": "sorting.ads",
+              "line": 6
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 5.76700025703758E-04,
+    "globals (basic)": 1.71099993167445E-04,
+    "globals/properties (advanced)": 7.39099981728941E-04,
+    "flow analysis": 6.62790006026626E-03
+  }
+}

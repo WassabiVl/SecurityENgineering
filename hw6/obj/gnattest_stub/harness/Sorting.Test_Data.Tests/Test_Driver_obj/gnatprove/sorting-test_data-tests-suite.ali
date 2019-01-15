@@ -1,0 +1,164 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U sorting.test_data.tests.suite%b  sorting-test_data-tests-suite.adb  d08ce6d9 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s  a-unccon.ads	a-unccon.ali
+W aunit%s		aunit.adb		aunit.ali
+Z aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+Z aunit.memory.utils%s	aunit-memory-utils.adb	aunit-memory-utils.ali  ED
+Z aunit.simple_test_cases%s  aunit-simple_test_cases.adb  aunit-simple_test_cases.ali
+W aunit.test_caller%s	aunit-test_caller.adb	aunit-test_caller.ali  ED
+Z aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+W gnattest_generated%s	gnattest_generated.ads	gnattest_generated.ali
+W sorting.test_data.tests%s  sorting-test_data-tests.adb  sorting-test_data-tests.ali
+
+U sorting.test_data.tests.suite%s  sorting-test_data-tests-suite.ads  acae7d52 OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_suites%s	aunit-test_suites.adb	aunit-test_suites.ali
+W sorting.test_data.tests%s  sorting-test_data-tests.adb  sorting-test_data-tests.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20180524045508 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20180524045508 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20180524045508 76cdf7c6 aunit%s
+D aunit-assertions.ads	20180524045508 b7f9ecd6 aunit.assertions%s
+D aunit-memory.ads	20180524045508 a0315146 aunit.memory%s
+D aunit-memory-utils.ads  20180524045508 5b1e3d11 aunit.memory.utils%s
+D aunit-memory-utils.adb  20180524045508 c00242e3 aunit.memory.utils%b
+D aunit-options.ads	20180524045508 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20180524045508 4111c32f aunit.simple_test_cases%s
+D aunit-test_caller.ads	20180524045508 956cfce4 aunit.test_caller%s
+D aunit-test_caller.adb	20180524045508 0f783ccd aunit.test_caller%b
+D aunit-test_filters.ads  20180524045508 f10b2127 aunit.test_filters%s
+D aunit-test_fixtures.ads  20180524045508 faadeab5 aunit.test_fixtures%s
+D aunit-test_results.ads  20180524045508 171847c9 aunit.test_results%s
+D aunit-test_suites.ads	20180524045508 6821dc24 aunit.test_suites%s
+D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
+D gnat.ads		20180524051738 fd2ad2f1 gnat%s
+D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
+D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
+D sorting.ads		20190115185512 e5345f8a sorting%s
+D sorting-test_data.ads	20190115183420 4351ad96 sorting.test_data%s
+D sorting-test_data-tests.ads  20190115183420 c3201a23 sorting.test_data.tests%s
+D sorting-test_data-tests-suite.ads  20190115183420 07afbb55 sorting.test_data.tests.suite%s
+D sorting-test_data-tests-suite.adb  20190115183420 de1fcd67 sorting.test_data.tests.suite%b
+D system.ads		20180524051738 32a08138 system%s
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 28|69r35
+X 6 aunit.ads
+34K9*AUnit 48e10 27|5r6 9r26 28|5r6 10r28 13r21 17r26
+36P9*Message_String(string)
+44V13*Format{36P9} 28|53s21
+X 7 aunit-assertions.ads
+125U14*Copy_Id 28|95s24
+X 9 aunit-memory-utils.ads
+40v13*Gen_Alloc 28|38r51 67r48
+X 13 aunit-test_caller.ads
+78k15*Test_Caller 121e22 28|5w12 10r34
+X 18 aunit-test_suites.ads
+41K15*Test_Suites 86e22 27|5w12 9r32 28|13r27 17r32
+43R9*Test_Suite<19|38R9> 84e14 28|13r39
+44P9*Access_Test_Suite(43R9) 27|9r44 28|17r44
+48U14*Add_Test 28|25s14
+X 23 gnattest_generated.ads
+1K9*Gnattest_Generated 4e23 28|6w6 11r7
+2K12*GNATtest_Standard=2:38 28|11r26
+X 24 sorting.ads
+1K9*Sorting 9e12 27|7r9 11r5 28|8r14 11r44 31r5
+X 25 sorting-test_data.ads
+8K17*Test_Data 24|1k9 25|18e22 27|7r17 11r13 28|8r22 11r52 31r13
+15U14*Set_Up<16|80p14> 28|105s7
+16U14*Tear_Down<16|83p14> 28|114s7
+X 26 sorting-test_data-tests.ads
+8K27*Tests 25|8k17 26|18e28 27|7r27 11r23 28|8r32 11r62 31r23
+10R9*Test<25|11R9> 11e20 28|11r68
+13U14*Test_Selection_Sort_58d3dc 28|23r10
+X 27 sorting-test_data-tests-suite.ads
+7K33*Suite 26|8k27 27|11l29 11e34 28|8b38 31l29 31t34
+9V13*Suite{18|44P9} 28|17b13 29l8 29t13
+X 28 sorting-test_data-tests-suite.adb
+10K12 Runner_1[13|78] 15r50 20r7
+13r4 Result{18|43R9} 25m7 25r7 27m14 27r14
+15r4 Case_1_1_Test_Selection_Sort_58d3dc{13|80R9[10]} 21m10 25m24 25r24
+76R9 Test_Fixture{26|10R9} 83r56[10] 112r38[10] 39r7[10] 96r20[10]
+80R9*Test_Case<12|44R9> 15r59[10] 81r40[10] 92r18[10] 98r26[10] 101r38[10]
+. 104r36[10] 107r39[10] 119e14[10] 48r18[10] 66r38[10] 68r10[10] 81r26[10]
+. 90r38[10] 103r36[10] 112r39[10]
+81P9*Test_Case_Access(13|80R9[10]) 87r34[10] 64r34[10] 70r23[10] 71r22[10]
+83P9*Test_Method 87r14[10] 94r14[10] 118r17[10] 50r14[10] 64r14[10]
+86a7 Name{string} 73r24[10]
+87p7 Test{13|83P9[10]} 73r30[10]
+91U14*Create 20s16[10] 73s7[10]
+92c7 TC<13|80R9[10]> 53m7[10] 54m7[10] 55m7[10]
+93a7 Name{string} 53r29[10]
+94p7 Test{13|83P9[10]} 54r21[10]
+98r19 Test{13|80R9[10]} 83r14[10]
+101r24 Test{13|80R9[10]} 95r33[10] 95r39[10] 96r7[10] 96r34[10]
+104r22 Test{13|80R9[10]} 105r15[10]
+107r25 Test{13|80R9[10]} 114r18[10]
+112P9 Fixture_Access(26|10R9) 113r31[10] 116r17[10] 39r21[10] 41r34[10]
+116p7 Fixture{13|112P9[10]} 55m10[10] 95r44[10] 96r39[10] 105r20[10] 114r23[10]
+117p7 Name{6|36P9} 53m10[10] 83r19[10]
+118p7 Method{13|83P9[10]} 54m10[10] 96r12[10]
+38V13 New_Fixture[9|40]{13|112P9[10]} 10|38b13[28|10] 28|41s52[10]
+41p4 The_Fixture_Object{13|112P9[10]} 55r21[10]
+66P12 Access_Type(13|80R9[10]) 68r21[10] 70r10[10]
+67V16 Alloc[9|40]{14|66P12[10]} 10|38b13[28|10] 28|71s51[10]
+69V16 Convert[3|20]{13|81P9[10]} 71s42[10]
+71p7 Ret{13|81P9[10]} 73r15[10] 74r14[10]
+17P9 Source{14|66P12[10]} 20r40[14|69[28|10]]
+18P9 Target{13|81P9[10]} 20r55[14|69[28|10]]
+37R12 Object{26|10R9} 40r18[14|38[28|10]] 40r18[14|67[28|10]]
+38P12 Name{13|112P9[10]} 40r30[14|38[28|10]] 40r30[14|67[28|10]] 38r30[14|38[28|10]]
+. 38r30[14|67[28|10]]
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__suite 0
+GG EK_GLOBALS sorting__test_data__tests__suite__suite local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 2 sorting__test_data__tests__suite__result sorting__test_data__tests__suite__case_1_1_test_selection_sort_58d3dc proper_output 2 sorting__test_data__tests__suite__result sorting__test_data__tests__suite__case_1_1_test_selection_sort_58d3dc refined_proof_in 0 refined_input 2 sorting__test_data__tests__suite__result sorting__test_data__tests__suite__case_1_1_test_selection_sort_58d3dc refined_output 2 sorting__test_data__tests__suite__result sorting__test_data__tests__suite__case_1_1_test_selection_sort_58d3dc calls_proof 0 calls 0 calls_conditional 2 aunit__format aunit__test_suites__add_test__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 2 sorting__test_data__tests__suite__result sorting__test_data__tests__suite__case_1_1_test_selection_sort_58d3dc LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__create__alloc 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__create__alloc local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__create__convert 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__create__convert local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__create 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__create local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 aunit__format local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__create__2 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__create__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 aunit__format local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__name 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__name local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__run_test 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__run_test local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 aunit__assertions__copy_id local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__set_up__2 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__set_up__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 sorting__test_data__set_up local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__tear_down__2 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__tear_down__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 sorting__test_data__tear_down local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1__new_fixture 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1__new_fixture local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite__runner_1 0
+GG EK_GLOBALS sorting__test_data__tests__suite__runner_1 local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS sorting__test_data__tests__suite 0
+GG EK_GLOBALS sorting__test_data__tests__suite local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 2 sorting__test_data__tests__suite__result sorting__test_data__tests__suite__case_1_1_test_selection_sort_58d3dc FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

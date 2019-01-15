@@ -1,0 +1,41 @@
+{
+  "spark": [
+    {
+      "name": "Sorting.Test_Data.Set_Up",
+      "sloc": [
+        {
+          "file": "sorting-test_data.ads",
+          "line": 15
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tear_Down",
+      "sloc": [
+        {
+          "file": "sorting-test_data.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 3.47630004398525E-03,
+    "globals (basic)": 3.37762013077736E-02,
+    "globals/properties (advanced)": 5.10933995246887E-02,
+    "flow analysis": 1.65999997989275E-04,
+    "codepeer results": 7.90000012784731E-06,
+    "init_why_sections": 1.08039996121079E-03,
+    "translation of standard": 1.04288002476096E-02,
+    "translation of compilation unit": 7.24828988313675E-02,
+    "proof": 4.99999987368938E-06
+  }
+}

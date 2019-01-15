@@ -1,0 +1,46 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -gnatn
+A -gnatf
+A -gnata
+A -gnat12
+A -gnatX
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U sorting%b		sorting.adb		88e7f1c1 NE OO PK IL
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U sorting%s		sorting.ads		9486e3be EE NE OO PK
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D sorting.ads		20190115181138 9486e3be sorting%s
+D sorting.adb		20190115181138 1c61127f sorting%b
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+X 4 sorting.ads
+1K9*Sorting 13l5 13e12 5|1b14 29l5 29t12
+5A10*Natural_Array(natural)<integer> 7r39 5|4r39
+7U14*Selection_Sort 7=29 5|4b14 28l8 28t22
+7a29 A{5A10} 8r14 9r14 9r29 9r42 9r53 10r21 10r30 11r10 11r18 5|4b29 8r10
+. 9r16 9r25 12r17 12r35 13r32 16r22 16r32 21r27 22m16 22r27 23m16
+10i16 i{integer} 11r12 11r20
+X 5 sorting.adb
+5i7 Min{positive} 11m13 12r27 12r46 16r25 17m22 20r16 22r30 23r19
+6i7 Temp{integer} 21m16 23r27
+9i11 I{integer} 10r44 11r20 13r25 20r23 21r30 22r19
+13i20 J{integer} 14r47 16r35 17r29
+

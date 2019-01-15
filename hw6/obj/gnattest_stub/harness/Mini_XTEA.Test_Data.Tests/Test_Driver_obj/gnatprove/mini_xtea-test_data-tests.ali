@@ -1,0 +1,195 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U mini_xtea.test_data.tests%b  mini_xtea-test_data-tests.adb  42c3c202 OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+Z aunit.memory.utils%s	aunit-memory-utils.adb	aunit-memory-utils.ali  ED
+Z aunit.test_caller%s	aunit-test_caller.adb	aunit-test_caller.ali  ED
+W mini_xtea.test_data%s	mini_xtea-test_data.adb	mini_xtea-test_data.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+
+U mini_xtea.test_data.tests%s  mini_xtea-test_data-tests.ads  a482c631 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s  a-unccon.ads	a-unccon.ali
+W aunit%s		aunit.adb		aunit.ali
+Z aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+Z aunit.memory.utils%s	aunit-memory-utils.adb	aunit-memory-utils.ali
+Z aunit.simple_test_cases%s  aunit-simple_test_cases.adb  aunit-simple_test_cases.ali
+W aunit.test_caller%s	aunit-test_caller.adb	aunit-test_caller.ali
+Z aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+W gnattest_generated%s	gnattest_generated.ads	gnattest_generated.ali
+W mini_xtea.test_data%s	mini_xtea-test_data.adb	mini_xtea-test_data.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D ada_containers.ads	20180524045508 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20180524045508 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20180524045508 76cdf7c6 aunit%s
+D aunit-assertions.ads	20180524045508 b7f9ecd6 aunit.assertions%s
+D aunit-memory.ads	20180524045508 a0315146 aunit.memory%s
+D aunit-memory-utils.ads  20180524045508 5b1e3d11 aunit.memory.utils%s
+D aunit-memory-utils.adb  20180524045508 c00242e3 aunit.memory.utils%b
+D aunit-options.ads	20180524045508 6e5a02a6 aunit.options%s
+D aunit-simple_test_cases.ads  20180524045508 4111c32f aunit.simple_test_cases%s
+D aunit-test_caller.ads	20180524045508 956cfce4 aunit.test_caller%s
+D aunit-test_caller.adb	20180524045508 0f783ccd aunit.test_caller%b
+D aunit-test_filters.ads  20180524045508 f10b2127 aunit.test_filters%s
+D aunit-test_fixtures.ads  20180524045508 faadeab5 aunit.test_fixtures%s
+D aunit-test_results.ads  20180524045508 171847c9 aunit.test_results%s
+D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
+D gnat.ads		20180524051738 fd2ad2f1 gnat%s
+D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
+D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D mini_xtea.ads		20190110114140 7fb9e19b mini_xtea%s
+D mini_xtea-test_data.ads  20190115183420 050a2da1 mini_xtea.test_data%s
+D mini_xtea-test_data-tests.ads  20190115183420 a8b47b7b mini_xtea.test_data.tests%s
+D mini_xtea-test_data-tests.adb  20190115183420 9003793b mini_xtea.test_data.tests%b
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 26|69r35
+X 6 aunit.ads
+34K9*AUnit 48e10 26|6r6 25r26 27|8r6 8r28 44r7 65r7 86r7 107r7
+36P9*Message_String(string)
+44V13*Format{36P9} 26|53s21
+X 7 aunit-assertions.ads
+44K15*Assertions 155e21 27|8w12 8r34 44r13 65r13 86r13 107r13
+48U14*Assert 27|44s24 65s24 86s24 107s24
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+113V13*First_Failure{110R9}
+125U14*Copy_Id 26|95s24
+X 9 aunit-memory-utils.ads
+40v13*Gen_Alloc 26|38r51 67r48
+X 13 aunit-test_caller.ads
+78k15*Test_Caller 121e22 26|6w12 25r32
+X 22 gnattest_generated.ads
+1K9*Gnattest_Generated 4e23 26|5w6 10r21 27|45r10 66r10 87r10 108r10
+2K12*GNATtest_Standard=2:38 26|10r40
+3b4*Default_Assert_Value{boolean} 27|45r29 66r29 87r29 108r29
+X 24 mini_xtea.ads
+5K9*Mini_XTEA 24e14 26|8r9 10r58 27r5 27|20r14 125r5
+X 25 mini_xtea-test_data.ads
+8K19*Test_Data 24|5k9 25|18e24 26|8r19 10r68 27r15 27|20r24 125r15
+11R9*Test<16|78R9> 13e20 26|10r78
+15U14*Set_Up<16|80p14> 26|105s7
+16U14*Tear_Down<16|83p14> 26|114s7
+X 26 mini_xtea-test_data-tests.ads
+8K29*Tests 25|8k19 26|27l25 27e30 27|20b34 125l25 125t30
+10R9*Test<25|11R9> 7|101p14 104p14 107p13 113p13 25|15P14 16P14 26|11e20
+. 13p14 13r55 16p14 16r67 19p14 19r55 22p14 22r66 25r45 27|33r48 34r55 36r48
+. 54r60 55r67 57r60 75r48 76r55 78r48 96r59 97r66 99r59
+13U14*Test_Decrypt_d6b0e1 13=35 27|34b14
+13r35 Gnattest_T{10R9} 27|34b35
+16U14*Test_Decrypt_Second_Half_4215f2 16=47 27|55b14
+16r47 Gnattest_T{10R9} 27|55b47
+19U14*Test_Encrypt_12ad5c 19=35 27|76b14
+19r35 Gnattest_T{10R9} 27|76b35
+22U14*Test_Encrypt_First_Half_a77d8f 22=46 27|97b14
+22r46 Gnattest_T{10R9} 27|97b46
+25K12*Caller[13|78]
+76R9 Test_Fixture{10R9} 83r56[25] 112r38[25] 39r7[25] 96r20[25]
+80R9*Test_Case<12|44R9> 81r40[25] 92r18[25] 98r26[25] 101r38[25] 104r36[25]
+. 107r39[25] 119e14[25] 48r18[25] 66r38[25] 68r10[25] 81r26[25] 90r38[25]
+. 103r36[25] 112r39[25]
+81P9*Test_Case_Access(13|80R9[25]) 87r34[25] 64r34[25] 70r23[25] 71r22[25]
+83P9*Test_Method 87r14[25] 94r14[25] 118r17[25] 50r14[25] 64r14[25]
+86a7 Name{string} 73r24[25]
+87p7 Test{13|83P9[25]} 73r30[25]
+91U14*Create 73s7[25]
+92c7 TC<13|80R9[25]> 53m7[25] 54m7[25] 55m7[25]
+93a7 Name{string} 53r29[25]
+94p7 Test{13|83P9[25]} 54r21[25]
+98r19 Test{13|80R9[25]} 83r14[25]
+101r24 Test{13|80R9[25]} 95r33[25] 95r39[25] 96r7[25] 96r34[25]
+104r22 Test{13|80R9[25]} 105r15[25]
+107r25 Test{13|80R9[25]} 114r18[25]
+112P9 Fixture_Access(10R9) 113r31[25] 116r17[25] 39r21[25] 41r34[25]
+116p7 Fixture{13|112P9[25]} 55m10[25] 95r44[25] 96r39[25] 105r20[25] 114r23[25]
+117p7 Name{6|36P9} 53m10[25] 83r19[25]
+118p7 Method{13|83P9[25]} 54m10[25] 96r12[25]
+38V13 New_Fixture[9|40]{13|112P9[25]} 10|38b13[26|25] 26|41s52[25]
+41p4 The_Fixture_Object{13|112P9[25]} 55r21[25]
+66P12 Access_Type(13|80R9[25]) 68r21[25] 70r10[25]
+67V16 Alloc[9|40]{14|66P12[25]} 10|38b13[26|25] 26|71s51[25]
+69V16 Convert[3|20]{13|81P9[25]} 71s42[25]
+71p7 Ret{13|81P9[25]} 73r15[25] 74r14[25]
+17P9 Source{14|66P12[25]} 20r40[14|69[26|25]]
+18P9 Target{13|81P9[25]} 20r55[14|69[26|25]]
+37R12 Object{10R9} 40r18[14|38[26|25]] 40r18[14|67[26|25]]
+38P12 Name{13|112P9[25]} 40r30[14|38[26|25]] 40r30[14|67[26|25]] 38r30[14|38[26|25]]
+. 38r30[14|67[26|25]]
+X 27 mini_xtea-test_data-tests.adb
+33U14 Test_Decrypt 33=28 34r69 36b14 49l8 49t20
+33r28 Gnattest_T{26|10R9} 36b28 40r28
+54U14 Test_Decrypt_Second_Half 54=40 55r81 57b14 70l8 70t32
+54r40 Gnattest_T{26|10R9} 57b40 61r28
+75U14 Test_Encrypt 75=28 76r69 78b14 91l8 91t20
+75r28 Gnattest_T{26|10R9} 78b28 82r28
+96U14 Test_Encrypt_First_Half 96=39 97r80 99b14 112l8 112t31
+96r39 Gnattest_T{26|10R9} 99b39 103r28
+X 28 system.ads
+37K9*System 27|9r6 28|200e11
+X 29 s-assert.ads
+41K16*Assertions 27|9w13 29|50e22
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_decrypt_d6b0e1 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_decrypt_d6b0e1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_decrypt_second_half_4215f2 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_decrypt_second_half_4215f2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_encrypt_12ad5c 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_encrypt_12ad5c local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_encrypt_first_half_a77d8f 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_encrypt_first_half_a77d8f local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_decrypt 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_decrypt local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 gnattest_generated__default_assert_value proper_output 0 refined_proof_in 0 refined_input 1 gnattest_generated__default_assert_value refined_output 0 calls_proof 0 calls 0 calls_conditional 1 aunit__assertions__assert local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 gnattest_generated__default_assert_value LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_decrypt_second_half 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_decrypt_second_half local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 gnattest_generated__default_assert_value proper_output 0 refined_proof_in 0 refined_input 1 gnattest_generated__default_assert_value refined_output 0 calls_proof 0 calls 0 calls_conditional 1 aunit__assertions__assert local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 gnattest_generated__default_assert_value LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_encrypt 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_encrypt local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 gnattest_generated__default_assert_value proper_output 0 refined_proof_in 0 refined_input 1 gnattest_generated__default_assert_value refined_output 0 calls_proof 0 calls 0 calls_conditional 1 aunit__assertions__assert local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 gnattest_generated__default_assert_value LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__test_encrypt_first_half 0
+GG EK_GLOBALS mini_xtea__test_data__tests__test_encrypt_first_half local TRUE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 gnattest_generated__default_assert_value proper_output 0 refined_proof_in 0 refined_input 1 gnattest_generated__default_assert_value refined_output 0 calls_proof 0 calls 0 calls_conditional 1 aunit__assertions__assert local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 gnattest_generated__default_assert_value LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__create__alloc 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__create__alloc local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__create__convert 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__create__convert local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__create 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__create local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 aunit__format local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__create__2 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__create__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 aunit__format local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__name 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__name local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__run_test 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__run_test local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 aunit__assertions__copy_id local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__set_up__2 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__set_up__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 mini_xtea__test_data__set_up local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__tear_down__2 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__tear_down__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 1 __HEAP refined_proof_in 0 refined_input 1 __HEAP refined_output 1 __HEAP calls_proof 0 calls 0 calls_conditional 1 mini_xtea__test_data__tear_down local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller__new_fixture 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller__new_fixture local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests__caller 0
+GG EK_GLOBALS mini_xtea__test_data__tests__caller local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tests 1 mini_xtea__test_data__tests__caller
+GG EK_GLOBALS mini_xtea__test_data__tests local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

@@ -1,0 +1,77 @@
+{
+  "spark": [
+    {
+      "name": "Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Test_Case",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 80
+        },
+        {
+          "file": "mini_xtea-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Run_Test",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 101
+        },
+        {
+          "file": "mini_xtea-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Set_Up",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 104
+        },
+        {
+          "file": "mini_xtea-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Tear_Down",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 107
+        },
+        {
+          "file": "mini_xtea-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 7.67700001597404E-03,
+    "globals (basic)": 4.34157997369766E-02,
+    "globals/properties (advanced)": 6.24470002949238E-02,
+    "flow analysis": 3.39799997163936E-04,
+    "codepeer results": 7.19999979992281E-06,
+    "init_why_sections": 1.10300001688302E-03,
+    "translation of standard": 9.98120009899139E-03,
+    "translation of compilation unit": 1.38613998889923E-01,
+    "proof": 5.50000004295725E-06
+  }
+}

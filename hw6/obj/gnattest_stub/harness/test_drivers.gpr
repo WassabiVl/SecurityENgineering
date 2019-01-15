@@ -1,0 +1,18 @@
+with "gnattest_common.gpr";
+
+aggregate project Test_Drivers is
+   for Project_Files use
+     ("Mini_XTEA.Test_Data.Tests\test_driver.gpr",
+      "MITM.Test_Data.Tests\test_driver.gpr",
+      "Sorting.Test_Data.Tests\test_driver.gpr");
+
+   for Origin_Project use "..\..\..\hw6.gpr";
+
+   for Target use Gnattest_Common'Target;
+   for Runtime ("Ada") use Gnattest_Common'Runtime ("Ada");
+
+   package GNATtest is
+   for GNATTest_Mapping_File use "gnattest.xml";
+   end GNATtest;
+
+end Test_Drivers;

@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "Mini_XTEA.Test_Data.Tests.Suite.Test_Runner",
+      "sloc": [
+        {
+          "file": "mini_xtea-test_data-tests-suite-test_runner.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 5.58049976825714E-03,
+    "globals (basic)": 6.54119670391083E-01,
+    "globals/properties (advanced)": 6.90539032220840E-02,
+    "flow analysis": 4.08199994126335E-04,
+    "codepeer results": 7.09999994796817E-06,
+    "init_why_sections": 1.37880002148449E-03,
+    "translation of standard": 1.59814003854990E-02,
+    "translation of compilation unit": 1.60785004496574E-01,
+    "proof": 6.10000006417977E-06
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "MITM.Test_Data.Tests.Suite.Test_Runner",
+      "sloc": [
+        {
+          "file": "mitm-test_data-tests-suite-test_runner.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 5.59049984440207E-03,
+    "globals (basic)": 6.71196222305298E-01,
+    "globals/properties (advanced)": 7.33065977692604E-02,
+    "flow analysis": 2.55999999353662E-04,
+    "codepeer results": 8.69999985297909E-06,
+    "init_why_sections": 1.47230003494769E-03,
+    "translation of standard": 1.55501998960972E-02,
+    "translation of compilation unit": 1.43348202109337E-01,
+    "proof": 4.90000002173474E-06
+  }
+}

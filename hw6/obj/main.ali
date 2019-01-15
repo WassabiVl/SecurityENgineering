@@ -1,0 +1,27 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -gnatn
+A -gnatf
+A -gnata
+A -gnat12
+A -gnatX
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		26c64efd NE OO SU
+W sorting%s		sorting.adb		sorting.ali
+
+D main.adb		20190115173444 b240ad43 main%b
+D sorting.ads		20190115181138 9486e3be sorting%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 main.adb
+2U11*Main 2b11 9l5 9t9
+X 2 sorting.ads
+1K9*Sorting 1|1w6 1r19 2|13e12
+

@@ -1,0 +1,97 @@
+{
+  "spark": [
+    {
+      "name": "Sorting.Test_Data.Tests.Test_Selection_Sort_58d3dc",
+      "sloc": [
+        {
+          "file": "sorting-test_data-tests.ads",
+          "line": 13
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Caller.Test_Case",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 80
+        },
+        {
+          "file": "sorting-test_data-tests.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Caller.Run_Test",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 101
+        },
+        {
+          "file": "sorting-test_data-tests.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Caller.Set_Up",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 104
+        },
+        {
+          "file": "sorting-test_data-tests.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Caller.Tear_Down",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 107
+        },
+        {
+          "file": "sorting-test_data-tests.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Test_Selection_Sort",
+      "sloc": [
+        {
+          "file": "sorting-test_data-tests.adb",
+          "line": 33
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 4.05409978702664E-03,
+    "globals (basic)": 3.86925004422665E-02,
+    "globals/properties (advanced)": 6.17206990718842E-02,
+    "flow analysis": 3.72999988030642E-04,
+    "codepeer results": 7.99999997980194E-06,
+    "init_why_sections": 1.01779995020479E-03,
+    "translation of standard": 9.88449994474649E-03,
+    "translation of compilation unit": 9.64934006333351E-02,
+    "proof": 4.90000002173474E-06
+  }
+}

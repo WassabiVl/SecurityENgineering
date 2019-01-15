@@ -1,0 +1,41 @@
+{
+  "spark": [
+    {
+      "name": "MITM.Test_Data.Set_Up",
+      "sloc": [
+        {
+          "file": "mitm-test_data.ads",
+          "line": 15
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "MITM.Test_Data.Tear_Down",
+      "sloc": [
+        {
+          "file": "mitm-test_data.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 4.22469992190599E-03,
+    "globals (basic)": 3.66346985101700E-02,
+    "globals/properties (advanced)": 6.19749017059803E-02,
+    "flow analysis": 1.58399998326786E-04,
+    "codepeer results": 7.14999987394549E-05,
+    "init_why_sections": 1.24240003060549E-03,
+    "translation of standard": 1.29372002556920E-02,
+    "translation of compilation unit": 1.08142100274563E-01,
+    "proof": 6.89999978931155E-06
+  }
+}

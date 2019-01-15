@@ -1,0 +1,33 @@
+[GENERATED OBJECT FILE]
+b__sorting-test_data-tests-suite-test_runner.o
+[PROJECT FILES]
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\test_driver.gpr
+20190115183420
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\stubs.gpr
+20190115183420
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\gnattest_common.gpr
+20190115183420
+C:\gnat\share\gpr\aunit.gpr
+20180524170648
+[BOUND OBJECT FILES]
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\gnattest_generated.o
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Stubs_obj\sorting.o
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\sorting-test_data.o
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\sorting-test_data-tests.o
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\sorting-test_data-tests-suite.o
+C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\sorting-test_data-tests-suite-test_runner.o
+[GENERATED SOURCE FILES]
+b__sorting-test_data-tests-suite-test_runner.ads
+b__sorting-test_data-tests-suite-test_runner.adb
+b__sorting-test_data-tests-suite-test_runner.ali
+[RESULTING OPTIONS]
+-LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\
+-LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Test_Driver_obj\
+-LC:\gnat\lib\aunit\
+-LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\Stubs_obj\
+-LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\
+-LC:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

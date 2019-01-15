@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "Sorting.Test_Data.Tests.Suite.Test_Runner",
+      "sloc": [
+        {
+          "file": "sorting-test_data-tests-suite-test_runner.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 5.07810013368726E-03,
+    "globals (basic)": 4.06618006527424E-02,
+    "globals/properties (advanced)": 6.19909018278122E-02,
+    "flow analysis": 1.87300000106916E-04,
+    "codepeer results": 7.60000011723605E-06,
+    "init_why_sections": 1.02049997076392E-03,
+    "translation of standard": 1.01624997332692E-02,
+    "translation of compilation unit": 1.13824397325516E-01,
+    "proof": 4.90000002173474E-06
+  }
+}

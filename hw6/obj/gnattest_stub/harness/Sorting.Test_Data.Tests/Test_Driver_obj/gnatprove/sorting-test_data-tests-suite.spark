@@ -1,0 +1,77 @@
+{
+  "spark": [
+    {
+      "name": "Sorting.Test_Data.Tests.Suite.Runner_1.Test_Case",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 80
+        },
+        {
+          "file": "sorting-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Suite.Runner_1.Run_Test",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 101
+        },
+        {
+          "file": "sorting-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Suite.Runner_1.Set_Up",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 104
+        },
+        {
+          "file": "sorting-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Suite.Runner_1.Tear_Down",
+      "sloc": [
+        {
+          "file": "aunit-test_caller.ads",
+          "line": 107
+        },
+        {
+          "file": "sorting-test_data-tests-suite.adb",
+          "line": 10
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 5.03979995846748E-03,
+    "globals (basic)": 3.78700010478497E-02,
+    "globals/properties (advanced)": 6.08171001076698E-02,
+    "flow analysis": 2.94099998427555E-04,
+    "codepeer results": 7.00000009601354E-06,
+    "init_why_sections": 9.93599998764694E-04,
+    "translation of standard": 9.76139958947897E-03,
+    "translation of compilation unit": 1.13757796585560E-01,
+    "proof": 5.29999988430063E-06
+  }
+}

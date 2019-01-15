@@ -1,0 +1,34 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatn
+A -gnatf
+A -gnata
+A -gnat12
+A -gnatX
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main%b		main.adb		a71283e6 OO SU
+W sorting%s		sorting.adb		sorting.ali
+Z system%s		system.ads		system.ali
+
+D main.adb		20190115173444 b240ad43 main%b
+D sorting.ads		20190115182532 15522ea5 sorting%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 main.adb
+2U11*Main 2b11 9l5 9t9
+X 2 sorting.ads
+1K9*Sorting 1|1w6 1r19 2|13e12
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS main 0
+GG EK_GLOBALS main local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

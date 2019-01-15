@@ -1,0 +1,88 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   Interval   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .          .            .           .          .
+Flow Dependencies                 .          .          .          .            .           .          .
+Initialization                    7          7          .          .            .           .          .
+Non-Aliasing                      .          .          .          .            .           .          .
+Run-time Checks                  11          .          .          .    11 (CVC4)           .          .
+Assertions                        2          .          .          .     2 (CVC4)           .          .
+Functional Contracts              1          .          .          .     1 (CVC4)           .          .
+LSP Verification                  .          .          .          .            .           .          .
+--------------------------------------------------------------------------------------------------------
+Total                            21    7 (33%)          .          .     14 (67%)           .          .
+
+
+Analyzed 16 units
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:2 skipped
+in unit mini_xtea, 0 subprograms and packages out of 4 analyzed
+  Mini_XTEA.Decrypt at mini_xtea.ads:17 skipped
+  Mini_XTEA.Decrypt_Second_Half at mini_xtea.ads:18 skipped
+  Mini_XTEA.Encrypt at mini_xtea.ads:21 skipped
+  Mini_XTEA.Encrypt_First_Half at mini_xtea.ads:22 skipped
+in unit mini_xtea-test_data, 0 subprograms and packages out of 2 analyzed
+  Mini_XTEA.Test_Data.Set_Up at mini_xtea-test_data.ads:15 skipped
+  Mini_XTEA.Test_Data.Tear_Down at mini_xtea-test_data.ads:16 skipped
+in unit mini_xtea-test_data-tests, 0 subprograms and packages out of 12 analyzed
+  Mini_XTEA.Test_Data.Tests.Caller.Run_Test at aunit-test_caller.ads:101, instantiated at mini_xtea-test_data-tests.ads:25 skipped
+  Mini_XTEA.Test_Data.Tests.Caller.Set_Up at aunit-test_caller.ads:104, instantiated at mini_xtea-test_data-tests.ads:25 skipped
+  Mini_XTEA.Test_Data.Tests.Caller.Tear_Down at aunit-test_caller.ads:107, instantiated at mini_xtea-test_data-tests.ads:25 skipped
+  Mini_XTEA.Test_Data.Tests.Caller.Test_Case at aunit-test_caller.ads:80, instantiated at mini_xtea-test_data-tests.ads:25 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Decrypt at mini_xtea-test_data-tests.adb:33 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Decrypt_Second_Half at mini_xtea-test_data-tests.adb:54 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Decrypt_Second_Half_4215f2 at mini_xtea-test_data-tests.ads:16 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Decrypt_d6b0e1 at mini_xtea-test_data-tests.ads:13 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Encrypt at mini_xtea-test_data-tests.adb:75 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Encrypt_12ad5c at mini_xtea-test_data-tests.ads:19 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Encrypt_First_Half at mini_xtea-test_data-tests.adb:96 skipped
+  Mini_XTEA.Test_Data.Tests.Test_Encrypt_First_Half_a77d8f at mini_xtea-test_data-tests.ads:22 skipped
+in unit mini_xtea-test_data-tests-suite, 0 subprograms and packages out of 4 analyzed
+  Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Run_Test at aunit-test_caller.ads:101, instantiated at mini_xtea-test_data-tests-suite.adb:10 skipped
+  Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Set_Up at aunit-test_caller.ads:104, instantiated at mini_xtea-test_data-tests-suite.adb:10 skipped
+  Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Tear_Down at aunit-test_caller.ads:107, instantiated at mini_xtea-test_data-tests-suite.adb:10 skipped
+  Mini_XTEA.Test_Data.Tests.Suite.Runner_1.Test_Case at aunit-test_caller.ads:80, instantiated at mini_xtea-test_data-tests-suite.adb:10 skipped
+in unit mini_xtea-test_data-tests-suite-test_runner, 0 subprograms and packages out of 1 analyzed
+  Mini_XTEA.Test_Data.Tests.Suite.Test_Runner at mini_xtea-test_data-tests-suite-test_runner.adb:10 skipped
+in unit mitm, 0 subprograms and packages out of 1 analyzed
+  MITM.Run_MITM at mitm.ads:4 skipped
+in unit mitm-test_data, 0 subprograms and packages out of 2 analyzed
+  MITM.Test_Data.Set_Up at mitm-test_data.ads:15 skipped
+  MITM.Test_Data.Tear_Down at mitm-test_data.ads:16 skipped
+in unit mitm-test_data-tests, 0 subprograms and packages out of 6 analyzed
+  MITM.Test_Data.Tests.Caller.Run_Test at aunit-test_caller.ads:101, instantiated at mitm-test_data-tests.ads:16 skipped
+  MITM.Test_Data.Tests.Caller.Set_Up at aunit-test_caller.ads:104, instantiated at mitm-test_data-tests.ads:16 skipped
+  MITM.Test_Data.Tests.Caller.Tear_Down at aunit-test_caller.ads:107, instantiated at mitm-test_data-tests.ads:16 skipped
+  MITM.Test_Data.Tests.Caller.Test_Case at aunit-test_caller.ads:80, instantiated at mitm-test_data-tests.ads:16 skipped
+  MITM.Test_Data.Tests.Test_Run_MITM at mitm-test_data-tests.adb:33 skipped
+  MITM.Test_Data.Tests.Test_Run_MITM_395c1f at mitm-test_data-tests.ads:13 skipped
+in unit mitm-test_data-tests-suite, 0 subprograms and packages out of 4 analyzed
+  MITM.Test_Data.Tests.Suite.Runner_1.Run_Test at aunit-test_caller.ads:101, instantiated at mitm-test_data-tests-suite.adb:10 skipped
+  MITM.Test_Data.Tests.Suite.Runner_1.Set_Up at aunit-test_caller.ads:104, instantiated at mitm-test_data-tests-suite.adb:10 skipped
+  MITM.Test_Data.Tests.Suite.Runner_1.Tear_Down at aunit-test_caller.ads:107, instantiated at mitm-test_data-tests-suite.adb:10 skipped
+  MITM.Test_Data.Tests.Suite.Runner_1.Test_Case at aunit-test_caller.ads:80, instantiated at mitm-test_data-tests-suite.adb:10 skipped
+in unit mitm-test_data-tests-suite-test_runner, 0 subprograms and packages out of 1 analyzed
+  MITM.Test_Data.Tests.Suite.Test_Runner at mitm-test_data-tests-suite-test_runner.adb:10 skipped
+in unit sorting, 2 subprograms and packages out of 2 analyzed
+  Sorting at sorting.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Sorting.Selection_Sort at sorting.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings)
+in unit sorting-test_data, 0 subprograms and packages out of 2 analyzed
+  Sorting.Test_Data.Set_Up at sorting-test_data.ads:15 skipped
+  Sorting.Test_Data.Tear_Down at sorting-test_data.ads:16 skipped
+in unit sorting-test_data-tests, 0 subprograms and packages out of 6 analyzed
+  Sorting.Test_Data.Tests.Caller.Run_Test at aunit-test_caller.ads:101, instantiated at sorting-test_data-tests.ads:16 skipped
+  Sorting.Test_Data.Tests.Caller.Set_Up at aunit-test_caller.ads:104, instantiated at sorting-test_data-tests.ads:16 skipped
+  Sorting.Test_Data.Tests.Caller.Tear_Down at aunit-test_caller.ads:107, instantiated at sorting-test_data-tests.ads:16 skipped
+  Sorting.Test_Data.Tests.Caller.Test_Case at aunit-test_caller.ads:80, instantiated at sorting-test_data-tests.ads:16 skipped
+  Sorting.Test_Data.Tests.Test_Selection_Sort at sorting-test_data-tests.adb:33 skipped
+  Sorting.Test_Data.Tests.Test_Selection_Sort_58d3dc at sorting-test_data-tests.ads:13 skipped
+in unit sorting-test_data-tests-suite, 0 subprograms and packages out of 4 analyzed
+  Sorting.Test_Data.Tests.Suite.Runner_1.Run_Test at aunit-test_caller.ads:101, instantiated at sorting-test_data-tests-suite.adb:10 skipped
+  Sorting.Test_Data.Tests.Suite.Runner_1.Set_Up at aunit-test_caller.ads:104, instantiated at sorting-test_data-tests-suite.adb:10 skipped
+  Sorting.Test_Data.Tests.Suite.Runner_1.Tear_Down at aunit-test_caller.ads:107, instantiated at sorting-test_data-tests-suite.adb:10 skipped
+  Sorting.Test_Data.Tests.Suite.Runner_1.Test_Case at aunit-test_caller.ads:80, instantiated at sorting-test_data-tests-suite.adb:10 skipped
+in unit sorting-test_data-tests-suite-test_runner, 0 subprograms and packages out of 1 analyzed
+  Sorting.Test_Data.Tests.Suite.Test_Runner at sorting-test_data-tests-suite-test_runner.adb:10 skipped

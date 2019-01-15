@@ -1,0 +1,70 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U mini_xtea.test_data%b	mini_xtea-test_data.adb	45a42336 OO PK
+W mini_xtea%s		mini_xtea.ads		mini_xtea.ali
+
+U mini_xtea.test_data%s	mini_xtea-test_data.ads	801e268f OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+W mini_xtea%s		mini_xtea.ads		mini_xtea.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D ada_containers.ads	20180524045508 11329e00 ada_containers%s
+D ada_containers-aunit_lists.ads  20180524045508 d9ebc89a ada_containers.aunit_lists%s
+D aunit.ads		20180524045508 76cdf7c6 aunit%s
+D aunit-assertions.ads	20180524045508 b7f9ecd6 aunit.assertions%s
+D aunit-test_fixtures.ads  20180524045508 faadeab5 aunit.test_fixtures%s
+D aunit-test_results.ads  20180524045508 171847c9 aunit.test_results%s
+D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
+D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
+D gnat.ads		20180524051738 fd2ad2f1 gnat%s
+D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D mini_xtea.ads		20190110114140 7fb9e19b mini_xtea%s
+D mini_xtea-test_data.ads  20190115183420 050a2da1 mini_xtea.test_data%s
+D mini_xtea-test_data.adb  20190115183420 40ae0e97 mini_xtea.test_data%b
+D system.ads		20180524051738 32a08138 system%s
+X 5 aunit.ads
+34K9*AUnit 48e10 15|6r6 11r21
+X 6 aunit-assertions.ads
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+113V13*First_Failure{110R9}
+X 7 aunit-test_fixtures.ads
+76K15*Test_Fixtures 90e24 15|6w12 11r27
+78R9*Test_Fixture<6|96R9> 88e67 15|11r41
+X 14 mini_xtea.ads
+5K9*Mini_XTEA 24e14 15|8r9 18r5 16|6r14 20r5
+X 15 mini_xtea-test_data.ads
+8K19*Test_Data 14|5k9 15|18l15 18e24 16|6b24 20l15 20t24
+11R9*Test<7|78R9> 6|101p14 104p14 107p13 113p13 15|13e20 15P14 15r42 16P14
+. 16r45 16|8r42 14r45
+15U14*Set_Up<7|80p14> 15=22 16|8b14 12l8 12t14
+15r22 Gnattest_T{11R9} 16|8b22 9r28
+16U14*Tear_Down<7|83p14> 16=25 16|14b14 18l8 18t17
+16r25 Gnattest_T{11R9} 16|14b25 15r28
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS mini_xtea__test_data__set_up 0
+GG EK_GLOBALS mini_xtea__test_data__set_up local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data__tear_down 0
+GG EK_GLOBALS mini_xtea__test_data__tear_down local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__test_data 0
+GG EK_GLOBALS mini_xtea__test_data local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER
