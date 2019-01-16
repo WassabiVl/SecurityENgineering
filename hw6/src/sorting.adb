@@ -5,11 +5,11 @@ is
       Min  : Positive;
       Temp : Integer;
    begin
-         for I in A'First..A'Last - 1 loop
+         for I in A'First..A'Length - 1 loop
             pragma Loop_Variant (Increases => I);
             if I /= 0 then
                Min := I;
-               for J in I + 1..A'Last loop
+               for J in I + 1..A'Length loop
                   pragma Loop_Variant (Increases => J);
                   if  A'Last >= Min and A'First <= Min then
                      if A (Min) > A (J) then

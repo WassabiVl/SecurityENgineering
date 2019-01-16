@@ -1,4 +1,4 @@
-20190115183354
+20190116160740
 -c
 -x
 ada
@@ -9,4 +9,4 @@ ada
 -gnat12
 -gnatX
 -gnatc
--gnates=C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnatprove\650b2bbf.tmp
+-gnates=C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnatprove\df243abc.tmp

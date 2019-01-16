@@ -5,7 +5,7 @@
       "sloc": [
         {
           "file": "main.adb",
-          "line": 2
+          "line": 3
         }
       ],
       "spark": "no"
@@ -13,12 +13,19 @@
   ],
   "flow": [
   ],
+  "proof": [
+  ],
   "assumptions": [
   ],
   "timings": {
-    "marking": 6.70099980197847E-04,
-    "globals (basic)": 4.89800004288554E-04,
-    "globals/properties (advanced)": 1.52709998656064E-03,
-    "flow analysis": 3.71999994968064E-05
+    "marking": 6.32599985692650E-04,
+    "globals (basic)": 6.24499982222915E-04,
+    "globals/properties (advanced)": 1.60159997176379E-03,
+    "flow analysis": 3.12000011035707E-05,
+    "codepeer results": 3.29999988935015E-06,
+    "init_why_sections": 9.14099975489080E-04,
+    "translation of standard": 7.23350001499057E-03,
+    "translation of compilation unit": 7.09239998832345E-03,
+    "proof": 2.90000002678426E-06
   }
 }

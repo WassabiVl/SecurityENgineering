@@ -16,17 +16,17 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U sorting%b		sorting.adb		abe5a86f NE OO PK IL
+U sorting%b		sorting.adb		cc79b1be NE OO PK IL
 Z interfaces%s		interfac.ads		interfac.ali
 Z system.assertions%s	s-assert.adb		s-assert.ali
 
-U sorting%s		sorting.ads		15522ea5 EE NE OO PK
+U sorting%s		sorting.ads		73da8c74 EE NE OO PK
 
 D ada.ads		20180524051736 76789da1 ada%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
-D sorting.ads		20190115225756 15522ea5 sorting%s
-D sorting.adb		20190115190430 beb786ca sorting%b
+D sorting.ads		20190116153614 73da8c74 sorting%s
+D sorting.adb		20190116153602 bfa33dca sorting%b
 D system.ads		20180524051738 32a08138 system%s
 D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -35,8 +35,8 @@ X 4 sorting.ads
 1K9*Sorting 12l5 12e12 5|1b14 30l5 30t12
 4A9*Natural_Array(natural)<integer> 6r39 5|4r39
 6U14*Selection_Sort 6=29 5|4b14 29l8 29t22
-6a29 A{4A9} 7r14 8r14 8r29 8r42 8r53 9r20 10r23 11r29 11r37 5|4b29 8r19 8r28
-. 12r32 14r23 14r41 15r25 15r35 20r17 20r35 22r33 23m22 23r33 24m22
+6a29 A{4A9} 7r14 8r14 8r29 8r42 8r53 9r23 10r26 11r29 11r37 5|4b29 8r22 12r32
+. 14r23 14r41 15r25 15r35 20r17 20r35 22r33 23m22 23r33 24m22
 9i15 I{integer} 11r18 11r32
 10i18 J{integer} 11r22 11r40
 X 5 sorting.adb

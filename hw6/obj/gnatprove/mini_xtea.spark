@@ -1,0 +1,61 @@
+{
+  "spark": [
+    {
+      "name": "Mini_XTEA.Decrypt",
+      "sloc": [
+        {
+          "file": "mini_xtea.ads",
+          "line": 17
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Mini_XTEA.Decrypt_Second_Half",
+      "sloc": [
+        {
+          "file": "mini_xtea.ads",
+          "line": 18
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Mini_XTEA.Encrypt",
+      "sloc": [
+        {
+          "file": "mini_xtea.ads",
+          "line": 21
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Mini_XTEA.Encrypt_First_Half",
+      "sloc": [
+        {
+          "file": "mini_xtea.ads",
+          "line": 22
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.14399997983128E-03,
+    "globals (basic)": 5.70099975448102E-04,
+    "globals/properties (advanced)": 2.35439999960363E-03,
+    "flow analysis": 3.23199987178668E-04,
+    "codepeer results": 4.90000002173474E-06,
+    "init_why_sections": 1.38639996293932E-03,
+    "translation of standard": 1.21892001479864E-02,
+    "translation of compilation unit": 1.50517001748085E-02,
+    "proof": 2.49999993684469E-06
+  }
+}

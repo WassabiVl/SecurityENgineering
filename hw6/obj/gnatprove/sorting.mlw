@@ -1791,82 +1791,6 @@ module Sorting__natural_array
 
 end
 
-(* Module for axiomatizing type "T6s" defined at sorting.ads:9, created in Gnat2Why.Types.Translate_Type *)
-module Sorting__selection_sort__L5s__T6s
- use import "_gnatprove_standard".Main
- use import "int".Int
- use        Standard__integer
- use        Standard__integer__rep
-
- type t6s =
-  Standard__integer.integer
- 
- predicate dynamic_property 
-   (first_int : int) (last_int : int) (x : int)  =
-  ( (first_int <= x) /\ (x <= last_int) )
- 
- clone export "ada__model".Dynamic_Discrete with
- type t = t6s, 
- type rep_type = int, 
- function base_to_rep = Standard__integer__rep.to_rep, 
- function base_of_rep = Standard__integer__rep.of_rep, 
- predicate dynamic_property = dynamic_property
- 
- type t6s__ref =
-  { mutable t6s__content "model_trace:" "name:" : t6s }
- 
- function t6s__ref___projection 
-   (a : t6s__ref) : t6s =
-  a.t6s__content
- 
- meta "model_projection" function t6s__ref___projection
- 
- meta "inline : no" function t6s__ref___projection
- 
- val t6s__havoc 
-   (x : t6s__ref) : unit
-  writes {x}
-
-end
-
-(* Module for axiomatizing type "T8s" defined at sorting.ads:10, created in Gnat2Why.Types.Translate_Type *)
-module Sorting__selection_sort__L5s__L7s__T8s
- use import "_gnatprove_standard".Main
- use import "int".Int
- use        Standard__integer
- use        Standard__integer__rep
-
- type t8s =
-  Standard__integer.integer
- 
- predicate dynamic_property 
-   (first_int : int) (last_int : int) (x : int)  =
-  ( (first_int <= x) /\ (x <= last_int) )
- 
- clone export "ada__model".Dynamic_Discrete with
- type t = t8s, 
- type rep_type = int, 
- function base_to_rep = Standard__integer__rep.to_rep, 
- function base_of_rep = Standard__integer__rep.of_rep, 
- predicate dynamic_property = dynamic_property
- 
- type t8s__ref =
-  { mutable t8s__content "model_trace:" "name:" : t8s }
- 
- function t8s__ref___projection 
-   (a : t8s__ref) : t8s =
-  a.t8s__content
- 
- meta "model_projection" function t8s__ref___projection
- 
- meta "inline : no" function t8s__ref___projection
- 
- val t8s__havoc 
-   (x : t8s__ref) : unit
-  writes {x}
-
-end
-
 (* Module for axiomatizing type "TS1bP1" defined at sorting.adb:4, created in Gnat2Why.Types.Translate_Type *)
 module Sorting__selection_sort__TS1bP1
  use import "_gnatprove_standard".Main
@@ -1965,7 +1889,7 @@ module Sorting__selection_sort__S1b
 
 end
 
-(* Module for axiomatizing type "T2b" defined at sorting.adb:9, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "T2b" defined at sorting.adb:8, created in Gnat2Why.Types.Translate_Type *)
 module Sorting__selection_sort__L_1__T2b
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2046,12 +1970,12 @@ module Sorting__selection_sort__a
  use        Standard__integer
  use        Array__Int__Standard__natural
 
- val a #"sorting.ads" 6 0 0#"model_projected" "model_trace:2530" "name:A"  : Array__Int__Standard__natural.map__ref 
+ val a #"sorting.ads" 6 0 0#"model_projected" "model_trace:2526" "name:A"  : Array__Int__Standard__natural.map__ref 
  
- function a__first #"sorting.ads" 6 0 0#"model_projected" "name:A" "model_trace:2530'First" 
+ function a__first #"sorting.ads" 6 0 0#"model_projected" "name:A" "model_trace:2526'First" 
    : Standard__integer.integer
  
- function a__last #"sorting.ads" 6 0 0#"model_projected" "name:A" "model_trace:2530'Last" 
+ function a__last #"sorting.ads" 6 0 0#"model_projected" "name:A" "model_trace:2526'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2102,18 +2026,18 @@ module Sorting__selection_sort__temp___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "i" defined at sorting.adb:9, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "i" defined at sorting.adb:8, created in Gnat2Why.Decls.Translate_Variable *)
 module Sorting__selection_sort__L_1__i
  use import "_gnatprove_standard".Main
 
- val i #"sorting.adb" 9 0 0#"model_projected" "model_trace:2354" "name:I"  : int__ref 
+ val i #"sorting.adb" 8 0 0#"model_projected" "model_trace:2347" "name:I"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "i" defined at sorting.adb:9, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "i" defined at sorting.adb:8, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Sorting__selection_sort__L_1__i___axiom
  use import "_gnatprove_standard".Main
 
@@ -2124,7 +2048,7 @@ end
 module Sorting__selection_sort__L_2__j
  use import "_gnatprove_standard".Main
 
- val j #"sorting.adb" 12 0 0#"model_projected" "model_trace:2387" "name:J"  : int__ref 
+ val j #"sorting.adb" 12 0 0#"model_projected" "model_trace:2383" "name:J"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2507,7 +2431,7 @@ module Sorting__selection_sort
 
 end
 
-(* Module for defining the loop exit exception for the loop "L_1" defined at sorting.adb:9, created in Gnat2Why.Decls.Translate_Loop_Entity *)
+(* Module for defining the loop exit exception for the loop "L_1" defined at sorting.adb:8, created in Gnat2Why.Decls.Translate_Loop_Entity *)
 module Sorting__selection_sort__L_1
  use import "_gnatprove_standard".Main
 
@@ -2515,7 +2439,7 @@ module Sorting__selection_sort__L_1
 
 end
 
-(* Module giving an empty axiom for the entity "L_1" defined at sorting.adb:9, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "L_1" defined at sorting.adb:8, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Sorting__selection_sort__L_1___axiom
  use import "_gnatprove_standard".Main
 
@@ -2551,20 +2475,6 @@ module Sorting__natural_array___axiom
 
 end
 
-(* Module giving axioms for type "T6s" defined at sorting.ads:9, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Sorting__selection_sort__L5s__T6s___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module giving axioms for type "T8s" defined at sorting.ads:10, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Sorting__selection_sort__L5s__L7s__T8s___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
 (* Module giving axioms for type "TS1bP1" defined at sorting.adb:4, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Sorting__selection_sort__TS1bP1___axiom
  use import "_gnatprove_standard".Main
@@ -2591,7 +2501,7 @@ module Sorting__selection_sort__S1b___axiom
 
 end
 
-(* Module giving axioms for type "T2b" defined at sorting.adb:9, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "T2b" defined at sorting.adb:8, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Sorting__selection_sort__L_1__T2b___axiom
  use import "_gnatprove_standard".Main
 
@@ -2610,26 +2520,20 @@ module Sorting__selection_sort___axiom
  use import "int".Int
  use        Standard__integer
  use        Standard__natural
- use        Standard__natural__rep
  use        Standard__integer__rep
- use        Array__Int__Standard__natural
  use        Sorting__natural_array
  use        Array__Int__Standard__natural
 
  val selection_sort 
    (a : Array__Int__Standard__natural.map__ref) (a__first : Standard__integer.integer) (a__last : Standard__integer.integer) : unit
-  requires {  ((if (((Standard__integer__rep.to_rep a__first) <= (Standard__integer__rep.to_rep a__last))) then (
+  requires {  ( ( ( ((Standard__integer__rep.to_rep a__first) > 0) /\ ((Standard__integer__rep.to_rep a__last) < 2147483647) ) /\ ((if (((Standard__integer__rep.to_rep a__first) <= (Standard__integer__rep.to_rep a__last))) then (
    (((Standard__integer__rep.to_rep a__last) - (Standard__integer__rep.to_rep a__first)) + 1)) else (
-   0)) > 1) }
-  ensures {  ( ( ( ((if (((Standard__integer__rep.to_rep a__first) <= (Standard__integer__rep.to_rep a__last))) then (
+   0)) > 1) ) /\ ((Standard__integer__rep.to_rep a__first) <> (Standard__integer__rep.to_rep a__last)) ) }
+  ensures {  ( ( ((if (((Standard__integer__rep.to_rep a__first) <= (Standard__integer__rep.to_rep a__last))) then (
    (((Standard__integer__rep.to_rep a__last) - (Standard__integer__rep.to_rep a__first)) + 1)) else (
    0)) = (if (((Standard__integer__rep.to_rep a__first) <= (Standard__integer__rep.to_rep a__last))) then (
    (((Standard__integer__rep.to_rep a__last) - (Standard__integer__rep.to_rep a__first)) + 1)) else (
-   0))) /\ ((Standard__integer__rep.to_rep a__first) <= (Standard__integer__rep.to_rep a__last)) ) /\ (forall i   "model" "name:I" "model_trace:2571"  : int.
-   ( ( ((Standard__integer__rep.to_rep a__first) <= i) /\ (i <= (Standard__integer__rep.to_rep a__last)) ) -> (forall j   "model" "name:J" "model_trace:2582"  : int.
-    ( ( ((Standard__integer__rep.to_rep a__first) <= j) /\ (j <= (Standard__integer__rep.to_rep a__last)) ) -> (if ((i < j)) then (
-     ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get a.Array__Int__Standard__natural.map__content i)) < (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get a.Array__Int__Standard__natural.map__content j)))) else (
-     true)) )) )) ) /\ (if (True) then (
+   0))) /\ ((Standard__integer__rep.to_rep a__first) <> (Standard__integer__rep.to_rep a__last)) ) /\ (if (True) then (
    true) else (
    (Sorting__natural_array.dynamic_property Standard__natural.first Standard__natural.last (Standard__integer__rep.to_rep a__first) (Standard__integer__rep.to_rep a__last)))) ) }
   writes {a}
@@ -2699,16 +2603,12 @@ module Sorting__selection_sort__subprogram_def
  let def #"sorting.ads" 6 0 0#"W:diverges:N" "GP_Subp:sorting.ads:6" 
    (__void_param : unit)
   requires { #"sorting.ads" 6 0 0# true }
-  ensures { #"sorting.ads" 6 0 0# (#"sorting.ads" 8 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:sorting.ads:8:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:16" "comment:     Post => A'Old'Length = A'Length and A'First <= A'Last and
-             ^ sorting.ads:8:14:VC_POSTCONDITION" "GP_Shape:pragargs__and" ( ( ( "GP_Pretty_Ada:2558" "GP_Sloc:sorting.ads:8:14" ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+  ensures { #"sorting.ads" 6 0 0# (#"sorting.ads" 8 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:sorting.ads:8:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:14" "comment:     Post => (A'Old'Length = A'Length and A'First /= A'Last);
+             ^ sorting.ads:8:14:VC_POSTCONDITION" "GP_Shape:pragargs__and" ( ( "GP_Pretty_Ada:2576" "GP_Sloc:sorting.ads:8:15" ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
    (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
    0)) = (if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
    (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
-   0))) ) /\ ( "GP_Pretty_Ada:2566" "GP_Sloc:sorting.ads:8:42" ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) ) /\ (forall i #"sorting.ads" 8 0 0#  "model" "name:I" "model_trace:2571"  : int.
-   ( ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= i) /\ (i <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) -> (forall j #"sorting.ads" 8 0 0#  "model" "name:J" "model_trace:2582"  : int.
-    ( ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= j) /\ (j <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) -> (if ((i < j)) then (
-     ( "GP_Pretty_Ada:2599" "GP_Sloc:sorting.ads:12:19" ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content i)) < (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content j))) )) else (
-     ( "GP_Pretty_Ada:2755" "GP_Sloc:sorting.ads:11:15" true ))) )) )) ) )) }
+   0))) ) /\ ( "GP_Pretty_Ada:2584" "GP_Sloc:sorting.ads:8:43" ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <> (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram sorting.ads:6 *)
   ;
@@ -2720,19 +2620,31 @@ module Sorting__selection_sort__subprogram_def
   ;
   () (* Check for RTE in the Pre of the subprogram sorting.ads:6 *)
   ;
-   abstract ensures {true}(let _ = ((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+   abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb((Boolean.andb(((Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+   ()))
+   end ;
+  Sorting__selection_sort__a.a__first ))) > 0)) (((Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+   ()))
+   end ;
+  Sorting__selection_sort__a.a__last ))) < 2147483647)))) (((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
    ()))
    end ;
   (if (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first)) <= (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)))) then (
    (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)) - (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first))) + 1)) else (
-   0)) ) > 1) in (
+   0)) ) > 1)))) (((Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+   ()))
+   end ;
+  Sorting__selection_sort__a.a__first ))) <> (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+   ()))
+   end ;
+  Sorting__selection_sort__a.a__last )))))) in (
    ()))
    end ;
   () (* Assume Pre of the subprogram sorting.ads:6 *)
   ;
-   assume {  ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+   assume {  ( ( ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) > 0) /\ ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) < 2147483647) ) /\ ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
    (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
-   0)) > 1) };
+   0)) > 1) ) /\ ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <> (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) };
    abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
    ()))
    end ;
@@ -2752,98 +2664,103 @@ module Sorting__selection_sort__subprogram_def
     #"sorting.adb" 6 0 0# assume { #"sorting.adb" 6 0 0# (Standard__integer___axiom.default_initial_assumption Sorting__selection_sort__temp.temp.int__content False) };
     #"sorting.adb" 6 0 0# assume { #"sorting.adb" 6 0 0# (Standard__integer___axiom.dynamic_invariant Sorting__selection_sort__temp.temp.int__content False False True True) } ));
     (#"sorting.adb" 12 0 0# ());
-    (#"sorting.adb" 9 0 0# ());
-    ( "GP_Sloc:sorting.adb:8:7" (#"sorting.adb" 8 0 0# (if ((( #"sorting.adb" 8 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+    (#"sorting.adb" 8 0 0# ());
+    ( "GP_Sloc:sorting.adb:8:41" (#"sorting.adb" 8 0 0# (let temp___174 = (Standard__integer__rep.to_rep(( #"sorting.adb" 8 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+     ()))
+     end ;
+    Sorting__selection_sort__a.a__first ))) in (
+    (let temp___175 = ((#"sorting.adb" 8 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:sorting.adb:8:29" "GP_Id:13" "comment:         for I in A'First..A'Length - 1 loop
+                            ^ sorting.adb:8:29:VC_RANGE_CHECK" "GP_Shape:L_1_while__range__sub__typeconv__length_ref" (Standard__integer.range_check_(( #"sorting.adb" 8 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
      ()))
      end ;
     (if (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first)) <= (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)))) then (
      (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)) - (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first))) + 1)) else (
-     0)) ) > 1)) then (
-     ( "GP_Sloc:sorting.adb:9:39" (#"sorting.adb" 9 0 0# (let temp___174 = (Standard__integer__rep.to_rep(( #"sorting.adb" 9 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
-      ()))
-      end ;
-     Sorting__selection_sort__a.a__first ))) in (
-     (let temp___175 = (#"sorting.adb" 9 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:sorting.adb:9:35" "GP_Id:13" "comment:         for I in A'First..A'Last - 1 loop
-                                  ^ sorting.adb:9:35:VC_OVERFLOW_CHECK" "GP_Shape:if__L_1_while__range__sub" (Standard__integer.range_check_(((Standard__integer__rep.to_rep(( #"sorting.adb" 9 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
-      ()))
-      end ;
-     Sorting__selection_sort__a.a__last ))) - 1))) )) in (
-      (  Sorting__selection_sort__L_1__i.i.int__content <- ( temp___174 );
-      () (* Translation of an Ada loop from sorting.adb:9 *)
-      ;
-      (if ((Boolean.andb((temp___174 <= Sorting__selection_sort__L_1__i.i.int__content)) ((Sorting__selection_sort__L_1__i.i.int__content <= temp___175)))) then (
-        try
-        (  abstract ensures {true}(let _ = Sorting__selection_sort__min.min.int__content in (
+     0)) ))) )) - 1) in (
+     (  Sorting__selection_sort__L_1__i.i.int__content <- ( temp___174 );
+     () (* Translation of an Ada loop from sorting.adb:8 *)
+     ;
+     (if ((Boolean.andb((temp___174 <= Sorting__selection_sort__L_1__i.i.int__content)) ((Sorting__selection_sort__L_1__i.i.int__content <= temp___175)))) then (
+       try
+       (  abstract ensures {true}(let _ = Sorting__selection_sort__min.min.int__content in (
+        ()))
+        end ;
+       (let temp___186 =  (any int
+       ensures { (result = Sorting__selection_sort__min.min.int__content)} 
+       ) in (
+        (  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
          ()))
          end ;
-        (let temp___186 =  (any int
-        ensures { (result = Sorting__selection_sort__min.min.int__content)} 
+        (let temp___184 =  (any Array__Int__Standard__natural.map
+        ensures { (result = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content)} 
         ) in (
-         (  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+         (  abstract ensures {true}(let _ = Sorting__selection_sort__L_1__i.i.int__content in (
           ()))
           end ;
-         (let temp___184 =  (any Array__Int__Standard__natural.map
-         ensures { (result = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content)} 
+         (let temp___182 =  (any int
+         ensures { (result = Sorting__selection_sort__L_1__i.i.int__content)} 
          ) in (
-          (  abstract ensures {true}(let _ = Sorting__selection_sort__L_1__i.i.int__content in (
+          (  abstract ensures {true}(let _ = Sorting__selection_sort__temp.temp.int__content in (
            ()))
            end ;
-          (let temp___182 =  (any int
-          ensures { (result = Sorting__selection_sort__L_1__i.i.int__content)} 
+          (let temp___181 =  (any int
+          ensures { (result = Sorting__selection_sort__temp.temp.int__content)} 
           ) in (
-           (  abstract ensures {true}(let _ = Sorting__selection_sort__temp.temp.int__content in (
-            ()))
-            end ;
-           (let temp___181 =  (any int
-           ensures { (result = Sorting__selection_sort__temp.temp.int__content)} 
-           ) in (
-             let temp___187 = { int__content = 0 } in 
-             ( () (* First unroling of the loop statements appearing before the loop invariant of loop sorting.adb:9 *)
+            let temp___187 = { int__content = 0 } in 
+            ( () (* First unroling of the loop statements appearing before the loop invariant of loop sorting.adb:8 *)
+            ;
+            () (* While loop translating the Ada loop from sorting.adb:8 *)
+            ;
+             while True do
+             ( () (* Assume implicit invariants from the loop sorting.adb:8 *)
              ;
-             () (* While loop translating the Ada loop from sorting.adb:9 *)
+              assume {  (Boolean.andb(( ( ( ( ( ( ( ( true /\ (Standard__integer___axiom.dynamic_invariant Sorting__selection_sort__temp.temp.int__content False True True True) ) /\ true ) /\ (if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+              (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
+              0)) - 1))) then (
+              (Sorting__selection_sort__L_1__T2b.dynamic_property (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+               (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
+               0)) - 1) Sorting__selection_sort__L_1__i.i.int__content)) else true) ) /\ true ) /\ (if (True) then (
+              true) else (
+              (Sorting__natural_array.dynamic_property Standard__natural.first Standard__natural.last (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)))) ) /\ (forall temp___185   : int.
+              (if (( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= temp___185) /\ (temp___185 <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) )) then (
+               (if (( false /\ ( (temp___175 < temp___185) \/ ( (temp___185 < temp___174) \/ (Sorting__selection_sort__L_1__i.i.int__content <= temp___185) ) ) )) then (
+                ((Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content temp___185) = (Array__Int__Standard__natural.get temp___184 temp___185))) else (
+                true))) else true)) ) /\ (Standard__positive___axiom.dynamic_invariant Sorting__selection_sort__min.min.int__content False True True True) ) /\ true )) (( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_1__i.i.int__content) /\ (Sorting__selection_sort__L_1__i.i.int__content <= ((if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+              (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
+              0)) - 1)) ))) };
+             () (* Check for absence of RTE in the invariant of loop sorting.adb:8 *)
              ;
-              while True do
-              ( () (* Assume implicit invariants from the loop sorting.adb:9 *)
-              ;
-               assume {  (Boolean.andb(( ( ( ( ( ( ( ( true /\ (Standard__integer___axiom.dynamic_invariant Sorting__selection_sort__temp.temp.int__content False True True True) ) /\ true ) /\ (if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - 1))) then (
-               (Sorting__selection_sort__L_1__T2b.dynamic_property (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - 1) Sorting__selection_sort__L_1__i.i.int__content)) else true) ) /\ true ) /\ (if (True) then (
-               true) else (
-               (Sorting__natural_array.dynamic_property Standard__natural.first Standard__natural.last (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)))) ) /\ (forall temp___185   : int.
-               (if (( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= temp___185) /\ (temp___185 <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) )) then (
-                (if (( false /\ ( (temp___175 < temp___185) \/ ( (temp___185 < temp___174) \/ (Sorting__selection_sort__L_1__i.i.int__content <= temp___185) ) ) )) then (
-                 ((Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content temp___185) = (Array__Int__Standard__natural.get temp___184 temp___185))) else (
-                 true))) else true)) ) /\ (Standard__positive___axiom.dynamic_invariant Sorting__selection_sort__min.min.int__content False True True True) ) /\ true )) (( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_1__i.i.int__content) /\ (Sorting__selection_sort__L_1__i.i.int__content <= ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - 1)) ))) };
-              () (* Check for absence of RTE in the invariant of loop sorting.adb:9 *)
-              ;
-               temp___187.int__content <- ( Sorting__selection_sort__L_1__i.i.int__content );
-              () (* Loop statements appearing after the loop invariant of loop sorting.adb:9 *)
-              ;
-              ( "GP_Sloc:sorting.adb:11:13" (#"sorting.adb" 11 0 0# ()) );
-              ( "GP_Sloc:sorting.adb:11:17" (#"sorting.adb" 11 0 0# #"sorting.adb" 11 0 0# Sorting__selection_sort__min.min.int__content <- ( (#"sorting.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:11:21" "GP_Shape:if__L_1_while__min_assign__add" "GP_Reason:VC_RANGE_CHECK" "GP_Id:1" "comment:            Min := I+1;
-                    ^ sorting.adb:11:21:VC_RANGE_CHECK" (Standard__positive.range_check_((#"sorting.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:11:21" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Id:0" "comment:            Min := I+1;
-                    ^ sorting.adb:11:21:VC_OVERFLOW_CHECK" "GP_Shape:if__L_1_while__min_assign__add" (Standard__integer.range_check_((Sorting__selection_sort__L_1__i.i.int__content + 1))) )))) )) )) );
-              ( "GP_Sloc:sorting.adb:12:36" (#"sorting.adb" 12 0 0# (let temp___176 = (#"sorting.adb" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:sorting.adb:12:24" "GP_Id:6" "comment:            for J in I + 1..A'Last loop
-                       ^ sorting.adb:12:24:VC_OVERFLOW_CHECK" "GP_Shape:if__L_1_while__L_2_while__range__add" (Standard__integer.range_check_((Sorting__selection_sort__L_1__i.i.int__content + 1))) )) in (
-              (let temp___177 = (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+              temp___187.int__content <- ( Sorting__selection_sort__L_1__i.i.int__content );
+             () (* Loop statements appearing after the loop invariant of loop sorting.adb:8 *)
+             ;
+             ( "GP_Sloc:sorting.adb:10:13" (#"sorting.adb" 10 0 0# (if ((Sorting__selection_sort__L_1__i.i.int__content <> 0)) then (
+              ( ( "GP_Sloc:sorting.adb:11:16" (#"sorting.adb" 11 0 0# ()) );
+              ( "GP_Sloc:sorting.adb:11:20" (#"sorting.adb" 11 0 0# #"sorting.adb" 11 0 0# Sorting__selection_sort__min.min.int__content <- ( (#"sorting.adb" 11 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:11:23" "GP_Reason:VC_RANGE_CHECK" "GP_Id:0" "comment:               Min := I;
+                      ^ sorting.adb:11:23:VC_RANGE_CHECK" "GP_Shape:L_1_while__if__min_assign" (Standard__positive.range_check_(Sorting__selection_sort__L_1__i.i.int__content)) )) )) );
+              ( "GP_Sloc:sorting.adb:12:41" (#"sorting.adb" 12 0 0# (let temp___176 = (#"sorting.adb" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:12:27" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Id:6" "comment:               for J in I + 1..A'Length loop
+                          ^ sorting.adb:12:27:VC_OVERFLOW_CHECK" "GP_Shape:L_1_while__if__L_2_while__range__add" (Standard__integer.range_check_((Sorting__selection_sort__L_1__i.i.int__content + 1))) )) in (
+              (let temp___177 = (#"sorting.adb" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:sorting.adb:12:33" "GP_Id:5" "comment:               for J in I + 1..A'Length loop
+                                ^ sorting.adb:12:33:VC_RANGE_CHECK" "GP_Shape:L_1_while__if__L_2_while__range__typeconv__length_ref" (Standard__integer.range_check_(( #"sorting.adb" 12 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
                ()))
                end ;
-              Sorting__selection_sort__a.a__last ))) in (
+              (if (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first)) <= (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)))) then (
+               (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)) - (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first))) + 1)) else (
+               0)) ))) )) in (
                (  Sorting__selection_sort__L_2__j.j.int__content <- ( temp___176 );
                () (* Translation of an Ada loop from sorting.adb:12 *)
                ;
                (if ((Boolean.andb((temp___176 <= Sorting__selection_sort__L_2__j.j.int__content)) ((Sorting__selection_sort__L_2__j.j.int__content <= temp___177)))) then (
                  try
-                 (  abstract ensures {true}(let _ = Sorting__selection_sort__min.min.int__content in (
+                 (  abstract ensures {true}(let _ = Sorting__selection_sort__L_2__j.j.int__content in (
                   ()))
                   end ;
                  (let temp___179 =  (any int
-                 ensures { (result = Sorting__selection_sort__min.min.int__content)} 
+                 ensures { (result = Sorting__selection_sort__L_2__j.j.int__content)} 
                  ) in (
-                  (  abstract ensures {true}(let _ = Sorting__selection_sort__L_2__j.j.int__content in (
+                  (  abstract ensures {true}(let _ = Sorting__selection_sort__min.min.int__content in (
                    ()))
                    end ;
                   (let temp___178 =  (any int
-                  ensures { (result = Sorting__selection_sort__L_2__j.j.int__content)} 
+                  ensures { (result = Sorting__selection_sort__min.min.int__content)} 
                   ) in (
                     let temp___180 = { int__content = 0 } in 
                     ( () (* First unroling of the loop statements appearing before the loop invariant of loop sorting.adb:12 *)
@@ -2853,31 +2770,37 @@ module Sorting__selection_sort__subprogram_def
                      while True do
                      ( () (* Assume implicit invariants from the loop sorting.adb:12 *)
                      ;
-                      assume {  (Boolean.andb(( ( ( ( true /\ (if (((Sorting__selection_sort__L_1__i.i.int__content + 1) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
-                      (Sorting__selection_sort__L_2__T3b.dynamic_property (Sorting__selection_sort__L_1__i.i.int__content + 1) (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) Sorting__selection_sort__L_2__j.j.int__content)) else true) ) /\ true ) /\ (Standard__positive___axiom.dynamic_invariant Sorting__selection_sort__min.min.int__content False True True True) ) /\ true )) (( ((Sorting__selection_sort__L_1__i.i.int__content + 1) <= Sorting__selection_sort__L_2__j.j.int__content) /\ (Sorting__selection_sort__L_2__j.j.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ))) };
+                      assume {  (Boolean.andb(( ( ( ( true /\ (Standard__positive___axiom.dynamic_invariant Sorting__selection_sort__min.min.int__content False True True True) ) /\ true ) /\ (if (((Sorting__selection_sort__L_1__i.i.int__content + 1) <= (if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+                      (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
+                      0)))) then (
+                      (Sorting__selection_sort__L_2__T3b.dynamic_property (Sorting__selection_sort__L_1__i.i.int__content + 1) (if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+                       (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
+                       0)) Sorting__selection_sort__L_2__j.j.int__content)) else true) ) /\ true )) (( ((Sorting__selection_sort__L_1__i.i.int__content + 1) <= Sorting__selection_sort__L_2__j.j.int__content) /\ (Sorting__selection_sort__L_2__j.j.int__content <= (if (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last))) then (
+                      (((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last) - (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first)) + 1)) else (
+                      0))) ))) };
                      () (* Check for absence of RTE in the invariant of loop sorting.adb:12 *)
                      ;
                       temp___180.int__content <- ( Sorting__selection_sort__L_2__j.j.int__content );
                      () (* Loop statements appearing after the loop invariant of loop sorting.adb:12 *)
                      ;
-                     ( "GP_Sloc:sorting.adb:14:30" (#"sorting.adb" 14 0 0# ()) );
-                     ( "GP_Sloc:sorting.adb:14:49" (#"sorting.adb" 14 0 0# ()) );
-                     ( "GP_Sloc:sorting.adb:14:16" (#"sorting.adb" 14 0 0# (if ((Boolean.andb(((Standard__integer__rep.to_rep(( #"sorting.adb" 14 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+                     ( "GP_Sloc:sorting.adb:14:33" (#"sorting.adb" 14 0 0# ()) );
+                     ( "GP_Sloc:sorting.adb:14:52" (#"sorting.adb" 14 0 0# ()) );
+                     ( "GP_Sloc:sorting.adb:14:19" (#"sorting.adb" 14 0 0# (if ((Boolean.andb(((Standard__integer__rep.to_rep(( #"sorting.adb" 14 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
                       ()))
                       end ;
                      Sorting__selection_sort__a.a__last ))) >= Sorting__selection_sort__min.min.int__content)) (((Standard__integer__rep.to_rep(( #"sorting.adb" 14 0 0# abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
                       ()))
                       end ;
                      Sorting__selection_sort__a.a__first ))) <= Sorting__selection_sort__min.min.int__content)))) then (
-                      ( ( "GP_Sloc:sorting.adb:15:25" (#"sorting.adb" 15 0 0# ()) );
-                      ( "GP_Sloc:sorting.adb:15:19" (#"sorting.adb" 15 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 15 0 0# assert { #"sorting.adb" 15 0 0# (#"sorting.adb" 15 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:15:25" "GP_Reason:VC_INDEX_CHECK" "GP_Id:3" "comment:                  if A (Min) > A (J) then
-                        ^ sorting.adb:15:25:VC_INDEX_CHECK" "GP_Shape:if__L_1_while__L_2_while__if__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__min.min.int__content) /\ (Sorting__selection_sort__min.min.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
-                      Sorting__selection_sort__min.min.int__content ))))) > (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) ((  assert {  (#"sorting.adb" 15 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:if__L_1_while__L_2_while__if__if__cmp__ixdcomp" "GP_Sloc:sorting.adb:15:35" "GP_Id:4" "comment:                  if A (Min) > A (J) then
-                                  ^ sorting.adb:15:35:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_2__j.j.int__content) /\ (Sorting__selection_sort__L_2__j.j.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
+                      ( ( "GP_Sloc:sorting.adb:15:28" (#"sorting.adb" 15 0 0# ()) );
+                      ( "GP_Sloc:sorting.adb:15:22" (#"sorting.adb" 15 0 0# (if (((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 15 0 0# assert { #"sorting.adb" 15 0 0# (#"sorting.adb" 15 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:15:28" "GP_Reason:VC_INDEX_CHECK" "GP_Id:2" "comment:                     if A (Min) > A (J) then
+                           ^ sorting.adb:15:28:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__L_2_while__if__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__min.min.int__content) /\ (Sorting__selection_sort__min.min.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
+                      Sorting__selection_sort__min.min.int__content ))))) > (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) ((  assert {  (#"sorting.adb" 15 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__L_2_while__if__if__cmp__ixdcomp" "GP_Sloc:sorting.adb:15:38" "GP_Id:3" "comment:                     if A (Min) > A (J) then
+                                     ^ sorting.adb:15:38:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_2__j.j.int__content) /\ (Sorting__selection_sort__L_2__j.j.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
                       Sorting__selection_sort__L_2__j.j.int__content ))))))) then (
-                       ( ( "GP_Sloc:sorting.adb:16:22" (#"sorting.adb" 16 0 0# ()) );
-                       ( "GP_Sloc:sorting.adb:16:26" (#"sorting.adb" 16 0 0# #"sorting.adb" 16 0 0# Sorting__selection_sort__min.min.int__content <- ( (#"sorting.adb" 16 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:sorting.adb:16:29" "GP_Id:2" "comment:                     Min := J;
-                            ^ sorting.adb:16:29:VC_RANGE_CHECK" "GP_Shape:if__L_1_while__L_2_while__if__if__min_assign" (Standard__positive.range_check_(Sorting__selection_sort__L_2__j.j.int__content)) )) )) ) )) else (
+                       ( ( "GP_Sloc:sorting.adb:16:25" (#"sorting.adb" 16 0 0# ()) );
+                       ( "GP_Sloc:sorting.adb:16:29" (#"sorting.adb" 16 0 0# #"sorting.adb" 16 0 0# Sorting__selection_sort__min.min.int__content <- ( (#"sorting.adb" 16 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:sorting.adb:16:32" "GP_Id:1" "comment:                        Min := J;
+                               ^ sorting.adb:16:32:VC_RANGE_CHECK" "GP_Shape:L_1_while__if__L_2_while__if__if__min_assign" (Standard__positive.range_check_(Sorting__selection_sort__L_2__j.j.int__content)) )) )) ) )) else (
                        ()))) ) )) else (
                       ()))) );
                      () (* Check for the exit condition and loop statements appearing before the loop invariant of loop sorting.adb:12 *)
@@ -2890,8 +2813,8 @@ module Sorting__selection_sort__subprogram_def
                       end  in (
                       ()))
                       end ;
-                      check {  (#"sorting.adb" 13 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:13:16" "GP_Reason:VC_LOOP_VARIANT" "GP_Id:5" "comment:               pragma Loop_Variant (Increases => J);
-               ^ sorting.adb:13:16:VC_LOOP_VARIANT" "GP_Shape:if__L_1_while__L_2_while" (Sorting__selection_sort__L_2__j.j.int__content > temp___180.int__content) )) } )
+                      check {  (#"sorting.adb" 13 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:sorting.adb:13:19" "GP_Reason:VC_LOOP_VARIANT" "GP_Id:4" "comment:                  pragma Loop_Variant (Increases => J);
+                  ^ sorting.adb:13:19:VC_LOOP_VARIANT" "GP_Shape:L_1_while__if__L_2_while" (Sorting__selection_sort__L_2__j.j.int__content > temp___180.int__content) )) } )
                     done )))
                    )))
                   )
@@ -2909,54 +2832,54 @@ module Sorting__selection_sort__subprogram_def
                ()))
                end ;
               Sorting__selection_sort__a.a__first ))) <= Sorting__selection_sort__min.min.int__content)))) then (
-               ( ( "GP_Sloc:sorting.adb:21:19" (#"sorting.adb" 21 0 0# ()) );
-               ( "GP_Sloc:sorting.adb:21:16" (#"sorting.adb" 21 0 0# (if ((Sorting__selection_sort__min.min.int__content <> Sorting__selection_sort__L_1__i.i.int__content)) then (
-                ( ( "GP_Sloc:sorting.adb:22:19" (#"sorting.adb" 22 0 0# ()) );
-                ( "GP_Sloc:sorting.adb:22:27" (#"sorting.adb" 22 0 0# #"sorting.adb" 22 0 0# Sorting__selection_sort__temp.temp.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 22 0 0# assert { #"sorting.adb" 22 0 0# (#"sorting.adb" 22 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:sorting.adb:22:33" "GP_Id:7" "comment:                  Temp    := A (I);
-                                ^ sorting.adb:22:33:VC_INDEX_CHECK" "GP_Shape:if__L_1_while__if__if__temp_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_1__i.i.int__content) /\ (Sorting__selection_sort__L_1__i.i.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
+               ( ( "GP_Sloc:sorting.adb:21:22" (#"sorting.adb" 21 0 0# ()) );
+               ( "GP_Sloc:sorting.adb:21:19" (#"sorting.adb" 21 0 0# (if ((Sorting__selection_sort__min.min.int__content <> Sorting__selection_sort__L_1__i.i.int__content)) then (
+                ( ( "GP_Sloc:sorting.adb:22:22" (#"sorting.adb" 22 0 0# ()) );
+                ( "GP_Sloc:sorting.adb:22:30" (#"sorting.adb" 22 0 0# #"sorting.adb" 22 0 0# Sorting__selection_sort__temp.temp.int__content <- ( (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 22 0 0# assert { #"sorting.adb" 22 0 0# (#"sorting.adb" 22 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:sorting.adb:22:36" "GP_Id:7" "comment:                     Temp    := A (I);
+                                   ^ sorting.adb:22:36:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__if__if__temp_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_1__i.i.int__content) /\ (Sorting__selection_sort__L_1__i.i.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
                 Sorting__selection_sort__L_1__i.i.int__content ))))) )) );
-                ( "GP_Sloc:sorting.adb:23:33" (#"sorting.adb" 23 0 0# ()) );
-                ( "GP_Sloc:sorting.adb:23:27" (#"sorting.adb" 23 0 0# #"sorting.adb" 23 0 0# Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 23 0 0# assert { #"sorting.adb" 23 0 0# (#"sorting.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:if__L_1_while__if__if__a_assign__ixdcomp" "GP_Sloc:sorting.adb:23:22" "GP_Id:9" "comment:                  A (I)   := A (Min);
-                     ^ sorting.adb:23:22:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_1__i.i.int__content) /\ (Sorting__selection_sort__L_1__i.i.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
-                Sorting__selection_sort__L_1__i.i.int__content )) ((Standard__natural__rep.of_rep((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) ((  assert {  (#"sorting.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:sorting.adb:23:33" "GP_Id:8" "comment:                  A (I)   := A (Min);
-                                ^ sorting.adb:23:33:VC_INDEX_CHECK" "GP_Shape:if__L_1_while__if__if__a_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__min.min.int__content) /\ (Sorting__selection_sort__min.min.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
+                ( "GP_Sloc:sorting.adb:23:36" (#"sorting.adb" 23 0 0# ()) );
+                ( "GP_Sloc:sorting.adb:23:30" (#"sorting.adb" 23 0 0# #"sorting.adb" 23 0 0# Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 23 0 0# assert { #"sorting.adb" 23 0 0# (#"sorting.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__if__if__a_assign__ixdcomp" "GP_Sloc:sorting.adb:23:25" "GP_Id:9" "comment:                     A (I)   := A (Min);
+                        ^ sorting.adb:23:25:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__L_1__i.i.int__content) /\ (Sorting__selection_sort__L_1__i.i.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
+                Sorting__selection_sort__L_1__i.i.int__content )) ((Standard__natural__rep.of_rep((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) ((  assert {  (#"sorting.adb" 23 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:sorting.adb:23:36" "GP_Id:8" "comment:                     A (I)   := A (Min);
+                                   ^ sorting.adb:23:36:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__if__if__a_assign__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__min.min.int__content) /\ (Sorting__selection_sort__min.min.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
                 Sorting__selection_sort__min.min.int__content ))))))))) )) );
-                ( "GP_Sloc:sorting.adb:24:22" (#"sorting.adb" 24 0 0# ()) );
-                ( "GP_Sloc:sorting.adb:24:30" (#"sorting.adb" 24 0 0# ()) );
-                ( "GP_Sloc:sorting.adb:24:27" (#"sorting.adb" 24 0 0# #"sorting.adb" 24 0 0# Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 24 0 0# assert { #"sorting.adb" 24 0 0# (#"sorting.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:if__L_1_while__if__if__a_assign__ixdcomp" "GP_Sloc:sorting.adb:24:22" "GP_Id:11" "comment:                  A (Min) := Temp;
-                     ^ sorting.adb:24:22:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__min.min.int__content) /\ (Sorting__selection_sort__min.min.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
-                Sorting__selection_sort__min.min.int__content )) ((Standard__natural__rep.of_rep((#"sorting.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:sorting.adb:24:30" "GP_Id:10" "comment:                  A (Min) := Temp;
-                             ^ sorting.adb:24:30:VC_RANGE_CHECK" "GP_Shape:if__L_1_while__if__if__a_assign" (Standard__natural.range_check_(Sorting__selection_sort__temp.temp.int__content)) )))))) )) ) )) else (
+                ( "GP_Sloc:sorting.adb:24:25" (#"sorting.adb" 24 0 0# ()) );
+                ( "GP_Sloc:sorting.adb:24:33" (#"sorting.adb" 24 0 0# ()) );
+                ( "GP_Sloc:sorting.adb:24:30" (#"sorting.adb" 24 0 0# #"sorting.adb" 24 0 0# Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content <- ( (Array__Int__Standard__natural.set(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) (( #"sorting.adb" 24 0 0# assert { #"sorting.adb" 24 0 0# (#"sorting.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:L_1_while__if__if__if__a_assign__ixdcomp" "GP_Sloc:sorting.adb:24:25" "GP_Id:11" "comment:                     A (Min) := Temp;
+                        ^ sorting.adb:24:25:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= Sorting__selection_sort__min.min.int__content) /\ (Sorting__selection_sort__min.min.int__content <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
+                Sorting__selection_sort__min.min.int__content )) ((Standard__natural__rep.of_rep((#"sorting.adb" 24 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:sorting.adb:24:33" "GP_Id:10" "comment:                     A (Min) := Temp;
+                                ^ sorting.adb:24:33:VC_RANGE_CHECK" "GP_Shape:L_1_while__if__if__if__a_assign" (Standard__natural.range_check_(Sorting__selection_sort__temp.temp.int__content)) )))))) )) ) )) else (
                 ()))) ) )) else (
-               ()))) );
-              () (* Check for the exit condition and loop statements appearing before the loop invariant of loop sorting.adb:9 *)
-              ;
-              (if ((Sorting__selection_sort__L_1__i.i.int__content = temp___175)) then (
-                raise Sorting__selection_sort__L_1.L_1));
-               Sorting__selection_sort__L_1__i.i.int__content <- ( (Sorting__selection_sort__L_1__i.i.int__content + 1) );
-               abstract ensures {true}(let _ =  abstract ensures {true}(let _ = Sorting__selection_sort__L_1__i.i.int__content in (
-               ()))
-               end  in (
-               ()))
-               end ;
-               check {  (#"sorting.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_VARIANT" "GP_Sloc:sorting.adb:10:13" "GP_Id:12" "comment:            pragma Loop_Variant (Increases => I);
-            ^ sorting.adb:10:13:VC_LOOP_VARIANT" "GP_Shape:if__L_1_while" (Sorting__selection_sort__L_1__i.i.int__content > temp___187.int__content) )) } )
-             done )))
-            )))
+               ()))) ) )) else (
+              ()))) );
+             () (* Check for the exit condition and loop statements appearing before the loop invariant of loop sorting.adb:8 *)
+             ;
+             (if ((Sorting__selection_sort__L_1__i.i.int__content = temp___175)) then (
+               raise Sorting__selection_sort__L_1.L_1));
+              Sorting__selection_sort__L_1__i.i.int__content <- ( (Sorting__selection_sort__L_1__i.i.int__content + 1) );
+              abstract ensures {true}(let _ =  abstract ensures {true}(let _ = Sorting__selection_sort__L_1__i.i.int__content in (
+              ()))
+              end  in (
+              ()))
+              end ;
+              check {  (#"sorting.adb" 9 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_LOOP_VARIANT" "GP_Sloc:sorting.adb:9:13" "GP_Id:12" "comment:            pragma Loop_Variant (Increases => I);
+            ^ sorting.adb:9:13:VC_LOOP_VARIANT" "GP_Shape:L_1_while" (Sorting__selection_sort__L_1__i.i.int__content > temp___187.int__content) )) } )
+            done )))
            )))
           )))
-         )
-       with
-        Sorting__selection_sort__L_1.L_1 -> ()
-       end)) )))
-     ))
-     ) )) else (
-     ()))) );
+         )))
+        )
+      with
+       Sorting__selection_sort__L_1.L_1 -> ()
+      end)) )))
+    ))
+    ) );
      raise Return__exc )
    with
     Return__exc -> ()
    end;
-    abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb(((  abstract ensures {true}(let _ = temp___old_189 in (
+    abstract ensures {true}(let _ = (Boolean.andb(((  abstract ensures {true}(let _ = temp___old_189 in (
     ()))
     end ;
    (if (((Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__first)) <= (Standard__integer__rep.to_rep(Sorting__selection_sort__a.a__last)))) then (
@@ -2969,55 +2892,10 @@ module Sorting__selection_sort__subprogram_def
     0)) ))) (((Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
     ()))
     end ;
-   Sorting__selection_sort__a.a__first ))) <= (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
+   Sorting__selection_sort__a.a__first ))) <> (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
     ()))
     end ;
-   Sorting__selection_sort__a.a__last ))))))) (( (let i =  (any int
-   ) in (
-    (if ((Boolean.andb(((Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
-     ()))
-     end ;
-    Sorting__selection_sort__a.a__first ))) <= i)) ((i <= (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
-     ()))
-     end ;
-    Sorting__selection_sort__a.a__last ))))))) then (
-      abstract ensures {true}(let _ = ( (let j =  (any int
-     ) in (
-      (if ((Boolean.andb(((Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
-       ()))
-       end ;
-      Sorting__selection_sort__a.a__first ))) <= j)) ((j <= (Standard__integer__rep.to_rep((  abstract ensures {true}(let _ = Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content in (
-       ()))
-       end ;
-      Sorting__selection_sort__a.a__last ))))))) then (
-        abstract ensures {true}(let _ = (if ((i < j)) then (
-        ((Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) ((  assert {  (#"sorting.ads" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Sloc:sorting.ads:12:22" "GP_Id:14" "comment:                  A (I) < A (J))));
-                     ^ sorting.ads:12:22:VC_INDEX_CHECK" "GP_Shape:pragargs__and__forall__forall__if__cmp__ixdcomp" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= i) /\ (i <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
-        i ))))) < (Standard__natural__rep.to_rep((Array__Int__Standard__natural.get(Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content) ((  assert {  (#"sorting.ads" 12 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_INDEX_CHECK" "GP_Shape:pragargs__and__forall__forall__if__cmp__ixdcomp" "GP_Sloc:sorting.ads:12:30" "GP_Id:15" "comment:                  A (I) < A (J))));
-                             ^ sorting.ads:12:30:VC_INDEX_CHECK" ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= j) /\ (j <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) )) };
-        j ))))))) else (
-        (Boolean.of_int(1)))) in (
-        ()))
-        end ))))
-     ;
-      (any bool
-     requires { true} 
-     ensures { ( (result = True) <-> (forall j   "model" "name:J" "model_trace:2582"  : int.
-      ( ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= j) /\ (j <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) -> (if ((i < j)) then (
-       ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content i)) < (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content j)))) else (
-       true)) )) )} 
-     ) ) in (
-      ()))
-      end ))))
-   ;
-    (any bool
-   requires { true} 
-   ensures { ( (result = True) <-> (forall i   "model" "name:I" "model_trace:2571"  : int.
-    ( ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= i) /\ (i <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) -> (forall j   "model" "name:J" "model_trace:2582"  : int.
-     ( ( ((Standard__integer__rep.to_rep Sorting__selection_sort__a.a__first) <= j) /\ (j <= (Standard__integer__rep.to_rep Sorting__selection_sort__a.a__last)) ) -> (if ((i < j)) then (
-      ((Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content i)) < (Standard__natural__rep.to_rep (Array__Int__Standard__natural.get Sorting__selection_sort__a.a.Array__Int__Standard__natural.map__content j)))) else (
-      true)) )) )) )} 
-   ) ))) in (
+   Sorting__selection_sort__a.a__last )))))) in (
     ()))
     end  )))
    )
