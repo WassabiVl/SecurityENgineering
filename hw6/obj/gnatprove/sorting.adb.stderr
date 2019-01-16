@@ -1,0 +1,2 @@
+sorting.ads:8:65: medium: postcondition might fail, cannot prove Sorted(A) (e.g. when A = (1 => 0, 2 => 0, others => 1) and A'First = 0 and A'Last = 2)[#1]
+sorting.ads:11:36: medium: overflow check might fail (e.g. when A = (others => 0) and A'First = 0 and A'Last = -2147483648)[#0]

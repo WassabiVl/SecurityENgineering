@@ -17,7 +17,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sorting.test_data.tests%b  sorting-test_data-tests.adb  7673eb10 OO PK
+U sorting.test_data.tests%b  sorting-test_data-tests.adb  23fde4de OO PK
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W aunit%s		aunit.adb		aunit.ali
 W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
@@ -73,10 +73,10 @@ D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
 D gnat.ads		20180524051738 fd2ad2f1 gnat%s
 D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
 D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
-D sorting.ads		20190115185512 e5345f8a sorting%s
+D sorting.ads		20190116194518 ef1505ad sorting%s
 D sorting-test_data.ads	20190115183420 4351ad96 sorting.test_data%s
 D sorting-test_data-tests.ads  20190115183420 c3201a23 sorting.test_data.tests%s
-D sorting-test_data-tests.adb  20190115184916 cf273171 sorting.test_data.tests%b
+D sorting-test_data-tests.adb  20190116194340 9aa93ebf sorting.test_data.tests%b
 D system.ads		20180524051738 32a08138 system%s
 D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -97,10 +97,10 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 X 9 ada_containers-aunit_lists.ads
 53R9*Cursor
 X 10 aunit.ads
-34K9*AUnit 48e10 29|6r6 16r26 30|8r6 8r28 46r7
+34K9*AUnit 48e10 29|6r6 16r26 30|8r6 8r28 48r7 52r7 56r7
 X 11 aunit-assertions.ads
-44K15*Assertions 155e21 30|8w12 8r34 46r13
-48U14*Assert 30|46s24
+44K15*Assertions 155e21 30|8w12 8r34 48r13 52r13 56r13
+48U14*Assert 30|48s24 52s24 56s24
 101U14*Init_Test
 104U14*Clear_Failures
 107V13*Has_Failures{boolean}
@@ -118,26 +118,28 @@ X 26 gnattest_generated.ads
 1K9*Gnattest_Generated 4e23 29|5w6 10r21
 2K12*GNATtest_Standard=2:38 29|10r40
 X 27 sorting.ads
-1K9*Sorting 9e12 29|8r9 10r58 18r5 30|20r14 64r5
-4A9*Natural_Array(natural)<integer> 30|41r20 42r11
-6U14*Selection_Sort 30|45s7
+1K9*Sorting 11e12 29|8r9 10r58 18r5 30|20r14 74r5
+4A9*Natural_Array(natural)<integer> 30|41r20 42r11 43r11 44r11
+6U14*Selection_Sort 30|47s7 51s7 55s7
 X 28 sorting-test_data.ads
-8K17*Test_Data 27|1k9 28|18e22 29|8r17 10r66 18r13 30|20r22 64r13
+8K17*Test_Data 27|1k9 28|18e22 29|8r17 10r66 18r13 30|20r22 74r13
 11R9*Test<20|78R9> 13e20 29|10r76
 15U14*Set_Up<20|80p14>
 16U14*Tear_Down<20|83p14>
 X 29 sorting-test_data-tests.ads
-8K27*Tests 28|8k17 29|18l23 18e28 30|20b32 64l23 64t28
+8K27*Tests 28|8k17 29|18l23 18e28 30|20b32 74l23 74t28
 10R9*Test<28|11R9> 11|101p14 104p14 107p13 113p13 28|15P14 16P14 29|11e20
 . 13p14 13r62 16r45 30|33r55 34r62 36r55
 13U14*Test_Selection_Sort_58d3dc 13=42 30|34b14
 13r42 Gnattest_T{10R9} 30|34b42
 16K12*Caller[17|78]
 X 30 sorting-test_data-tests.adb
-33U14 Test_Selection_Sort 33=35 34r76 36b14 51l8 51t27
+33U14 Test_Selection_Sort 33=35 34r76 36b14 61l8 61t27
 33r35 Gnattest_T{29|10R9} 36b35 40r28
-41a7 test_array{27|4A9} 47r14
-42a7 A{27|4A9} 45m22 45r22 47r10
+41a7 test_array{27|4A9} 49r14 53r14 57r14
+42a7 A{27|4A9} 47m22 47r22 49r10
+43a7 B{27|4A9} 51m22 51r22 53r10
+44a7 C{27|4A9} 55m22 55r22 57r10
 X 31 system.ads
 37K9*System 30|9r6 31|200e11
 67M9*Address

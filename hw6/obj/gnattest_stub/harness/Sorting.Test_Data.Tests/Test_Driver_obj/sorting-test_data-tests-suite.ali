@@ -75,7 +75,7 @@ D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
 D gnat.ads		20180524051738 fd2ad2f1 gnat%s
 D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
 D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
-D sorting.ads		20190115185512 e5345f8a sorting%s
+D sorting.ads		20190116194518 ef1505ad sorting%s
 D sorting-test_data.ads	20190115183420 4351ad96 sorting.test_data%s
 D sorting-test_data-tests.ads  20190115183420 c3201a23 sorting.test_data.tests%s
 D sorting-test_data-tests-suite.ads  20190115183420 07afbb55 sorting.test_data.tests.suite%s
@@ -116,7 +116,7 @@ X 27 gnattest_generated.ads
 1K9*Gnattest_Generated 4e23 32|6w6 11r7
 2K12*GNATtest_Standard=2:38 32|11r26
 X 28 sorting.ads
-1K9*Sorting 9e12 31|7r9 11r5 32|8r14 11r44 31r5
+1K9*Sorting 11e12 31|7r9 11r5 32|8r14 11r44 31r5
 X 29 sorting-test_data.ads
 8K17*Test_Data 28|1k9 29|18e22 31|7r17 11r13 32|8r22 11r52 31r13
 X 30 sorting-test_data-tests.ads

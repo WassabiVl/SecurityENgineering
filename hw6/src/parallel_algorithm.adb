@@ -21,13 +21,11 @@ package body Parallel_Algorithm is
             end loop ;
             total := total1;
          end Start;
-         
-         
       end calcTask; 
       oddOne,evenOne: calcTask; 
    begin 
-      oddOne.Start(Input, 1, Input'Length/2, Result);
-      evenOne.Start(Input, Input'Length/2, Input'Length, Result);
+      oddOne.Start(Input, Input'First, Input'Length/2, Result);
+      evenOne.Start(Input, Input'Length/2, Input'Last, Result);
    end Parallel_Sum;
    
 

@@ -38,10 +38,10 @@ package body Sorting.Test_Data.Tests is
 --  end read only
 
       pragma Unreferenced (Gnattest_T);
-      test_array : Natural_Array := (0,  1,  3,  4,  6,  7,  8,  9);
-      A : Natural_Array := (4, 9, 3,  0, 7,  1, 6, 8);
-      B : Natural_Array := (9, 4, 3,  0, 7,  1, 6, 8);
-      C : Natural_Array := (9, 4, 3,  0, 1,  7, 6, 8);
+      test_array : Natural_Array := (1,  2,  3,  4,  6,  7,  8,  9);
+      A : Natural_Array := (4, 9, 3,  2, 7,  1, 6, 8);
+      B : Natural_Array := (9, 4, 3,  2, 7,  1, 6, 8);
+      C : Natural_Array := (9, 4, 3,  2, 1,  7, 6, 8);
 
    begin
       Selection_Sort(A);

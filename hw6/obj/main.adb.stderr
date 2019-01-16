@@ -1,0 +1,4 @@
+sorting.ads:11:07: expression function must be enclosed in parentheses
+sorting.ads:11:08: ":" should be ";"
+sorting.ads:12:07: declaration expected
+sorting.ads:12:11: identifier expected

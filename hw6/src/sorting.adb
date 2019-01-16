@@ -1,30 +1,27 @@
+with Ada.Text_IO; use Ada.Text_IO;
 package body sorting
 with SPARK_Mode
 is
    procedure Selection_Sort(A: in out Natural_Array) is
-      Min  : Positive;
-      Temp : Integer;
+      Min  : Natural;
+      Temp : Natural;
    begin
-         for I in A'First..A'Length - 1 loop
-            pragma Loop_Variant (Increases => I);
-            if I /= 0 then
-               Min := I;
-               for J in I + 1..A'Length loop
-                  pragma Loop_Variant (Increases => J);
-                  if  A'Last >= Min and A'First <= Min then
-                     if A (Min) > A (J) then
-                        Min := J;
-                     end if;
-               end if;
-            end loop;
-            if  A'Last >= Min and A'First <= Min then
-                  if Min /= I then
-                     Temp    := A (I);
-                     A (I)   := A (Min);
-                     A (Min) := Temp;
-                  end if;
+      for I in A'First..A'Last-1 loop
+         pragma Loop_Variant (Increases => I);
+         Min := I;
+         for J in 1 + I..A'Last  loop
+            pragma Loop_Variant (Increases => J);
+            if (J /= I and Min <= A'Last and Min >= A'First) then
+               if A(Min) > A(J) then
+                  Min := J;
                end if;
             end if;
          end loop;
+         if Min /= I and Min <= A'Last and Min >= A'First then
+            Temp    := A (I);
+            A (I)   := A (Min);
+            A (Min) := Temp;
+         end if;
+      end loop;
    end Selection_Sort;
 end sorting;
