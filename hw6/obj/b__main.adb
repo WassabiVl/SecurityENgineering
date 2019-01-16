@@ -6,22 +6,23 @@ pragma Suppress (Overflow_Check);
 
 package body ada_main is
 
-   E074 : Short_Integer; pragma Import (Ada, E074, "system__os_lib_E");
-   E016 : Short_Integer; pragma Import (Ada, E016, "system__soft_links_E");
-   E028 : Short_Integer; pragma Import (Ada, E028, "system__exception_table_E");
-   E070 : Short_Integer; pragma Import (Ada, E070, "ada__io_exceptions_E");
-   E055 : Short_Integer; pragma Import (Ada, E055, "ada__strings_E");
-   E043 : Short_Integer; pragma Import (Ada, E043, "ada__containers_E");
-   E030 : Short_Integer; pragma Import (Ada, E030, "system__exceptions_E");
-   E080 : Short_Integer; pragma Import (Ada, E080, "interfaces__c_E");
-   E057 : Short_Integer; pragma Import (Ada, E057, "ada__strings__maps_E");
-   E061 : Short_Integer; pragma Import (Ada, E061, "ada__strings__maps__constants_E");
-   E024 : Short_Integer; pragma Import (Ada, E024, "system__soft_links__initialize_E");
-   E082 : Short_Integer; pragma Import (Ada, E082, "system__object_reader_E");
-   E050 : Short_Integer; pragma Import (Ada, E050, "system__dwarf_lines_E");
-   E042 : Short_Integer; pragma Import (Ada, E042, "system__traceback__symbolic_E");
-   E008 : Short_Integer; pragma Import (Ada, E008, "system__assertions_E");
-   E005 : Short_Integer; pragma Import (Ada, E005, "sorting_E");
+   E076 : Short_Integer; pragma Import (Ada, E076, "system__os_lib_E");
+   E018 : Short_Integer; pragma Import (Ada, E018, "system__soft_links_E");
+   E030 : Short_Integer; pragma Import (Ada, E030, "system__exception_table_E");
+   E072 : Short_Integer; pragma Import (Ada, E072, "ada__io_exceptions_E");
+   E057 : Short_Integer; pragma Import (Ada, E057, "ada__strings_E");
+   E045 : Short_Integer; pragma Import (Ada, E045, "ada__containers_E");
+   E032 : Short_Integer; pragma Import (Ada, E032, "system__exceptions_E");
+   E082 : Short_Integer; pragma Import (Ada, E082, "interfaces__c_E");
+   E059 : Short_Integer; pragma Import (Ada, E059, "ada__strings__maps_E");
+   E063 : Short_Integer; pragma Import (Ada, E063, "ada__strings__maps__constants_E");
+   E026 : Short_Integer; pragma Import (Ada, E026, "system__soft_links__initialize_E");
+   E084 : Short_Integer; pragma Import (Ada, E084, "system__object_reader_E");
+   E052 : Short_Integer; pragma Import (Ada, E052, "system__dwarf_lines_E");
+   E044 : Short_Integer; pragma Import (Ada, E044, "system__traceback__symbolic_E");
+   E010 : Short_Integer; pragma Import (Ada, E010, "system__assertions_E");
+   E005 : Short_Integer; pragma Import (Ada, E005, "parallel_algorithm_E");
+   E007 : Short_Integer; pragma Import (Ada, E007, "sorting_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -127,35 +128,36 @@ package body ada_main is
 
       System.Soft_Links'Elab_Spec;
       System.Exception_Table'Elab_Body;
-      E028 := E028 + 1;
-      Ada.Io_Exceptions'Elab_Spec;
-      E070 := E070 + 1;
-      Ada.Strings'Elab_Spec;
-      E055 := E055 + 1;
-      Ada.Containers'Elab_Spec;
-      E043 := E043 + 1;
-      System.Exceptions'Elab_Spec;
       E030 := E030 + 1;
+      Ada.Io_Exceptions'Elab_Spec;
+      E072 := E072 + 1;
+      Ada.Strings'Elab_Spec;
+      E057 := E057 + 1;
+      Ada.Containers'Elab_Spec;
+      E045 := E045 + 1;
+      System.Exceptions'Elab_Spec;
+      E032 := E032 + 1;
       Interfaces.C'Elab_Spec;
       System.Os_Lib'Elab_Body;
-      E074 := E074 + 1;
+      E076 := E076 + 1;
       Ada.Strings.Maps'Elab_Spec;
       Ada.Strings.Maps.Constants'Elab_Spec;
-      E061 := E061 + 1;
+      E063 := E063 + 1;
       System.Soft_Links.Initialize'Elab_Body;
-      E024 := E024 + 1;
-      E016 := E016 + 1;
+      E026 := E026 + 1;
+      E018 := E018 + 1;
       System.Object_Reader'Elab_Spec;
       System.Dwarf_Lines'Elab_Spec;
-      E050 := E050 + 1;
-      E080 := E080 + 1;
-      E057 := E057 + 1;
-      System.Traceback.Symbolic'Elab_Body;
-      E042 := E042 + 1;
+      E052 := E052 + 1;
       E082 := E082 + 1;
+      E059 := E059 + 1;
+      System.Traceback.Symbolic'Elab_Body;
+      E044 := E044 + 1;
+      E084 := E084 + 1;
       System.Assertions'Elab_Spec;
-      E008 := E008 + 1;
+      E010 := E010 + 1;
       E005 := E005 + 1;
+      E007 := E007 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -191,6 +193,7 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
+   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\parallel_algorithm.o
    --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\sorting.o
    --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\main.o
    --   -LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\

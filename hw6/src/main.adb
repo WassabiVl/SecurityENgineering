@@ -1,4 +1,5 @@
 with Sorting; use Sorting;
+with Parallel_Algorithm;
 procedure Main
 
 is
