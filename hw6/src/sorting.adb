@@ -11,6 +11,8 @@ is
          Min := I;
          for J in 1 + I..A'Last  loop
             pragma Loop_Variant (Increases => J);
+            pragma Loop_Invariant (A'First <= Min);
+            pragma Loop_Invariant (J <= A'Last);
             if (J /= I and Min <= A'Last and Min >= A'First) then
                if A(Min) > A(J) then
                   Min := J;

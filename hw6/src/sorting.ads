@@ -5,8 +5,10 @@ is
 
    procedure Selection_Sort(A: in out Natural_Array) with
      Pre => ( A'First >= 0 and A'Last < Integer'Last and  A'Length > 1 and A'First /= A'Last ),
-     Post => (A'Old'Length = A'Length and A'First <= A'Last and Sorted(A));
+     Post => (A'Old'Length = A'Length and A'First <= A'Last and Sorted(A))
+              ;
 
    function Sorted(A : Natural_Array) return Boolean is
-      (for all I in A'First..A'Last-1 => A (I) <= A (I+1));
+      (for all I in A'Range =>
+         (for all J in I .. A'Last => A (I) <= A (J)));
 end Sorting;
