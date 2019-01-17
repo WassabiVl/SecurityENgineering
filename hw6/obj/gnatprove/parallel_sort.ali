@@ -11,30 +11,59 @@ A -gnatc
 P GP FX
 
 RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
+RV MAX_TASK_ENTRIES=1
 
-U parallel_sort%s	parallel_sort.ads	54a23a6b OO PK
+U parallel_sort%b	parallel_sort.adb	8ea91034 OO PK GE IL
+Z system%s		system.ads		system.ali
 
-D parallel_sort.ads	20190117120450 54a23a6b parallel_sort%s
+U parallel_sort%s	parallel_sort.ads	58adff55 BN OO PK GE
+
+D parallel_sort.ads	20190117154318 58adff55 parallel_sort%s
+D parallel_sort.adb	20190117160606 d604ef61 parallel_sort%b
 D system.ads		20180524051738 32a08138 system%s
 X 1 parallel_sort.ads
-1K9*Parallel_Sort 15l5 15e18
-5+10 Item_Type 6r29 6r47 7r29 7r47 9r51
-6V20 "="{boolean} 6>23 6>40
-6*23 Left{5+10}
-6*40 Right{5+10}
-7V20 "<"{boolean} 7>23 7>40
-7*23 Left{5+10}
-7*40 Right{5+10}
-9A10 Array_Type(5+10)<integer> 10r42
-10P10 Array_Access_Type(9A10) 12r42 13r43
-12u15*Parallel_Merge_Sort 12>35 13>35
-12*35 Input{10P10}
-13*35 Result{10P10}
+2+10 Item_Type 3r29 3r47 4r29 4r47 8r51
+3V20 "="{boolean} 3>23 3>40
+3*23 Left{2+10}
+3*40 Right{2+10}
+4V20 "<"{boolean} 4>23 4>40 2|11s30
+4*23 Left{2+10}
+4*40 Right{2+10}
+5k9*Parallel_Sort 2z10 3z19 4z19 15l5 15e18 2|1b14 72l5 72t18
+8A10*Array_Type(2+10)<integer> 9r42 13r38 13r57 2|4r38 4r57 5r16 32r28 32r53
+. 38r33 38r58 44r28 45r26 46r27
+9P10*Array_Access_Type(8A10) 11r42 12r43 2|29r42 30r43
+11U15*Parallel_Merge_Sort 11>35 12>35 2|29b15 67l10 67t29
+11p35 Input{9P10} 2|29b35 65r24 65r30 65r43 65r65 65r78 66r25 66r31 66r45
+. 66r65 66r78
+12p35 Result{9P10} 2|30b35 65r58 66r58
+13V13*merge_this{8A10} 13>24 13>30 2|4b13 27l8 27t18 56s30
+13a24 Left{8A10} 2|4b24 5r27 6r31 10r27 11r13 12r37 20r24 21r47 21r64
+13a30 Right{8A10} 2|4b30 5r39 7r32 10r56 11r32 15r37 23r25 24r47 24r66
+X 2 parallel_sort.adb
+5a7 Result{1|8A10} 8r33 12m13 15m13 21m10 21r31 24m10 24r31 26r14
+6i7 Left_Index{natural} 10r13 11r18 12r42 13m13 13r40 20r10 21r52
+7i7 Right_Index{natural} 10r41 11r38 15r43 16m13 16r41 23r10 24r53
+8i7 Result_Index{natural} 12r20 15r20 18m10 18r39 21r17 24r17
+31T17 merge_sort_Task 33l11 33e26 35b17 62l11 62t26 63r23
+32Y12 Sort_this 32>22 32<40 38b17 61l14 61t23 65s14 66s15
+32a22 Item{1|8A10} 41r16 42r39 42r70 44r39 45r37 46r46 49r33 52r34 59r26
+32a40 result1{1|8A10} 59m16
+36i10 Middle{natural} 42m16 45r62 46r38
+38a27 Item{1|8A10}
+38a45 result1{1|8A10}
+44a19 result1{1|8A10} 56m19
+45a19 Left{1|8A10} 48r28 49m22 54r29 54m35 56r41
+46a19 Right{1|8A10} 51r28 52m22 55r29 55m36 56r47
+48i23 I{integer} 49r27 49r38
+51i23 I{integer} 52r28 52r39
+63t7 oddOne{31T17} 65r7
+63t14 evenOne{31T17} 66r7
 
-QQ SPARKVERSION 2018 (20180523)
-GG EK_DIRECT_CALLS parallel_sort 0
-GG EK_GLOBALS parallel_sort local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
-GG EK_END_MARKER

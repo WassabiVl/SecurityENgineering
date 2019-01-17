@@ -9,7 +9,5 @@ begin
    Put_line(A(0)'Image);
    Sorting.Selection_Sort(A => A);
    Put_line(A(0)'Image);
-
-
    null;
 end Main;

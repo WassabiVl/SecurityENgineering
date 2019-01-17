@@ -31,7 +31,7 @@ D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D main.adb		20190117122324 b5635054 main%b
+D main.adb		20190117133014 b5635054 main%b
 D sorting.ads		20190117120450 c5325742 sorting%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
@@ -53,7 +53,7 @@ X 6 a-textio.ads
 49K13*Text_IO 471e16 10|2w10 2r27
 263U14*Put_Line 10|9s4 11s4
 X 10 main.adb
-3U11*Main 3b11 15l5 15t9
+3U11*Main 3b11 13l5 13t9
 6a1 test_array{11|4A9}
 7a7 A{11|4A9} 9r13 10m32 10r32 11r13
 X 11 sorting.ads

@@ -18,7 +18,7 @@ Total                            26    7 (27%)          .          .     19 (73%
 
 Analyzed 6 units
 in unit main, 0 subprograms and packages out of 1 analyzed
-  Main at main.adb:4 skipped
+  Main at main.adb:3 skipped
 in unit mini_xtea, 0 subprograms and packages out of 4 analyzed
   Mini_XTEA.Decrypt at mini_xtea.ads:17 skipped
   Mini_XTEA.Decrypt_Second_Half at mini_xtea.ads:18 skipped

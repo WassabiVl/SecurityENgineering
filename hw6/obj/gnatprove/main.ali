@@ -17,10 +17,9 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U main%b		main.adb		95bccc5b OO SU
+U main%b		main.adb		f84cb44c OO SU
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-W parallel_algorithm%s	parallel_algorithm.adb	parallel_algorithm.ali
 W sorting%s		sorting.adb		sorting.ali
 Z system%s		system.ads		system.ali
 
@@ -30,8 +29,7 @@ D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D main.adb		20190117120004 ff02418c main%b
-D parallel_algorithm.ads  20190117120450 279169cf parallel_algorithm%s
+D main.adb		20190117133014 b5635054 main%b
 D sorting.ads		20190117120450 c5325742 sorting%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
@@ -39,20 +37,18 @@ D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 20e8 7|3r6 3r23
+16K9*Ada 20e8 7|2r6 2r23
 X 4 a-textio.ads
-49K13*Text_IO 471e16 7|3w10 3r27
-263U14*Put_Line 7|10s4 12s4
+49K13*Text_IO 471e16 7|2w10 2r27
+263U14*Put_Line 7|9s4 11s4
 X 7 main.adb
-4U11*Main 4b11 15l5 15t9
-7a1 test_array{9|4A9}
-8a7 A{9|4A9} 10r13 11m32 11r32 12r13
-X 8 parallel_algorithm.ads
-1K9*Parallel_Algorithm 7|2w6 2r30 8|13e23
-X 9 sorting.ads
-1K9*Sorting 7|1w6 1r19 11r4 9|14e12
-4A9*Natural_Array(natural)<integer> 7|7r14 8r11
-6U14*Selection_Sort 7|11s12
+3U11*Main 3b11 13l5 13t9
+6a1 test_array{8|4A9}
+7a7 A{8|4A9} 9r13 10m32 10r32 11r13
+X 8 sorting.ads
+1K9*Sorting 7|1w6 1r19 10r4 8|14e12
+4A9*Natural_Array(natural)<integer> 7|6r14 7r11
+6U14*Selection_Sort 7|10s12
 
 QQ SPARKVERSION 2018 (20180523)
 GG EK_DIRECT_CALLS main 0

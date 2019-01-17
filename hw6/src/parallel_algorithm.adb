@@ -1,17 +1,16 @@
 package body Parallel_Algorithm 
-   with SPARK_Mode
-  is
-   procedure Parallel_Sum(Input: Array_Access_Type; Result: out Item_Type)
-   is 
-      task type calcTask is entry
-           Start(someArray:Array_Access_Type; oNum, cNum: Natural; total: out Item_Type);
+with SPARK_Mode 
+is 
+   procedure Parallel_Sum(Input: Array_Access_Type; Result: out Item_Type) is 
+      task type calcTask is entry 
+           Start(someArray: Array_Access_Type; oNum, cNum: Natural; total: out Item_Type);
       end calcTask;
-      task body calcTask is
-         num: Array_Access_Type;
-          Diff , Cnt : Natural;
-         total1 : Item_Type;
+      task body calcTask is 
+         num: Array_Access_Type; 
+         Diff , Cnt : Natural;
+         total1 : Item_Type; 
       begin
-         accept Start(someArray:Array_Access_Type; oNum, cNum: Natural; total: out Item_Type) 
+         accept Start(someArray: Array_Access_Type; oNum, cNum: Natural; total: out Item_Type) 
          do
             num := someArray;
             Diff := oNum;
