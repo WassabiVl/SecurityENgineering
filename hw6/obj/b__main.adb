@@ -28,9 +28,8 @@ package body ada_main is
    E110 : Short_Integer; pragma Import (Ada, E110, "ada__finalization_E");
    E109 : Short_Integer; pragma Import (Ada, E109, "system__file_io_E");
    E103 : Short_Integer; pragma Import (Ada, E103, "ada__text_io_E");
-   E119 : Short_Integer; pragma Import (Ada, E119, "system__assertions_E");
-   E115 : Short_Integer; pragma Import (Ada, E115, "parallel_algorithm_E");
-   E117 : Short_Integer; pragma Import (Ada, E117, "sorting_E");
+   E117 : Short_Integer; pragma Import (Ada, E117, "system__assertions_E");
+   E115 : Short_Integer; pragma Import (Ada, E115, "sorting_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -203,9 +202,8 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E103 := E103 + 1;
       System.Assertions'Elab_Spec;
-      E119 := E119 + 1;
-      E115 := E115 + 1;
       E117 := E117 + 1;
+      E115 := E115 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -241,7 +239,6 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\parallel_algorithm.o
    --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\sorting.o
    --   C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\main.o
    --   -LC:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\

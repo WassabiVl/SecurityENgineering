@@ -1,0 +1,58 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASK_ENTRIES=1
+
+U parallel_algorithm%b	parallel_algorithm.adb	cb425539 OO PK GE
+Z system%s		system.ads		system.ali
+
+U parallel_algorithm%s	parallel_algorithm.ads	4227f5eb BN OO PK GE
+
+D parallel_algorithm.ads  20190117122832 4227f5eb parallel_algorithm%s
+D parallel_algorithm.adb  20190117120654 8965a0d2 parallel_algorithm%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 parallel_algorithm.ads
+2+10 Item_Type 3r28 3r46 3r64 8r50 11r65 2|4r65 7r79 12r19 14r84
+3V19 "+"{2+10} 3>22 3>39 2|24s33
+3*22 Left{2+10}
+3*39 Right{2+10}
+4k9*Parallel_Algorithm 2z10 3z18 13l5 13e23 2|1b14 36l5 36t23
+8A9*Array_Type(2+10)<integer> 9r41
+9P9*Array_Access_Type(8A9) 11r34 2|4r34 7r28 10r15 14r33
+11U14*Parallel_Sum 11>27 11<53 2|4b14 33l8 33t20
+11p27 Input{9P9} 2|4b27 31r20 31r27 31r40 32r21 32r28 32r44
+11*53 Result{2+10} 2|4b53 31m56 32m56
+X 2 parallel_algorithm.adb
+6T17 calcTask 8l11 8e19 9b17 28l11 28t19 29r23
+7Y12 Start 7>18 7>47 7>53 7<68 14b17 27l14 27t19 31s14 32s15
+7p18 someArray{1|9P9} 16r20
+7i47 oNum{natural} 17r21 20r22 22r39
+7i53 cNum{natural} 18r20 19r27 20r28 23r44
+7*68 total{1|2+10} 26m13
+10p10 num{1|9P9} 16m13 19r23 24r26
+11i11 Diff{natural} 17m13
+11i18 Cnt{natural} 18m13
+12*10 total1{1|2+10} 19m13 24m16 24r35 26r22
+14p23 someArray{1|9P9}
+14i52 oNum{natural}
+14i58 cNum{natural}
+14*73 total{1|2+10}
+20i17 I{integer} 21r50 22r47 23r39 24r30
+29t7 oddOne{6T17} 31r7
+29t14 evenOne{6T17} 32r7
+

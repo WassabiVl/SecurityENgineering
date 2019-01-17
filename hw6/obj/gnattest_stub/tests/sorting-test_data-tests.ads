@@ -13,6 +13,9 @@ package Sorting.Test_Data.Tests is
    procedure Test_Selection_Sort_58d3dc (Gnattest_T : in out Test);
    --  sorting.ads:6:4:Selection_Sort
 
+   procedure Test_Sorted_0c4740 (Gnattest_T : in out Test);
+   --  sorting.ads:11:4:Sorted
+
    package Caller is new AUnit.Test_Caller (Test);
 
 end Sorting.Test_Data.Tests;

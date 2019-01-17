@@ -11,6 +11,16 @@
       "spark": "no"
     },
     {
+      "name": "Sorting.Test_Data.Tests.Test_Sorted_0c4740",
+      "sloc": [
+        {
+          "file": "sorting-test_data-tests.ads",
+          "line": 16
+        }
+      ],
+      "spark": "no"
+    },
+    {
       "name": "Sorting.Test_Data.Tests.Caller.Test_Case",
       "sloc": [
         {
@@ -19,7 +29,7 @@
         },
         {
           "file": "sorting-test_data-tests.ads",
-          "line": 16
+          "line": 19
         }
       ],
       "spark": "no"
@@ -33,7 +43,7 @@
         },
         {
           "file": "sorting-test_data-tests.ads",
-          "line": 16
+          "line": 19
         }
       ],
       "spark": "no"
@@ -47,7 +57,7 @@
         },
         {
           "file": "sorting-test_data-tests.ads",
-          "line": 16
+          "line": 19
         }
       ],
       "spark": "no"
@@ -61,7 +71,7 @@
         },
         {
           "file": "sorting-test_data-tests.ads",
-          "line": 16
+          "line": 19
         }
       ],
       "spark": "no"
@@ -75,6 +85,16 @@
         }
       ],
       "spark": "no"
+    },
+    {
+      "name": "Sorting.Test_Data.Tests.Test_Sorted",
+      "sloc": [
+        {
+          "file": "sorting-test_data-tests.adb",
+          "line": 71
+        }
+      ],
+      "spark": "no"
     }
   ],
   "flow": [
@@ -84,14 +104,14 @@
   "assumptions": [
   ],
   "timings": {
-    "marking": 4.05409978702664E-03,
-    "globals (basic)": 3.86925004422665E-02,
-    "globals/properties (advanced)": 6.17206990718842E-02,
-    "flow analysis": 3.72999988030642E-04,
-    "codepeer results": 7.99999997980194E-06,
-    "init_why_sections": 1.01779995020479E-03,
-    "translation of standard": 9.88449994474649E-03,
-    "translation of compilation unit": 9.64934006333351E-02,
-    "proof": 4.90000002173474E-06
+    "marking": 6.36680005118251E-03,
+    "globals (basic)": 2.31703996658325E-01,
+    "globals/properties (advanced)": 1.20202496647835E-01,
+    "flow analysis": 5.30800025444478E-04,
+    "codepeer results": 1.04000000646920E-05,
+    "init_why_sections": 1.33300002198666E-03,
+    "translation of standard": 5.27307987213135E-02,
+    "translation of compilation unit": 2.03833699226379E-01,
+    "proof": 7.49999981053406E-06
   }
 }

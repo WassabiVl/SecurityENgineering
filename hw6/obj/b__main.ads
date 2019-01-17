@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#aa3541bd#;
+   u00001 : constant Version_32 := 16#f84cb44c#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -263,22 +263,18 @@ package ada_main is
    pragma Export (C, u00112, "system__finalization_rootS");
    u00113 : constant Version_32 := 16#cf3f1b90#;
    pragma Export (C, u00113, "system__file_control_blockS");
-   u00114 : constant Version_32 := 16#adcd788e#;
-   pragma Export (C, u00114, "parallel_algorithmB");
-   u00115 : constant Version_32 := 16#7fdef545#;
-   pragma Export (C, u00115, "parallel_algorithmS");
-   u00116 : constant Version_32 := 16#c840b0ce#;
-   pragma Export (C, u00116, "sortingB");
-   u00117 : constant Version_32 := 16#69f0ee9c#;
-   pragma Export (C, u00117, "sortingS");
-   u00118 : constant Version_32 := 16#52f1910f#;
-   pragma Export (C, u00118, "system__assertionsB");
-   u00119 : constant Version_32 := 16#ff2dadac#;
-   pragma Export (C, u00119, "system__assertionsS");
-   u00120 : constant Version_32 := 16#5dc07a5a#;
-   pragma Export (C, u00120, "system__memoryB");
-   u00121 : constant Version_32 := 16#6bdde70c#;
-   pragma Export (C, u00121, "system__memoryS");
+   u00114 : constant Version_32 := 16#b2400ef7#;
+   pragma Export (C, u00114, "sortingB");
+   u00115 : constant Version_32 := 16#c5325742#;
+   pragma Export (C, u00115, "sortingS");
+   u00116 : constant Version_32 := 16#52f1910f#;
+   pragma Export (C, u00116, "system__assertionsB");
+   u00117 : constant Version_32 := 16#ff2dadac#;
+   pragma Export (C, u00117, "system__assertionsS");
+   u00118 : constant Version_32 := 16#5dc07a5a#;
+   pragma Export (C, u00118, "system__memoryB");
+   u00119 : constant Version_32 := 16#6bdde70c#;
+   pragma Export (C, u00119, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -397,8 +393,6 @@ package ada_main is
    --  ada.text_io%b
    --  system.assertions%s
    --  system.assertions%b
-   --  parallel_algorithm%s
-   --  parallel_algorithm%b
    --  sorting%s
    --  sorting%b
    --  main%b

@@ -1,0 +1,36 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   Interval   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .          .            .           .          .
+Flow Dependencies                 .          .          .          .            .           .          .
+Initialization                    7          7          .          .            .           .          .
+Non-Aliasing                      .          .          .          .            .           .          .
+Run-time Checks                  12          .          .          .    12 (CVC4)           .          .
+Assertions                        6          .          .          .     6 (CVC4)           .          .
+Functional Contracts              1          .          .          .     1 (CVC4)           .          .
+LSP Verification                  .          .          .          .            .           .          .
+--------------------------------------------------------------------------------------------------------
+Total                            26    7 (27%)          .          .     19 (73%)           .          .
+
+
+Analyzed 6 units
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:4 skipped
+in unit mini_xtea, 0 subprograms and packages out of 4 analyzed
+  Mini_XTEA.Decrypt at mini_xtea.ads:17 skipped
+  Mini_XTEA.Decrypt_Second_Half at mini_xtea.ads:18 skipped
+  Mini_XTEA.Encrypt at mini_xtea.ads:21 skipped
+  Mini_XTEA.Encrypt_First_Half at mini_xtea.ads:22 skipped
+in unit mitm, 0 subprograms and packages out of 1 analyzed
+  MITM.Run_MITM at mitm.ads:4 skipped
+in unit parallel_algorithm, 1 subprograms and packages out of 1 analyzed
+  Parallel_Algorithm at parallel_algorithm.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+in unit parallel_sort, 1 subprograms and packages out of 1 analyzed
+  Parallel_Sort at parallel_sort.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+in unit sorting, 3 subprograms and packages out of 3 analyzed
+  Sorting at sorting.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Sorting.Selection_Sort at sorting.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (17 checks)
+  Sorting.Sorted at sorting.ads:11 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)

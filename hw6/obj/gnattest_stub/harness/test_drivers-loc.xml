@@ -1,112 +1,20 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\test_drivers.gpr</vfs_file>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 15" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+    </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 38" line=" 15" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 5" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 38" line=" 15" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 12" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 22" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 38" line=" 15" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 22" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 5" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 14" line=" 13" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 33" line=" 19" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
     </file_marker>
@@ -114,93 +22,205 @@
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 7" >
+    <file_marker column=" 3" line=" 20" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnatprove\gnatprove.out</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 12" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 5" >
+    <file_marker column=" 1" line=" 9" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 31" line=" 2" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 7" >
+    <file_marker column=" 61" line=" 8" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 7" line=" 12" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 61" line=" 8" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 7" line=" 12" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 61" line=" 8" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 7" line=" 12" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 4" >
+    <file_marker column=" 56" line=" 13" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 13" line=" 12" >
+    <file_marker column=" 61" line=" 8" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 7" >
+    <file_marker column=" 49" line=" 15" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 1" line=" 16" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 7" >
+    <file_marker column=" 14" line=" 17" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\mini_xtea.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 8" >
+    <file_marker column=" 1" line=" 16" >
       <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 46" line=" 11" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 18" >
-      <vfs_project />
-      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 39" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\tests\sorting-test_data-tests.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 7" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_sort.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 8" >
       <vfs_project />
       <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 15" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 22" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 12" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 12" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 15" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 15" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\hw6.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\src\sorting.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 77" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\tests\sorting-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 72" >
+      <vfs_project>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\harness\Sorting.Test_Data.Tests\test_driver.gpr</vfs_project>
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\tests\sorting-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>C:\Users\wassabi.vl\Desktop\uni\SecurityENgineering\hw6\obj\gnattest_stub\tests\sorting-test_data-tests.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

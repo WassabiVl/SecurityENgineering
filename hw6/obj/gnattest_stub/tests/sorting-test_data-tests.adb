@@ -42,6 +42,7 @@ package body Sorting.Test_Data.Tests is
       A : Natural_Array := (4, 9, 3,  2, 7,  1, 6, 8);
       B : Natural_Array := (9, 4, 3,  2, 7,  1, 6, 8);
       C : Natural_Array := (9, 4, 3,  2, 1,  7, 6, 8);
+      D : Natural_Array := (8, 4, 3,  2, 1,  7, 6, 9);
 
    begin
       Selection_Sort(A);
@@ -56,9 +57,34 @@ package body Sorting.Test_Data.Tests is
       AUnit.Assertions.Assert
         (C = test_array ,
          "sort failed");
+      Selection_Sort(D);
+      AUnit.Assertions.Assert
+        (D = test_array ,
+         "sort failed");
 
 --  begin read only
    end Test_Selection_Sort;
+--  end read only
+
+
+--  begin read only
+   procedure Test_Sorted (Gnattest_T : in out Test);
+   procedure Test_Sorted_0c4740 (Gnattest_T : in out Test) renames Test_Sorted;
+--  id:2.2/0c47404e6a83e21b/Sorted/1/0/
+   procedure Test_Sorted (Gnattest_T : in out Test) is
+   --  sorting.ads:11:4:Sorted
+--  end read only
+
+      pragma Unreferenced (Gnattest_T);
+
+   begin
+
+      AUnit.Assertions.Assert
+        (Gnattest_Generated.Default_Assert_Value,
+         "Test not implemented.");
+
+--  begin read only
+   end Test_Sorted;
 --  end read only
 
 --  begin read only

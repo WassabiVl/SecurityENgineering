@@ -1,7 +1,9 @@
 generic
     type Item_Type is private;
    with function "+"(Left: Item_Type; Right: Item_Type) return Item_Type;
-package Parallel_Algorithm is
+package Parallel_Algorithm
+with SPARK_Mode
+is
 
    type Array_Type is array(Natural range <>) of Item_Type;
    type Array_Access_Type is access all Array_Type;

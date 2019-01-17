@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "Parallel_Sort",
+      "sloc": [
+        {
+          "file": "parallel_sort.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 5.86399983149022E-04,
+    "globals (basic)": 7.02599994838238E-04,
+    "globals/properties (advanced)": 1.82789994869381E-03,
+    "flow analysis": 1.36210001073778E-03,
+    "codepeer results": 1.03000002127374E-05,
+    "init_why_sections": 1.33500003721565E-03,
+    "translation of standard": 3.22181992232800E-02,
+    "translation of compilation unit": 1.76999994437210E-04,
+    "proof": 6.19999991613440E-06
+  }
+}

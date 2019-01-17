@@ -1,0 +1,65 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatn
+A -gnatf
+A -gnata
+A -gnat12
+A -gnatX
+A -gnatc
+P GP FX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U mini_xtea%s		mini_xtea.ads		250cb3f3 OO PK
+W interfaces%s		interfac.ads		interfac.ali
+
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D mini_xtea.ads		20190110114140 7fb9e19b mini_xtea%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 interfac.ads
+38K9*Interfaces 184e15 2|1w6 3r5
+74M9*Unsigned_32 2|6r26
+X 2 mini_xtea.ads
+5K9*Mini_XTEA 24l5 24e14
+6M13*Word_Type{1|74M9} 9r45 10r51 15r30 18r63 22r61
+8E10*Side 8e43 10r36
+8n31*Left{8E10}
+8n37*Right{8E10}
+9A10*Key_Type(6M13)<integer> 17r51 21r50
+10A10*State_Type(6M13)<8E10> 11r57 17r34 17r68 18r46 19r16 21r33 21r67 22r44
+. 23r16
+11A10*State_Array_Type(10A10)<integer> 12r57
+12P10*State_Array_Access_Type(11A10)
+14i5*NUM_ROUNDS{positive}
+15m5*DELTA_CONSTANT{6M13}
+17V14*Decrypt{10A10} 17>22 17>46
+17a22 Ciphertext{10A10}
+17a46 Key{9A10}
+18V14*Decrypt_Second_Half{10A10} 18>34 18>58
+18a34 Ciphertext{10A10}
+18m58 Key{6M13}
+21V14*Encrypt{10A10} 21>22 21>45
+21a22 Plaintext{10A10}
+21a45 Key{9A10}
+22V14*Encrypt_First_Half{10A10} 22>33 22>56
+22a33 Plaintext{10A10}
+22m56 Key{6M13}
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS mini_xtea__decrypt 0
+GG EK_GLOBALS mini_xtea__decrypt local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__decrypt_second_half 0
+GG EK_GLOBALS mini_xtea__decrypt_second_half local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__encrypt 0
+GG EK_GLOBALS mini_xtea__encrypt local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea__encrypt_first_half 0
+GG EK_GLOBALS mini_xtea__encrypt_first_half local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mini_xtea 0
+GG EK_GLOBALS mini_xtea local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

@@ -13,6 +13,7 @@ package body Sorting.Test_Data.Tests.Suite is
    Result : aliased AUnit.Test_Suites.Test_Suite;
 
    Case_1_1_Test_Selection_Sort_58d3dc : aliased Runner_1.Test_Case;
+   Case_2_1_Test_Sorted_0c4740 : aliased Runner_1.Test_Case;
 
    function Suite return AUnit.Test_Suites.Access_Test_Suite is
    begin
@@ -21,8 +22,13 @@ package body Sorting.Test_Data.Tests.Suite is
         (Case_1_1_Test_Selection_Sort_58d3dc,
          "sorting.ads:6:4:",
          Test_Selection_Sort_58d3dc'Access);
+      Runner_1.Create
+        (Case_2_1_Test_Sorted_0c4740,
+         "sorting.ads:11:4:",
+         Test_Sorted_0c4740'Access);
 
       Result.Add_Test (Case_1_1_Test_Selection_Sort_58d3dc'Access);
+      Result.Add_Test (Case_2_1_Test_Sorted_0c4740'Access);
 
       return Result'Access;
 

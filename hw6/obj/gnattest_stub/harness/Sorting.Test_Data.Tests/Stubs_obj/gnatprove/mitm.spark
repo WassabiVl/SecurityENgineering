@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "MITM.Run_MITM",
+      "sloc": [
+        {
+          "file": "mitm.ads",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.70809996780008E-03,
+    "globals (basic)": 3.63039993681014E-03,
+    "globals/properties (advanced)": 4.50609996914864E-03,
+    "flow analysis": 2.11899998248555E-04,
+    "codepeer results": 8.69999985297909E-06,
+    "init_why_sections": 5.30639989301562E-03,
+    "translation of standard": 2.30496991425753E-02,
+    "translation of compilation unit": 2.87078004330397E-02,
+    "proof": 4.50000015916885E-06
+  }
+}

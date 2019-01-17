@@ -1,0 +1,46 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatn
+A -gnatf
+A -gnata
+A -gnat12
+A -gnatX
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U mitm%s		mitm.ads		b7116d18 OO PK IU
+W mini_xtea%s		mini_xtea.ads		mini_xtea.ali
+
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D mini_xtea.ads		20190110114140 7fb9e19b mini_xtea%s
+D mitm.ads		20190110114144 c8a88c83 mitm%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 interfac.ads
+74M9*Unsigned_32
+X 2 mini_xtea.ads
+5K9*Mini_XTEA 24e14 3|1w6 1r21
+6M13*Word_Type{1|74M9}
+9A10*Key_Type(6M13)<integer> 3|6r43
+10A10*State_Type(6M13)<8E10>
+11A10*State_Array_Type(10A10)<integer> 3|4r39 5r39
+X 3 mitm.ads
+3K9*MITM 8l5 8e9
+4U15*Run_MITM 4>24 5>24 6<24 7<24
+4a24 Plaintexts{2|11A10}
+5a24 Ciphertexts{2|11A10}
+6a24 Key{2|9A10}
+7b24 Has_Found_Key{boolean}
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS mitm__run_mitm 0
+GG EK_GLOBALS mitm__run_mitm local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS mitm 0
+GG EK_GLOBALS mitm local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

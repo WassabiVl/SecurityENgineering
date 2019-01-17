@@ -4,16 +4,16 @@
          <setup file="mini_xtea-test_data.adb" name="Set_Up" line="8"  column="4"/>
          <teardown file="mini_xtea-test_data.adb" name="Tear_Down" line="14"  column="4"/>
          <tested name="Decrypt" line="17" column="14">
-            <test file="mini_xtea-test_data-tests.adb" line="39" column="1" name="Test_Decrypt_d6b0e1" timestamp="2019-01-15 18:34:20"/>
+            <test file="mini_xtea-test_data-tests.adb" line="39" column="1" name="Test_Decrypt_d6b0e1" timestamp="2019-01-17 12:29:00"/>
          </tested>
          <tested name="Decrypt_Second_Half" line="18" column="14">
-            <test file="mini_xtea-test_data-tests.adb" line="60" column="1" name="Test_Decrypt_Second_Half_4215f2" timestamp="2019-01-15 18:34:20"/>
+            <test file="mini_xtea-test_data-tests.adb" line="60" column="1" name="Test_Decrypt_Second_Half_4215f2" timestamp="2019-01-17 12:29:00"/>
          </tested>
          <tested name="Encrypt" line="21" column="14">
-            <test file="mini_xtea-test_data-tests.adb" line="81" column="1" name="Test_Encrypt_12ad5c" timestamp="2019-01-15 18:34:20"/>
+            <test file="mini_xtea-test_data-tests.adb" line="81" column="1" name="Test_Encrypt_12ad5c" timestamp="2019-01-17 12:29:00"/>
          </tested>
          <tested name="Encrypt_First_Half" line="22" column="14">
-            <test file="mini_xtea-test_data-tests.adb" line="102" column="1" name="Test_Encrypt_First_Half_a77d8f" timestamp="2019-01-15 18:34:20"/>
+            <test file="mini_xtea-test_data-tests.adb" line="102" column="1" name="Test_Encrypt_First_Half_a77d8f" timestamp="2019-01-17 12:29:00"/>
          </tested>
          <dangling>
          </dangling>
@@ -24,7 +24,7 @@
          <setup file="mitm-test_data.adb" name="Set_Up" line="8"  column="4"/>
          <teardown file="mitm-test_data.adb" name="Tear_Down" line="14"  column="4"/>
          <tested name="Run_MITM" line="4" column="15">
-            <test file="mitm-test_data-tests.adb" line="39" column="1" name="Test_Run_MITM_395c1f" timestamp="2019-01-15 18:34:20"/>
+            <test file="mitm-test_data-tests.adb" line="39" column="1" name="Test_Run_MITM_395c1f" timestamp="2019-01-17 12:29:00"/>
          </tested>
          <dangling>
          </dangling>
@@ -35,7 +35,10 @@
          <setup file="sorting-test_data.adb" name="Set_Up" line="8"  column="4"/>
          <teardown file="sorting-test_data.adb" name="Tear_Down" line="14"  column="4"/>
          <tested name="Selection_Sort" line="6" column="14">
-            <test file="sorting-test_data-tests.adb" line="39" column="1" name="Test_Selection_Sort_58d3dc" timestamp="2019-01-15 18:34:20"/>
+            <test file="sorting-test_data-tests.adb" line="39" column="1" name="Test_Selection_Sort_58d3dc" timestamp="modified"/>
+         </tested>
+         <tested name="Sorted" line="11" column="13">
+            <test file="sorting-test_data-tests.adb" line="77" column="1" name="Test_Sorted_0c4740" timestamp="2019-01-17 12:29:00"/>
          </tested>
          <dangling>
          </dangling>

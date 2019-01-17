@@ -48,13 +48,13 @@ D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
 D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
 D gnat.ads		20180524051738 fd2ad2f1 gnat%s
 D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
-D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
-D sorting.ads		20190115185512 e5345f8a sorting%s
+D gnattest_generated.ads  20190117122750 9c506c0f gnattest_generated%s
+D sorting.ads		20190117120450 c5325742 sorting%s
 D sorting-test_data.ads	20190115183420 4351ad96 sorting.test_data%s
-D sorting-test_data-tests.ads  20190115183420 c3201a23 sorting.test_data.tests%s
-D sorting-test_data-tests-suite.ads  20190115183420 07afbb55 sorting.test_data.tests.suite%s
-D sorting-test_data-tests-suite-test_runner.adb  20190115183420 3cee3ebe sorting.test_data.tests.suite.test_runner%s
-D sorting-test_data-tests-suite-test_runner.adb  20190115183420 3cee3ebe sorting.test_data.tests.suite.test_runner%b
+D sorting-test_data-tests.ads  20190117122750 5571d356 sorting.test_data.tests%s
+D sorting-test_data-tests-suite.ads  20190117122750 07afbb55 sorting.test_data.tests.suite%s
+D sorting-test_data-tests-suite-test_runner.adb  20190117122750 3cee3ebe sorting.test_data.tests.suite.test_runner%s
+D sorting-test_data-tests-suite-test_runner.adb  20190117122750 3cee3ebe sorting.test_data.tests.suite.test_runner%b
 D system.ads		20180524051738 32a08138 system%s
 X 5 aunit.ads
 34K9*AUnit 48e10 28|5r6 5r29 7r6 8r6 9r6 9r25 12r28 13r15
@@ -81,11 +81,11 @@ X 17 aunit-test_suites.ads
 X 22 gnattest_generated.ads
 1K9*Gnattest_Generated 4e23 28|6w6
 X 23 sorting.ads
-1K9*Sorting 9e12 28|10r11 20r5
+1K9*Sorting 14e12 28|10r11 20r5
 X 24 sorting-test_data.ads
 8K17*Test_Data 18e22 28|10r19 20r13
 X 25 sorting-test_data-tests.ads
-8K27*Tests 18e28 28|10r29 20r23
+8K27*Tests 21e28 28|10r29 20r23
 X 26 sorting-test_data-tests-suite.ads
 7K33*Suite 11e34 28|10r35 20r29
 9V13*Suite{17|44P9} 28|12r51 88s12

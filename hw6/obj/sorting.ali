@@ -17,13 +17,13 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U sorting%b		sorting.adb		c840b0ce NE OO PK IL
+U sorting%b		sorting.adb		b2400ef7 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 Z interfaces%s		interfac.ads		interfac.ali
 Z system.assertions%s	s-assert.adb		s-assert.ali
 
-U sorting%s		sorting.ads		69f0ee9c EE NE OO PK
+U sorting%s		sorting.ads		c5325742 EE NE OO PK
 
 D ada.ads		20180524051736 76789da1 ada%s
 D a-except.ads		20180524051736 291912d5 ada.exceptions%s
@@ -34,8 +34,8 @@ D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D sorting.ads		20190117114102 69f0ee9c sorting%s
-D sorting.adb		20190116202344 29aded08 sorting%b
+D sorting.ads		20190117120450 c5325742 sorting%s
+D sorting.adb		20190117120450 ff6feaef sorting%b
 D system.ads		20180524051738 32a08138 system%s
 D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
@@ -55,17 +55,20 @@ X 1 ada.ads
 X 6 a-textio.ads
 49K13*Text_IO 471e16 11|1w10 1r27
 X 10 sorting.ads
-1K9*Sorting 13l5 13e12 11|2b14 27l5 27t12
+1K9*Sorting 14l5 14e12 11|2b14 29l5 29t12
 4A9*Natural_Array(natural)<integer> 6r39 11r24 11|5r39
-6U14*Selection_Sort 6=29 11|5b14 26l8 26t22
-6a29 A{4A9} 7r15 7r32 7r59 7r76 7r87 8r15 8r30 8r43 8r54 8r72 11|5b29 9r16
-. 9r25 12r26 14r35 14r53 15r19 15r28 20r33 20r51 21r24 22m13 22r24 23m13
-11V13*Sorted{boolean} 8s65 11>20
-11a20 A{4A9} 12r21 12r48 12r59
-12i16 I{integer} 12r36 12r51 12r62
+6U14*Selection_Sort 6=29 11|5b14 28l8 28t22
+6a29 A{4A9} 7r15 7r32 7r59 7r76 7r87 8r15 8r30 8r43 8r54 11|5b29 9r16 9r25
+. 12r26 14r36 15r41 16r35 16r53 17r19 17r28 22r33 22r51 23r24 24m13 24r24
+. 25m13
+11V13*Sorted{boolean} 11>20
+11a20 A{4A9} 12r21 13r29 13r39 13r48
+12i16 I{integer} 13r24 13r42
+13i19 J{integer} 13r51
 X 11 sorting.adb
-6i7 Min{natural} 11m10 14r28 14r46 15r21 16m19 20r13 20r26 20r44 22r27 23r16
-7i7 Temp{natural} 21m13 23r24
-9i11 I{integer} 10r44 11r17 12r23 14r22 20r20 21r27 22r16
-12i14 J{integer} 13r47 14r17 15r30 16r26
+6i7 Min{natural} 11m10 14r47 16r28 16r46 17r21 18m19 22r13 22r26 22r44 24r27
+. 25r16
+7i7 Temp{natural} 23m13 25r24
+9i11 I{integer} 10r44 11r17 12r23 16r22 22r20 23r27 24r16
+12i14 J{integer} 13r47 15r36 16r17 17r30 18r26
 

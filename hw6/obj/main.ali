@@ -15,11 +15,10 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		aa3541bd NE OO SU
+U main%b		main.adb		f84cb44c NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-W parallel_algorithm%s	parallel_algorithm.adb	parallel_algorithm.ali
 W sorting%s		sorting.adb		sorting.ali
 Z system.img_int%s	s-imgint.adb		s-imgint.ali
 
@@ -32,10 +31,8 @@ D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D main.adb		20190116200430 3406e93e main%b
-D parallel_algorithm.ads  20190115230230 7fdef545 parallel_algorithm%s
-D parallel_algorithm.adb  20190116194140 d2138dcb parallel_algorithm%b
-D sorting.ads		20190117114102 69f0ee9c sorting%s
+D main.adb		20190117122324 b5635054 main%b
+D sorting.ads		20190117120450 c5325742 sorting%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -51,19 +48,17 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 20e8 10|3r6 3r23
+16K9*Ada 20e8 10|2r6 2r23
 X 6 a-textio.ads
-49K13*Text_IO 471e16 10|3w10 3r27
-263U14*Put_Line 10|10s4 12s4
+49K13*Text_IO 471e16 10|2w10 2r27
+263U14*Put_Line 10|9s4 11s4
 X 10 main.adb
-4U11*Main 4b11 15l5 15t9
-7a1 test_array{13|4A9}
-8a7 A{13|4A9} 10r13 11m32 11r32 12r13
-X 11 parallel_algorithm.ads
-4k9*Parallel_Algorithm 10|2w6 11|11e23
-X 13 sorting.ads
-1K9*Sorting 10|1w6 1r19 11r4 13|13e12
-4A9*Natural_Array(natural)<integer> 10|7r14 8r11
-6U14*Selection_Sort 10|11s12
-6a29 A{4A9} 10|11r27
+3U11*Main 3b11 15l5 15t9
+6a1 test_array{11|4A9}
+7a7 A{11|4A9} 9r13 10m32 10r32 11r13
+X 11 sorting.ads
+1K9*Sorting 10|1w6 1r19 10r4 11|14e12
+4A9*Natural_Array(natural)<integer> 10|6r14 7r11
+6U14*Selection_Sort 10|10s12
+6a29 A{4A9} 10|10r27
 

@@ -1,5 +1,6 @@
-package body Parallel_Algorithm is
-
+package body Parallel_Algorithm 
+   with SPARK_Mode
+  is
    procedure Parallel_Sum(Input: Array_Access_Type; Result: out Item_Type)
    is 
       task type calcTask is entry
@@ -17,6 +18,9 @@ package body Parallel_Algorithm is
             cnt := cNum;
             total1 := num(cNum);
             for I in oNum..cNum -1 loop
+               pragma Loop_Variant (Increases => I);
+               pragma Loop_Invariant (oNum <= I);
+               pragma Loop_Invariant (I <= cNum);
                total1 := num(I) + total1;
             end loop ;
             total := total1;
