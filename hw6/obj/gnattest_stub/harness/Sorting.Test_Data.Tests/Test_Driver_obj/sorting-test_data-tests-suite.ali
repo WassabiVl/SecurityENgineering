@@ -23,7 +23,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sorting.test_data.tests.suite%b  sorting-test_data-tests-suite.adb  d08ce6d9 OO PF PK
+U sorting.test_data.tests.suite%b  sorting-test_data-tests-suite.adb  04d6f595 OO PF PK
 W ada%s			ada.ads			ada.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 Z ada.unchecked_conversion%s
@@ -43,7 +43,7 @@ Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
 
-U sorting.test_data.tests.suite%s  sorting-test_data-tests-suite.ads  acae7d52 EE NE OO PK
+U sorting.test_data.tests.suite%s  sorting-test_data-tests-suite.ads  3affb427 EE NE OO PK
 W aunit%s		aunit.adb		aunit.ali
 W aunit.test_suites%s	aunit-test_suites.adb	aunit-test_suites.ali
 W sorting.test_data.tests%s  sorting-test_data-tests.adb  sorting-test_data-tests.ali
@@ -74,12 +74,12 @@ D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
 D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
 D gnat.ads		20180524051738 fd2ad2f1 gnat%s
 D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
-D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
-D sorting.ads		20190116194518 ef1505ad sorting%s
+D gnattest_generated.ads  20190118115522 9c506c0f gnattest_generated%s
+D sorting.ads		20190117120450 c5325742 sorting%s
 D sorting-test_data.ads	20190115183420 4351ad96 sorting.test_data%s
-D sorting-test_data-tests.ads  20190115183420 c3201a23 sorting.test_data.tests%s
-D sorting-test_data-tests-suite.ads  20190115183420 07afbb55 sorting.test_data.tests.suite%s
-D sorting-test_data-tests-suite.adb  20190115183420 de1fcd67 sorting.test_data.tests.suite%b
+D sorting-test_data-tests.ads  20190118115522 5571d356 sorting.test_data.tests%s
+D sorting-test_data-tests-suite.ads  20190118115522 07afbb55 sorting.test_data.tests.suite%s
+D sorting-test_data-tests-suite.adb  20190118115522 0a45de2b sorting.test_data.tests.suite%b
 D system.ads		20180524051738 32a08138 system%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
 D s-finmas.ads		20180524051738 7811a767 system.finalization_masters%s
@@ -97,39 +97,41 @@ D s-stoele.adb		20180524051736 ed88f8fb system.storage_elements%b
 D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 X 10 aunit.ads
-34K9*AUnit 48e10 31|5r6 9r26 32|5r6 10r28 13r21 17r26
+34K9*AUnit 48e10 31|5r6 9r26 32|5r6 10r28 13r21 18r26
 X 17 aunit-test_caller.ads
 78k15*Test_Caller 121e22 32|5w12 10r34
-80R9*Test_Case<16|44R9> 32|15r59[10]
-91U14*Create 32|20s16[10]
+80R9*Test_Case<16|44R9> 32|15r59[10] 16r51[10]
+91U14*Create 32|21s16[10] 25s16[10]
 112P9 Fixture_Access(30|10R9)
 X 18 aunit-test_caller.adb
 38V13 New_Fixture[13|40]{17|112P9[32|10]} 14|38b13[32|10]
 66P12 Access_Type(17|80R9[32|10])
 67V16 Alloc[13|40]{66P12[32|10]} 14|38b13[32|10]
 X 22 aunit-test_suites.ads
-41K15*Test_Suites 86e22 31|5w12 9r32 32|13r27 17r32
+41K15*Test_Suites 86e22 31|5w12 9r32 32|13r27 18r32
 43R9*Test_Suite<23|38R9> 84e14 32|13r39
-44P9*Access_Test_Suite(43R9) 31|9r44 32|17r44
-48U14*Add_Test 32|25s14
+44P9*Access_Test_Suite(43R9) 31|9r44 32|18r44
+48U14*Add_Test 32|30s14 31s14
 X 27 gnattest_generated.ads
 1K9*Gnattest_Generated 4e23 32|6w6 11r7
 2K12*GNATtest_Standard=2:38 32|11r26
 X 28 sorting.ads
-1K9*Sorting 11e12 31|7r9 11r5 32|8r14 11r44 31r5
+1K9*Sorting 14e12 31|7r9 11r5 32|8r14 11r44 37r5
 X 29 sorting-test_data.ads
-8K17*Test_Data 28|1k9 29|18e22 31|7r17 11r13 32|8r22 11r52 31r13
+8K17*Test_Data 28|1k9 29|18e22 31|7r17 11r13 32|8r22 11r52 37r13
 X 30 sorting-test_data-tests.ads
-8K27*Tests 29|8k17 30|18e28 31|7r27 11r23 32|8r32 11r62 31r23
+8K27*Tests 29|8k17 30|21e28 31|7r27 11r23 32|8r32 11r62 37r23
 10R9*Test<29|11R9> 11e20 32|11r68
-13U14*Test_Selection_Sort_58d3dc 32|23r10
+13U14*Test_Selection_Sort_58d3dc 32|24r10
+16U14*Test_Sorted_0c4740 32|28r10
 X 31 sorting-test_data-tests-suite.ads
-7K33*Suite 30|8k27 31|11l29 11e34 32|8b38 31l29 31t34
-9V13*Suite{22|44P9} 32|17b13 29l8 29t13
+7K33*Suite 30|8k27 31|11l29 11e34 32|8b38 37l29 37t34
+9V13*Suite{22|44P9} 32|18b13 35l8 35t13
 X 32 sorting-test_data-tests-suite.adb
-10K12 Runner_1[17|78] 15r50 20r7
-13r4 Result{22|43R9} 25r7 27m14 27r14
-15r4 Case_1_1_Test_Selection_Sort_58d3dc{17|80R9[10]} 21m10 25m24 25r24
+10K12 Runner_1[17|78] 15r50 16r42 21r7 25r7
+13r4 Result{22|43R9} 30r7 31r7 33m14 33r14
+15r4 Case_1_1_Test_Selection_Sort_58d3dc{17|80R9[10]} 22m10 30m24 30r24
+16r4 Case_2_1_Test_Sorted_0c4740{17|80R9[10]} 26m10 31m24 31r24
 X 33 system.ads
 67M9*Address
 X 37 s-memory.ads

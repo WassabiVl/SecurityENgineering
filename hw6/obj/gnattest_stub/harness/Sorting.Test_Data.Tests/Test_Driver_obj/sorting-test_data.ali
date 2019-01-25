@@ -17,7 +17,7 @@ RV NO_ELABORATION_CODE
 U sorting.test_data%b	sorting-test_data.adb	1a1c34b7 OO PK
 W sorting%s		sorting.adb		sorting.ali
 
-U sorting.test_data%s	sorting-test_data.ads	56e9428e EE OO PF PK
+U sorting.test_data%s	sorting-test_data.ads	7cce1061 EE OO PF PK
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W aunit%s		aunit.adb		aunit.ali
 W aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
@@ -43,7 +43,7 @@ D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
 D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
 D gnat.ads		20180524051738 fd2ad2f1 gnat%s
 D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
-D sorting.ads		20190116194518 ef1505ad sorting%s
+D sorting.ads		20190117120450 c5325742 sorting%s
 D sorting-test_data.ads	20190115183420 4351ad96 sorting.test_data%s
 D sorting-test_data.adb	20190115183420 594d9921 sorting.test_data%b
 D system.ads		20180524051738 32a08138 system%s
@@ -74,7 +74,7 @@ X 12 aunit-test_fixtures.ads
 76K15*Test_Fixtures 90e24 19|6w12 11r27
 78R9*Test_Fixture<11|96R9> 88e67 19|11r41
 X 18 sorting.ads
-1K9*Sorting 11e12 19|8r9 18r5 20|6r14 20r5
+1K9*Sorting 14e12 19|8r9 18r5 20|6r14 20r5
 X 19 sorting-test_data.ads
 8K17*Test_Data 18|1k9 19|18l13 18e22 20|6b22 20l13 20t22
 11R9*Test<12|78R9> 11|101p14 104p14 107p13 113p13 19|13e20 15P14 15r42 16P14

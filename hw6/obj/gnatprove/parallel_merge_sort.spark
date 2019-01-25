@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "parallel_merge_sort",
+      "sloc": [
+        {
+          "file": "parallel_merge_sort.adb",
+          "line": 9
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.32144000381231E-02,
+    "globals (basic)": 2.33474001288414E-02,
+    "globals/properties (advanced)": 5.05888983607292E-02,
+    "flow analysis": 2.63199995970353E-04,
+    "codepeer results": 5.10000018039136E-06,
+    "init_why_sections": 6.20900013018399E-04,
+    "translation of standard": 7.67200021073222E-03,
+    "translation of compilation unit": 2.16188997030258E-01,
+    "proof": 3.50000004800677E-06
+  }
+}

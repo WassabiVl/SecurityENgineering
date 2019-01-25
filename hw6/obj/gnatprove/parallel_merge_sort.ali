@@ -1,0 +1,204 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatn
+A -gnatf
+A -gnata
+A -gnat12
+A -gnatX
+A -gnatc
+P GP FX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U parallel_merge_sort%b	parallel_merge_sort.adb	b4f65736 OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.conversions%s  a-calcon.adb	a-calcon.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.text_streams%s  a-titest.adb	a-titest.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.command_line%s	g-comlin.adb		g-comlin.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+W parallel_sort%s	parallel_sort.adb	parallel_sort.ali
+Z system%s		system.ads		system.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-calcon.ads		20180524051736 b795df18 ada.calendar.conversions%s
+D a-charac.ads		20180524051736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051736 66457d31 ada.characters.latin_1%s
+D a-comlin.ads		20180524051736 4aa66568 ada.command_line%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-string.ads		20180524051736 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051736 e8bb714a ada.strings.maps%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-titest.ads		20180524051738 f6e9e057 ada.text_io.text_streams%s
+D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20180524051738 fd2ad2f1 gnat%s
+D g-comlin.ads		20180524051738 1f37a89c gnat.command_line%s
+D g-dirope.ads		20180524051736 940c4438 gnat.directory_operations%s
+D g-os_lib.ads		20180524051736 0db74523 gnat.os_lib%s
+D g-regexp.ads		20180524051736 691be386 gnat.regexp%s
+D g-string.ads		20180524051738 c6abc540 gnat.strings%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-c.ads		20180524051736 5421119b interfaces.c%s
+D i-cexten.ads		20180524051736 47f3eec4 interfaces.c.extensions%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D parallel_merge_sort.adb  20190118113348 cb8e5c62 parallel_merge_sort%b
+D parallel_sort.ads	20190117154318 58adff55 parallel_sort%s
+D parallel_sort.adb	20190117160606 d604ef61 parallel_sort%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-os_lib.ads		20180524051738 5703ce4c system.os_lib%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-regexp.ads		20180524051738 9c7d27a7 system.regexp%s
+D s-string.ads		20180524051738 8fe54fb7 system.strings%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 25|2r6 2r31 3r6 3r37 6r6 6r24 7r6 7r36
+X 2 a-calend.ads
+36K13*Calendar 398e17 25|6w10 6r28 7r10 7r40
+42I9*Time<211I9> 25|14r15 16r16
+56V13*Clock{42I9} 25|38s17
+100V14*"+"{42I9} 25|42s27
+211I9 Time_Rep<long_long_integer>
+X 3 a-calcon.ads
+38K22*Conversions 121e29 25|7w19 7r49
+X 12 a-textio.ads
+49K13*Text_IO 471e16 25|2w10 2r35 3r10 3r41
+52P9*File_Type 25|11r20
+53n23*In_File{53E9} 25|39r34
+53n32*Out_File{53E9} 25|40r36
+86U14*Create 25|40s4
+92U14*Open 25|39s4
+98U14*Close 25|48s4 57s4 63s10 66s10
+107V13*Is_Open{boolean} 25|62s10 65s10
+184V13*End_Of_File{boolean} 25|43s14
+263U14*Put_Line 25|58s4
+297X4*End_Error 25|61r9
+X 13 a-titest.ads
+17K21*Text_Streams 23e29 25|3w18 3r49
+19P9*Stream_Access(9|39R9)
+21V13*Stream{19P9} 25|44s34 54s27
+X 15 gnat.ads
+34K9*GNAT 37e9 25|1r6 1r31 5r6 5r25
+X 16 g-comlin.ads
+287K14*Command_Line 1218e22 25|1w11 1r36
+293P9*Opt_Parser
+294p4*Command_Line_Parser{293P9} 25|39r96 40r98
+462V13*Get_Argument{string} 25|39s52 40s54 41s30 58s47
+554P9*Command_Line_Configuration 25|20r19
+648U14*Define_Switch 25|29s10
+667U14*Define_Switch 25|25s10 27s10
+736U14*Getopt 25|32s10
+X 20 g-string.ads
+38K14*Strings=38:37 25|5w11 5r30
+X 25 parallel_merge_sort.adb
+9U11*parallel_merge_sort 9b11 69l5 69t24
+11p4 Input{12|52P9} 39m18 39r18 44r42 48m11 48r11 62r18 63m17 63r17
+11p11 Output{12|52P9} 40m20 40r20 54r35 57m11 57r11 65r18 66m17 66r17
+12e4 Buffer{character} 44m7 45r32
+13i4 I{natural} 45r12 46m7 46r12 51r16
+14i4 time_end{2|42I9} 42m4
+15o4 interval{duration} 41m4 42r29
+16i4 time_start{2|42I9} 38m4 42r16
+17a4 test{string} 52m7 53r17 53r30 54r44
+19U14 Callback 33l11 33t19
+19a24 Switch{string}
+19a32 Param{string}
+19a39 Section{string}
+20p10 Config{16|554P9} 25m25 25r25 27m25 27r25 29m25 29r25 32r27
+21p10 I_Option{35|45P9} 25m33 25r33
+22p10 O_Option{35|45P9} 27m33 27r33
+23i10 T_Option{integer} 29m33 29r33
+34K12 PS[26|5] 35r10 36r18 50r4
+35p4 arr{26|9P10[34]} 49m4 50r36 50r51
+36a4 arr1{26|8A10[34]} 45m7 49m10 49r10 52r15
+51i8 J{integer} 52r20
+53i11 Z{integer} 54r49
+2I10 Item_Type{integer} 3r29[34] 3r47[34] 4r29[34] 4r47[34] 8r51[34]
+8A10 Array_Type(integer)<integer> 36r21[34] 9r42[34] 13r38[34] 13r57[34]
+. 4r38[34] 4r57[34] 5r16[34] 32r28[34] 32r53[34] 38r33[34] 38r58[34] 44r28[34]
+. 45r26[34] 46r27[34]
+9P10 Array_Access_Type(26|8A10[34]) 35r13[34] 11r42[34] 12r43[34] 29r42[34]
+. 30r43[34]
+11U15 Parallel_Merge_Sort 50s7[34]
+11p35 Input{26|9P10[34]} 65r24[34] 65r30[34] 65r43[34] 65r65[34] 65r78[34]
+. 66r25[34] 66r31[34] 66r45[34] 66r65[34] 66r78[34]
+12p35 Result{26|9P10[34]} 65r58[34] 66r58[34]
+13V13 merge_this{26|8A10[34]} 56s30[34]
+13a24 Left{26|8A10[34]} 5r27[34] 6r31[34] 10r27[34] 11r13[34] 12r37[34] 20r24[34]
+. 21r47[34] 21r64[34]
+13a30 Right{26|8A10[34]} 5r39[34] 7r32[34] 10r56[34] 11r32[34] 15r37[34]
+. 23r25[34] 24r47[34] 24r66[34]
+5a7 Result{26|8A10[34]} 8r33[34] 12m13[34] 15m13[34] 21m10[34] 21r31[34]
+. 24m10[34] 24r31[34] 26r14[34]
+6i7 Left_Index{natural} 10r13[34] 11r18[34] 12r42[34] 13m13[34] 13r40[34]
+. 20r10[34] 21r52[34]
+7i7 Right_Index{natural} 10r41[34] 11r38[34] 15r43[34] 16m13[34] 16r41[34]
+. 23r10[34] 24r53[34]
+8i7 Result_Index{natural} 12r20[34] 15r20[34] 18m10[34] 18r39[34] 21r17[34]
+. 24r17[34]
+31T17 merge_sort_Task 33e26[34] 63r23[34]
+32Y12 Sort_this 65s14[34] 66s15[34]
+32a22 Item{26|8A10[34]} 41r16[34] 42r39[34] 42r70[34] 44r39[34] 45r37[34]
+. 46r46[34] 49r33[34] 52r34[34] 59r26[34]
+32a40 result1{26|8A10[34]} 59m16[34]
+36i10 Middle{natural} 42m16[34] 45r62[34] 46r38[34]
+44a19 result1{26|8A10[34]} 56m19[34]
+45a19 Left{26|8A10[34]} 48r28[34] 49m22[34] 54r29[34] 54m35[34] 56r41[34]
+46a19 Right{26|8A10[34]} 51r28[34] 52m22[34] 55r29[34] 55m36[34] 56r47[34]
+48i23 I{integer} 49r27[34] 49r38[34]
+51i23 I{integer} 52r28[34] 52r39[34]
+63t7 oddOne{27|31T17[34]} 65r7[34]
+63t14 evenOne{27|31T17[34]} 66r7[34]
+X 26 parallel_sort.ads
+3V20 "="{boolean} 25|34r45
+4V20 "<"{boolean} 25|34r57
+5k9*Parallel_Sort 25|4w6 34r22 26|15e18
+X 35 s-string.ads
+45P9*String_Access(string) 25|21r31 22r32
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS parallel_merge_sort__callback 0
+GG EK_GLOBALS parallel_merge_sort__callback local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 gnat__command_line__define_switch__3 gnat__command_line__define_switch__4 gnat__command_line__getopt__2 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS parallel_merge_sort__ps__parallel_merge_sort__merge_sort_task__sort_this 0
+GG EK_GLOBALS parallel_merge_sort__ps__parallel_merge_sort__merge_sort_task__sort_this local TRUE E_ENTRY ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS parallel_merge_sort__ps__parallel_merge_sort__merge_sort_task 0
+GG EK_GLOBALS parallel_merge_sort__ps__parallel_merge_sort__merge_sort_task local TRUE E_TASK_TYPE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS parallel_merge_sort__ps__parallel_merge_sort 0
+GG EK_GLOBALS parallel_merge_sort__ps__parallel_merge_sort local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 0 refined_proof_in 0 refined_input 1 __HEAP refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS parallel_merge_sort__ps__merge_this 0
+GG EK_GLOBALS parallel_merge_sort__ps__merge_this local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS parallel_merge_sort__ps 0
+GG EK_GLOBALS parallel_merge_sort__ps local FALSE E_PACKAGE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS parallel_merge_sort 0
+GG EK_GLOBALS parallel_merge_sort local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 __HEAP proper_output 0 refined_proof_in 0 refined_input 1 __HEAP refined_output 0 calls_proof 0 calls 0 calls_conditional 10 gnat__command_line__get_argument ada__text_io__create ada__text_io__open ada__text_io__close ada__text_io__is_open ada__text_io__end_of_file__2 ada__text_io__put_line__2 ada__text_io__text_streams__stream ada__calendar__clock ada__calendar__Oadd local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

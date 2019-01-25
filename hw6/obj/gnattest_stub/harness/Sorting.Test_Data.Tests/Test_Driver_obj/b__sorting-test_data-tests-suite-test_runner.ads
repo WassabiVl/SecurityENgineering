@@ -359,9 +359,9 @@ package ada_main is
    pragma Export (C, u00160, "aunit__test_suitesS");
    u00161 : constant Version_32 := 16#9c506c0f#;
    pragma Export (C, u00161, "gnattest_generatedS");
-   u00162 : constant Version_32 := 16#d08ce6d9#;
+   u00162 : constant Version_32 := 16#04d6f595#;
    pragma Export (C, u00162, "sorting__test_data__tests__suiteB");
-   u00163 : constant Version_32 := 16#acae7d52#;
+   u00163 : constant Version_32 := 16#3affb427#;
    pragma Export (C, u00163, "sorting__test_data__tests__suiteS");
    u00164 : constant Version_32 := 16#78683681#;
    pragma Export (C, u00164, "aunit__test_callerB");
@@ -371,22 +371,36 @@ package ada_main is
    pragma Export (C, u00166, "aunit__test_fixturesB");
    u00167 : constant Version_32 := 16#3b99f1a5#;
    pragma Export (C, u00167, "aunit__test_fixturesS");
-   u00168 : constant Version_32 := 16#23fde4de#;
+   u00168 : constant Version_32 := 16#6e1f4501#;
    pragma Export (C, u00168, "sorting__test_data__testsB");
-   u00169 : constant Version_32 := 16#894d275e#;
+   u00169 : constant Version_32 := 16#1f1cee2b#;
    pragma Export (C, u00169, "sorting__test_data__testsS");
    u00170 : constant Version_32 := 16#1a1c34b7#;
    pragma Export (C, u00170, "sorting__test_dataB");
-   u00171 : constant Version_32 := 16#56e9428e#;
+   u00171 : constant Version_32 := 16#7cce1061#;
    pragma Export (C, u00171, "sorting__test_dataS");
-   u00172 : constant Version_32 := 16#e4a07d1a#;
+   u00172 : constant Version_32 := 16#b2400ef7#;
    pragma Export (C, u00172, "sortingB");
-   u00173 : constant Version_32 := 16#ef1505ad#;
+   u00173 : constant Version_32 := 16#c5325742#;
    pragma Export (C, u00173, "sortingS");
-   u00174 : constant Version_32 := 16#52f1910f#;
-   pragma Export (C, u00174, "system__assertionsB");
-   u00175 : constant Version_32 := 16#ff2dadac#;
-   pragma Export (C, u00175, "system__assertionsS");
+   u00174 : constant Version_32 := 16#927a893f#;
+   pragma Export (C, u00174, "ada__text_ioB");
+   u00175 : constant Version_32 := 16#25015822#;
+   pragma Export (C, u00175, "ada__text_ioS");
+   u00176 : constant Version_32 := 16#73d2d764#;
+   pragma Export (C, u00176, "interfaces__c_streamsB");
+   u00177 : constant Version_32 := 16#b1330297#;
+   pragma Export (C, u00177, "interfaces__c_streamsS");
+   u00178 : constant Version_32 := 16#ec083f01#;
+   pragma Export (C, u00178, "system__file_ioB");
+   u00179 : constant Version_32 := 16#95d1605d#;
+   pragma Export (C, u00179, "system__file_ioS");
+   u00180 : constant Version_32 := 16#cf3f1b90#;
+   pragma Export (C, u00180, "system__file_control_blockS");
+   u00181 : constant Version_32 := 16#52f1910f#;
+   pragma Export (C, u00181, "system__assertionsB");
+   u00182 : constant Version_32 := 16#ff2dadac#;
+   pragma Export (C, u00182, "system__assertionsS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -409,6 +423,8 @@ package ada_main is
    --  system.parameters%s
    --  system.parameters%b
    --  system.crtl%s
+   --  interfaces.c_streams%s
+   --  interfaces.c_streams%b
    --  system.storage_elements%s
    --  system.storage_elements%b
    --  system.stack_checking%s
@@ -501,9 +517,12 @@ package ada_main is
    --  ada.tags%b
    --  ada.streams%s
    --  ada.streams%b
+   --  system.file_control_block%s
    --  system.finalization_root%s
    --  system.finalization_root%b
    --  ada.finalization%s
+   --  system.file_io%s
+   --  system.file_io%b
    --  system.storage_pools%s
    --  system.storage_pools%b
    --  system.finalization_masters%s
@@ -515,6 +534,8 @@ package ada_main is
    --  system.os_primitives%b
    --  ada.calendar%s
    --  ada.calendar%b
+   --  ada.text_io%s
+   --  ada.text_io%b
    --  gnat.traceback%s
    --  gnat.traceback%b
    --  gnat.traceback.symbolic%s

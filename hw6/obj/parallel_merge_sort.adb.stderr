@@ -1,0 +1,13 @@
+parallel_merge_sort.adb:4:25: a generic package is not allowed in a use clause
+parallel_merge_sort.adb:11:17: "Array_Type" is not visible
+parallel_merge_sort.adb:11:17: non-visible declaration at parallel_sort.ads:8
+parallel_merge_sort.adb:31:84: unmatched actual "Opt_Parser" in call
+parallel_merge_sort.adb:32:86: unmatched actual "Opt_Parser" in call
+parallel_merge_sort.adb:33:25: invalid operand types for operator "+"
+parallel_merge_sort.adb:33:25: left operand has private type "Ada.Calendar.Time"
+parallel_merge_sort.adb:33:25: right operand has type "Standard.String"
+parallel_merge_sort.adb:34:29: missing argument for "integer_value" attribute
+parallel_merge_sort.adb:36:29: missing argument for "integer_value" attribute
+parallel_merge_sort.adb:43:10: warning: unreachable code
+parallel_merge_sort.adb:44:10: invalid prefix in selected component "Parallel_Sort"
+parallel_merge_sort.adb:44:23: prefixed call is only allowed for objects of a tagged type

@@ -13,7 +13,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 
 U gnattest_generated%s	gnattest_generated.ads	9c506c0f NE OO PK
 
-D gnattest_generated.ads  20190115183420 9c506c0f gnattest_generated%s
+D gnattest_generated.ads  20190118115522 9c506c0f gnattest_generated%s
 D system.ads		20180524051738 32a08138 system%s
 X 1 gnattest_generated.ads
 1K9*Gnattest_Generated 4l5 4e23

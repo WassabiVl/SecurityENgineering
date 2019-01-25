@@ -23,12 +23,15 @@ package body ada_main is
    E044 : Short_Integer; pragma Import (Ada, E044, "system__traceback__symbolic_E");
    E014 : Short_Integer; pragma Import (Ada, E014, "ada__tags_E");
    E136 : Short_Integer; pragma Import (Ada, E136, "ada__streams_E");
+   E180 : Short_Integer; pragma Import (Ada, E180, "system__file_control_block_E");
    E138 : Short_Integer; pragma Import (Ada, E138, "system__finalization_root_E");
    E134 : Short_Integer; pragma Import (Ada, E134, "ada__finalization_E");
+   E179 : Short_Integer; pragma Import (Ada, E179, "system__file_io_E");
    E140 : Short_Integer; pragma Import (Ada, E140, "system__storage_pools_E");
    E131 : Short_Integer; pragma Import (Ada, E131, "system__finalization_masters_E");
    E123 : Short_Integer; pragma Import (Ada, E123, "ada__calendar_E");
-   E175 : Short_Integer; pragma Import (Ada, E175, "system__assertions_E");
+   E175 : Short_Integer; pragma Import (Ada, E175, "ada__text_io_E");
+   E182 : Short_Integer; pragma Import (Ada, E182, "system__assertions_E");
    E142 : Short_Integer; pragma Import (Ada, E142, "system__pool_global_E");
    E005 : Short_Integer; pragma Import (Ada, E005, "aunit_E");
    E008 : Short_Integer; pragma Import (Ada, E008, "aunit__memory_E");
@@ -144,12 +147,26 @@ package body ada_main is
       begin
          F12;
       end;
-      E131 := E131 - 1;
+      E175 := E175 - 1;
       declare
          procedure F13;
-         pragma Import (Ada, F13, "system__finalization_masters__finalize_spec");
+         pragma Import (Ada, F13, "ada__text_io__finalize_spec");
       begin
          F13;
+      end;
+      E131 := E131 - 1;
+      declare
+         procedure F14;
+         pragma Import (Ada, F14, "system__finalization_masters__finalize_spec");
+      begin
+         F14;
+      end;
+      declare
+         procedure F15;
+         pragma Import (Ada, F15, "system__file_io__finalize_body");
+      begin
+         E179 := E179 - 1;
+         F15;
       end;
       declare
          procedure Reraise_Library_Exception_If_Any;
@@ -290,10 +307,14 @@ package body ada_main is
       E014 := E014 + 1;
       Ada.Streams'Elab_Spec;
       E136 := E136 + 1;
+      System.File_Control_Block'Elab_Spec;
+      E180 := E180 + 1;
       System.Finalization_Root'Elab_Spec;
       E138 := E138 + 1;
       Ada.Finalization'Elab_Spec;
       E134 := E134 + 1;
+      System.File_Io'Elab_Body;
+      E179 := E179 + 1;
       System.Storage_Pools'Elab_Spec;
       E140 := E140 + 1;
       System.Finalization_Masters'Elab_Spec;
@@ -302,8 +323,11 @@ package body ada_main is
       Ada.Calendar'Elab_Spec;
       Ada.Calendar'Elab_Body;
       E123 := E123 + 1;
-      System.Assertions'Elab_Spec;
+      Ada.Text_Io'Elab_Spec;
+      Ada.Text_Io'Elab_Body;
       E175 := E175 + 1;
+      System.Assertions'Elab_Spec;
+      E182 := E182 + 1;
       System.Pool_Global'Elab_Spec;
       E142 := E142 + 1;
       E008 := E008 + 1;
