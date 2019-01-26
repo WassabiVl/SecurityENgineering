@@ -1,0 +1,4 @@
+hofstadter_q.adb:8:28: "others" choice not allowed here
+hofstadter_q.adb:19:13: prefix of "First" attribute must be a type
+hofstadter_q.adb:19:32: prefix of "Last" attribute must be a type
+hofstadter_q.adb:20:07: invalid use of subtype mark in expression or call
