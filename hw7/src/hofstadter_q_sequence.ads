@@ -1,8 +1,6 @@
 with Ada.Real_Time;
 
-package Hofstadter_Q_Sequence 
-with SPARK_Mode 
-is
+package Hofstadter_Q_Sequence  is
    type Array_Type is array(Positive range <>) of Integer;
    
    protected type Q_Array(S : Integer) is       
@@ -34,7 +32,7 @@ is
        --sets task_complete value
       procedure Set_Complete;
       
-      --triggered if computation is completed or q is pressed
+      --triggered if computation is completed
       function At_End return Boolean;
       
       --Keeps track of time spent on computation of Q Sequence

@@ -155,6 +155,7 @@ package body Hofstadter_Q_Sequence is
       end;
       
       Array_Result.Print;
+      
       --
    end Mute_Workers;
    

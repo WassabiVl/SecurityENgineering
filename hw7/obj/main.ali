@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		d3bf3344 NE OO SU
+U main%b		main.adb		2c9704d0 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.command_line%s	a-comlin.adb		a-comlin.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -28,7 +28,7 @@ D a-tags.ads		20180524051738 491b781d ada.tags%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-D hofstadter_q_sequence.ads  20190129170944 bb28ee44 hofstadter_q_sequence%s
+D hofstadter_q_sequence.ads  20190129195702 4400d9d0 hofstadter_q_sequence%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
@@ -69,8 +69,8 @@ X 9 a-textio.ads
 X 10 a-tiinio.ads
 56U14*Get 17|11s4[4|18] 13s4[4|18]
 X 12 hofstadter_q_sequence.ads
-3K9*Hofstadter_Q_Sequence 51e26 17|1w6 15r4
-21U14*Mute_Workers 17|15s26
+3K9*Hofstadter_Q_Sequence 49e26 17|1w6 15r4
+19U14*Mute_Workers 17|15s26
 X 17 main.adb
 5U11*Main 5b11 16l5 16t9
 6i4 Input_Number{integer} 11m8 15r39

@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#d3bf3344#;
+   u00001 : constant Version_32 := 16#2c9704d0#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -309,7 +309,7 @@ package ada_main is
    pragma Export (C, u00135, "system__val_unsS");
    u00136 : constant Version_32 := 16#b54e7731#;
    pragma Export (C, u00136, "hofstadter_q_sequenceB");
-   u00137 : constant Version_32 := 16#b9681237#;
+   u00137 : constant Version_32 := 16#464025a3#;
    pragma Export (C, u00137, "hofstadter_q_sequenceS");
    u00138 : constant Version_32 := 16#c04d61ca#;
    pragma Export (C, u00138, "ada__real_timeB");

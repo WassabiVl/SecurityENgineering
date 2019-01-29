@@ -74,6 +74,7 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
+D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw7\obj\gnattest\harness\suppress.adc"  20190129213714 00000000
 X 1 ada.ads
 16K9*Ada 20e8 10|1r6 1r28 1r53 4r8 11|1r6
 X 2 a-except.ads

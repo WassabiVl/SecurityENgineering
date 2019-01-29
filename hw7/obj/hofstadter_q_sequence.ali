@@ -47,7 +47,7 @@ Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-U hofstadter_q_sequence%s  hofstadter_q_sequence.ads  b9681237 EE NE OO PK
+U hofstadter_q_sequence%s  hofstadter_q_sequence.ads  464025a3 EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
@@ -65,8 +65,8 @@ D a-taster.ads		20180524051738 fe3f8ac8 ada.task_termination%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D armageddon.ads	20190129153030 5df512de armageddon%s
-D hofstadter_q_sequence.ads  20190129170944 bb28ee44 hofstadter_q_sequence%s
-D hofstadter_q_sequence.adb  20190129182342 62e62ac6 hofstadter_q_sequence%b
+D hofstadter_q_sequence.ads  20190129195702 4400d9d0 hofstadter_q_sequence%s
+D hofstadter_q_sequence.adb  20190129195710 62e62ac6 hofstadter_q_sequence%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
@@ -101,13 +101,14 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
+D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw7\obj\gnattest\harness\suppress.adc"  20190129213714 00000000
 X 1 ada.ads
-16K9*Ada 20e8 13|1r6 47r19 14|1r29 1r42 37r10 40r16 79r24 84r24 84r46 85r21
+16K9*Ada 20e8 13|1r6 45r19 14|1r29 1r42 37r10 40r16 79r24 84r24 84r46 85r21
 . 87r23 88r18 88r47 126r13 139r13
 X 5 a-reatim.ads
-39K13*Real_Time 185e18 13|1w10 47r23 14|1w46 79r28 84r28 84r50 85r25 87r27
+39K13*Real_Time 185e18 13|1w10 45r23 14|1w46 79r28 84r28 84r50 85r25 87r27
 . 88r22 88r51
-49O9*Time<duration> 13|47r33 14|84r38
+49O9*Time<duration> 13|45r33 14|84r38
 54O9*Time_Span<duration> 14|85r35
 61V13*Clock{49O9} 14|79s38 84s60
 71V14*"-"{54O9} 14|87s38
@@ -121,44 +122,44 @@ X 10 a-textio.ads
 X 12 armageddon.ads
 3K9*Armageddon 19e15 14|2w6
 X 13 hofstadter_q_sequence.ads
-3K9*Hofstadter_Q_Sequence 51l5 51e26 14|1w6 4b14 161l5 161t26
-6A9*Array_Type(integer)<integer> 13r17
-8W19*Q_Array 8d27 13E6 14l8 14e15 14|17b19 44l8 44t15 97r21
-8i27 S{integer} 13r33
-9U17 Retrieve 9=26 9<51 14|19b17 28l11 28t19 132s26
-9i26 Index{positive} 14|19b27 20r34 22r21 24m13
-9b51 success{boolean} 14|19b52 23m13 26m13
-10U17 Add 10>21 10>28 14|30b17 33l11 33t14 136s32
-10i21 Index{positive} 14|30b21 32r18
-10i28 Value{positive} 14|30b28 32r28
-11U17 Print 14|35b17 43l11 43t16 157s20
-13a6 Array_1{6A9} 14|22r13 24r22 32r10 38r19 39r16 40r45
-17V13*Q{positive} 17>15 14|8b13 13s17 13s23 13s33 13s37 15l8 15t9 134s27
-17i15 N{positive} 14|8b15 10r10 13r19 13r25 13r35 13r39
-21U14*Mute_Workers 21>27 21>43 14|94b14 159l8 159t20
-21i27 Q_Num{integer} 14|94b27 97r29 151r34 152r34 153r34 154r34
-21i43 End_Time{integer} 14|94b43 151r41 152r41 153r41 154r41
-24W19*One_Way_Counter 24d35 27E15 29l8 29e23 14|48b19 62l8 62t23 98r20
-24i35 N{positive} 14|52r23 59r28
-25U17 Increment 14|49b17 55l11 55t20 142s22
-26V16 At_End{boolean} 14|57b16 60l11 60t17
-27i15 Current{natural} 14|52r13 53r13 53r24 59r18
-33W19*End_Tasks 46E7 48l8 48e17 14|6r12 64b19 92l11 92t20
-35U17 Set_Complete 14|65b17 69l11 69t23 124s23 128s23
-38V16 At_End{boolean} 14|71b16 75l11 75t17 127s58 135s30
-41U17 Start_Timer 14|77b17 80l11 80t22 150s17
-44V16 Time_Out{boolean} 44>25 14|82b16 90l11 90t19 123s23
-44i25 Finish{integer} 14|82b25 88r81
-46b7 Task_Complete{boolean} 14|68r10 74r17
-47o7 Start_Time{5|49O9} 14|79r10 87r55
+3K9*Hofstadter_Q_Sequence 49l5 49e26 14|1w6 4b14 162l5 162t26
+4A9*Array_Type(integer)<integer> 11r17
+6W19*Q_Array 6d27 11E6 12l8 12e15 14|17b19 44l8 44t15 97r21
+6i27 S{integer} 11r33
+7U17 Retrieve 7=26 7<51 14|19b17 28l11 28t19 132s26
+7i26 Index{positive} 14|19b27 20r34 22r21 24m13
+7b51 success{boolean} 14|19b52 23m13 26m13
+8U17 Add 8>21 8>28 14|30b17 33l11 33t14 136s32
+8i21 Index{positive} 14|30b21 32r18
+8i28 Value{positive} 14|30b28 32r28
+9U17 Print 14|35b17 43l11 43t16 157s20
+11a6 Array_1{4A9} 14|22r13 24r22 32r10 38r19 39r16 40r45
+15V13*Q{positive} 15>15 14|8b13 13s17 13s23 13s33 13s37 15l8 15t9 134s27
+15i15 N{positive} 14|8b15 10r10 13r19 13r25 13r35 13r39
+19U14*Mute_Workers 19>27 19>43 14|94b14 160l8 160t20
+19i27 Q_Num{integer} 14|94b27 97r29 151r34 152r34 153r34 154r34
+19i43 End_Time{integer} 14|94b43 151r41 152r41 153r41 154r41
+22W19*One_Way_Counter 22d35 25E15 27l8 27e23 14|48b19 62l8 62t23 98r20
+22i35 N{positive} 14|52r23 59r28
+23U17 Increment 14|49b17 55l11 55t20 142s22
+24V16 At_End{boolean} 14|57b16 60l11 60t17
+25i15 Current{natural} 14|52r13 53r13 53r24 59r18
+31W19*End_Tasks 44E7 46l8 46e17 14|6r12 64b19 92l11 92t20
+33U17 Set_Complete 14|65b17 69l11 69t23 124s23 128s23
+36V16 At_End{boolean} 14|71b16 75l11 75t17 127s58 135s30
+39U17 Start_Timer 14|77b17 80l11 80t22 150s17
+42V16 Time_Out{boolean} 42>25 14|82b16 90l11 90t19 123s23
+42i25 Finish{integer} 14|82b25 88r81
+44b7 Task_Complete{boolean} 14|68r10 74r17
+45o7 Start_Time{5|49O9} 14|79r10 87r55
 X 14 hofstadter_q_sequence.adb
-6w4 Beginn{13|33W19} 123r16 124r16 127r51 128r16 135r23 150r10
+6w4 Beginn{13|31W19} 123r16 124r16 127r51 128r16 135r23 150r10
 20i10 Prev_Index{positive} 24r30
 38i14 I{integer} 39r24 40r37 40r53
 84o10 Current_Time{5|49O9} 87r41
 85o10 Time_Diff{5|54O9} 87m10 88r36
-97w7 Array_Result{13|8W19} 132r13 136r19 157r7
-98w7 One_Counter{13|24W19} 142r10
+97w7 Array_Result{13|6W19} 132r13 136r19 157r7
+98w7 One_Counter{13|22W19} 142r10
 99T17 Worker 102l11 102e17 104b17 144l11 144t17 148r42
 100Y16 Start 100>22 100>39 100>46 100>64 101>22 113b17 121l14 121t19 151s17
 . 152s17 153s17 154s17
