@@ -1,6 +1,5 @@
-with Ada.Unchecked_Deallocation ;
-with Graph ;
-
+with Ada.Unchecked_Deallocation;
+with Graph;
 generic
  type Vertex_Type is private;
  with function "="(Left: Vertex_Type ; Right : Vertex_Type ) return Boolean ;
@@ -22,7 +21,11 @@ package Graph_Algorithms is
  -- with edge weights . If the graph is connected , Result will hold the
  -- minimal spanning tree ; otherwise , Result will hold the minimal spanning
  -- forest .
- procedure Find_Min_Spanning_Tree ( Result : out Vertex_Array_Access );
+   procedure Find_Min_Spanning_Tree ( Result : out Vertex_Array_Access );
+   
+   function find_it(ver: Vertex_Type) return Vertex_Type;
+   procedure union_it(ver1 : Vertex_Type, ver2: Vertex_Type);
+   procedure initilaize_it(ver: Vertex_Type);
    
 
 end Graph_Algorithms;
