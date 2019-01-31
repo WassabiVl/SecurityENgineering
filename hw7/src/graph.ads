@@ -1,9 +1,9 @@
 with Ada.Containers.Vectors;
+
 generic
    type Vertex_Type is private;
    with function "="(Left: Vertex_Type; Right: Vertex_Type) return Boolean;
-package Graph
-is
+package Graph is
    Edge_Not_Found_Exception: exception;
    Vertex_Already_In_Graph_Exception: exception;
    Vertex_Not_Found_Exception: exception;
@@ -56,7 +56,7 @@ is
    function Has_Edge(G: Graph_Type; From: Vertex_Type; To: Vertex_Type)
                       return Boolean;
    -- Returns True if an edge from From to To is stored in the graph.
-   -- Returns False otherwise.q
+   -- Returns False otherwise.
 
    function Remove_Edge(G: in out Graph_Type;
                         From: Vertex_Type;

@@ -1,0 +1,39 @@
+[GENERATED OBJECT FILE]
+b__test_runner.o
+[PROJECT FILES]
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\test_driver.gpr
+20190129213714
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr
+20190126110224
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\gnattest_common.gpr
+20190129201300
+C:\gnat\2018\share\gpr\aunit.gpr
+20180524170648
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\test_hw7.gpr
+20190129213714
+[BOUND OBJECT FILES]
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\armageddon.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\gnattest_generated.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\hofstadter_q_sequence.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\hofstadter_q_sequence-test_data.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\hofstadter_q_sequence-test_data-tests.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\hofstadter_q_sequence-test_data-tests-suite.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\gnattest_main_suite.o
+C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\test_runner.o
+[GENERATED SOURCE FILES]
+b__test_runner.ads
+b__test_runner.adb
+b__test_runner.ali
+[RESULTING OPTIONS]
+-LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\
+-LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\
+-LC:\gnat\2018\lib\aunit\
+-LC:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnarl.a
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

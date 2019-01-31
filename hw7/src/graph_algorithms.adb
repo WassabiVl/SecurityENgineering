@@ -19,7 +19,7 @@ is
                                   Path: out Vertex_Array_Access)
    is
       Vertices : aliased Vertex_Array := To_Vertex_Array(G); 
-      Distances : array(Vertices'Range) of Integer; 
+      Distances : array(Vertices'Range) of Natural; 
       Result_G : Graph_Type;
    begin
       for I in Distances'Range loop
@@ -39,7 +39,7 @@ is
             for I in Vertices'Range loop
                Cur_Vertex := G.Vertices(I);
                Cur_Dist := Distances(I);
-               if Cur_Dist <= Min_Dist and
+               if Cur_Dist < Min_Dist and
                  not Result_G.Vertices.contains(Cur_Vertex) then
                   Min_Vertex := Cur_Vertex;
                   Min_Dist := Cur_Dist;
@@ -58,6 +58,9 @@ is
                   begin
                      if(New_Weight < Neighbour_Dist) then
                         Distances(I) := New_Weight;
+                        Result_G.Add_Edge(From   => Min_Vertex,
+                                          To     => Neighbour_Vertex,
+                                          Weight => Distances(I));
                      end if;
                   end;
                end if;
@@ -74,38 +77,33 @@ is
    -----------------------------------------------------------------------------------
  
    procedure Find_Min_Spanning_Tree ( Result : out Vertex_Array_Access )is
-      G_Copy : Graph_Type := G; 
       Sorted_Edge_Vector : Edge_Vectors.Vector;
       Result2: aliased Vertex_Array := To_Vertex_Array(G);
-      Graph_v : Graph_Vectors.Vector;
-      Result1 : Graph_Type;
    begin
-     
       Sorted_Edge_Vector := Sort_Edge_Vector(G => G);
-      Graph_v := Get_Graph_Vectors(G);
       -- merge the subgraphes
       while not Sorted_Edge_Vector.Is_Empty loop
          declare
             -- get edge with lowest cost
-            Index : constant Integer := First_Index(Sorted_Edge_Vector);
+            Index : constant Natural := First_Index(Sorted_Edge_Vector);
             Edge : constant Edge_Type := Sorted_Edge_Vector(Index);
             From_Graph : Graph_Type;
-            From_Graph_Index : Integer;
+            From_Graph_Index : Natural;
             To_Graph : Graph_Type;
-            To_Graph_Index : Integer;
+            To_Graph_Index : Natural;
          begin
             -- remove edge from sorted list
             Sorted_Edge_Vector.Delete(Index);
             -- get subgraphs each containing from or to
-            for I in First_Index(Graph_v)..Last_Index(Graph_v) loop
+            for I in Result2'Range loop
                -- get the subgraph of the from node
-               if Graph_Contains_Vertex(Graph_v(I), Edge.From) then
-                  From_Graph := Graph_v(I);
+               if Result2(I) = Edge.From then
+                  From_Graph.Add_Vertex(Result2(I));
                   From_Graph_Index := I;
                end if;
                -- get the subgraph of the to node
-               if Graph_Contains_Vertex(Graph_v(I), Edge.To) then
-                  To_Graph := Graph_v(I);
+               if Result2(I) = Edge.To then
+                  To_Graph.Add_Vertex(Result2(I));
                   To_Graph_Index := I;
                end if;
             end loop;
@@ -113,26 +111,23 @@ is
             if From_Graph_Index /= To_Graph_Index then
                -- merge graphes
                Merge_Graphs(From_Graph, To_Graph); -- merges to into from
-               Graph_v.Delete(To_Graph_Index); -- remove from graphes set
+               --reResult2(To_Graph_Index); -- remove from set
                From_Graph.Add_Edge(From   => Edge.From,
                                    To     => Edge.To,
                                    Weight => Edge.Weight); -- add the actual edge to left set
             end if; -- otherwise do nothing
          end;
       end loop;
-      Put_Line(Last_Index(Graph_v)'Image);
-      Result1 := Graph_v(Last_Index(Graph_v));
-      Result2 := (To_Vertex_Array(Result1));
-      Result := Result2'Unchecked_Access;
+     Result := Result2'Unchecked_Access;
             
    end Find_Min_Spanning_Tree;
   
 
-   function Graph_Contains_Vertex(G: Graph_Type;
+   function Graph_Contains_Vertex(G1: Graph_Type;
                                   V: Vertex_Type) return Boolean is
    begin
-      for I in First_Index(G.Vertices)..Last_Index(G.Vertices) loop
-         if G.Vertices(I) = V then
+      for I in First_Index(G1.Vertices)..Last_Index(G1.Vertices) loop
+         if G1.Vertices(I) = V then
             return True;
          end if;
       end loop;
@@ -176,16 +171,16 @@ is
       return Sorted_Edge_Vector;
    end Sort_Edge_Vector;
    
-   function Get_Graph_Vectors(G2:Graph_Type) return Graph_Vectors.Vector
+   function Get_Graph_Vectors(G2:Graph_Type) return Vertex_Vectors.Vector
    is
-      G1 : Graph_Vectors.Vector;
+      G1 : Vertex_Vectors.Vector;
    begin
       for I in First_Index(G2.Vertices)..Last_Index(G2.Vertices) loop
          declare
             Sub_Graph : Graph_Type;
          begin
-            Add_Vertex(Sub_Graph,G2.Vertices(I));
-            Append(G1,Sub_Graph);
+           -- Sub_Graph.Add_Vertex(Vertex => G2.Vertices(I));
+            Append(G1,G2.Vertices(I));
          end;
       end loop;
       return G1;
@@ -194,18 +189,12 @@ is
    ----------------------------------------------------------------------------
    --------------test function-------------------------------------------------
    ----------------------------------------------------------------------------
-   procedure Print_Edges(G: Graph_Type) is
-      Edge : Edge_Type;
+   procedure Print_this(vrr: Vertex_Array) is
    begin
-      for I in First_Index(G.Edges) .. Last_Index(G.Edges) loop
-         Edge := G.Edges.Element(I);
-         Put_Vertex(Edge.From);
+      for I in vrr'Range loop
+         Put_Vertex(vrr(I));
          Put("->");
-         Put_Vertex(Edge.To);
-         Put("  ");
-         Put(Edge.Weight);
-         Put_Line("");
       end loop;
-   end Print_Edges;
+   end Print_this;
 
 end Graph_Algorithms;

@@ -1,0 +1,156 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U graph%b		graph.adb		c42de5a1 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+
+U graph%s		graph.ads		e034570b BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-contai.ads		20180524051736 61e5e089 ada.containers%s
+D a-cgarso.ads		20180524051736 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20180524051736 20298884 ada.containers.helpers%s
+D a-conhel.adb		20180524051738 9cc5095b ada.containers.helpers%b
+D a-convec.ads		20180524051738 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20180524051736 32f4e1a7 ada.containers.vectors%b
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-iteint.ads		20180524051736 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
+D graph.ads		20190130205524 9e1f58d4 graph%s
+D graph.adb		20190130235230 3bd75dfc graph%b
+D system.ads		20180524051738 32a08138 system%s
+D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 17r32 20r34 16|1r6 3r5
+X 2 a-contai.ads
+16K13*Containers 24e19 15|1r10 17r36 20r38 16|1w10 3r9
+20I9*Count_Type<integer>
+X 6 a-convec.ads
+61I9 Index_Type 15|19r55 22r57
+62+9 Element_Type 15|18r55 21r57
+73k24*Vectors 824e27 15|1w21 17r47 20r49
+78I12 Extended_Index{integer}
+88R9 Vector<9|43R9> 15|28r30[17] 29r32[20]
+165V13 Length{2|20I9} 16|11s10[15|20] 11s35[15|20] 12s9[15|17] 12s31[15|17]
+. 135s41[15|20]
+180U14 Clear 16|74s7[15|20] 75s7[15|17]
+196V13 Element{15|4+9} 16|17s34[15|20] 25s29[15|17] 40s33[15|20] 57s26[15|17]
+. 86s26[15|17] 103s26[15|17] 121s26[15|17] 139s34[15|20]
+207U14 Replace_Element 16|61s21[15|17]
+431U14 Append 16|45s7[15|20] 67s7[15|17]
+466U14 Delete 16|124s21[15|17]
+512V13 First_Index{integer} 16|16s16[15|20] 24s16[15|17] 39s16[15|20] 56s16[15|17]
+. 85s16[15|17] 102s16[15|17] 120s16[15|17] 138s16[15|20]
+522V13 Last_Index{78I12[15|20]} 16|16s46[15|20] 24s43[15|17] 39s43[15|20]
+. 56s40[15|17] 85s40[15|17] 102s40[15|17] 120s40[15|17] 138s43[15|20]
+601V13 Contains{boolean} 16|19s32[15|20] 27s29[15|17]
+X 10 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|111]>
+X 15 graph.ads
+4+9 Vertex_Type 5r28 5r48 12r15 13r15 21r73 26r52 34r55 39r29 40r27 51r35
+. 52r33 56r43 56r60 62r31 63r29 16|8r15 37r55 51r29 52r27 80r50 80r67 98r43
+. 98r60 116r31 117r29
+5V19 "="{boolean} 6|64i19 15|5>22 5>41 16|40s20 59s23 59s42 88s23 88s42 105s23
+. 105s42 123s23 123s42
+5*22 Left{4+9}
+5*41 Right{4+9}
+6k9*Graph 4z9 5z19 70l5 70e10 16|5b14 146l5 146t10
+7X4*Edge_Not_Found_Exception 16|93r13 129r13
+8X4*Vertex_Already_In_Graph_Exception 16|41r19
+9X4*Vertex_Not_Found_Exception
+11R9*Edge_Type 15e14 18r71 16|9r13 54r13 66r15 83r13 100r13 118r13
+12*7 From{4+9} 16|59r18 88r18 105r18 123r18
+13*7 To{4+9} 16|59r39 88r39 105r39 123r39
+14i7 Weight{integer} 16|60m18 89r25
+17K12*Edge_Vectors[6|73] 23r8 28r17
+20K12*Vertex_Vectors[6|73] 24r8 29r17
+26A9*Vertex_Array(4+9)<integer> 67r51 16|134r51 135r15
+27R9*Graph_Type 30e14 32p14 32r23 32r42 34p14 34r35 38p14 38r33 47p14 47r30
+. 50p13 50r32 56p13 56r25 61p13 61r35 67p13 67r32 16|7r23 7r42 37r35 50r33
+. 72r30 80r32 98r25 115r35 134r32
+28r7 Edges{6|88R9[17]} 16|12r21 12r44 24r33 24r59 25r23 27r23 56r30 56r53
+. 57r20 61m15 67m16 75m15 85r30 85r53 86r20 102r30 102r53 103r20 120r30 120r53
+. 121r20 124m15
+29r7 Vertices{6|88R9[20]} 16|11r22 11r48 16r33 16r62 17r25 19r23 39r30 39r56
+. 40r24 45m16 74m15 135r50 138r30 138r56 139r25
+32V14*"="{boolean} 32>17 32>35 16|7b14 33l9 33t11
+32r17 Left{27R9} 16|7b17 11r17 12r16 16r28 16r57 17r20 24r28 24r54 25r18
+32r35 Right{27R9} 16|7b35 11r42 12r38 19r17 27r17
+34U14*Add_Vertex 34=25 34>47 16|37b14 46l8 46t18
+34r25 G{27R9} 16|37b25 39r28 39r54 40r22 45m14 45r14
+34*47 Vertex{4+9} 16|37b47 40r13 45r26
+38U14*Add_Edge 38=23 39>23 40>23 41>23 16|50b14 68l8 68t16
+38r23 G{27R9} 16|50b23 56r28 56r51 57r18 61m13 61r13 67m14 67r14
+39*23 From{4+9} 16|51b23 59r25 66r26
+40*23 To{4+9} 16|52b23 59r44 66r32
+41i23 Weight{integer} 16|53b23 60r28 66r36
+47U14*Clear 47=20 16|72b14 76l8 76t13
+47r20 G{27R9} 16|72b20 74m13 74r13 75m13 75r13
+50V13*Get_Edge_Weight{integer} 50>29 51>29 52>29 16|80b13 94l8 94t23
+50r29 G{27R9} 16|80b29 85r28 85r51 86r18
+51*29 From{4+9} 16|80b44 88r25
+52*29 To{4+9} 16|80b63 88r44
+56V13*Has_Edge{boolean} 56>22 56>37 56>56 16|98b13 111l8 111t16
+56r22 G{27R9} 16|98b22 102r28 102r51 103r18
+56*37 From{4+9} 16|98b37 105r25
+56*56 To{4+9} 16|98b56 105r44
+61V13*Remove_Edge{boolean} 61=25 62>25 63>25 16|115b13 130l8 130t19
+61r25 G{27R9} 16|115b25 120r28 120r51 121r18 124m13 124r13
+62*25 From{4+9} 16|116b25 123r25
+63*25 To{4+9} 16|117b25 123r44
+67V13*To_Vertex_Array{26A9} 67>29 16|134b13 144l8 144t23
+67r29 G{27R9} 16|134b29 135r48 138r28 138r54 139r23
+X 16 graph.adb
+8*7 Vertex{15|4+9} 17m10 19r41
+9r7 Edge{15|11R9} 25m10 27r38
+16i11 I{integer} 17r42
+24i11 I{integer} 25r37
+39i11 I{integer} 40r41
+54r7 Edge{15|11R9} 57m10 59r13 59r34 60m13 61r40 66m7 67r23
+56i11 I{integer} 57r34 61r37
+83r7 Edge{15|11R9} 86m10 88r13 88r34 89r20
+85i11 I{integer} 86r34
+100r7 Edge{15|11R9} 103m10 105r13 105r34
+102i11 I{integer} 103r34
+118r7 Edge{15|11R9} 121m10 123r13 123r34
+120i11 I{integer} 121r34 124r28
+135a7 Result{15|26A9} 139m10 143r14
+136i7 J{natural} 139r17 140m10 140r15
+138i11 I{integer} 139r42
+

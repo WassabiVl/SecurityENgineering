@@ -1,8 +1,8 @@
--- André Karge 110033
--- K. Gerrit Lünsdorf 100141
+with Hofstadter_Q_Sequence;
+with Ada.Text_IO, Ada.Integer_Text_IO; use Ada.Text_IO, Ada.Integer_Text_IO;
+with Ada.Command_Line; use Ada.Command_Line;
 with Graph_Algorithms;
 with Graph;
-with Ada.Text_IO; use Ada.Text_IO;
 procedure Main is
    procedure My_Put(Item : Character) is
    begin
@@ -16,8 +16,9 @@ procedure Main is
                                                 Graph_Instance =>My_Graph_Instance );
 
    My_Graph : My_Graph_Instance.Graph_Type;
-   Result_Graph : My_Graph_Instance.Graph_Type;
-   Resut1: My_Graph_Alg.Vertex_Array_Access;
+   Result1: My_Graph_Alg.Vertex_Array_Access;
+   Input_Number: Integer;
+   Input_TimeOut: Integer;
 begin -- Main
    My_Graph_Instance.Add_Vertex(My_Graph, 'a');
    My_Graph_Instance.Add_Vertex(My_Graph, 'b');
@@ -28,10 +29,27 @@ begin -- Main
    My_Graph_Instance.Add_Edge(My_Graph, 'a', 'c', 4);
 
    My_Graph_Alg.Init_this(My_Graph);
-   My_Graph_Alg.Find_Min_Spanning_Tree(Result => Resut1);
    Put_Line("");
    Put_Line("Old Graph");
-   My_Graph_Alg.Print_Edges(My_Graph);
-   Put_Line("New Graph");
-   --Put_Line(Resut1.all'Image);
+   My_Graph_Alg.Print_this(vrr =>  My_Graph_Instance.To_Vertex_Array(My_Graph));
+   My_Graph_Alg.Find_Shortest_Path(From => 'a',
+                                   To   => 'c',
+                                   Path => Result1);
+   Put_Line("");
+   Put_Line("Shortest Route");
+   My_Graph_Alg.Init_this(My_Graph);
+   My_Graph_Alg.Print_this(vrr =>  Result1.all);
+   Put_Line("");
+
+   Put_Line("Spanning Tree");
+   My_Graph_Alg.Find_Min_Spanning_Tree(Result => Result1);
+   My_Graph_Alg.Print_this(vrr =>  Result1.all);
+
+   Put_Line("Number? ");
+   Get(Input_Number);
+   Put_Line("Timeout? ");
+   Get(Input_TimeOut);
+
+   Hofstadter_Q_Sequence.Mute_Workers(Input_Number, Input_TimeOut);
+
 end Main;

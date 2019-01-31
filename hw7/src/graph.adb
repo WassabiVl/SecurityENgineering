@@ -1,9 +1,8 @@
 with Ada.Containers;
-use Ada.Containers;
-with Ada.Containers.Vectors;
 
-package body Graph
-is
+use Ada.Containers;
+
+package body Graph is
 
    function "="(Left: Graph_Type; Right: Graph_Type) return Boolean is
       Vertex: Vertex_Type;
@@ -79,7 +78,7 @@ is
    -- ---------------------------------------------------------------
 
    function Get_Edge_Weight(G: Graph_Type; From: Vertex_Type; To: Vertex_Type)
-                             return Integer
+                            return Integer
    is
       Edge: Edge_Type;
    begin
@@ -97,7 +96,7 @@ is
    -- ---------------------------------------------------------------
 
    function Has_Edge(G: Graph_Type; From: Vertex_Type; To: Vertex_Type)
-                      return Boolean is
+                     return Boolean is
       Edge: Edge_Type;
    begin
       for I in First_Index(G.Edges) .. Last_Index(G.Edges) loop
