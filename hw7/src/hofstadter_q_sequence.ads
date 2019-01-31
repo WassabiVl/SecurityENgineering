@@ -3,6 +3,7 @@ with Ada.Real_Time;
 package Hofstadter_Q_Sequence  is
    type Array_Type is array(Positive range <>) of Integer;
    
+   --Array should be safely accessible by the different tasks
    protected type Q_Array(S : Integer) is       
       procedure Retrieve(Index : in out Positive; success : out Boolean); -- return on Index the value or Index, if the value was not recently calculated
       procedure Add(Index, Value : Positive);
@@ -28,6 +29,7 @@ package Hofstadter_Q_Sequence  is
    
    --functions/procedures that constitute checks to be carried out
    --before termination
+   --sould be accessible by all the tasks
    protected type End_Tasks is
        --sets task_complete value
       procedure Set_Complete;

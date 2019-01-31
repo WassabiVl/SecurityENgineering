@@ -20,11 +20,11 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests.Suite is
 
       Runner_1.Create
         (Case_1_1_Test_Q_7cfff6,
-         "hofstadter_q_sequence.ads:15:4:",
+         "hofstadter_q_sequence.ads:16:4:",
          Test_Q_7cfff6'Access);
       Runner_1.Create
         (Case_2_1_Test_Mute_Workers_546b33,
-         "hofstadter_q_sequence.ads:19:4:",
+         "hofstadter_q_sequence.ads:20:4:",
          Test_Mute_Workers_546b33'Access);
 
       Result.Add_Test (Case_1_1_Test_Q_7cfff6'Access);

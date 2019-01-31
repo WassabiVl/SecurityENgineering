@@ -1,6 +1,6 @@
 with Hofstadter_Q_Sequence;
 with Ada.Text_IO, Ada.Integer_Text_IO; use Ada.Text_IO, Ada.Integer_Text_IO;
-with Ada.Command_Line; use Ada.Command_Line;
+with GNAT.Command_Line; use GNAT.Command_Line;
 
 procedure Main is
    Input_Number: Integer;

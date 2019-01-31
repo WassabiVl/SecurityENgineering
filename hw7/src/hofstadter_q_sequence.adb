@@ -3,10 +3,12 @@ with Armageddon;
 
 package body Hofstadter_Q_Sequence is
    
+   
    Beginn: End_Tasks;
    
    function Q(N: Positive) return Positive is 
    begin
+     --the q-numbers for 1 and 2 are always 1
       if N < 3 then
          return 1;
       else
@@ -15,7 +17,8 @@ package body Hofstadter_Q_Sequence is
    end Q;
    
    protected body Q_Array is
-      -- return on Index the value or Index, if the value was not recently calculated
+      -- return on Index the value or return the index, 
+      --if the value was not recently calculated
       procedure Retrieve (Index : in out Positive; success : out Boolean) is
          Prev_Index: Positive := Index;
       begin
@@ -27,11 +30,13 @@ package body Hofstadter_Q_Sequence is
          end if;
       end Retrieve;
       
+      --adds the value to the array
       procedure Add(Index, Value : Positive) is
       begin
          Array_1(Index) := Value;
       end Add;
       
+      --prints the array with the q-sequence when called
       procedure Print is
       begin
          Ada.Text_IO.Put_Line("Output is ");
@@ -63,7 +68,7 @@ package body Hofstadter_Q_Sequence is
    
    protected body End_Tasks is
       procedure Set_Complete is
-         --sets task_complete value
+         --sets task_complete value and triggered if timeout is reached or q is pressed
       begin
          Task_Complete := True;
       end Set_Complete;
@@ -74,19 +79,21 @@ package body Hofstadter_Q_Sequence is
          return Task_Complete;
       end At_End;
       
+      --executes when tasks begin
       procedure Start_Timer is
       begin
+         --set time to current time
          Start_Time := Ada.Real_Time.Clock;
       end Start_Timer;
       
       function Time_Out(Finish: Integer) return Boolean is
-         
+         --keeps track of time elapsed, returns true if timeout is reached
+         --false if not.
          Current_Time: Ada.Real_Time.Time := Ada.Real_Time.Clock;
          Time_Diff: Ada.Real_Time.Time_Span;
       begin
          Time_Diff := Ada.Real_Time."-"(Current_Time, Start_Time);
          return (Ada.Real_Time.">"(Time_Diff, Ada.Real_Time.Milliseconds(1000 * Finish)));
-         
       end Time_Out;
       
       end End_Tasks;
@@ -110,6 +117,7 @@ package body Hofstadter_Q_Sequence is
          Q_Value: Positive;
          Evaluate: Boolean;
       begin
+         --rendevous using accept..do..end
          accept Start (Name: Character; Start, Offset: Positive; Q_Num: Integer;
                        End_Time: Integer) do
             Task_Name:= Name;
@@ -117,26 +125,40 @@ package body Hofstadter_Q_Sequence is
             Diff := Offset;
             Max_Val := Q_Num;
             Finish := End_Time;
-            
          end Start;
+         --place computation code here to prevent blocking this time around :)
+         
+         --while loop because iteration need not be done over all the numbers
+         --just the ones assigned to each task per Offset number
          while Val <= Max_Val loop
+            --checks if timeout is reached/elapsed
             if Beginn.Time_Out(Finish) then
                Beginn.Set_Complete;
             end if;
+            if Beginn.At_End then
+               Beginn.Set_Complete;
+            end if;
+            
+            --listens for when q is pressed
             Ada.Text_IO.Get_Immediate (Stop_Prog, Available);
-            if (Available and Stop_Prog = 'q') or Beginn.At_End then
+            if (Available and Stop_Prog = 'q') then
                Beginn.Set_Complete;
                exit;
             end if;
             Q_Value := Val;
             Array_Result.Retrieve(Q_Value, Evaluate);
+            
+            --computes hofstadter q-sequence only if the number
+            --has not been evaluated
             if not Evaluate then
                Q_Value := Q(Val);
                if not Beginn.At_End then
+                  --if task_complete is false
                   Array_Result.Add(Val, Q_Value);
                end if;
             end if;
             Ada.Text_IO.Put_Line(Task_Name & " " & Val'Img & Q_Value'Img);
+            --Next value is chosen based on the offset value specified
             Val := Val + Diff;
          end loop;
          One_Counter.Increment;              
@@ -147,6 +169,7 @@ package body Hofstadter_Q_Sequence is
       declare
          Task_1, Task_2, Task_3, Task_4: Worker;
       begin
+         --start tasks and their parameters
          Beginn.Start_Timer;
          Task_1.Start('A', 1, 4, Q_Num, End_Time);
          Task_2.Start('B', 2, 4, Q_Num, End_Time);
@@ -154,9 +177,9 @@ package body Hofstadter_Q_Sequence is
          Task_4.Start('D', 4, 4, Q_Num, End_Time);
       end;
       
+      --print resuls when completed
       Array_Result.Print;
-      
-      --
+
    end Mute_Workers;
    
 end Hofstadter_Q_Sequence;

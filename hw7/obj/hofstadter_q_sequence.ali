@@ -26,7 +26,7 @@ RV MAX_TASK_ENTRIES=1
 RV MAX_TASKS=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U hofstadter_q_sequence%b  hofstadter_q_sequence.adb  b54e7731 OO PK
+U hofstadter_q_sequence%b  hofstadter_q_sequence.adb  58513e74 OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -64,9 +64,9 @@ D a-taside.ads		20180524051738 c3e0cda8 ada.task_identification%s
 D a-taster.ads		20180524051738 fe3f8ac8 ada.task_termination%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-D armageddon.ads	20190129153030 5df512de armageddon%s
-D hofstadter_q_sequence.ads  20190129195702 4400d9d0 hofstadter_q_sequence%s
-D hofstadter_q_sequence.adb  20190129195710 62e62ac6 hofstadter_q_sequence%b
+D armageddon.ads	20190131112006 a68e52fa armageddon%s
+D hofstadter_q_sequence.ads  20190130083708 4400d9d0 hofstadter_q_sequence%s
+D hofstadter_q_sequence.adb  20190131154414 748223a7 hofstadter_q_sequence%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
@@ -101,91 +101,90 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
-D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw7\obj\gnattest\harness\suppress.adc"  20190129213714 00000000
 X 1 ada.ads
-16K9*Ada 20e8 13|1r6 45r19 14|1r29 1r42 37r10 40r16 79r24 84r24 84r46 85r21
-. 87r23 88r18 88r47 126r13 139r13
+16K9*Ada 20e8 13|1r6 47r19 14|1r29 1r42 42r10 45r16 86r24 92r24 92r46 93r21
+. 95r23 96r18 96r47 139r13 156r13
 X 5 a-reatim.ads
-39K13*Real_Time 185e18 13|1w10 45r23 14|1w46 79r28 84r28 84r50 85r25 87r27
-. 88r22 88r51
-49O9*Time<duration> 13|45r33 14|84r38
-54O9*Time_Span<duration> 14|85r35
-61V13*Clock{49O9} 14|79s38 84s60
-71V14*"-"{54O9} 14|87s38
-87V14*"-"{54O9} 14|87r38
-105V14*">"{boolean} 14|88r31 88r33
-119V13*Milliseconds{54O9} 14|88s61
+39K13*Real_Time 185e18 13|1w10 47r23 14|1w46 86r28 92r28 92r50 93r25 95r27
+. 96r22 96r51
+49O9*Time<duration> 13|47r33 14|92r38
+54O9*Time_Span<duration> 14|93r35
+61V13*Clock{49O9} 14|86s38 92s60
+71V14*"-"{54O9} 14|95s38
+87V14*"-"{54O9} 14|95r38
+105V14*">"{boolean} 14|96r31 96r33
+119V13*Milliseconds{54O9} 14|96s61
 X 10 a-textio.ads
-49K13*Text_IO 471e16 14|1w33 37r14 40r20 126r17 139r17
-231U14*Get_Immediate 14|126s25
-263U14*Put_Line 14|37s22 40s28 139s25
+49K13*Text_IO 471e16 14|1w33 42r14 45r20 139r17 156r17
+231U14*Get_Immediate 14|139s25
+263U14*Put_Line 14|42s22 45s28 156s25
 X 12 armageddon.ads
-3K9*Armageddon 19e15 14|2w6
+5K9*Armageddon 18e15 14|2w6
 X 13 hofstadter_q_sequence.ads
-3K9*Hofstadter_Q_Sequence 49l5 49e26 14|1w6 4b14 162l5 162t26
-4A9*Array_Type(integer)<integer> 11r17
-6W19*Q_Array 6d27 11E6 12l8 12e15 14|17b19 44l8 44t15 97r21
-6i27 S{integer} 11r33
-7U17 Retrieve 7=26 7<51 14|19b17 28l11 28t19 132s26
-7i26 Index{positive} 14|19b27 20r34 22r21 24m13
-7b51 success{boolean} 14|19b52 23m13 26m13
-8U17 Add 8>21 8>28 14|30b17 33l11 33t14 136s32
-8i21 Index{positive} 14|30b21 32r18
-8i28 Value{positive} 14|30b28 32r28
-9U17 Print 14|35b17 43l11 43t16 157s20
-11a6 Array_1{4A9} 14|22r13 24r22 32r10 38r19 39r16 40r45
-15V13*Q{positive} 15>15 14|8b13 13s17 13s23 13s33 13s37 15l8 15t9 134s27
-15i15 N{positive} 14|8b15 10r10 13r19 13r25 13r35 13r39
-19U14*Mute_Workers 19>27 19>43 14|94b14 160l8 160t20
-19i27 Q_Num{integer} 14|94b27 97r29 151r34 152r34 153r34 154r34
-19i43 End_Time{integer} 14|94b43 151r41 152r41 153r41 154r41
-22W19*One_Way_Counter 22d35 25E15 27l8 27e23 14|48b19 62l8 62t23 98r20
-22i35 N{positive} 14|52r23 59r28
-23U17 Increment 14|49b17 55l11 55t20 142s22
-24V16 At_End{boolean} 14|57b16 60l11 60t17
-25i15 Current{natural} 14|52r13 53r13 53r24 59r18
-31W19*End_Tasks 44E7 46l8 46e17 14|6r12 64b19 92l11 92t20
-33U17 Set_Complete 14|65b17 69l11 69t23 124s23 128s23
-36V16 At_End{boolean} 14|71b16 75l11 75t17 127s58 135s30
-39U17 Start_Timer 14|77b17 80l11 80t22 150s17
-42V16 Time_Out{boolean} 42>25 14|82b16 90l11 90t19 123s23
-42i25 Finish{integer} 14|82b25 88r81
-44b7 Task_Complete{boolean} 14|68r10 74r17
-45o7 Start_Time{5|49O9} 14|79r10 87r55
+3K9*Hofstadter_Q_Sequence 51l5 51e26 14|1w6 4b14 181l5 181t26
+4A9*Array_Type(integer)<integer> 12r17
+7W19*Q_Array 7d27 12E6 13l8 13e15 14|19b19 49l8 49t15 104r21
+7i27 S{integer} 12r33
+8U17 Retrieve 8=26 8<51 14|22b17 31l11 31t19 145s26
+8i26 Index{positive} 14|22b27 23r34 25r21 27m13
+8b51 success{boolean} 14|22b52 26m13 29m13
+9U17 Add 9>21 9>28 14|34b17 37l11 37t14 153s32
+9i21 Index{positive} 14|34b21 36r18
+9i28 Value{positive} 14|34b28 36r28
+10U17 Print 14|40b17 48l11 48t16 177s20
+12a6 Array_1{4A9} 14|25r13 27r22 36r10 43r19 44r16 45r45
+16V13*Q{positive} 16>15 14|9b13 15s17 15s23 15s33 15s37 17l8 17t9 150s27
+16i15 N{positive} 14|9b15 12r10 15r19 15r25 15r35 15r39
+20U14*Mute_Workers 20>27 20>43 14|101b14 179l8 179t20
+20i27 Q_Num{integer} 14|101b27 104r29 170r34 171r34 172r34 173r34
+20i43 End_Time{integer} 14|101b43 170r41 171r41 172r41 173r41
+23W19*One_Way_Counter 23d35 26E15 28l8 28e23 14|53b19 67l8 67t23 105r20
+23i35 N{positive} 14|57r23 64r28
+24U17 Increment 14|54b17 60l11 60t20 160s22
+25V16 At_End{boolean} 14|62b16 65l11 65t17
+26i15 Current{natural} 14|57r13 58r13 58r24 64r18
+33W19*End_Tasks 46E7 48l8 48e17 14|7r12 69b19 99l11 99t20
+35U17 Set_Complete 14|70b17 74l11 74t23 136s23 141s23
+38V16 At_End{boolean} 14|76b16 80l11 80t17 140s79 151s30
+41U17 Start_Timer 14|83b17 87l11 87t22 169s17
+44V16 Time_Out{boolean} 44>25 14|89b16 97l11 97t19 135s23
+44i25 Finish{integer} 14|89b25 96r81
+46b7 Task_Complete{boolean} 14|73r10 79r17
+47o7 Start_Time{5|49O9} 14|86r10 95r55
 X 14 hofstadter_q_sequence.adb
-6w4 Beginn{13|31W19} 123r16 124r16 127r51 128r16 135r23 150r10
-20i10 Prev_Index{positive} 24r30
-38i14 I{integer} 39r24 40r37 40r53
-84o10 Current_Time{5|49O9} 87r41
-85o10 Time_Diff{5|54O9} 87m10 88r36
-97w7 Array_Result{13|6W19} 132r13 136r19 157r7
-98w7 One_Counter{13|22W19} 142r10
-99T17 Worker 102l11 102e17 104b17 144l11 144t17 148r42
-100Y16 Start 100>22 100>39 100>46 100>64 101>22 113b17 121l14 121t19 151s17
-. 152s17 153s17 154s17
-100e22 Name{character} 115r25
-100i39 Start{positive} 116r20
-100i46 Offset{positive} 117r21
-100i64 Q_Num{integer} 118r24
-101i22 End_Time{integer} 119r23
-105e10 Task_Name{character} 115m13 139r34
-106i10 Val{positive} 116m13 122r16 131r24 134r29 136r36 139r52 140m13 140r20
-106i15 Diff{positive} 117m13 140r26
-107i10 Finish{integer} 119m13 123r32
-107i18 Max_Val{integer} 118m13 122r23
-108b10 Available{boolean} 126m51 127r17
-109e10 Stop_Prog{character} 126m40 127r31
-110i10 Q_Value{positive} 131m13 132m35 132r35 134m16 136r41 139r62
-111b10 Evaluate{boolean} 132m44 133r20
-113e24 Name{character}
-113i41 Start{positive}
-113i48 Offset{positive}
-113i66 Q_Num{integer}
-114i24 End_Time{integer}
-148t10 Task_1{99T17} 151r10
-148t18 Task_2{99T17} 152r10
-148t26 Task_3{99T17} 153r10
-148t34 Task_4{99T17} 154r10
+7w4 Beginn{13|33W19} 135r16 136r16 140r72 141r16 151r23 169r10
+23i10 Prev_Index{positive} 27r30
+43i14 I{integer} 44r24 45r37 45r53
+92o10 Current_Time{5|49O9} 95r41
+93o10 Time_Diff{5|54O9} 95m10 96r36
+104w7 Array_Result{13|7W19} 145r13 153r19 177r7
+105w7 One_Counter{13|23W19} 160r10
+106T17 Worker 109l11 109e17 111b17 162l11 162t17 166r42
+107Y16 Start 107>22 107>39 107>46 107>64 108>22 121b17 128l14 128t19 170s17
+. 171s17 172s17 173s17
+107e22 Name{character} 123r25
+107i39 Start{positive} 124r20
+107i46 Offset{positive} 125r21
+107i64 Q_Num{integer} 126r24
+108i22 End_Time{integer} 127r23
+112e10 Task_Name{character} 123m13 156r34
+113i10 Val{positive} 124m13 133r16 144r24 150r29 153r36 156r52 158m13 158r20
+113i15 Diff{positive} 125m13 158r26
+114i10 Finish{integer} 127m13 135r32
+114i18 Max_Val{integer} 126m13 133r23
+115b10 Available{boolean} 139m51 140r17
+116e10 Stop_Prog{character} 139m40 140r32 140r51
+117i10 Q_Value{positive} 144m13 145m35 145r35 150m16 153r41 156r62
+118b10 Evaluate{boolean} 145m44 149r20
+121e24 Name{character}
+121i41 Start{positive}
+121i48 Offset{positive}
+121i66 Q_Num{integer}
+122i24 End_Time{integer}
+166t10 Task_1{106T17} 170r10
+166t18 Task_2{106T17} 171r10
+166t26 Task_3{106T17} 172r10
+166t34 Task_4{106T17} 173r10
 X 34 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22

@@ -39,16 +39,15 @@ package body ada_main is
    E207 : Short_Integer; pragma Import (Ada, E207, "ada__real_time_E");
    E182 : Short_Integer; pragma Import (Ada, E182, "ada__text_io_E");
    E189 : Short_Integer; pragma Import (Ada, E189, "gnat__directory_operations_E");
-   E275 : Short_Integer; pragma Import (Ada, E275, "system__assertions_E");
+   E269 : Short_Integer; pragma Import (Ada, E269, "system__assertions_E");
    E144 : Short_Integer; pragma Import (Ada, E144, "system__pool_global_E");
    E199 : Short_Integer; pragma Import (Ada, E199, "system__regexp_E");
    E164 : Short_Integer; pragma Import (Ada, E164, "gnat__command_line_E");
-   E247 : Short_Integer; pragma Import (Ada, E247, "system__tasking__initialization_E");
+   E249 : Short_Integer; pragma Import (Ada, E249, "system__tasking__initialization_E");
    E237 : Short_Integer; pragma Import (Ada, E237, "system__tasking__protected_objects_E");
    E253 : Short_Integer; pragma Import (Ada, E253, "system__tasking__protected_objects__entries_E");
-   E251 : Short_Integer; pragma Import (Ada, E251, "system__tasking__queuing_E");
-   E267 : Short_Integer; pragma Import (Ada, E267, "system__tasking__stages_E");
-   E235 : Short_Integer; pragma Import (Ada, E235, "armageddon_E");
+   E257 : Short_Integer; pragma Import (Ada, E257, "system__tasking__queuing_E");
+   E261 : Short_Integer; pragma Import (Ada, E261, "system__tasking__stages_E");
    E099 : Short_Integer; pragma Import (Ada, E099, "aunit_E");
    E101 : Short_Integer; pragma Import (Ada, E101, "aunit__memory_E");
    E119 : Short_Integer; pragma Import (Ada, E119, "aunit__memory__utils_E");
@@ -61,14 +60,14 @@ package body ada_main is
    E112 : Short_Integer; pragma Import (Ada, E112, "aunit__simple_test_cases_E");
    E152 : Short_Integer; pragma Import (Ada, E152, "aunit__reporter_E");
    E154 : Short_Integer; pragma Import (Ada, E154, "aunit__reporter__gnattest_E");
-   E271 : Short_Integer; pragma Import (Ada, E271, "aunit__test_fixtures_E");
-   E279 : Short_Integer; pragma Import (Ada, E279, "aunit__test_caller_E");
+   E265 : Short_Integer; pragma Import (Ada, E265, "aunit__test_fixtures_E");
+   E273 : Short_Integer; pragma Import (Ada, E273, "aunit__test_caller_E");
    E162 : Short_Integer; pragma Import (Ada, E162, "aunit__test_suites_E");
    E160 : Short_Integer; pragma Import (Ada, E160, "aunit__run_E");
    E205 : Short_Integer; pragma Import (Ada, E205, "hofstadter_q_sequence_E");
-   E269 : Short_Integer; pragma Import (Ada, E269, "hofstadter_q_sequence__test_data_E");
-   E273 : Short_Integer; pragma Import (Ada, E273, "hofstadter_q_sequence__test_data__tests_E");
-   E277 : Short_Integer; pragma Import (Ada, E277, "hofstadter_q_sequence__test_data__tests__suite_E");
+   E263 : Short_Integer; pragma Import (Ada, E263, "hofstadter_q_sequence__test_data_E");
+   E267 : Short_Integer; pragma Import (Ada, E267, "hofstadter_q_sequence__test_data__tests_E");
+   E271 : Short_Integer; pragma Import (Ada, E271, "hofstadter_q_sequence__test_data__tests__suite_E");
    E203 : Short_Integer; pragma Import (Ada, E203, "gnattest_main_suite_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
@@ -84,17 +83,17 @@ package body ada_main is
          procedure F1;
          pragma Import (Ada, F1, "hofstadter_q_sequence__test_data__tests__suite__finalize_body");
       begin
-         E277 := E277 - 1;
+         E271 := E271 - 1;
          F1;
       end;
-      E273 := E273 - 1;
+      E267 := E267 - 1;
       declare
          procedure F2;
          pragma Import (Ada, F2, "hofstadter_q_sequence__test_data__tests__finalize_spec");
       begin
          F2;
       end;
-      E269 := E269 - 1;
+      E263 := E263 - 1;
       declare
          procedure F3;
          pragma Import (Ada, F3, "hofstadter_q_sequence__test_data__finalize_spec");
@@ -108,7 +107,7 @@ package body ada_main is
       begin
          F4;
       end;
-      E271 := E271 - 1;
+      E265 := E265 - 1;
       declare
          procedure F5;
          pragma Import (Ada, F5, "aunit__test_fixtures__finalize_spec");
@@ -157,68 +156,61 @@ package body ada_main is
          E131 := E131 - 1;
          F11;
       end;
-      E235 := E235 - 1;
+      E253 := E253 - 1;
       declare
          procedure F12;
-         pragma Import (Ada, F12, "armageddon__finalize_spec");
+         pragma Import (Ada, F12, "system__tasking__protected_objects__entries__finalize_spec");
       begin
          F12;
       end;
-      E253 := E253 - 1;
+      E199 := E199 - 1;
       declare
          procedure F13;
-         pragma Import (Ada, F13, "system__tasking__protected_objects__entries__finalize_spec");
+         pragma Import (Ada, F13, "system__regexp__finalize_spec");
       begin
          F13;
       end;
-      E199 := E199 - 1;
+      E144 := E144 - 1;
       declare
          procedure F14;
-         pragma Import (Ada, F14, "system__regexp__finalize_spec");
+         pragma Import (Ada, F14, "system__pool_global__finalize_spec");
       begin
          F14;
       end;
-      E144 := E144 - 1;
+      E182 := E182 - 1;
       declare
          procedure F15;
-         pragma Import (Ada, F15, "system__pool_global__finalize_spec");
+         pragma Import (Ada, F15, "ada__text_io__finalize_spec");
       begin
          F15;
       end;
-      E182 := E182 - 1;
+      E166 := E166 - 1;
       declare
          procedure F16;
-         pragma Import (Ada, F16, "ada__text_io__finalize_spec");
+         pragma Import (Ada, F16, "ada__strings__unbounded__finalize_spec");
       begin
          F16;
       end;
-      E166 := E166 - 1;
+      E174 := E174 - 1;
       declare
          procedure F17;
-         pragma Import (Ada, F17, "ada__strings__unbounded__finalize_spec");
+         pragma Import (Ada, F17, "system__storage_pools__subpools__finalize_spec");
       begin
          F17;
       end;
-      E174 := E174 - 1;
+      E133 := E133 - 1;
       declare
          procedure F18;
-         pragma Import (Ada, F18, "system__storage_pools__subpools__finalize_spec");
+         pragma Import (Ada, F18, "system__finalization_masters__finalize_spec");
       begin
          F18;
       end;
-      E133 := E133 - 1;
       declare
          procedure F19;
-         pragma Import (Ada, F19, "system__finalization_masters__finalize_spec");
-      begin
-         F19;
-      end;
-      declare
-         procedure F20;
-         pragma Import (Ada, F20, "system__file_io__finalize_body");
+         pragma Import (Ada, F19, "system__file_io__finalize_body");
       begin
          E186 := E186 - 1;
-         F20;
+         F19;
       end;
       declare
          procedure Reraise_Library_Exception_If_Any;
@@ -423,7 +415,7 @@ package body ada_main is
       Gnat.Directory_Operations'Elab_Body;
       E189 := E189 + 1;
       System.Assertions'Elab_Spec;
-      E275 := E275 + 1;
+      E269 := E269 + 1;
       System.Pool_Global'Elab_Spec;
       E144 := E144 + 1;
       System.Regexp'Elab_Spec;
@@ -432,18 +424,15 @@ package body ada_main is
       Gnat.Command_Line'Elab_Body;
       E164 := E164 + 1;
       System.Tasking.Initialization'Elab_Body;
-      E247 := E247 + 1;
+      E249 := E249 + 1;
       System.Tasking.Protected_Objects'Elab_Body;
       E237 := E237 + 1;
       System.Tasking.Protected_Objects.Entries'Elab_Spec;
       E253 := E253 + 1;
       System.Tasking.Queuing'Elab_Body;
-      E251 := E251 + 1;
+      E257 := E257 + 1;
       System.Tasking.Stages'Elab_Body;
-      E267 := E267 + 1;
-      Armageddon'Elab_Spec;
-      Armageddon'Elab_Body;
-      E235 := E235 + 1;
+      E261 := E261 + 1;
       E101 := E101 + 1;
       E099 := E099 + 1;
       E119 := E119 + 1;
@@ -466,8 +455,8 @@ package body ada_main is
       Aunit.Reporter.Gnattest'Elab_Spec;
       E154 := E154 + 1;
       Aunit.Test_Fixtures'Elab_Spec;
-      E271 := E271 + 1;
-      E279 := E279 + 1;
+      E265 := E265 + 1;
+      E273 := E273 + 1;
       Aunit.Test_Suites'Elab_Spec;
       E162 := E162 + 1;
       E160 := E160 + 1;
@@ -475,12 +464,12 @@ package body ada_main is
       E205 := E205 + 1;
       Hofstadter_Q_Sequence.Test_Data'Elab_Spec;
       Hofstadter_Q_Sequence.Test_Data'Elab_Body;
-      E269 := E269 + 1;
+      E263 := E263 + 1;
       Hofstadter_Q_Sequence.Test_Data.Tests'Elab_Spec;
       Hofstadter_Q_Sequence.Test_Data.Tests'Elab_Body;
-      E273 := E273 + 1;
+      E267 := E267 + 1;
       Hofstadter_Q_Sequence.Test_Data.Tests.Suite'Elab_Body;
-      E277 := E277 + 1;
+      E271 := E271 + 1;
       Gnattest_Main_Suite'Elab_Body;
       E203 := E203 + 1;
    end adainit;
@@ -518,7 +507,6 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\armageddon.o
    --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\gnattest_generated.o
    --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\hofstadter_q_sequence.o
    --   C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\obj\gnattest\harness\hofstadter_q_sequence-test_data.o

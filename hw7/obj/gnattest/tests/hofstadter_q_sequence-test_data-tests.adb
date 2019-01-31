@@ -34,7 +34,7 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests is
    procedure Test_Q_7cfff6 (Gnattest_T : in out Test) renames Test_Q;
 --  id:2.2/7cfff6c706ac0a3b/Q/1/0/
    procedure Test_Q (Gnattest_T : in out Test) is
-   --  hofstadter_q_sequence.ads:15:4:Q
+   --  hofstadter_q_sequence.ads:16:4:Q
 --  end read only
 
       pragma Unreferenced (Gnattest_T);
@@ -43,9 +43,11 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests is
    begin
 
       AUnit.Assertions.Assert
-        (Q(1) = 1, "Test is passed.");
+        (Q(1) = 1, "Test is failed.");
       AUnit.Assertions.Assert
-        (Q(10) = 6, "Test is passed.");
+        (Q(40) = 22, "Test is failed.");
+
+        --(Q(20) = 6, "Test is failed.");
 
 --  begin read only
    end Test_Q;
@@ -57,15 +59,16 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests is
    procedure Test_Mute_Workers_546b33 (Gnattest_T : in out Test) renames Test_Mute_Workers;
 --  id:2.2/546b3318c7f9ffd2/Mute_Workers/1/0/
    procedure Test_Mute_Workers (Gnattest_T : in out Test) is
-   --  hofstadter_q_sequence.ads:19:4:Mute_Workers
+   --  hofstadter_q_sequence.ads:20:4:Mute_Workers
 --  end read only
 
       pragma Unreferenced (Gnattest_T);
-      Q_Num, End_Time : Integer := 1;
+--        Q_Num, End_Time : Integer := 1;
    begin
 
       AUnit.Assertions.Assert
-        (Mute_Workers(1,1) = (1,1), "test is passed");
+        (Gnattest_Generated.Default_Assert_Value, "Test not implemented.");
+      --AUnit.Assertions.Assert(Mute_Workers(1,1) = 1, "test is passed");
 
 --  begin read only
    end Test_Mute_Workers;

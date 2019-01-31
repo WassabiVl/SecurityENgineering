@@ -14,7 +14,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U hofstadter_q_sequence.test_data.tests%b  hofstadter_q_sequence-test_data-tests.adb  151ed5e3 OO PK
+U hofstadter_q_sequence.test_data.tests%b  hofstadter_q_sequence-test_data-tests.adb  a178739f OO PK
 W aunit%s		aunit.adb		aunit.ali
 W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
 W hofstadter_q_sequence.test_data%s  hofstadter_q_sequence-test_data.adb  hofstadter_q_sequence-test_data.ali
@@ -47,11 +47,11 @@ D aunit-tests.ads	20180524045508 1da11d49 aunit.tests%s
 D aunit-time_measure.ads  20180524045508 a8b9fbfb aunit.time_measure%s
 D gnat.ads		20180524051738 fd2ad2f1 gnat%s
 D g-souinf.ads		20180524051738 291df751 gnat.source_info%s
-D gnattest_generated.ads  20190129213714 33489ddc gnattest_generated%s
-D hofstadter_q_sequence.ads  20190129195702 4400d9d0 hofstadter_q_sequence%s
+D gnattest_generated.ads  20190130093650 33489ddc gnattest_generated%s
+D hofstadter_q_sequence.ads  20190130083708 4400d9d0 hofstadter_q_sequence%s
 D hofstadter_q_sequence-test_data.ads  20190129201300 16d19dd0 hofstadter_q_sequence.test_data%s
-D hofstadter_q_sequence-test_data-tests.ads  20190129213714 15aff4cd hofstadter_q_sequence.test_data.tests%s
-D hofstadter_q_sequence-test_data-tests.adb  20190129214952 7ac5e16c hofstadter_q_sequence.test_data.tests%b
+D hofstadter_q_sequence-test_data-tests.ads  20190130093648 15aff4cd hofstadter_q_sequence.test_data.tests%s
+D hofstadter_q_sequence-test_data-tests.adb  20190130093736 cea34710 hofstadter_q_sequence.test_data.tests%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
@@ -81,45 +81,45 @@ D s-taprob.ads		20180524051738 acd6094d system.tasking.protected_objects%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
-D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw7\obj\gnattest\harness\suppress.adc"  20190129213714 00000000
+D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw7\obj\gnattest\harness\suppress.adc"  20190130093650 00000000
 X 10 ada_containers-aunit_lists.ads
 53R9*Cursor
 X 11 aunit.ads
-34K9*AUnit 48e10 23|8r6 8r28 45r7 47r7 67r7
+34K9*AUnit 48e10 23|8r6 8r28 45r7 47r7 69r7
 X 12 aunit-assertions.ads
-44K15*Assertions 155e21 23|8w12 8r34 45r13 47r13 67r13
-48U14*Assert 23|45s24 47s24 67s24
+44K15*Assertions 155e21 23|8w12 8r34 45r13 47r13 69r13
+48U14*Assert 23|45s24 47s24 69s24
 101U14*Init_Test
 104U14*Clear_Failures
 107V13*Has_Failures{boolean}
 110R9*Failure_Iter<10|53R9[145]>
 113V13*First_Failure{110R9}
 X 19 gnattest_generated.ads
-1K9*Gnattest_Generated 4e23 22|5w6 9r21 23|68r10
+1K9*Gnattest_Generated 4e23 22|5w6 9r21 23|70r10
 2K12*GNATtest_Standard=2:38 22|9r40
-3b4*Default_Assert_Value{boolean} 23|68r29
+3b4*Default_Assert_Value{boolean} 23|70r29
 X 20 hofstadter_q_sequence.ads
-3K9*Hofstadter_Q_Sequence 49e26 22|7r9 9r58 18r5 23|20r14 85r5
-15V13*Q{positive} 23|46s10 48s10
+3K9*Hofstadter_Q_Sequence 51e26 22|7r9 9r58 18r5 23|20r14 87r5
+16V13*Q{positive} 23|46s10 48s10
 X 21 hofstadter_q_sequence-test_data.ads
-8K31*Test_Data 20|3k9 21|18e36 22|7r31 9r80 18r27 23|20r36 85r27
+8K31*Test_Data 20|3k9 21|18e36 22|7r31 9r80 18r27 23|20r36 87r27
 11R9*Test<13|78R9> 13e20 22|9r90
 15U14*Set_Up<13|80p14>
 16U14*Tear_Down<13|83p14>
 X 22 hofstadter_q_sequence-test_data-tests.ads
-7K41*Tests 21|8k31 22|18l37 18e42 23|20b46 85l37 85t42
+7K41*Tests 21|8k31 22|18l37 18e42 23|20b46 87l37 87t42
 9R9*Test<21|11R9> 12|101p14 104p14 107p13 113p13 21|15P14 16P14 22|10e20
-. 12p14 12r49 15p14 15r60 23|33r42 34r49 36r42 56r53 57r60 59r53
+. 12p14 12r49 15p14 15r60 23|33r42 34r49 36r42 58r53 59r60 61r53
 12U14*Test_Q_7cfff6 12=29 23|34b14
 12r29 Gnattest_T{9R9} 23|34b29
-15U14*Test_Mute_Workers_546b33 15=40 23|57b14
-15r40 Gnattest_T{9R9} 23|57b40
+15U14*Test_Mute_Workers_546b33 15=40 23|59b14
+15r40 Gnattest_T{9R9} 23|59b40
 X 23 hofstadter_q_sequence-test_data-tests.adb
-33U14 Test_Q 33=22 34r63 36b14 51l8 51t14
+33U14 Test_Q 33=22 34r63 36b14 53l8 53t14
 33r22 Gnattest_T{22|9R9} 36b22 40r28
 41i7 N{positive}
-56U14 Test_Mute_Workers 56=33 57r74 59b14 72l8 72t25
-56r33 Gnattest_T{22|9R9} 59b33 63r28
+58U14 Test_Mute_Workers 58=33 59r74 61b14 74l8 74t25
+58r33 Gnattest_T{22|9R9} 61b33 65r28
 X 27 system.ads
 37K9*System 23|9r6 27|200e11
 X 29 s-assert.ads

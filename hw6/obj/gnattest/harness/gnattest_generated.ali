@@ -1,0 +1,23 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatyM0
+A -gnata
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U gnattest_generated%s	gnattest_generated.ads	33489ddc NE OO PK
+
+D gnattest_generated.ads  20190130095332 33489ddc gnattest_generated%s
+D system.ads		20180524051738 32a08138 system%s
+D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw6\obj\gnattest\harness\suppress.adc"  20190130095332 00000000
+X 1 gnattest_generated.ads
+1K9*Gnattest_Generated 4l5 4e23
+2K12*GNATtest_Standard=2:38
+3b4*Default_Assert_Value{boolean}
+

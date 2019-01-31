@@ -15,7 +15,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U armageddon%b		armageddon.adb		701d09d7 OO PK
+U armageddon%b		armageddon.adb		5ab614ee OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -26,7 +26,7 @@ Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 
-U armageddon%s		armageddon.ads		4933476b EE OO PF PK
+U armageddon%s		armageddon.ads		b248074f EE OO PF PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
@@ -45,8 +45,8 @@ D a-taside.ads		20180524051738 c3e0cda8 ada.task_identification%s
 D a-taster.ads		20180524051738 fe3f8ac8 ada.task_termination%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-D armageddon.ads	20190129153030 5df512de armageddon%s
-D armageddon.adb	20190129153110 a5f5a853 armageddon%b
+D armageddon.ads	20190131112006 a68e52fa armageddon%s
+D armageddon.adb	20190131112108 7425f54e armageddon%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
@@ -74,36 +74,35 @@ D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
 D s-win32.ads		20180524051736 b7f96285 system.win32%s
-D "c:\users\user\documents\bauhaus\ws18\security engineering\exercises\securityengineering\hw7\obj\gnattest\harness\suppress.adc"  20190129213714 00000000
 X 1 ada.ads
-16K9*Ada 20e8 10|1r6 1r28 1r53 4r8 11|1r6
+16K9*Ada 20e8 10|1r6 2r6 3r6 6r8 11|1r6
 X 2 a-except.ads
-54K13*Exceptions 349e19 10|1w57 11r16 11|10r16 22r25
-63R9*Exception_Occurrence 317e14 10|11r27 11|10r27
+54K13*Exceptions 349e19 10|1w10 12r33 11|9r33 22r25
+63R9*Exception_Occurrence 317e14 10|12r44 11|9r44
 104V13*Exception_Information{string} 11|22s36
 X 6 a-taside.ads
-39K13*Task_Identification 95e28 10|1w32 10r16 11|9r16 13r32
-47P9*Task_Id<33|109P9> 10|10r36 11|9r36
-56V13*Image{string} 11|13s52
+39K13*Task_Identification 95e28 10|2w10 11r33 11|8r33 14r32
+47P9*Task_Id<33|109P9> 10|11r53 11|8r53
+56V13*Image{string} 11|14s52
 X 7 a-taster.ads
-19K13*Task_Termination 39e25 10|1w10 9r16 11|8r16 12r23 29r4
-22E9*Cause_Of_Termination 22e72 10|9r33 11|8r33
+19K13*Task_Termination 39e25 10|3w10 10r33 11|7r33 12r14 29r5
+22E9*Cause_Of_Termination 22e72 10|10r50 11|7r50
 22n34*Normal{22E9} 11|17r18
 22n42*Abnormal{22E9} 11|18r18
 22n52*Unhandled_Exception{22E9} 11|20r18
-29U14*Set_Dependents_Fallback_Handler 11|29s21
+29U14*Set_Dependents_Fallback_Handler 11|29s22
 X 8 a-textio.ads
-49K13*Text_IO 471e16 11|1w10 12r14
+49K13*Text_IO 471e16 11|1w10 11r14
 263U14*Put_Line 11|19s16 21s16 22s16
 X 10 armageddon.ads
-3K9*Armageddon 19l5 19e15 11|3b14 31l5 31t15
-6w14*End_Of 11|5b19 26l8 26t14 30r7
-8U17 The_World 9>10 10>10 11>10 11|7b17 24l11 24t20 30r14
-9e10 C{7|22E9} 11|8b10 16r15
-10p10 T{6|47P9} 11|9b10 13r58
-11r10 X{2|63R9} 11|10b10 22r58
+5K9*Armageddon 18l5 18e15 11|3b14 30l5 30t15
+8w14*End_Of 11|5b19 26l8 26t14 29r54
+10U17 The_World 10>27 11>27 12>27 11|7b17 24l11 24t20 29r61
+10e27 C{7|22E9} 11|7b27 16r15
+11p27 T{6|47P9} 11|8b27 14r58
+12r27 X{2|63R9} 11|9b27 22r58
 X 11 armageddon.adb
-13a10 T_Img{string} 19r59 21r58
+14a10 T_Img{string} 19r59 21r58
 X 28 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22

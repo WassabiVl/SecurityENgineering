@@ -4,14 +4,14 @@ package body Armageddon is
 
    protected body End_Of is
 
-      procedure The_World
-        (C: in Task_Termination.Cause_Of_Termination;
-         T: in Task_Identification.Task_ID;
-         X: in Exceptions.Exception_Occurrence) is
+      procedure The_World(C: in Task_Termination.Cause_Of_Termination;
+                          T: in Task_Identification.Task_ID;
+                          X: in Exceptions.Exception_Occurrence) is
 
-         use Text_IO, Task_Termination;
+         use Text_IO;
+         use Task_Termination;
+
          T_Img: String renames Task_Identification.Image(T);
-
       begin
          case C is
             when Normal => null;
@@ -26,6 +26,5 @@ package body Armageddon is
    end End_Of;
 
 begin
-   Task_Termination.Set_Dependents_Fallback_Handler
-     (End_Of.The_World'Access);
+    Task_Termination.Set_Dependents_Fallback_Handler(End_Of.The_World'Access);
 end Armageddon;
