@@ -1,0 +1,3 @@
+main.adb:26:04: "Put_Line" is undefined (more references follow)
+main.adb:26:04: possible missing "with Ada.Text_IO; use Ada.Text_IO"
+main.adb:27:04: "Get" is undefined (more references follow)

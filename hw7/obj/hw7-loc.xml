@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
-<Locations>
-  <Project>
-    <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_file>
-    <file_marker column=" 39" line=" 15" >
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 10" >
       <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
       <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\main.adb</vfs_file>
     </file_marker>
@@ -14,11 +13,27 @@
       <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
       <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\hofstadter_q_sequence.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 60" line=" 143" >
+    <file_marker column=" 1" line=" 147" >
       <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
       <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\hofstadter_q_sequence.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 48" line=" 144" >
+    <file_marker column=" 1" line=" 147" >
+      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\hofstadter_q_sequence.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\hofstadter_q_sequence.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 23" >
+      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 26" >
+      <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 81" line=" 136" >
       <vfs_project>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\hw7.gpr</vfs_project>
       <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\hofstadter_q_sequence.adb</vfs_file>
     </file_marker>

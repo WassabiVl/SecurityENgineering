@@ -1,4 +1,4 @@
-with Hofstadter_Q_Sequence, Ada.Text_IO, Ada.Real_Time;
+with Hofstadter_Q_Sequence, Ada.Text_IO, Ada.Real_Time, Ada.Calendar.Formatting;
 with Armageddon;
 
 package body Hofstadter_Q_Sequence is
@@ -131,19 +131,18 @@ package body Hofstadter_Q_Sequence is
          --while loop because iteration need not be done over all the numbers
          --just the ones assigned to each task per Offset number
          while Val <= Max_Val loop
+            --listens for when q is pressed
+            Ada.Text_IO.Get_Immediate (Stop_Prog, Available);
+            if Available and then (Stop_Prog = 'q' or else Stop_Prog = 'Q') then
+               Beginn.Set_Complete;
+               exit;
+            end if;
             --checks if timeout is reached/elapsed
             if Beginn.Time_Out(Finish) then
                Beginn.Set_Complete;
             end if;
             if Beginn.At_End then
                Beginn.Set_Complete;
-            end if;
-            
-            --listens for when q is pressed
-            Ada.Text_IO.Get_Immediate (Stop_Prog, Available);
-            if (Available and Stop_Prog = 'q') then
-               Beginn.Set_Complete;
-               exit;
             end if;
             Q_Value := Val;
             Array_Result.Retrieve(Q_Value, Evaluate);
