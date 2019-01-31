@@ -1,0 +1,9 @@
+dijkstra.adb:136:31: incorrect constraint for this kind of type
+dijkstra.adb:137:37: incorrect constraint for this kind of type
+dijkstra.adb:140:29: invalid prefix in selected component "Source"
+dijkstra.adb:143:07: "Display_Path" is undefined
+dijkstra.ads:5:37: "Graphe" is undefined (more references follow)
+dijkstra.ads:5:90: "Node_Id_Array" is undefined (more references follow)
+dijkstra.ads:5:124: "T_Cost_Array" is undefined (more references follow)
+dijkstra.ads:8:63: "Node" is undefined (more references follow)
+dijkstra.ads:8:108: "P_Node_Array" is undefined (more references follow)

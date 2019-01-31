@@ -1,0 +1,193 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_PROTECTED_TYPES
+RV NO_RECURSION
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U hofstadter_q_sequence%b  hofstadter_q_sequence.adb  b54e7731 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W armageddon%s		armageddon.adb		armageddon.ali
+W hofstadter_q_sequence%s  hofstadter_q_sequence.adb  hofstadter_q_sequence.ali
+Z system%s		system.ads		system.ali
+
+U hofstadter_q_sequence%s  hofstadter_q_sequence.ads  464025a3 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z system%s		system.ads		system.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20180524051738 0240fc73 ada.real_time%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-taside.ads		20180524051738 c3e0cda8 ada.task_identification%s
+D a-taster.ads		20180524051738 fe3f8ac8 ada.task_termination%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D armageddon.ads	20190130190658 5df512de armageddon%s
+D hofstadter_q_sequence.ads  20190130190658 4400d9d0 hofstadter_q_sequence%s
+D hofstadter_q_sequence.adb  20190130190658 62e62ac6 hofstadter_q_sequence%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-c.ads		20180524051736 5421119b interfaces.c%s
+D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051736 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524051738 601f6b72 system.task_info%s
+D s-taspri.ads		20180524051738 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20180524051738 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051738 1d8c1ccb system.tasking%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D s-win32.ads		20180524051736 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 45r19 12|1r29 1r42 37r10 40r16 79r24 84r24 84r46 85r21
+. 87r23 88r18 88r47 126r13 139r13
+X 4 a-reatim.ads
+39K13*Real_Time 185e18 11|1w10 45r23 12|1w46 79r28 84r28 84r50 85r25 87r27
+. 88r22 88r51
+49O9*Time<duration> 11|45r33 12|84r38
+54O9*Time_Span<duration> 12|85r35
+61V13*Clock{49O9} 12|79s38 84s60
+71V14*"-"{54O9} 12|87s37
+87V14*"-"{54O9} 12|87r37
+105V14*">"{boolean} 12|88r31 88r32
+119V13*Milliseconds{54O9} 12|88s61
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w33 37r14 40r20 126r17 139r17
+231U14*Get_Immediate 12|126s25
+263U14*Put_Line 12|37s22 40s28 139s25
+X 10 armageddon.ads
+3K9*Armageddon 19e15 12|2w6
+X 11 hofstadter_q_sequence.ads
+3K9*Hofstadter_Q_Sequence 49l5 49e26 12|1w6 4b14 162l5 162t26
+4A9*Array_Type(integer)<integer> 11r17
+6W19*Q_Array 6d27 12l8 12e15 12|17b19 44l8 44t15 97r21
+6i27 S{integer} 11r33
+7U17 Retrieve 7=26 7<51 12|19b17 28l11 28t19 132s26
+7i26 Index{positive} 12|19b27 20r34 22r21 24m13
+7b51 success{boolean} 12|19b52 23m13 26m13
+8U17 Add 8>21 8>28 12|30b17 33l11 33t14 136s32
+8i21 Index{positive} 12|30b21 32r18
+8i28 Value{positive} 12|30b28 32r28
+9U17 Print 12|35b17 43l11 43t16 157s20
+11a6 Array_1{4A9} 12|22r13 24r22 32m10 38r19 39r16 40r45
+15V13*Q{positive} 15>15 12|8b13 13s17 13s23 13s33 13s37 15l8 15t9 134s27
+15i15 N{positive} 12|8b15 10r10 13r19 13r25 13r35 13r39
+19U14*Mute_Workers 19>27 19>43 12|94b14 160l8 160t20
+19i27 Q_Num{integer} 12|94b27 97r29 151r34 152r34 153r34 154r34
+19i43 End_Time{integer} 12|94b43 151r41 152r41 153r41 154r41
+22W19*One_Way_Counter 22d35 27l8 27e23 12|48b19 62l8 62t23 98r20
+22i35 N{positive} 12|52r23 59r28
+23U17 Increment 12|49b17 55l11 55t20 142s22
+24V16 At_End{boolean} 12|57b16 60l11 60t17
+25i15 Current{natural} 12|52r13 53m13 53r24 59r18
+31W19*End_Tasks 46l8 46e17 12|6r12 64b19 92l11 92t20
+33U17 Set_Complete 12|65b17 69l11 69t23 124s23 128s23
+36V16 At_End{boolean} 12|71b16 75l11 75t17 127s58 135s30
+39U17 Start_Timer 12|77b17 80l11 80t22 150s17
+42V16 Time_Out{boolean} 42>25 12|82b16 90l11 90t19 123s23
+42i25 Finish{integer} 12|82b25 88r81
+44b7 Task_Complete{boolean} 12|68m10 74r17
+45o7 Start_Time{4|49O9} 12|79m10 87r55
+X 12 hofstadter_q_sequence.adb
+6w4 Beginn{11|31W19} 123r16 124r16 127r51 128r16 135r23 150r10
+20i10 Prev_Index{positive} 24r30
+38i14 I{integer} 39r24 40r37 40r53
+84o10 Current_Time{4|49O9} 87r41
+85o10 Time_Diff{4|54O9} 87m10 88r36
+97w7 Array_Result{11|6W19} 132r13 136r19 157r7
+98w7 One_Counter{11|22W19} 142r10
+99T17 Worker 102l11 102e17 104b17 144l11 144t17 148r42
+100Y16 Start 100>22 100>39 100>46 100>64 101>22 113b17 121l14 121t19 151s17
+. 152s17 153s17 154s17
+100e22 Name{character} 115r25
+100i39 Start{positive} 116r20
+100i46 Offset{positive} 117r21
+100i64 Q_Num{integer} 118r24
+101i22 End_Time{integer} 119r23
+105e10 Task_Name{character} 115m13 139r34
+106i10 Val{positive} 116m13 122r16 131r24 134r29 136r36 139r52 140m13 140r20
+106i15 Diff{positive} 117m13 140r26
+107i10 Finish{integer} 119m13 123r32
+107i18 Max_Val{integer} 118m13 122r23
+108b10 Available{boolean} 126m51 127r17
+109e10 Stop_Prog{character} 126m40 127r31
+110i10 Q_Value{positive} 131m13 132m35 132r35 134m16 136r41 139r62
+111b10 Evaluate{boolean} 132m44 133r20
+113e24 Name{character}
+113i41 Start{positive}
+113i48 Offset{positive}
+113i66 Q_Num{integer}
+114i24 End_Time{integer}
+148t10 Task_1{99T17} 151r10
+148t18 Task_2{99T17} 152r10
+148t26 Task_3{99T17} 153r10
+148t34 Task_4{99T17} 154r10
+X 27 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS hofstadter_q_sequence__q 0
+GG EK_GLOBALS hofstadter_q_sequence__q local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__mute_workers__worker__start 0
+GG EK_GLOBALS hofstadter_q_sequence__mute_workers__worker__start local TRUE E_ENTRY ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__mute_workers__worker 0
+GG EK_GLOBALS hofstadter_q_sequence__mute_workers__worker local TRUE E_TASK_TYPE ORIGIN_FLOW proper_proof_in 0 proper_input 3 hofstadter_q_sequence__beginn hofstadter_q_sequence__mute_workers__array_result hofstadter_q_sequence__mute_workers__one_counter proper_output 0 refined_proof_in 0 refined_input 3 hofstadter_q_sequence__beginn hofstadter_q_sequence__mute_workers__array_result hofstadter_q_sequence__mute_workers__one_counter refined_output 0 calls_proof 0 calls 0 calls_conditional 5 ada__real_time__clock ada__real_time__Osubtract__2 ada__real_time__milliseconds ada__text_io__get_immediate__4 ada__text_io__put_line__2 local_var 0 ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__mute_workers 0
+GG EK_GLOBALS hofstadter_q_sequence__mute_workers local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 1 hofstadter_q_sequence__beginn proper_output 0 refined_proof_in 0 refined_input 1 hofstadter_q_sequence__beginn refined_output 0 calls_proof 0 calls 0 calls_conditional 2 ada__real_time__clock ada__text_io__put_line__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__q_array__retrieve 0
+GG EK_GLOBALS hofstadter_q_sequence__q_array__retrieve local FALSE E_PROCEDURE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__q_array__add 0
+GG EK_GLOBALS hofstadter_q_sequence__q_array__add local FALSE E_PROCEDURE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__q_array__print 0
+GG EK_GLOBALS hofstadter_q_sequence__q_array__print local FALSE E_PROCEDURE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 ada__text_io__put_line__2 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__one_way_counter__increment 0
+GG EK_GLOBALS hofstadter_q_sequence__one_way_counter__increment local FALSE E_PROCEDURE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__one_way_counter__at_end 0
+GG EK_GLOBALS hofstadter_q_sequence__one_way_counter__at_end local FALSE E_FUNCTION TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__end_tasks__set_complete 0
+GG EK_GLOBALS hofstadter_q_sequence__end_tasks__set_complete local FALSE E_PROCEDURE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__end_tasks__at_end 0
+GG EK_GLOBALS hofstadter_q_sequence__end_tasks__at_end local FALSE E_FUNCTION TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__end_tasks__start_timer 0
+GG EK_GLOBALS hofstadter_q_sequence__end_tasks__start_timer local FALSE E_PROCEDURE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 1 ada__real_time__clock local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence__end_tasks__time_out 0
+GG EK_GLOBALS hofstadter_q_sequence__end_tasks__time_out local FALSE E_FUNCTION TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__real_time__clock ada__real_time__Osubtract__2 ada__real_time__milliseconds local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS hofstadter_q_sequence 0
+GG EK_GLOBALS hofstadter_q_sequence local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 1 hofstadter_q_sequence__beginn FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_VOLATILES AR 1 hofstadter_q_sequence__beginn AW 1 hofstadter_q_sequence__beginn ER 0 EW 0
+GG EK_END_MARKER
