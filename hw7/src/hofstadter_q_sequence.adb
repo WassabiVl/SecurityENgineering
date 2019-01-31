@@ -112,8 +112,6 @@ package body Hofstadter_Q_Sequence is
          Task_Name: Character := '?';
          Val, Diff: Positive;
          Finish, Max_Val : Integer;
-         Available: Boolean;
-         Stop_Prog: Character;
          Q_Value: Positive;
          Evaluate: Boolean;
       begin
@@ -127,21 +125,14 @@ package body Hofstadter_Q_Sequence is
             Finish := End_Time;
          end Start;
          --place computation code here to prevent blocking this time around :)
-         
          --while loop because iteration need not be done over all the numbers
          --just the ones assigned to each task per Offset number
          while Val <= Max_Val loop
-            --listens for when q is pressed
-            Ada.Text_IO.Get_Immediate (Stop_Prog, Available);
-            if Available and then (Stop_Prog = 'q' or else Stop_Prog = 'Q') then
+            if Beginn.At_End then
                Beginn.Set_Complete;
-               exit;
             end if;
             --checks if timeout is reached/elapsed
             if Beginn.Time_Out(Finish) then
-               Beginn.Set_Complete;
-            end if;
-            if Beginn.At_End then
                Beginn.Set_Complete;
             end if;
             Q_Value := Val;

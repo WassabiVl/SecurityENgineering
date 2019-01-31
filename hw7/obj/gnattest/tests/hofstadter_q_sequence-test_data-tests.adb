@@ -56,19 +56,21 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests is
 
 --  begin read only
    procedure Test_Mute_Workers (Gnattest_T : in out Test);
-   procedure Test_Mute_Workers_546b33 (Gnattest_T : in out Test) renames Test_Mute_Workers;
---  id:2.2/546b3318c7f9ffd2/Mute_Workers/1/0/
+   procedure Test_Mute_Workers_d68750 (Gnattest_T : in out Test) renames Test_Mute_Workers;
+--  id:2.2/d6875096b88c9a43/Mute_Workers/1/0/
    procedure Test_Mute_Workers (Gnattest_T : in out Test) is
    --  hofstadter_q_sequence.ads:20:4:Mute_Workers
 --  end read only
 
       pragma Unreferenced (Gnattest_T);
---        Q_Num, End_Time : Integer := 1;
+      Q_Num, End_Time : Integer := 1;
+      R_Array: Q_Array;
    begin
 
-      AUnit.Assertions.Assert
-        (Gnattest_Generated.Default_Assert_Value, "Test not implemented.");
-      --AUnit.Assertions.Assert(Mute_Workers(1,1) = 1, "test is passed");
+      --Mute_Workers(1,1,R_Array);
+        AUnit.Assertions.Assert
+          (Gnattest_Generated.Default_Assert_Value, "Test not implemented.");
+      --AUnit.Assertions.Assert(R_Array = 1 , "test is passed");
 
 --  begin read only
    end Test_Mute_Workers;

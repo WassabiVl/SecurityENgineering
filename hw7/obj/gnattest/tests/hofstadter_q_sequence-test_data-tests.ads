@@ -12,7 +12,7 @@ package Hofstadter_Q_Sequence.Test_Data.Tests is
    procedure Test_Q_7cfff6 (Gnattest_T : in out Test);
    --  hofstadter_q_sequence.ads:16:4:Q
 
-   procedure Test_Mute_Workers_546b33 (Gnattest_T : in out Test);
+   procedure Test_Mute_Workers_d68750 (Gnattest_T : in out Test);
    --  hofstadter_q_sequence.ads:20:4:Mute_Workers
 
 end Hofstadter_Q_Sequence.Test_Data.Tests;

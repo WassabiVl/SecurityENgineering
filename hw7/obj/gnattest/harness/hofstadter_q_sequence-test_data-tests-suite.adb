@@ -13,7 +13,7 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests.Suite is
    Result : aliased AUnit.Test_Suites.Test_Suite;
 
    Case_1_1_Test_Q_7cfff6 : aliased Runner_1.Test_Case;
-   Case_2_1_Test_Mute_Workers_546b33 : aliased Runner_1.Test_Case;
+   Case_2_1_Test_Mute_Workers_d68750 : aliased Runner_1.Test_Case;
 
    function Suite return AUnit.Test_Suites.Access_Test_Suite is
    begin
@@ -23,12 +23,12 @@ package body Hofstadter_Q_Sequence.Test_Data.Tests.Suite is
          "hofstadter_q_sequence.ads:16:4:",
          Test_Q_7cfff6'Access);
       Runner_1.Create
-        (Case_2_1_Test_Mute_Workers_546b33,
+        (Case_2_1_Test_Mute_Workers_d68750,
          "hofstadter_q_sequence.ads:20:4:",
-         Test_Mute_Workers_546b33'Access);
+         Test_Mute_Workers_d68750'Access);
 
       Result.Add_Test (Case_1_1_Test_Q_7cfff6'Access);
-      Result.Add_Test (Case_2_1_Test_Mute_Workers_546b33'Access);
+      Result.Add_Test (Case_2_1_Test_Mute_Workers_d68750'Access);
 
       return Result'Access;
 

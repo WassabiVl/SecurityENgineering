@@ -56,9 +56,9 @@ D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
-D graph.ads		20190130205524 9e1f58d4 graph%s
-D graph_algorithms.ads	20190131012302 8d9125ba graph_algorithms%s
-D graph_algorithms.adb	20190131021350 6c4d9e02 graph_algorithms%b
+D graph.ads		20190131163606 9e1f58d4 graph%s
+D graph_algorithms.ads	20190131163606 8d9125ba graph_algorithms%s
+D graph_algorithms.adb	20190131163606 6c4d9e02 graph_algorithms%b
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
 D system.ads		20180524051738 32a08138 system%s

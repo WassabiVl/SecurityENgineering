@@ -1,0 +1,255 @@
+Source recreated from tree for Hofstadter_Q_Sequence (spec)
+-----------------------------------------------------------
+
+-- 1: with Ada.Real_Time;
+with ada;
+with ada.ada__real_time;
+with system.system__tasking.system__tasking__protected_objects;
+with system.system__tasking;
+
+-- 2:
+
+-- 3: package Hofstadter_Q_Sequence  is
+hofstadter_q_sequence_E : short_integer := 0;
+package hofstadter_q_sequence is
+
+-- 4:    type Array_Type is array(Positive range <>) of Integer;
+   type hofstadter_q_sequence__array_type is array (1 ..
+     16#7FFF_FFFF# range <>) of integer;
+
+-- 5:
+-- 6:    --Array should be safely accessible by the different tasks
+
+-- 7:    protected type Q_Array(S : Integer) is
+   protected type hofstadter_q_sequence__q_array (
+     hofstadter_q_sequence__q_array__s : integer) is
+
+-- 8:       procedure Retrieve(Index : in out Positive; success : out Boolean); -- return on Index the value or Index, if the value was not recently calculated
+      procedure hofstadter_q_sequence__q_array__retrieve (index : in
+        out positive; success : out boolean);
+
+-- 9:       procedure Add(Index, Value : Positive);
+      procedure hofstadter_q_sequence__q_array__add (index : positive;
+        value : positive);
+
+-- 10:       procedure Print;
+      procedure hofstadter_q_sequence__q_array__print;
+
+-- 11:    private
+   private
+
+-- 12:      Array_1  : Array_Type(1 .. S) := (others => 0);
+      hofstadter_q_sequence__q_array__array_1 :
+        hofstadter_q_sequence__array_type (1 .. s) := (
+         others => 0);
+
+-- 13:    end Q_Array;
+   end hofstadter_q_sequence__q_array;
+   type hofstadter_q_sequence__q_arrayV (s : integer) is limited record
+      array_1 : hofstadter_q_sequence__array_type (1 .. s) := (
+         others => 0);
+      _object : aliased system__tasking__protected_objects__protection;
+   end record;
+   procedure hofstadter_q_sequence__q_array__retrieveN (_object : in
+     out hofstadter_q_sequence__q_arrayV; index : in out positive;
+     success : out boolean);
+   procedure hofstadter_q_sequence__q_array__retrieveP (_object : in
+     out hofstadter_q_sequence__q_arrayV; index : in out positive;
+     success : out boolean);
+   procedure hofstadter_q_sequence__q_array__addN (_object : in out
+     hofstadter_q_sequence__q_arrayV; index : positive; value :
+     positive);
+   procedure hofstadter_q_sequence__q_array__addP (_object : in out
+     hofstadter_q_sequence__q_arrayV; index : positive; value :
+     positive);
+   procedure hofstadter_q_sequence__q_array__printN (_object : in out
+     hofstadter_q_sequence__q_arrayV);
+   procedure hofstadter_q_sequence__q_array__printP (_object : in out
+     hofstadter_q_sequence__q_arrayV);
+
+-- 14:
+-- 15:    --function to compute Hofstadter Q-Sequence
+
+-- 16:    function Q(N: Positive) return Positive;
+   function hofstadter_q_sequence__q (n : positive) return positive;
+
+-- 17:
+-- 18:      --define and create tasks **following example in lectures
+-- 19:      --and problem session slides
+
+-- 20:    procedure Mute_Workers(Q_Num: Integer; End_Time: Integer);
+   procedure hofstadter_q_sequence__mute_workers (q_num : integer;
+     end_time : integer);
+
+-- 21:
+-- 22:    --increases counter for workers and checks if N is reached
+
+-- 23:    protected type One_Way_Counter(N: Positive) is
+   protected type hofstadter_q_sequence__one_way_counter (
+     hofstadter_q_sequence__one_way_counter__n : positive) is
+
+-- 24:       procedure Increment;
+      procedure hofstadter_q_sequence__one_way_counter__increment;
+
+-- 25:       function At_End return Boolean;
+      function hofstadter_q_sequence__one_way_counter__at_end return
+        boolean;
+
+-- 26:       private Current : Natural := 0;
+   private
+      hofstadter_q_sequence__one_way_counter__current : natural :=
+        0;
+
+-- 27:
+
+-- 28:    end One_Way_Counter;
+   end hofstadter_q_sequence__one_way_counter;
+   type hofstadter_q_sequence__one_way_counterV (n : positive) is
+     limited record
+      current : natural := 0;
+      _object : aliased system__tasking__protected_objects__protection;
+   end record;
+   procedure hofstadter_q_sequence__one_way_counter__incrementN (
+     _object : in out hofstadter_q_sequence__one_way_counterV);
+   procedure hofstadter_q_sequence__one_way_counter__incrementP (
+     _object : in out hofstadter_q_sequence__one_way_counterV);
+   function hofstadter_q_sequence__one_way_counter__at_endN (_object :
+     in hofstadter_q_sequence__one_way_counterV) return boolean;
+   function hofstadter_q_sequence__one_way_counter__at_endP (_object :
+     in hofstadter_q_sequence__one_way_counterV) return boolean;
+
+-- 29:
+-- 30:    --functions/procedures that constitute checks to be carried out
+-- 31:    --before termination
+-- 32:    --sould be accessible by all the tasks
+
+-- 33:    protected type End_Tasks is
+   protected type hofstadter_q_sequence__end_tasks is
+-- 34:        --sets task_complete value
+
+-- 35:       procedure Set_Complete;
+      procedure hofstadter_q_sequence__end_tasks__set_complete;
+
+-- 36:
+-- 37:       --triggered if computation is completed
+
+-- 38:       function At_End return Boolean;
+      function hofstadter_q_sequence__end_tasks__at_end return boolean;
+
+-- 39:
+-- 40:       --Keeps track of time spent on computation of Q Sequence
+
+-- 41:       procedure Start_Timer;
+      procedure hofstadter_q_sequence__end_tasks__start_timer;
+
+-- 42:
+-- 43:       --this checks if stipulated timeout is reached
+
+-- 44:       function Time_Out(Finish: Integer) retuRn Boolean;
+      function hofstadter_q_sequence__end_tasks__time_out (finish :
+        integer) return boolean;
+
+-- 45:    private
+   private
+
+-- 46:       Task_Complete: Boolean := False;
+      hofstadter_q_sequence__end_tasks__task_complete : boolean :=
+        false;
+
+-- 47:       Start_Time: Ada.Real_Time.Time;
+      hofstadter_q_sequence__end_tasks__start_time : ada.ada__real_time.
+        ada__real_time__time;
+
+-- 48:    end End_Tasks;
+   end hofstadter_q_sequence__end_tasks;
+   type hofstadter_q_sequence__end_tasksV is limited record
+      task_complete : boolean := false;
+      start_time : ada.ada__real_time.ada__real_time__time;
+      _object : aliased system__tasking__protected_objects__protection;
+   end record;
+   procedure hofstadter_q_sequence__end_tasks__set_completeN (_object :
+     in out hofstadter_q_sequence__end_tasksV);
+   procedure hofstadter_q_sequence__end_tasks__set_completeP (_object :
+     in out hofstadter_q_sequence__end_tasksV);
+   function hofstadter_q_sequence__end_tasks__at_endN (_object : in
+     hofstadter_q_sequence__end_tasksV) return boolean;
+   function hofstadter_q_sequence__end_tasks__at_endP (_object : in
+     hofstadter_q_sequence__end_tasksV) return boolean;
+   procedure hofstadter_q_sequence__end_tasks__start_timerN (_object :
+     in out hofstadter_q_sequence__end_tasksV);
+   procedure hofstadter_q_sequence__end_tasks__start_timerP (_object :
+     in out hofstadter_q_sequence__end_tasksV);
+   function hofstadter_q_sequence__end_tasks__time_outN (_object : in
+     hofstadter_q_sequence__end_tasksV; finish : integer) return
+     boolean;
+   function hofstadter_q_sequence__end_tasks__time_outP (_object : in
+     hofstadter_q_sequence__end_tasksV; finish : integer) return
+     boolean;
+   freeze hofstadter_q_sequence__array_type [
+      procedure hofstadter_q_sequence__array_typeIP (_init : in out
+        hofstadter_q_sequence__array_type) is
+      begin
+         return;
+      end hofstadter_q_sequence__array_typeIP;
+   ]
+   freeze hofstadter_q_sequence__q_arrayV [
+      procedure hofstadter_q_sequence__q_arrayVIP (_init : in out
+        hofstadter_q_sequence__q_arrayV; s : integer) is
+      begin
+         _init.s := s;
+         R14s : constant integer := _init.s;
+         subtype hofstadter_q_sequence__q_arrayVIP__S13s is
+           hofstadter_q_sequence__array_type (1 .. R14s);
+         [subtype hofstadter_q_sequence__q_arrayVIP__T16s is
+           hofstadter_q_sequence__array_type (1 .. R14s)]
+         reference hofstadter_q_sequence__q_arrayVIP__T16s
+         L18s : for J17s in 1 .. integer'(R14s) loop
+            _init.array_1 (J17s) := 0;
+         end loop L18s;
+         $system__tasking__protected_objects__protectionIP (_init.
+           _object);
+         $system__tasking__protected_objects__initialize_protection (
+           _init._object'unchecked_access,
+           system__tasking__unspecified_priority);
+         return;
+      end hofstadter_q_sequence__q_arrayVIP;
+   ]
+   freeze hofstadter_q_sequence__one_way_counterV [
+      procedure hofstadter_q_sequence__one_way_counterVIP (_init : in
+        out hofstadter_q_sequence__one_way_counterV; n : positive) is
+      begin
+         _init.n := n;
+         _init.current := 0;
+         $system__tasking__protected_objects__protectionIP (_init.
+           _object);
+         $system__tasking__protected_objects__initialize_protection (
+           _init._object'unchecked_access,
+           system__tasking__unspecified_priority);
+         return;
+      end hofstadter_q_sequence__one_way_counterVIP;
+   ]
+   freeze hofstadter_q_sequence__end_tasksV [
+      procedure hofstadter_q_sequence__end_tasksVIP (_init : in out
+        hofstadter_q_sequence__end_tasksV) is
+      begin
+         _init.task_complete := false;
+         $system__tasking__protected_objects__protectionIP (_init.
+           _object);
+         $system__tasking__protected_objects__initialize_protection (
+           _init._object'unchecked_access,
+           system__tasking__unspecified_priority);
+         return;
+      end hofstadter_q_sequence__end_tasksVIP;
+   ]
+
+-- 49:
+
+-- 50:
+
+-- 51: end Hofstadter_Q_Sequence;
+end hofstadter_q_sequence;
+
+[subtype T1s is String (1 .. 73);]
+freeze_generic T1s
+freeze_generic object_pointer
+

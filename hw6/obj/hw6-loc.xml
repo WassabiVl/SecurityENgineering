@@ -2,15 +2,7 @@
 <Locations >
   <Project>
     <vfs_file />
-    <file_marker column=" 64" line=" 15" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 176" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw7\src\hofstadter_q_sequence.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 31" line=" 34" >
       <vfs_project />
       <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_merge_sort.adb</vfs_file>
     </file_marker>
@@ -32,19 +24,15 @@
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_merge_sort.adb</vfs_file>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 14" line=" 19" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_merge_sort.adb</vfs_file>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_algorithm.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 12" line=" 34" >
+    <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_merge_sort.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 14" line=" 17" >
-      <vfs_project />
-      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\mini_xtea.ads</vfs_file>
+      <vfs_file>C:\Users\User\Documents\Bauhaus\WS18\Security Engineering\Exercises\SecurityENgineering\hw6\src\parallel_algorithm.ads</vfs_file>
     </file_marker>
   </Project>
   <Project >

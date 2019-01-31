@@ -45,13 +45,8 @@ D a-taside.ads		20180524051738 c3e0cda8 ada.task_identification%s
 D a-taster.ads		20180524051738 fe3f8ac8 ada.task_termination%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-<<<<<<< HEAD
 D armageddon.ads	20190131112006 a68e52fa armageddon%s
 D armageddon.adb	20190131112108 7425f54e armageddon%b
-=======
-D armageddon.ads	20190130190658 5df512de armageddon%s
-D armageddon.adb	20190130190658 a5f5a853 armageddon%b
->>>>>>> 33f646882d32c711c69d6d41857a447673763995
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s

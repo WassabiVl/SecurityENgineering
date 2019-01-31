@@ -1,4 +1,71 @@
 <tests_mapping mode="monolith">
+   <unit source_file="graph.ads">
+      <test_unit target_file="graph-graph_type_test_data-graph_type_tests.ads">
+         <setup file="graph-graph_type_test_data.adb" name="Set_Up" line="9"  column="4"/>
+         <teardown file="graph-graph_type_test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Equal" line="32" column="13">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="39" column="1" name="Test_Equal_e1b9b2" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Add_Vertex" line="34" column="14">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="60" column="1" name="Test_Add_Vertex_93ef85" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Add_Edge" line="38" column="14">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="81" column="1" name="Test_Add_Edge_cc6aa7" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Clear" line="47" column="14">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="102" column="1" name="Test_Clear_ef6995" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Get_Edge_Weight" line="50" column="13">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="123" column="1" name="Test_Get_Edge_Weight_d869e1" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Has_Edge" line="56" column="13">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="144" column="1" name="Test_Has_Edge_e3687a" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Remove_Edge" line="61" column="13">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="165" column="1" name="Test_Remove_Edge_03ced4" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="To_Vertex_Array" line="67" column="13">
+            <test file="graph-graph_type_test_data-graph_type_tests.adb" line="186" column="1" name="Test_To_Vertex_Array_ada295" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
+   <unit source_file="graph_algorithms.ads">
+      <test_unit target_file="graph_algorithms-test_data-tests.ads">
+         <setup file="graph_algorithms-test_data.adb" name="Set_Up" line="8"  column="4"/>
+         <teardown file="graph_algorithms-test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Free" line="18" column="14">
+            <test file="graph_algorithms-test_data-tests.adb" line="39" column="1" name="Test_Free_48b583" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Init_this" line="21" column="14">
+            <test file="graph_algorithms-test_data-tests.adb" line="60" column="1" name="Test_Init_this_0f2094" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Find_Shortest_Path" line="26" column="14">
+            <test file="graph_algorithms-test_data-tests.adb" line="81" column="1" name="Test_Find_Shortest_Path_ac7755" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Find_Min_Spanning_Tree" line="36" column="14">
+            <test file="graph_algorithms-test_data-tests.adb" line="102" column="1" name="Test_Find_Min_Spanning_Tree_0b49fb" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Graph_Contains_Vertex" line="38" column="13">
+            <test file="graph_algorithms-test_data-tests.adb" line="123" column="1" name="Test_Graph_Contains_Vertex_7259ea" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Merge_Graphs" line="39" column="14">
+            <test file="graph_algorithms-test_data-tests.adb" line="144" column="1" name="Test_Merge_Graphs_88224f" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Sort_Edge_Vector" line="40" column="13">
+            <test file="graph_algorithms-test_data-tests.adb" line="165" column="1" name="Test_Sort_Edge_Vector_bfd32e" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Get_Graph_Vectors" line="41" column="13">
+            <test file="graph_algorithms-test_data-tests.adb" line="186" column="1" name="Test_Get_Graph_Vectors_e978e0" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <tested name="Print_this" line="43" column="14">
+            <test file="graph_algorithms-test_data-tests.adb" line="207" column="1" name="Test_Print_this_5295e1" timestamp="2019-01-31 22:00:24"/>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
    <unit source_file="hofstadter_q_sequence.ads">
       <test_unit target_file="hofstadter_q_sequence-test_data-tests.ads">
          <setup file="hofstadter_q_sequence-test_data.adb" name="Set_Up" line="8"  column="4"/>
@@ -7,7 +74,7 @@
             <test file="hofstadter_q_sequence-test_data-tests.adb" line="39" column="1" name="Test_Q_7cfff6" timestamp="modified"/>
          </tested>
          <tested name="Mute_Workers" line="20" column="14">
-            <test file="hofstadter_q_sequence-test_data-tests.adb" line="64" column="1" name="Test_Mute_Workers_546b33" timestamp="2019-01-30 09:36:48"/>
+            <test file="hofstadter_q_sequence-test_data-tests.adb" line="64" column="1" name="Test_Mute_Workers_d68750" timestamp="2019-01-31 22:00:26"/>
          </tested>
          <dangling>
          </dangling>
